@@ -56,16 +56,20 @@
           <section class="filters-panel" aria-label="Question filters">
             <div class="panel-heading">
               <h2>Filters</h2>
+              <button
+                id="filtersToggleButton"
+                class="panel-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="filtersContent"
+              >
+                Show
+              </button>
             </div>
-            <div class="filters">
+            <div id="filtersContent" class="filters hidden">
               <label class="field">
                 <span>Week</span>
                 <select id="weekFilter"></select>
-              </label>
-
-              <label class="field">
-                <span>Category</span>
-                <select id="categoryFilter"></select>
               </label>
 
               <label class="field">

@@ -346,6 +346,13 @@ select:focus-visible {
   font-size: 0.8rem;
 }
 
+.panel-toggle {
+  min-height: 30px;
+  border-radius: 6px;
+  padding: 0 10px;
+  font-size: 0.8rem;
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;
