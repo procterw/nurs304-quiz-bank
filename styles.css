@@ -118,24 +118,24 @@ select:focus-visible {
 
 .workspace {
   display: grid;
-  grid-template-columns: minmax(220px, 300px) 1fr;
+  grid-template-columns: minmax(0, 1.35fr) minmax(300px, 0.65fr);
   gap: 18px;
   min-height: 620px;
 }
 
 .filters-panel {
   min-width: 0;
-  align-self: start;
-}
-
-.study-area {
-  display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(300px, 0.65fr);
-  gap: 18px;
   min-width: 0;
 }
 
 .definitions-panel {
+  min-width: 0;
+}
+
+.right-sidebar {
+  display: grid;
+  align-content: start;
+  gap: 18px;
   min-width: 0;
 }
 
@@ -339,10 +339,6 @@ select:focus-visible {
   }
 
   .workspace {
-    grid-template-columns: 1fr;
-  }
-
-  .study-area {
     grid-template-columns: 1fr;
   }
 
