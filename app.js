@@ -123,8 +123,7 @@ const el = {
   definitionStatus: document.getElementById("definitionStatus"),
   definitionList: document.getElementById("definitionList"),
   random: document.getElementById("randomButton"),
-  clear: document.getElementById("clearButton"),
-  next: document.getElementById("nextButton"),
+  submit: document.getElementById("submitButton"),
 };
 
 const filters = [el.topic, el.category];
@@ -150,8 +149,7 @@ async function init() {
 function bindEvents() {
   filters.forEach((filter) => filter.addEventListener("input", applyFilters));
   el.random.addEventListener("click", selectRandom);
-  el.clear.addEventListener("click", clearAnswer);
-  el.next.addEventListener("click", selectNext);
+  el.submit.addEventListener("click", submitMultipleAnswer);
 }
 
 function buildFilters() {
@@ -220,6 +218,7 @@ function renderCurrentQuestion() {
 
   const selected = state.answers.get(question.id) ?? new Set();
   const inputType = question.type === "Multiple Answer" ? "checkbox" : "radio";
+  el.submit.classList.toggle("hidden", question.type !== "Multiple Answer");
   el.answerForm.innerHTML = "";
 
   question.options.forEach((option, index) => {
@@ -232,7 +231,9 @@ function renderCurrentQuestion() {
     `;
     label.querySelector("input").addEventListener("change", (event) => {
       storeAnswer(question, event);
-      showAnswer(question);
+      if (question.type !== "Multiple Answer") {
+        showAnswer(question);
+      }
     });
     el.answerForm.append(label);
   });
@@ -254,6 +255,12 @@ function storeAnswer(question, event) {
   }
 
   state.answers.set(question.id, selected);
+}
+
+function submitMultipleAnswer() {
+  const question = getCurrentQuestion();
+  if (!question || question.type !== "Multiple Answer") return;
+  showAnswer(question);
 }
 
 function showAnswer(question, updateMetrics = true) {
@@ -278,22 +285,6 @@ function showAnswer(question, updateMetrics = true) {
   if (updateMetrics) {
     renderDefinitions(question);
   }
-}
-
-function clearAnswer() {
-  const question = getCurrentQuestion();
-  if (!question) return;
-  state.answers.delete(question.id);
-  state.checked.delete(question.id);
-  render();
-}
-
-function selectNext() {
-  if (state.filtered.length === 0) return;
-  const index = state.filtered.findIndex((question) => question.id === state.currentId);
-  const nextIndex = index === -1 ? 0 : (index + 1) % state.filtered.length;
-  state.currentId = state.filtered[nextIndex].id;
-  render();
 }
 
 function selectRandom() {
