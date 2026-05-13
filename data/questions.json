@@ -18,7 +18,7 @@
     "correctAnswers": [
       "Type I hypersensitivity"
     ],
-    "rationale": "This is an immediate allergic reaction with airway and cardiovascular symptoms, which fits IgE-mediated type I hypersensitivity. Type IV reactions are delayed and T-cell mediated, while types II and III involve antibody-mediated cytotoxicity or immune-complex deposition.",
+    "rationale": "The rapid onset after a likely allergen, plus wheezing, lip swelling, and weak pulse, points to an immediate IgE-mediated type I hypersensitivity reaction and possible anaphylaxis. Type IV reactions are delayed and T-cell mediated, type II reactions target antigens on cell surfaces, and type III reactions involve immune-complex deposition rather than this immediate airway/circulatory picture.",
     "source": "Immune/inflammation study guide; hypersensitivity PowerPoint text; saved immunity and practice exam quizzes"
   },
   {
@@ -43,7 +43,7 @@
       "T cells",
       "Natural killer cells"
     ],
-    "rationale": "Lymphocytes include B cells, T cells, and natural killer cells. Neutrophils and basophils are granulocytes, so they do not belong in the lymphocyte group.",
+    "rationale": "B cells, T cells, and natural killer cells are the major lymphocyte groups emphasized in the immune materials. Neutrophils and basophils are granulocytes, so they are important white blood cells but not part of the lymphocyte category.",
     "source": "Immune/inflammation study guide; saved immunity quiz"
   },
   {
@@ -65,7 +65,7 @@
     "correctAnswers": [
       "Right route"
     ],
-    "rationale": "Changing from a capsule to a liquid formulation addresses the route/form of administration so the medication can be given safely. Dose, time, and documentation remain important, but they are not the main issue in this stem.",
+    "rationale": "The problem is not the ordered amount or timing; it is whether the client can safely receive the medication in the prescribed form. Checking for a liquid formulation applies the right route/right formulation principle because swallowing difficulty can make a large capsule unsafe or impractical.",
     "source": "Foundations in Pharmacology study guide; medication safety PowerPoint text; saved mixed quiz"
   },
   {
@@ -87,7 +87,7 @@
     "correctAnswers": [
       "Left-sided heart failure"
     ],
-    "rationale": "Left-sided heart failure causes blood to back up into the pulmonary circulation, producing dyspnea, cough, crackles, and tachycardia. Right-sided failure more often produces systemic venous congestion such as peripheral edema and neck vein distention.",
+    "rationale": "Left-sided failure backs blood into the pulmonary circulation, so lung findings such as dyspnea, cough, crackles, and low oxygen symptoms are expected. Right-sided failure is more associated with systemic venous congestion, such as peripheral edema, neck vein distention, hepatic engorgement, and nocturia.",
     "source": "Cardiology study guide; cardiovascular pathophysiology PowerPoint text; saved cardiovascular quizzes"
   },
   {
@@ -109,7 +109,7 @@
     "correctAnswers": [
       "Report swelling of the lips, tongue, face, or trouble breathing immediately."
     ],
-    "rationale": "ACE inhibitors can rarely cause angioedema, which can threaten the airway and requires urgent care. Potassium salt substitutes can increase hyperkalemia risk, and the medication should not be self-adjusted or stopped without provider guidance.",
+    "rationale": "Lisinopril is an ACE inhibitor, and angioedema is a rare but high-priority adverse effect because swelling of the tongue, lips, face, or throat can obstruct the airway. Potassium-containing salt substitutes are unsafe without provider guidance because ACE inhibitors can raise potassium, and the client should not self-adjust or stop the medication just because blood pressure improves.",
     "source": "Cardiology study guide; cardiac meds PowerPoint text; saved cardiovascular pharmacology quiz"
   },
   {
@@ -131,7 +131,7 @@
     "correctAnswers": [
       "Atrial flutter"
     ],
-    "rationale": "A sawtooth atrial pattern is characteristic of atrial flutter. Atrial fibrillation is typically irregularly irregular, and PVCs or ventricular tachycardia originate from ventricular rhythms rather than a sawtooth atrial pattern.",
+    "rationale": "A sawtooth waveform is the classic rhythm clue for atrial flutter, often with a rapid ventricular response. Atrial fibrillation is usually irregularly irregular without organized sawtooth flutter waves, while PVCs and ventricular tachycardia are ventricular rhythms and would not match this atrial pattern.",
     "source": "Cardiology study guide; antiarrhythmic PowerPoint text; saved cardiovascular quizzes"
   },
   {
@@ -153,7 +153,7 @@
     "correctAnswers": [
       "Movement of air into and out of the respiratory tract"
     ],
-    "rationale": "Ventilation is the movement of air in and out of the lungs. Diffusion is gas movement across the alveolar-capillary membrane, and perfusion is blood flow through the pulmonary circulation.",
+    "rationale": "Ventilation refers to air movement into and out of the respiratory tract. Diffusion is the movement of oxygen and carbon dioxide across the alveolar-capillary membrane, and perfusion is blood flow through the pulmonary capillaries, so those terms describe different parts of gas exchange.",
     "source": "Pulmonary study guide; respiratory pathophysiology PowerPoint text; saved respiratory quiz"
   },
   {
@@ -175,7 +175,7 @@
     "correctAnswers": [
       "Albuterol"
     ],
-    "rationale": "Albuterol is a short-acting beta-2 agonist used for rescue bronchodilation. Fluticasone, salmeterol, and montelukast are used for control or maintenance rather than immediate relief of acute bronchospasm.",
+    "rationale": "Acute wheezing and shortness of breath require a rescue bronchodilator, and albuterol is the short-acting beta-2 agonist used for rapid relief. Fluticasone reduces inflammation over time, salmeterol is long acting and not for rescue, and montelukast is a maintenance leukotriene receptor antagonist rather than immediate treatment for bronchospasm.",
     "source": "Pulmonary study guide; respiratory treatment PowerPoint text; saved mixed and respiratory quizzes"
   },
   {
@@ -200,7 +200,7 @@
       "Urinary retention",
       "Blurred vision"
     ],
-    "rationale": "First-generation antihistamines commonly cause anticholinergic effects such as dry mouth, urinary retention, and blurred vision, and they may also cause sedation. Diarrhea and increased alertness are not the expected teaching priorities for this drug class.",
+    "rationale": "First-generation antihistamines such as diphenhydramine cross into the CNS more readily and have anticholinergic effects, so dry mouth, urinary retention, blurred vision, and sedation are key teaching points. Diarrhea and increased alertness do not fit the expected adverse-effect profile and would not be the best answers.",
     "source": "Pulmonary study guide; antihistamine PowerPoint text; saved mixed quiz"
   },
   {
@@ -222,7 +222,7 @@
     "correctAnswers": [
       "High V/Q ratio due to dead space"
     ],
-    "rationale": "A pulmonary embolism blocks perfusion to ventilated alveoli, creating dead space and a high V/Q ratio. A low V/Q ratio occurs when perfusion is present but ventilation is reduced, as with shunt physiology.",
+    "rationale": "With a pulmonary embolism, alveoli may still be ventilated but blood flow to that area is blocked, creating dead space. That produces a high V/Q ratio because ventilation is high relative to perfusion, whereas low V/Q or shunt physiology occurs when perfusion continues but ventilation is reduced.",
     "source": "Pulmonary study guide; ARDS/VQ PowerPoint text; saved practice exam"
   },
   {
@@ -244,7 +244,7 @@
     "correctAnswers": [
       "Respiratory alkalosis"
     ],
-    "rationale": "The pH is alkalotic and the PaCO2 is low, showing a respiratory cause. The bicarbonate is normal, so the best interpretation is uncompensated respiratory alkalosis, commonly seen with hyperventilation.",
+    "rationale": "The pH of 7.55 is alkalotic, and the PaCO2 of 27 is low, so the primary problem is respiratory loss of carbon dioxide. The bicarbonate is normal, which means there is not a metabolic cause or meaningful renal compensation, making respiratory alkalosis the best interpretation.",
     "source": "Renal study guide; acid-base PowerPoint text; saved renal and mixed quizzes"
   },
   {
@@ -268,7 +268,7 @@
       "Hypertension",
       "Diabetes mellitus"
     ],
-    "rationale": "Hypertension and diabetes mellitus are major CKD risk factors because they damage kidney blood vessels and filtering units over time. Exercise, low sodium intake, and hydration may be protective or supportive, not CKD risk factors.",
+    "rationale": "Hypertension and diabetes mellitus are major chronic kidney disease risks because high pressure and elevated blood glucose damage renal blood vessels and nephrons over time. Regular exercise, low sodium intake, and adequate hydration are generally protective or supportive strategies, not risk factors in this question.",
     "source": "Renal study guide; renal PowerPoint text; saved renal quiz"
   },
   {
@@ -290,7 +290,7 @@
     "correctAnswers": [
       "Take the medication early in the day."
     ],
-    "rationale": "Loop diuretics increase urine output, so taking them early helps reduce nocturia and fall risk. The client should not self-stop the medication or add potassium without guidance because electrolyte changes are a key safety concern.",
+    "rationale": "Furosemide is a loop diuretic, so it increases urine output and can disrupt sleep or increase fall risk if taken late in the day. The client should not self-stop it when edema improves, and potassium changes require monitoring rather than unsupervised salt substitutes or supplements.",
     "source": "Renal study guide; fluid and diuretics PowerPoint text; saved mixed renal case"
   },
   {
@@ -315,7 +315,7 @@
       "Zollinger-Ellison syndrome",
       "NSAID use"
     ],
-    "rationale": "Peptic ulcer disease is commonly associated with H. pylori, NSAID-related mucosal injury, and excess acid states such as Zollinger-Ellison syndrome. Hypertension and constipation are not primary causes of ulcer formation.",
+    "rationale": "Peptic ulcer disease is strongly associated with H. pylori infection, NSAID-related loss of gastric mucosal protection, and excess acid states such as Zollinger-Ellison syndrome. Hypertension and constipation may be clinically relevant problems, but they are not primary mechanisms for ulcer formation.",
     "source": "GI study guide; upper GI PowerPoint text; saved GI quiz"
   },
   {
@@ -341,7 +341,7 @@
       "Reduced mobility",
       "Bowel obstruction"
     ],
-    "rationale": "Opioids slow GI motility, low fiber reduces stool bulk, immobility slows bowel activity, and obstruction can impair stool passage. Adequate fluid intake generally helps prevent constipation rather than causing it.",
+    "rationale": "Constipation risk increases when stool movement or stool bulk is reduced: opioids slow motility, low fiber decreases bulk, immobility reduces bowel activity, and obstruction can physically impair passage. High fluid intake usually supports softer stool and is more preventive than causative.",
     "source": "GI study guide; GI PowerPoint text; saved GI quiz"
   },
   {
@@ -363,7 +363,7 @@
     "correctAnswers": [
       "Decreased hemoglobin and hematocrit"
     ],
-    "rationale": "Erythropoietin stimulates red blood cell production, so decreased erythropoietin can reduce RBC production and lower hemoglobin and hematocrit. Platelet or isolated WBC changes are not the expected direct result.",
+    "rationale": "Erythropoietin from the kidney stimulates bone marrow production of red blood cells. If acute kidney injury decreases erythropoietin, red cell production can fall, leading to lower hemoglobin and hematocrit; platelet or isolated white blood cell changes would not be the direct expected CBC pattern.",
     "source": "Coagulation/hematology study guide; anemia PowerPoint text; saved hematology quiz"
   },
   {
@@ -385,7 +385,7 @@
     "correctAnswers": [
       "Platelet count, prothrombin time, and partial thromboplastin time"
     ],
-    "rationale": "DIC involves abnormal clotting and bleeding, so platelet count and coagulation studies such as PT and PTT are central monitoring labs. The other lab groupings may matter clinically but do not best track DIC.",
+    "rationale": "DIC consumes platelets and clotting factors, so platelet count, PT, and PTT help track the abnormal clotting and bleeding process. Electrolytes, glucose, albumin, or hemoglobin A1c may matter for other conditions, but they do not best monitor the coagulation changes central to DIC.",
     "source": "Coagulation/hematology study guide; anemia/coagulopathy PowerPoint text; saved hematology quiz"
   },
   {
@@ -407,7 +407,7 @@
     "correctAnswers": [
       "Autoimmune destruction of pancreatic beta cells causing insulin deficiency"
     ],
-    "rationale": "Type 1 diabetes results from autoimmune beta-cell destruction, leading to absolute insulin deficiency and hyperglycemia. Cortisol excess, thyroid hormone excess, and aldosterone excess describe other endocrine disorders.",
+    "rationale": "Type 1 diabetes is driven by autoimmune destruction of pancreatic beta cells, which causes an absolute insulin deficiency and leads to hyperglycemia and risk for ketoacidosis. Cortisol excess, thyroid hormone excess, and aldosterone excess point toward other endocrine disorders rather than the central mechanism of type 1 diabetes.",
     "source": "Endocrinology study guide; endocrine PowerPoint text"
   },
   {
@@ -429,7 +429,7 @@
     "correctAnswers": [
       "Improved energy and normalization of thyroid hormone levels"
     ],
-    "rationale": "Levothyroxine replaces deficient thyroid hormone in hypothyroidism, so improvement in hypothyroid symptoms and thyroid labs is the expected outcome. The other options describe effects of nitrates, bronchodilators, or diuretics.",
+    "rationale": "Levothyroxine is thyroid hormone replacement, so the expected therapeutic effect is gradual improvement in hypothyroid symptoms such as low energy and normalization of thyroid hormone markers. It does not provide immediate chest pain relief, acute bronchodilation, or rapid diuresis; those effects belong to other medication classes.",
     "source": "Endocrinology study guide; endocrine PowerPoint text"
   },
   {
@@ -451,7 +451,7 @@
     "correctAnswers": [
       "Verify the allergy reaction and clarify whether the ordered antibiotic is safe to give."
     ],
-    "rationale": "The nurse should assess the allergy history and clarify safety before giving an antibiotic that may cross-react or be inappropriate. Antibiotic allergies can be clinically significant regardless of route, and treatment should not be stopped without provider direction.",
+    "rationale": "A severe penicillin allergy must be clarified before giving an antibiotic because some related agents may be unsafe depending on the reaction and drug ordered. Allergies matter for oral and injectable routes, and the nurse should not simply give the dose or stop all therapy; the priority is verification and clarification before administration.",
     "source": "Infection PowerPoint text; GI PowerPoint note on penicillin allergies; medication safety materials"
   }
 ]

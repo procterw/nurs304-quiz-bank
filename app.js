@@ -172,7 +172,7 @@ const el = {
   definitionStatus: document.getElementById("definitionStatus"),
   definitionList: document.getElementById("definitionList"),
   define: document.getElementById("defineButton"),
-  random: document.getElementById("randomButton"),
+  next: document.getElementById("nextButton"),
   submit: document.getElementById("submitButton"),
   resetAnswered: document.getElementById("resetAnsweredButton"),
   progressCorrect: document.getElementById("progressCorrect"),
@@ -204,7 +204,7 @@ async function init() {
 function bindEvents() {
   filters.forEach((filter) => filter.addEventListener("input", applyFilters));
   el.define.addEventListener("click", showDefinitions);
-  el.random.addEventListener("click", selectRandom);
+  el.next.addEventListener("click", selectNext);
   el.submit.addEventListener("click", submitMultipleAnswer);
   el.resetAnswered.addEventListener("click", resetAnsweredQuestions);
 }
@@ -354,10 +354,24 @@ function showAnswer(question, updateMetrics = true) {
   renderProgress();
 }
 
-function selectRandom() {
-  if (state.filtered.length === 0) return;
-  const index = Math.floor(Math.random() * state.filtered.length);
-  state.currentId = state.filtered[index].id;
+function selectNext() {
+  if (state.filtered.length === 0) {
+    state.currentId = null;
+    render();
+    return;
+  }
+  const currentIndex = state.filtered.findIndex((question) => question.id === state.currentId);
+
+  if (currentIndex !== -1 && !state.answered[String(state.currentId)]) {
+    const [currentQuestion] = state.filtered.splice(currentIndex, 1);
+    const insertIndex = state.filtered.length === 0
+      ? 0
+      : Math.floor(Math.random() * (state.filtered.length + 1));
+    state.filtered.splice(insertIndex, 0, currentQuestion);
+  }
+
+  const nextQuestion = state.filtered.find((question) => question.id !== state.currentId) ?? state.filtered[0];
+  state.currentId = nextQuestion?.id ?? null;
   render();
 }
 
