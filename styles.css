@@ -320,6 +320,46 @@ select:focus-visible {
   cursor: default;
 }
 
+.matching-row,
+.fill-row {
+  display: grid;
+  grid-template-columns: minmax(160px, 0.7fr) minmax(220px, 1fr);
+  gap: 10px;
+  align-items: start;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px;
+  background: #fff;
+}
+
+.matching-row select,
+.fill-row input {
+  width: 100%;
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0 10px;
+  background: #fff;
+}
+
+.matching-row.correct,
+.fill-row.correct {
+  border-color: rgba(39, 107, 83, 0.65);
+  background: #eef7f2;
+}
+
+.matching-row.incorrect,
+.fill-row.incorrect {
+  border-color: rgba(163, 58, 50, 0.65);
+  background: #fff1ef;
+}
+
+.matching-answer {
+  grid-column: 2;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
 .practice-actions {
   display: flex;
   flex-wrap: wrap;
@@ -412,5 +452,14 @@ select:focus-visible {
 
   .question-card-header {
     flex-direction: column;
+  }
+
+  .matching-row,
+  .fill-row {
+    grid-template-columns: 1fr;
+  }
+
+  .matching-answer {
+    grid-column: auto;
   }
 }

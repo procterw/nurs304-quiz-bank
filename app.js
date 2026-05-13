@@ -8,7 +8,7 @@ const state = {
   answered: {},
 };
 
-const ANSWERED_STORAGE_KEY = "nurs304-answered-results-v3";
+const ANSWERED_STORAGE_KEY = "nurs304-answered-results-v4";
 
 const medicalTerms = {
   "ace inhibitor": "A drug class that blocks conversion of angiotensin I to angiotensin II, lowering vasoconstriction and aldosterone effects.",
@@ -198,7 +198,7 @@ function bindEvents() {
   filters.forEach((filter) => filter.addEventListener("input", applyFilters));
   el.define.addEventListener("click", showDefinitions);
   el.next.addEventListener("click", selectNext);
-  el.submit.addEventListener("click", submitMultipleAnswer);
+  el.submit.addEventListener("click", submitCurrentQuestion);
   el.resetAnswered.addEventListener("click", resetAnsweredQuestions);
 }
 
@@ -295,11 +295,26 @@ function renderCurrentQuestion() {
   el.questionStem.textContent = question.stem;
   renderDefinitions(question);
 
+  el.answerForm.innerHTML = "";
+
+  if (question.type === "Matching") {
+    renderMatchingQuestion(question);
+    return;
+  }
+
+  if (question.type === "Fill in the Blank") {
+    renderFillQuestion(question);
+    return;
+  }
+
+  renderChoiceQuestion(question);
+}
+
+function renderChoiceQuestion(question) {
   const selected = state.answers.get(question.id) ?? new Set();
   const inputType = question.type === "Multiple Answer" ? "checkbox" : "radio";
   el.submit.classList.toggle("hidden", question.type !== "Multiple Answer");
   el.submit.disabled = false;
-  el.answerForm.innerHTML = "";
 
   question.options.forEach((option, index) => {
     const id = `${question.id}-${index}`;
@@ -317,7 +332,41 @@ function renderCurrentQuestion() {
     });
     el.answerForm.append(label);
   });
+}
 
+function renderMatchingQuestion(question) {
+  el.submit.classList.remove("hidden");
+  el.submit.disabled = false;
+
+  question.prompts.forEach((prompt, index) => {
+    const row = document.createElement("label");
+    row.className = "matching-row";
+    row.innerHTML = `
+      <span>${escapeHtml(prompt.prompt)}</span>
+      <select data-prompt-index="${index}" aria-label="${escapeHtml(prompt.prompt)} match">
+        <option value="">Select match</option>
+        ${question.options.map((option) => `<option value="${escapeHtml(option)}">${escapeHtml(option)}</option>`).join("")}
+      </select>
+      <small class="matching-answer"></small>
+    `;
+    el.answerForm.append(row);
+  });
+}
+
+function renderFillQuestion(question) {
+  el.submit.classList.remove("hidden");
+  el.submit.disabled = false;
+
+  question.blanks.forEach((blank, index) => {
+    const row = document.createElement("label");
+    row.className = "fill-row";
+    row.innerHTML = `
+      <span>${escapeHtml(blank.label)}</span>
+      <input data-blank-index="${index}" type="text" autocomplete="off">
+      <small class="matching-answer"></small>
+    `;
+    el.answerForm.append(row);
+  });
 }
 
 function storeAnswer(question, event) {
@@ -334,13 +383,23 @@ function storeAnswer(question, event) {
   state.answers.set(question.id, selected);
 }
 
-function submitMultipleAnswer() {
+function submitCurrentQuestion() {
   const question = getCurrentQuestion();
-  if (!question || question.type !== "Multiple Answer") return;
+  if (!question || !["Multiple Answer", "Matching", "Fill in the Blank"].includes(question.type)) return;
   showAnswer(question);
 }
 
 function showAnswer(question, updateMetrics = true) {
+  if (question.type === "Matching") {
+    showMatchingAnswer(question);
+    return;
+  }
+
+  if (question.type === "Fill in the Blank") {
+    showFillAnswer(question);
+    return;
+  }
+
   const selected = state.answers.get(question.id) ?? new Set();
   const correct = new Set(question.correctAnswers);
   const isCorrect = setsMatch(selected, correct);
@@ -358,6 +417,51 @@ function showAnswer(question, updateMetrics = true) {
   });
   el.submit.disabled = true;
 
+  el.feedback.className = `feedback ${isCorrect ? "correct" : "incorrect"}`;
+  el.feedback.innerHTML = `<p>${escapeHtml(question.rationale)}</p>`;
+  saveAnsweredResult(question.id, isCorrect);
+  state.filtered = state.filtered.filter((item) => item.id !== question.id);
+  renderProgress();
+}
+
+function showMatchingAnswer(question) {
+  let isCorrect = true;
+
+  [...el.answerForm.querySelectorAll(".matching-row")].forEach((row) => {
+    const select = row.querySelector("select");
+    const prompt = question.prompts[Number(select.dataset.promptIndex)];
+    const rowCorrect = select.value === prompt.answer;
+    isCorrect = isCorrect && rowCorrect;
+    select.disabled = true;
+    row.classList.toggle("correct", rowCorrect);
+    row.classList.toggle("incorrect", !rowCorrect);
+    row.querySelector(".matching-answer").textContent = rowCorrect ? "" : `Correct match: ${prompt.answer}`;
+  });
+
+  el.submit.disabled = true;
+  el.feedback.className = `feedback ${isCorrect ? "correct" : "incorrect"}`;
+  el.feedback.innerHTML = `<p>${escapeHtml(question.rationale)}</p>`;
+  saveAnsweredResult(question.id, isCorrect);
+  state.filtered = state.filtered.filter((item) => item.id !== question.id);
+  renderProgress();
+}
+
+function showFillAnswer(question) {
+  let isCorrect = true;
+
+  [...el.answerForm.querySelectorAll(".fill-row")].forEach((row) => {
+    const input = row.querySelector("input");
+    const blank = question.blanks[Number(input.dataset.blankIndex)];
+    const accepted = new Set(blank.answers.map(normalizeFreeText));
+    const rowCorrect = accepted.has(normalizeFreeText(input.value));
+    isCorrect = isCorrect && rowCorrect;
+    input.disabled = true;
+    row.classList.toggle("correct", rowCorrect);
+    row.classList.toggle("incorrect", !rowCorrect);
+    row.querySelector(".matching-answer").textContent = rowCorrect ? "" : `Accepted answer: ${blank.answers[0]}`;
+  });
+
+  el.submit.disabled = true;
   el.feedback.className = `feedback ${isCorrect ? "correct" : "incorrect"}`;
   el.feedback.innerHTML = `<p>${escapeHtml(question.rationale)}</p>`;
   saveAnsweredResult(question.id, isCorrect);
@@ -498,6 +602,8 @@ function findMedicalTerms(question) {
     question.system,
     question.drug,
     ...question.options,
+    ...(question.prompts ?? []).flatMap((prompt) => [prompt.prompt, prompt.answer]),
+    ...(question.blanks ?? []).flatMap((blank) => [blank.label, ...blank.answers]),
   ]
     .filter(Boolean)
     .join(" ")
@@ -511,6 +617,14 @@ function findMedicalTerms(question) {
 function setsMatch(a, b) {
   if (a.size !== b.size) return false;
   return [...a].every((value) => b.has(value));
+}
+
+function normalizeFreeText(value) {
+  return String(value ?? "")
+    .trim()
+    .toLowerCase()
+    .replace(/[.]+$/g, "")
+    .replace(/\s+/g, " ");
 }
 
 function escapeRegExp(value) {

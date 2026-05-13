@@ -17,6 +17,7 @@ Do not overemphasize detailed medication information that only appears in a sepa
 
 - Every question must make clinical and grammatical sense.
 - Every correct answer must be verified against course materials or standard nursing pathophysiology/pharmacology knowledge represented in those materials.
+- Do not use artificial lead-ins such as "In a short clinical vignette focused on..." or "Which option best reflects the course materials?" Stems should read like normal Canvas/NURS questions.
 - Avoid vague stems, trick wording, and answer choices that are accidentally correct.
 - Distractors should be plausible but clearly less correct than the keyed answer.
 - Keep rationales to one short paragraph explaining why the answer is correct and, when useful, why major distractors are not correct.
@@ -31,8 +32,9 @@ Do not overemphasize detailed medication information that only appears in a sepa
 - For `Multiple Answer` questions, include only answer choices that are unambiguously correct in `correctAnswers`.
 - Use `category` values consistently: `Medication` or `A&P`.
 - Use `sourceType` values consistently: `Course` for saved quiz/test items and `AI` for generated items.
+- Use `sourceConfidence` to document how the key was established, especially when Canvas hid responses and the answer was audited from course content.
 - Use `topic` values matching the PowerPoint folder-derived topic labels already in the app.
 
-## Current App Seed Set
+## Current App Bank
 
-The current app intentionally uses 20 curated questions instead of the previous large generated bank. Expand from this baseline only after applying the quality rules above.
+The current app contains exact saved course/practice items where the stem and answer choices were recoverable, plus generated AI practice questions. Course-labeled items should not be rewritten into summaries or given generic distractors.
