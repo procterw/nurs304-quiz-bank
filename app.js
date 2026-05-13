@@ -1,7 +1,6 @@
 const state = {
   questions: [],
   questionById: new Map(),
-  videosBySubtopic: {},
   slidesById: new Map(),
   filtered: [],
   currentId: null,
@@ -410,14 +409,11 @@ const el = {
   emptyTitle: document.getElementById("emptyTitle"),
   emptyMessage: document.getElementById("emptyMessage"),
   questionCard: document.getElementById("questionCard"),
-  questionMeta: document.getElementById("questionMeta"),
   questionStem: document.getElementById("questionStem"),
   answerForm: document.getElementById("answerForm"),
   feedback: document.getElementById("feedback"),
   studySupportStatus: document.getElementById("studySupportStatus"),
   definitionList: document.getElementById("definitionList"),
-  videoStatus: document.getElementById("videoStatus"),
-  videoList: document.getElementById("videoList"),
   slideList: document.getElementById("slideList"),
   define: document.getElementById("defineButton"),
   filtersContent: document.getElementById("filtersContent"),
@@ -433,13 +429,11 @@ const filters = [el.week, el.subtopic, el.source];
 
 async function init() {
   try {
-    const [questions, videosBySubtopic, slides] = await Promise.all([
+    const [questions, slides] = await Promise.all([
       fetchJson("data/questions.json"),
-      fetchJson("data/videos.json").catch(() => ({})),
       fetchJson("data/slides.json").catch(() => []),
     ]);
     state.questions = prepareQuestions(questions);
-    state.videosBySubtopic = videosBySubtopic;
     state.slidesById = new Map(slides.map((slide) => [slide.id, slide]));
     state.questionById = new Map(state.questions.map((question) => [question.id, question]));
     shuffleInPlace(state.questions);
@@ -550,7 +544,6 @@ function renderCurrentQuestion() {
     state.renderedQuestionId = null;
     state.studySupportVisible = false;
     renderStudySupport(null);
-    renderVideos(null);
     return;
   }
 
@@ -562,20 +555,8 @@ function renderCurrentQuestion() {
   el.emptyState.classList.add("hidden");
   el.questionCard.classList.remove("hidden");
   el.previous.disabled = state.previousIds.length === 0;
-  el.questionMeta.textContent = [
-    question.topic,
-    question.subtopic,
-    question.system,
-    question.category,
-    question.type,
-    question.difficulty,
-    question.drug ? `Drug: ${question.drug}` : null,
-  ]
-    .filter(Boolean)
-    .join(" · ");
   el.questionStem.textContent = question.stem;
   renderStudySupport(question);
-  renderVideos(question);
 
   el.answerForm.innerHTML = "";
 
@@ -925,36 +906,6 @@ function getQuestionSlides(question) {
   return (question.slideRefs ?? [])
     .map((slideId) => state.slidesById.get(slideId))
     .filter(Boolean);
-}
-
-function renderVideos(question) {
-  el.videoList.innerHTML = "";
-
-  if (!question) {
-    el.videoStatus.textContent = "0 videos";
-    el.videoList.innerHTML = `<p class="video-empty">Choose a question to see related videos.</p>`;
-    return;
-  }
-
-  const videos = state.videosBySubtopic[question.subtopic] ?? [];
-  el.videoStatus.textContent = `${videos.length} ${videos.length === 1 ? "video" : "videos"}`;
-
-  if (videos.length === 0) {
-    el.videoList.innerHTML = `<p class="video-empty">No videos mapped for this subtopic yet.</p>`;
-    return;
-  }
-
-  const fragment = document.createDocumentFragment();
-  videos.forEach((video) => {
-    const item = document.createElement("article");
-    item.className = "video-item";
-    item.innerHTML = `
-      <a href="${escapeHtml(video.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(video.title)}</a>
-      <p>${escapeHtml(video.source)}</p>
-    `;
-    fragment.append(item);
-  });
-  el.videoList.append(fragment);
 }
 
 function renderSlides(slides) {

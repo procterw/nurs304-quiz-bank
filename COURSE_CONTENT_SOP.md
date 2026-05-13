@@ -44,7 +44,7 @@ Use this checklist whenever new NURS 304 material is added: lecture slides, extr
 ## 6. Classify Weeks and Subtopics
 
 1. Add or revise `subtopic` values when new content introduces a meaningful study cluster.
-2. Keep subtopics detailed enough to help filtering, but broad enough that there are readily available study videos.
+2. Keep subtopics detailed enough to help filtering, but broad enough that questions can be grouped into meaningful study clusters.
 3. Run:
 
 ```sh
@@ -54,20 +54,12 @@ node scripts/classify-subtopics.js
 4. Review the printed counts for obvious misclassification, such as one subtopic absorbing unrelated questions.
 5. Spot-check course questions after classification because exact class questions matter most.
 
-## 7. Maintain Related Videos
-
-1. Update `data/videos.json` for any new subtopic.
-2. Prefer nursing-focused videos for NCLEX-style clinical judgment and medication teaching.
-3. Use A&P-focused sources for physiology foundations when nursing videos are too superficial.
-4. Keep each subtopic to 1-3 videos so the sidebar stays useful.
-5. Prefer stable pages from trusted sources such as RegisteredNurseRN, Khan Academy, Osmosis, OpenStax, or other reputable nursing/medical education sources.
-
-## 8. Run Quality Checks
+## 7. Run Quality Checks
 
 1. Validate JSON:
 
 ```sh
-node -e "JSON.parse(require('fs').readFileSync('data/questions.json','utf8')); JSON.parse(require('fs').readFileSync('data/videos.json','utf8'))"
+node -e "JSON.parse(require('fs').readFileSync('data/questions.json','utf8')); JSON.parse(require('fs').readFileSync('data/slides.json','utf8'))"
 ```
 
 2. Check JavaScript syntax:
@@ -77,6 +69,6 @@ node --check app.js
 node --check scripts/classify-subtopics.js
 ```
 
-3. Confirm every question has a subtopic and every used subtopic has video mappings.
-4. Launch the app locally and verify filters, definitions, videos, answer submission, answered-question memory, and reset behavior.
+3. Confirm every question has a subtopic and review unmatched slide support for major content gaps.
+4. Launch the app locally and verify filters, slides, definitions, answer submission, answered-question memory, and reset behavior.
 5. Commit only after data and UI checks pass.
