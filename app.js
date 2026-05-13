@@ -522,9 +522,10 @@ function applyFilters() {
   state.filtered = state.questions.filter((question) => {
     return matchesSelectedFilters(question, selected) && !isQuestionCompleted(question.id);
   });
+  shuffleInPlace(state.filtered);
 
   if (!state.filtered.some((question) => question.id === state.currentId)) {
-    state.currentId = getRandomQuestion(state.filtered)?.id ?? null;
+    state.currentId = state.filtered[0]?.id ?? null;
   }
 
   if (state.currentId !== currentIdBeforeFiltering) {
@@ -749,8 +750,8 @@ function selectNext() {
     return;
   }
 
-  const nextPool = state.filtered.filter((question) => question.id !== state.currentId);
-  const nextQuestion = getRandomQuestion(nextPool.length > 0 ? nextPool : state.filtered);
+  shuffleCurrentQuestionBack();
+  const nextQuestion = state.filtered.find((question) => question.id !== state.currentId) ?? state.filtered[0];
   const nextId = nextQuestion?.id ?? null;
   if (state.currentId && nextId && nextId !== state.currentId) {
     state.previousIds.push(state.currentId);
@@ -804,6 +805,7 @@ function updateQuestionResult(questionId, isCorrect) {
   } else {
     delete state.answered[String(questionId)];
     state.answers.delete(questionId);
+    shuffleQuestionBack(questionId);
   }
   localStorage.setItem(ANSWERED_STORAGE_KEY, JSON.stringify(state.answered));
 }
@@ -839,15 +841,34 @@ function toggleFilters() {
 
 function shuffleInPlace(items) {
   for (let index = items.length - 1; index > 0; index -= 1) {
-    const swapIndex = Math.floor(Math.random() * (index + 1));
+    const swapIndex = getRandomIndex(index + 1);
     [items[index], items[swapIndex]] = [items[swapIndex], items[index]];
   }
   return items;
 }
 
-function getRandomQuestion(questions) {
-  if (questions.length === 0) return null;
-  return questions[Math.floor(Math.random() * questions.length)];
+function shuffleCurrentQuestionBack() {
+  if (!state.currentId || isQuestionCompleted(state.currentId)) return;
+  shuffleQuestionBack(state.currentId);
+}
+
+function shuffleQuestionBack(questionId) {
+  const currentIndex = state.filtered.findIndex((question) => question.id === questionId);
+  if (currentIndex === -1) return;
+
+  const [question] = state.filtered.splice(currentIndex, 1);
+  const insertIndex = state.filtered.length === 0 ? 0 : getRandomIndex(state.filtered.length + 1);
+  state.filtered.splice(insertIndex, 0, question);
+}
+
+function getRandomIndex(length) {
+  if (length <= 1) return 0;
+  if (window.crypto?.getRandomValues) {
+    const values = new Uint32Array(1);
+    window.crypto.getRandomValues(values);
+    return values[0] % length;
+  }
+  return Math.floor(Math.random() * length);
 }
 
 function showStudySupport() {

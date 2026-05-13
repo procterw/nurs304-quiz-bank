@@ -22,21 +22,40 @@ const STOPWORDS = new Set([
   "incorrect", "not", "and", "the", "for", "that", "this", "are", "was", "were", "has", "have", "had",
   "will", "can", "all", "most", "best", "first", "more", "less", "than", "into", "also", "such", "their",
   "they", "them", "then", "each", "type", "types", "class", "classes", "care", "plan", "risk",
+  "action", "actions", "administer", "administered", "administering", "adult", "adults", "agents", "allows",
+  "area", "asked", "assessment", "associated", "available", "avoid", "called", "characteristic", "clinical",
+  "common", "complete", "condition", "conditions", "currently", "defined", "describe", "develop", "develops",
+  "directly", "disease", "diseases", "drug", "drugs", "female", "finding", "findings", "function", "history",
+  "important", "information", "level", "levels", "line", "made", "male", "monitor", "movement", "normal",
+  "ordered", "part", "possible", "preparing", "prescribed", "present", "prevent", "problem", "process",
+  "produced", "receiving", "recognize", "reduce", "related", "released", "removal", "remove", "removed",
+  "response", "results", "safety", "seen", "small", "statement", "substances", "support", "system",
+  "treat", "treating", "treatment", "understand", "used", "using", "value", "values",
+  "amount", "cause", "causes", "developed", "focus", "focused", "form", "hours", "just", "method",
+  "methods", "new", "option", "options", "point", "points", "site", "time", "year", "years",
+  "alpha", "apical", "avoided", "breast", "capsule", "daily", "deep", "floor", "help", "medical",
+  "often", "radical", "stop", "surgical",
+  "accumulation", "destruction", "emergency", "infusion", "observed", "underlying",
+  "must", "provide",
 ]);
 
 const LOW_CONTENT_TITLE_PATTERNS = [
   /^agenda\b/,
   /^announcement(s)?\b/,
   /^break\b/,
-  /^case study$/i,
+  /^case study[:\s]?/i,
   /^check[-\s]?in\b/,
   /^discussion\b/,
+  /^do'?s and don'?ts\b/,
   /^housekeeping\b/,
   /^introduction\b/,
   /^learning objectives?\b/,
+  /^mental health consultation\b/,
   /^objectives?\b/,
   /^outline\b/,
   /^questions?\b/,
+  /slides (created|developed) by/i,
+  /^which statement\b/,
   /^references?\b/,
   /^resources?\b/,
   /^summary\b/,
@@ -127,17 +146,78 @@ function extractDeckSlides(pptxPath) {
       title,
       text,
       textLength: text.length,
-      subtopic: classifySubtopic({
-        week,
-        topic: deckTitle,
-        system: "",
-        category: "",
-        stem: text,
-        correctAnswers: [],
-      }),
+      subtopic: classifySlideSubtopic({ week, deckTitle, text }),
       image,
     };
   });
+}
+
+function classifySlideSubtopic({ week, deckTitle, text }) {
+  const normalizedDeckTitle = normalize(deckTitle);
+  const normalizedText = normalize(text);
+  const combinedText = `${normalizedDeckTitle} ${normalizedText}`;
+
+  if (has(normalizedText, /type i:|type ii:|type iii:|type iv:|cytotoxic|immune complex|cell-mediated|ige sensitization/)) {
+    return "Innate Immunity and Hypersensitivity";
+  }
+
+  if (has(combinedText, /first[-\s]?generation h ?1|h ?1 receptor antagonist|antihistamine|diphenhydramine|loratadine|fexofenadine/)) {
+    return "Antihistamines and Allergy Pharmacology";
+  }
+
+  if (has(normalizedDeckTitle, /cardiac|htn|acs|arrhythmia|heart failure|antiarrhythmic/)) {
+    if (has(normalizedText, /heart failure|hfr?ef|gdmt|entresto|digoxin|right vs left failure|cor pulmonale|pulmonary htn|cardiogenic shock|pulmonary edema|fluid overload|jvd|jugular venous|orthopnea/)) {
+      return "Heart Failure, Shock, and Fluid Overload";
+    }
+    if (has(normalizedText, /angina|myocardial infarction|\bmi\b|acs|coronary artery|atherosclerosis|endothelial injury|cholesterol|nitroglycerin|troponin|statin|atorvastatin/)) {
+      return "Coronary Artery Disease, Angina, and Myocardial Infarction";
+    }
+    if (has(normalizedText, /hypertension|\bhtn\b|blood pressure|\braas\b|acei|arbs?|ace inhibitor|calcium channel|beta blocker|lisinopril|metoprolol|amlodipine|diltiazem|angioedema/)) {
+      return "Hypertension and Cardiovascular Pharmacology";
+    }
+    if (has(normalizedText, /antiarrhythmic|arrhythmia|dysrhythmia|atrial fibrillation|atrial flutter|amiodarone|av node|sa node|pr interval|heart block/) || has(normalizedDeckTitle, /antiarrhythmic/)) {
+      return "Cardiac Conduction and Dysrhythmias";
+    }
+  }
+
+  if (has(normalizedDeckTitle, /respiratory|pulmonary|ards|hypersensitivity|antihistamine/)) {
+    if (has(normalizedText, /first[-\s]?generation h ?1|h ?1 receptor antagonist|antihistamine|diphenhydramine|loratadine|fexofenadine/)) {
+      return "Antihistamines and Allergy Pharmacology";
+    }
+    if (has(normalizedText, /asthma|albuterol|saba|laba|bronchodilator|bronchospasm|fluticasone|corticosteroid|leukotriene|montelukast|zafirlukast|ipratropium|tiotropium|inhaler/)) {
+      return "Asthma and Bronchodilator Therapy";
+    }
+    if (has(normalizedText, /ards|acute respiratory distress|atelectasis|pneumonia|pneumothorax|hypoxemic respiratory failure|refractory hypoxemia|incentive spirometry/)) {
+      return "Pneumonia, Atelectasis, ARDS, and Pneumothorax";
+    }
+    if (has(normalizedText, /copd|emphysema|chronic bronchitis|bronchiectasis|barrel chest|blue bloater|cor pulmonale/)) {
+      return "COPD and Chronic Respiratory Disease";
+    }
+    if (has(normalizedText, /alveoli|surfactant|tidal volume|ventilation|respiration|gas exchange|oxygen|carbon dioxide|diffusion|v\/q|dead space|shunt|perfusion|hypoxemia/)) {
+      return "Respiratory Physiology and Gas Exchange";
+    }
+  }
+
+  if (has(combinedText, /antacid|proton pump|omeprazole|famotidine|h2 receptor|gastric acid|acid rebound|h pylori|peptic ulcer|calcium carbonate/)) {
+    return "Peptic Ulcer Disease and Acid Suppression";
+  }
+
+  if (has(normalizedDeckTitle, /pharmacokinetic|pharmacodynamic|medication safety|intro/) && !has(normalizedText, /immune|inflamm|hypersensitivity|glucocorticoid|monoclonal|methotrexate/)) {
+    return "Medication Administration, Safety, and Pharmacokinetics";
+  }
+
+  return classifySubtopic({
+    week,
+    topic: deckTitle,
+    system: "",
+    category: "",
+    stem: text,
+    correctAnswers: [],
+  });
+}
+
+function has(text, regex) {
+  return regex.test(text);
 }
 
 function prepareSlides(slides) {
@@ -257,15 +337,23 @@ function matchQuestionsToSlides(questions, slides) {
     const scored = candidates
       .map((slide) => ({
         slide,
-        score: scoreSlide(question, weightedTerms, slide, documentFrequency, searchableSlides.length),
+        ...scoreSlide(question, weightedTerms, slide, documentFrequency, searchableSlides.length),
       }))
-      .filter((item) => item.score >= 10)
+      .filter((item) => item.score >= 12)
       .sort((a, b) => b.score - a.score);
 
     const topScore = scored[0]?.score ?? 0;
+    const maxSlideRefs = hasExactHypersensitivityType(question) ? 1 : 2;
     const selected = scored
-      .filter((item) => item.score >= Math.max(10, topScore * 0.55))
-      .slice(0, 3)
+      .filter((item, index) => (
+        index === 0 ||
+        (
+          item.score >= Math.max(14, topScore * 0.78) &&
+          item.highSignalOverlap >= 2 &&
+          item.slide.subtopic === question.subtopic
+        )
+      ))
+      .slice(0, maxSlideRefs)
       .map((item) => item.slide.id);
     questionMatches.set(question.id, selected);
     return { ...question, slideRefs: selected };
@@ -282,10 +370,14 @@ function matchQuestionsToSlides(questions, slides) {
 
 function getCandidateSlides(question, slides) {
   const sameWeek = slides.filter((slide) => question.week && slide.week === question.week);
-  const subtopic = sameWeek.filter((slide) => slide.subtopic === question.subtopic);
-  if (subtopic.length >= 5) return subtopic;
-  if (sameWeek.length > 0) return sameWeek;
-  return slides.filter((slide) => slide.subtopic === question.subtopic);
+  const sameSubtopic = slides.filter((slide) => slide.subtopic === question.subtopic);
+  const sameWeekAndSubtopic = sameWeek.filter((slide) => slide.subtopic === question.subtopic);
+  const candidates = uniqueSlides([
+    ...sameWeekAndSubtopic,
+    ...sameSubtopic,
+    ...sameWeek,
+  ]);
+  return candidates.length > 0 ? candidates : slides;
 }
 
 function getQuestionWeightedTerms(question) {
@@ -295,9 +387,23 @@ function getQuestionWeightedTerms(question) {
   addWeightedTerms(weights, question.correctAnswers?.join(" "), 6);
   addWeightedTerms(weights, (question.prompts ?? []).flatMap((prompt) => [prompt.prompt, prompt.answer]).join(" "), 5);
   addWeightedTerms(weights, (question.blanks ?? []).flatMap((blank) => [blank.label, ...blank.answers]).join(" "), 5);
-  addWeightedTerms(weights, question.options?.join(" "), 1);
-  addWeightedTerms(weights, question.rationale, 1.5);
+  addWeightedTerms(weights, question.options?.join(" "), 0.4);
+  addWeightedTerms(weights, question.rationale, 0.75);
   return weights;
+}
+
+function getQuestionHighSignalTerms(question) {
+  const terms = new Set();
+  [
+    question.stem,
+    question.drug,
+    ...(question.correctAnswers ?? []),
+    ...(question.prompts ?? []).flatMap((prompt) => [prompt.prompt, prompt.answer]),
+    ...(question.blanks ?? []).flatMap((blank) => [blank.label, ...blank.answers]),
+  ].forEach((text) => {
+    for (const token of tokenize(text)) terms.add(token);
+  });
+  return terms;
 }
 
 function addWeightedTerms(weights, text, weight) {
@@ -324,16 +430,98 @@ function buildDocumentFrequency(slides) {
 }
 
 function scoreSlide(question, weightedTerms, slide, documentFrequency, slideCount) {
+  const questionText = normalize([
+    question.stem,
+    question.drug,
+    ...(question.correctAnswers ?? []),
+  ].filter(Boolean).join(" "));
+  const slideText = normalize(`${slide.title} ${slide.text}`);
+
+  if (!matchesRequiredSpecificTerms(questionText, slideText)) {
+    return { score: 0, highSignalOverlap: 0 };
+  }
+  if (!matchesHypersensitivityType(questionText, slideText)) {
+    return { score: 0, highSignalOverlap: 0 };
+  }
+  if (
+    has(questionText, /insulin therapy/) &&
+    !has(slideText, /insulin therapy|insulin dosing|insulin timing|glucose monitoring/)
+  ) {
+    return { score: 0, highSignalOverlap: 0 };
+  }
+  if (has(questionText, /humoral immunity/) && !has(slideText, /humoral|b[-\s]?cell/)) {
+    return { score: 0, highSignalOverlap: 0 };
+  }
+  if (has(questionText, /t cells?.*humoral immunity/) && !has(slideText, /humoral/)) {
+    return { score: 0, highSignalOverlap: 0 };
+  }
+
   let score = 0;
+  let highSignalOverlap = 0;
+  const highSignalTerms = getQuestionHighSignalTerms(question);
   for (const [token, weight] of weightedTerms.entries()) {
     if (!slide.tokens.has(token)) continue;
+    if (highSignalTerms.has(token)) highSignalOverlap += 1;
     const idf = Math.log(1 + slideCount / (1 + (documentFrequency.get(token) ?? 0)));
     score += weight * Math.max(1, idf);
   }
+  if (highSignalOverlap === 0) return { score: 0, highSignalOverlap };
+  if (highSignalOverlap === 1 && (question.week !== slide.week || question.subtopic !== slide.subtopic)) {
+    return { score: 0, highSignalOverlap };
+  }
   if (question.week && slide.week === question.week) score *= 1.35;
-  if (question.subtopic && slide.subtopic === question.subtopic) score *= 1.25;
+  if (question.subtopic && slide.subtopic === question.subtopic) {
+    score *= 1.35;
+  } else {
+    score *= 0.45;
+  }
   if (slide.textLength < 90) score *= 0.75;
-  return score;
+  return { score, highSignalOverlap };
+}
+
+function matchesRequiredSpecificTerms(questionText, slideText) {
+  const requiredTerms = [
+    "albuterol",
+    "digoxin",
+    "epoetin",
+    "heparin",
+    "montelukast",
+    "norepinephrine",
+    "omeprazole",
+    "spironolactone",
+    "warfarin",
+  ].filter((term) => questionText.includes(term));
+
+  if (requiredTerms.length === 0) return true;
+  return requiredTerms.some((term) => slideText.includes(term));
+}
+
+function matchesHypersensitivityType(questionText, slideText) {
+  const typeMatch = questionText.match(/\btype\s+(iv|iii|ii|i)\b/);
+  if (!typeMatch) return true;
+
+  const type = typeMatch[1];
+  const acceptable = {
+    i: /\btype\s+i\b|\bige\b|anaphylaxis|mast cell/,
+    ii: /\btype\s+ii\b|cytotoxic|cell destruction|\bigg\b|\bigm\b/,
+    iii: /\btype\s+iii\b|immune complex|antigen[-\s]?antibody/,
+    iv: /\btype\s+iv\b|cell-mediated|t[-\s]?cell|delayed/,
+  };
+  return acceptable[type]?.test(slideText) ?? true;
+}
+
+function hasExactHypersensitivityType(question) {
+  const questionText = normalize([
+    question.stem,
+    ...(question.correctAnswers ?? []),
+  ].filter(Boolean).join(" "));
+  return /\btype\s+(iv|iii|ii|i)\b/.test(questionText);
+}
+
+function uniqueSlides(slides) {
+  const byId = new Map();
+  slides.forEach((slide) => byId.set(slide.id, slide));
+  return [...byId.values()];
 }
 
 function exportReferencedSlides(slides) {

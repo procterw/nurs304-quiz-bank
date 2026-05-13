@@ -54,7 +54,7 @@ function classify(question) {
     return "Anti-Infective Pharmacology and Antibiotic Safety";
   }
 
-  if (has(primaryText, /rights? of medication|right dose|right time|right route|right drug|right patient|pharmacokinetic|half[-\s]?life|first[-\s]?pass|steady[-\s]?state|enzyme inducer|protein binding|lipophilic analgesic|schedule ii|opioid count|controlled substance|safe disposal|prescription medications at home|administration of medication|treatment regimen|method used to administer|prescribed a drug|drug is available in liquid|drugs being taken|\broute\b/)) {
+  if (has(primaryText, /rights? of medication|right dose|right time|right route|right drug|right patient|safe medication administration|medication administration|medication checks|two patient identifiers|pharmacokinetic|half[-\s]?life|first[-\s]?pass|steady[-\s]?state|enzyme inducer|protein binding|lipophilic analgesic|schedule ii|opioid count|controlled substance|safe disposal|prescription medications at home|administration of medication|treatment regimen|method used to administer|drug is available in liquid|drugs being taken|trailing zero|dosing error|tenfold|1\.0 mg/)) {
     return "Medication Administration, Safety, and Pharmacokinetics";
   }
 
@@ -66,7 +66,7 @@ function classify(question) {
     return "Leukocytes, Leukemia, and Lymphoma";
   }
 
-  if (has(primaryText, /anemia|erythro|hemoglobin|hematocrit|hematopoiesis|iron|epoetin|pernicious|b12|red blood cell|oxygen-carrying|mcv|rdw/)) {
+  if (has(primaryText, /anemia|erythro|hemoglobin|hematocrit|hematopoiesis|\biron\b|iron[-\s]?deficiency|epoetin|pernicious|b12|red blood cell|oxygen-carrying|mcv|rdw/)) {
     return "Hematopoiesis, Anemia, and Erythropoietin";
   }
 
@@ -94,16 +94,28 @@ function classify(question) {
     return "Diuretics and Renal Medications";
   }
 
+  if (has(primaryText, /ulcer|omeprazole|ppi|proton pump|famotidine|h2 receptor|antacid|calcium carbonate|gastric acid|h pylori|zollinger|parietal|atpase|acid rebound|duodenal/)) {
+    return "Peptic Ulcer Disease and Acid Suppression";
+  }
+
+  if (has(primaryText, /asthma|albuterol|saba|laba|bronchodilator|bronchospasm|bronchodilation|fluticasone|corticosteroid|leukotriene|montelukast|zafirlukast|ipratropium|tiotropium|muscarinic|inhaler|airway emergency/)) {
+    return "Asthma and Bronchodilator Therapy";
+  }
+
+  if (has(primaryText, /antihistamine|diphenhydramine|histamine|allerg|sedation|urinary retention|blurred vision|loratadine|fexofenadine|h1 receptor/)) {
+    return "Antihistamines and Allergy Pharmacology";
+  }
+
+  if (has(primaryText, /anaphylaxis|type i|type ii|type iii|type iv|hypersensitivity|inflamm|innate|phagocytosis|chemotaxis|autoimmune|immune response|immunoglobulin|ige|antigen|antibody|mast cell|basophil|skin and mucous|hageman|blood transfusion|hemolytic transfusion/)) {
+    return "Innate Immunity and Hypersensitivity";
+  }
+
   if (has(primaryText, /abg|arterial blood gas|acid[-\s]?base|acidosis|alkalosis|bicarbonate|hco3|paco2|pao2|\bph\b|calcium|sodium|potassium|magnesium|electrolyte|hyperkalemia|hypokalemia|hypercalcemia|hypocalcemia|hyponatremia|hypomagnesemia|polyuria|paresthesia|laryngospasm/)) {
     return "Fluid, Electrolyte, and Acid-Base Balance";
   }
 
   if (has(primaryText, /kidney|renal|nephron|nephrotoxic|gfr|bun|creatinine|ckd|acute kidney injury|acute renal failure|chronic kidney disease|erythropoietin/)) {
     return "Renal Function, Kidney Injury, and CKD";
-  }
-
-  if (has(primaryText, /ulcer|omeprazole|ppi|proton pump|famotidine|h2 receptor|antacid|calcium carbonate|gastric acid|h pylori|zollinger|parietal|atpase|acid rebound|duodenal/)) {
-    return "Peptic Ulcer Disease and Acid Suppression";
   }
 
   if (has(primaryText, /constipation|diarrhea|vomit|nausea|loperamide|bisacodyl|ondansetron|bowel movement|stool|melena|medulla|elimination|peristalsis/)) {
@@ -114,23 +126,15 @@ function classify(question) {
     return "GI Anatomy, Digestion, and Absorption";
   }
 
-  if (has(primaryText, /antihistamine|diphenhydramine|histamine|allerg|sedation|urinary retention|blurred vision|loratadine|fexofenadine/)) {
-    return "Antihistamines and Allergy Pharmacology";
-  }
-
-  if (has(primaryText, /adrenergic|cholinergic|epinephrine|norepinephrine|catecholamine|alpha|beta 1|beta 2|vasopressor|phentolamine|sympathetic|muscarinic antagonist/)) {
+  if (has(primaryText, /adrenergic|cholinergic|epinephrine|norepinephrine|catecholamine|alpha|beta 1|beta 2|vasopressor|phentolamine|sympathetic/)) {
     return "Autonomic Pharmacology and Vasoactive Medications";
-  }
-
-  if (has(primaryText, /asthma|albuterol|saba|laba|bronchodilator|bronchospasm|bronchodilation|fluticasone|corticosteroid|leukotriene|montelukast|zafirlukast|ipratropium|tiotropium|muscarinic|inhaler|airway emergency/)) {
-    return "Asthma and Bronchodilator Therapy";
   }
 
   if (has(primaryText, /pneumonia|atelectasis|ards|acute respiratory distress|pneumothorax|cough and deep breathe|incentive spirometry|bacterial pneumonia|hemoptysis|mastectomy|surgical procedure/)) {
     return "Pneumonia, Atelectasis, ARDS, and Pneumothorax";
   }
 
-  if (has(primaryText, /heart failure|cardiogenic shock|\bshock\b|\bedema\b|jvd|neck vein|orthopnea|hepatic engorgement|cardiac output|preload|afterload|pulmonary edema|contractility|fluid overload/)) {
+  if (has(primaryText, /heart failure|cardiogenic shock|\bshock\b|\bedema\b|jvd|neck vein|orthopnea|hepatic engorgement|cardiac output|preload|afterload|pulmonary edema|contractility|fluid overload|digoxin|entresto/)) {
     return "Heart Failure, Shock, and Fluid Overload";
   }
 
@@ -152,10 +156,6 @@ function classify(question) {
 
   if (has(primaryText, /valve|atria|atrium|ventricle|septum|chambers|mitral|tricuspid|pulmonic|aortic|circulation/)) {
     return "Cardiac Anatomy, Valves, and Circulation";
-  }
-
-  if (has(primaryText, /hypersensitivity|inflamm|innate|phagocytosis|chemotaxis|autoimmune|immune response|immunoglobulin|ige|antigen|antibody|mast cell|basophil|skin and mucous|hageman/)) {
-    return "Innate Immunity and Hypersensitivity";
   }
 
   if (has(primaryText, /cell injury|apoptosis|necrosis|metaplasia|hyperplasia|hypertrophy|atrophy|gangrene|steatosis|granuloma|irreversible|lysosomal/)) {
