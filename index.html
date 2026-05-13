@@ -12,11 +12,23 @@
     </header>
 
     <main class="layout">
+      <section class="progress-card" aria-label="Question progress">
+        <div class="progress-summary">
+          <span id="progressText">0 answered · 0 remaining</span>
+          <button id="resetAnsweredButton" type="button">Reset answered questions</button>
+        </div>
+        <div class="progress-bar" aria-hidden="true">
+          <span id="progressUnanswered" class="progress-segment progress-unanswered"></span>
+          <span id="progressCorrect" class="progress-segment progress-correct"></span>
+          <span id="progressIncorrect" class="progress-segment progress-incorrect"></span>
+        </div>
+      </section>
+
       <section class="workspace">
         <section class="question-panel" aria-live="polite">
           <div id="emptyState" class="empty-state">
-            <h2>No matching questions</h2>
-            <p>Adjust the filters to continue practicing.</p>
+            <h2 id="emptyTitle">No matching questions</h2>
+            <p id="emptyMessage">Adjust the filters to continue practicing.</p>
           </div>
 
           <article id="questionCard" class="question-card hidden">

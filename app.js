@@ -5,8 +5,10 @@ const state = {
   renderedQuestionId: null,
   definitionsVisible: false,
   answers: new Map(),
-  checked: new Set(),
+  answered: {},
 };
+
+const ANSWERED_STORAGE_KEY = "nurs304-answered-results-v1";
 
 const medicalTerms = {
   "ace inhibitor": "A drug class that blocks conversion of angiotensin I to angiotensin II, lowering vasoconstriction and aldosterone effects.",
@@ -117,6 +119,8 @@ const el = {
   topic: document.getElementById("topicFilter"),
   category: document.getElementById("categoryFilter"),
   emptyState: document.getElementById("emptyState"),
+  emptyTitle: document.getElementById("emptyTitle"),
+  emptyMessage: document.getElementById("emptyMessage"),
   questionCard: document.getElementById("questionCard"),
   questionMeta: document.getElementById("questionMeta"),
   questionStem: document.getElementById("questionStem"),
@@ -127,6 +131,11 @@ const el = {
   define: document.getElementById("defineButton"),
   random: document.getElementById("randomButton"),
   submit: document.getElementById("submitButton"),
+  resetAnswered: document.getElementById("resetAnsweredButton"),
+  progressText: document.getElementById("progressText"),
+  progressCorrect: document.getElementById("progressCorrect"),
+  progressIncorrect: document.getElementById("progressIncorrect"),
+  progressUnanswered: document.getElementById("progressUnanswered"),
 };
 
 const filters = [el.topic, el.category];
@@ -136,7 +145,8 @@ async function init() {
     const response = await fetch("data/questions.json");
     if (!response.ok) throw new Error(`Question data returned ${response.status}`);
     state.questions = await response.json();
-    state.filtered = [...state.questions];
+    shuffleInPlace(state.questions);
+    state.answered = loadAnsweredResults();
     buildFilters();
     bindEvents();
     applyFilters();
@@ -154,6 +164,7 @@ function bindEvents() {
   el.define.addEventListener("click", showDefinitions);
   el.random.addEventListener("click", selectRandom);
   el.submit.addEventListener("click", submitMultipleAnswer);
+  el.resetAnswered.addEventListener("click", resetAnsweredQuestions);
 }
 
 function buildFilters() {
@@ -179,6 +190,7 @@ function applyFilters() {
   state.filtered = state.questions.filter((question) => {
     if (selected.topic && question.topic !== selected.topic) return false;
     if (selected.category && question.category !== selected.category) return false;
+    if (state.answered[String(question.id)]) return false;
     return true;
   });
 
@@ -190,6 +202,7 @@ function applyFilters() {
 }
 
 function render() {
+  renderProgress();
   renderCurrentQuestion();
 }
 
@@ -199,8 +212,13 @@ function renderCurrentQuestion() {
   el.feedback.innerHTML = "";
 
   if (!question) {
+    const hasMatchingAnswered = getMatchingQuestions().some((item) => state.answered[String(item.id)]);
     el.emptyState.classList.remove("hidden");
     el.questionCard.classList.add("hidden");
+    el.emptyTitle.textContent = hasMatchingAnswered ? "All matching questions answered" : "No matching questions";
+    el.emptyMessage.textContent = hasMatchingAnswered
+      ? "Reset answered questions to practice this set again."
+      : "Adjust the filters to continue practicing.";
     state.renderedQuestionId = null;
     state.definitionsVisible = false;
     renderDefinitions(null);
@@ -230,6 +248,7 @@ function renderCurrentQuestion() {
   const selected = state.answers.get(question.id) ?? new Set();
   const inputType = question.type === "Multiple Answer" ? "checkbox" : "radio";
   el.submit.classList.toggle("hidden", question.type !== "Multiple Answer");
+  el.submit.disabled = false;
   el.answerForm.innerHTML = "";
 
   question.options.forEach((option, index) => {
@@ -249,9 +268,6 @@ function renderCurrentQuestion() {
     el.answerForm.append(label);
   });
 
-  if (state.checked.has(question.id)) {
-    showAnswer(question, false);
-  }
 }
 
 function storeAnswer(question, event) {
@@ -278,14 +294,16 @@ function showAnswer(question, updateMetrics = true) {
   const selected = state.answers.get(question.id) ?? new Set();
   const correct = new Set(question.correctAnswers);
   const isCorrect = setsMatch(selected, correct);
-  state.checked.add(question.id);
 
   [...el.answerForm.querySelectorAll(".answer-option")].forEach((label) => {
-    const value = label.querySelector("input").value;
+    const input = label.querySelector("input");
+    const value = input.value;
+    input.disabled = true;
     label.classList.add("revealed");
     label.classList.toggle("correct", correct.has(value));
     label.classList.toggle("incorrect", selected.has(value) && !correct.has(value));
   });
+  el.submit.disabled = true;
 
   el.feedback.className = `feedback ${isCorrect ? "correct" : "incorrect"}`;
   el.feedback.innerHTML = `
@@ -293,6 +311,9 @@ function showAnswer(question, updateMetrics = true) {
     <div><b>Answer:</b> ${question.correctAnswers.map(escapeHtml).join("; ")}</div>
     <div><b>Rationale:</b> ${escapeHtml(question.rationale)}</div>
   `;
+  saveAnsweredResult(question.id, isCorrect);
+  state.filtered = state.filtered.filter((item) => item.id !== question.id);
+  renderProgress();
 }
 
 function selectRandom() {
@@ -304,6 +325,63 @@ function selectRandom() {
 
 function getCurrentQuestion() {
   return state.questions.find((question) => question.id === state.currentId);
+}
+
+function getMatchingQuestions() {
+  const selected = {
+    topic: el.topic.value,
+    category: el.category.value,
+  };
+
+  return state.questions.filter((question) => {
+    if (selected.topic && question.topic !== selected.topic) return false;
+    if (selected.category && question.category !== selected.category) return false;
+    return true;
+  });
+}
+
+function renderProgress() {
+  const total = state.questions.length;
+  const results = Object.values(state.answered);
+  const correct = results.filter((result) => result === "correct").length;
+  const incorrect = results.filter((result) => result === "incorrect").length;
+  const answered = correct + incorrect;
+  const unanswered = Math.max(total - answered, 0);
+
+  el.progressText.textContent = `${answered} answered · ${unanswered} remaining`;
+  el.progressCorrect.style.flexBasis = `${total ? (correct / total) * 100 : 0}%`;
+  el.progressIncorrect.style.flexBasis = `${total ? (incorrect / total) * 100 : 0}%`;
+  el.progressUnanswered.style.flexBasis = `${total ? (unanswered / total) * 100 : 100}%`;
+}
+
+function saveAnsweredResult(questionId, isCorrect) {
+  state.answered[String(questionId)] = isCorrect ? "correct" : "incorrect";
+  localStorage.setItem(ANSWERED_STORAGE_KEY, JSON.stringify(state.answered));
+}
+
+function loadAnsweredResults() {
+  try {
+    const raw = localStorage.getItem(ANSWERED_STORAGE_KEY);
+    const parsed = raw ? JSON.parse(raw) : {};
+    return parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+function resetAnsweredQuestions() {
+  state.answered = {};
+  state.answers.clear();
+  localStorage.removeItem(ANSWERED_STORAGE_KEY);
+  applyFilters();
+}
+
+function shuffleInPlace(items) {
+  for (let index = items.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [items[index], items[swapIndex]] = [items[swapIndex], items[index]];
+  }
+  return items;
 }
 
 function showDefinitions() {

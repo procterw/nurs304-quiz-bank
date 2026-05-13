@@ -87,7 +87,8 @@ select:focus-visible {
 
 .filters-panel,
 .question-panel,
-.definitions-panel {
+.definitions-panel,
+.progress-card {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
@@ -99,6 +100,54 @@ select:focus-visible {
   grid-template-columns: 1fr;
   gap: 12px;
   padding: 14px;
+}
+
+.progress-card {
+  display: grid;
+  gap: 10px;
+  padding: 14px 16px;
+}
+
+.progress-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.progress-summary button,
+.filters button {
+  min-height: 34px;
+}
+
+.progress-bar {
+  display: flex;
+  width: 100%;
+  height: 10px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e7ebe9;
+}
+
+.progress-segment {
+  flex: 0 0 auto;
+  min-width: 0;
+  transition: flex-basis 160ms ease;
+}
+
+.progress-correct {
+  background: var(--green);
+}
+
+.progress-incorrect {
+  background: var(--red);
+}
+
+.progress-unanswered {
+  background: #d8dedb;
 }
 
 .field {
