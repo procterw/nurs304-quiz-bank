@@ -2,6 +2,8 @@ const state = {
   questions: [],
   filtered: [],
   currentId: null,
+  renderedQuestionId: null,
+  definitionsVisible: false,
   answers: new Map(),
   checked: new Set(),
 };
@@ -122,6 +124,7 @@ const el = {
   feedback: document.getElementById("feedback"),
   definitionStatus: document.getElementById("definitionStatus"),
   definitionList: document.getElementById("definitionList"),
+  define: document.getElementById("defineButton"),
   random: document.getElementById("randomButton"),
   submit: document.getElementById("submitButton"),
 };
@@ -148,6 +151,7 @@ async function init() {
 
 function bindEvents() {
   filters.forEach((filter) => filter.addEventListener("input", applyFilters));
+  el.define.addEventListener("click", showDefinitions);
   el.random.addEventListener("click", selectRandom);
   el.submit.addEventListener("click", submitMultipleAnswer);
 }
@@ -197,8 +201,15 @@ function renderCurrentQuestion() {
   if (!question) {
     el.emptyState.classList.remove("hidden");
     el.questionCard.classList.add("hidden");
+    state.renderedQuestionId = null;
+    state.definitionsVisible = false;
     renderDefinitions(null);
     return;
+  }
+
+  if (question.id !== state.renderedQuestionId) {
+    state.renderedQuestionId = question.id;
+    state.definitionsVisible = false;
   }
 
   el.emptyState.classList.add("hidden");
@@ -282,9 +293,6 @@ function showAnswer(question, updateMetrics = true) {
     <div><b>Answer:</b> ${question.correctAnswers.map(escapeHtml).join("; ")}</div>
     <div><b>Rationale:</b> ${escapeHtml(question.rationale)}</div>
   `;
-  if (updateMetrics) {
-    renderDefinitions(question);
-  }
 }
 
 function selectRandom() {
@@ -298,22 +306,37 @@ function getCurrentQuestion() {
   return state.questions.find((question) => question.id === state.currentId);
 }
 
+function showDefinitions() {
+  state.definitionsVisible = true;
+  renderDefinitions(getCurrentQuestion());
+}
+
 function renderDefinitions(question) {
   el.definitionList.innerHTML = "";
 
   if (!question) {
     el.definitionStatus.textContent = "0 terms";
-    el.definitionList.innerHTML = `<p class="definition-empty">No active question.</p>`;
+    el.define.disabled = true;
+    el.definitionList.classList.add("hidden");
     return;
   }
 
   const terms = findMedicalTerms(question);
   el.definitionStatus.textContent = `${terms.length} ${terms.length === 1 ? "term" : "terms"}`;
+  el.define.disabled = terms.length === 0;
 
   if (terms.length === 0) {
+    el.definitionList.classList.remove("hidden");
     el.definitionList.innerHTML = `<p class="definition-empty">No glossary terms detected in this question.</p>`;
     return;
   }
+
+  if (!state.definitionsVisible) {
+    el.definitionList.classList.add("hidden");
+    return;
+  }
+
+  el.definitionList.classList.remove("hidden");
 
   terms.forEach(([term, definition]) => {
     const item = document.createElement("article");

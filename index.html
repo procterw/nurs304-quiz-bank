@@ -21,10 +21,7 @@
 
           <article id="questionCard" class="question-card hidden">
             <div class="question-card-header">
-              <div>
-                <p id="questionMeta" class="question-meta"></p>
-                <h2 id="questionStem"></h2>
-              </div>
+              <h2 id="questionStem"></h2>
             </div>
 
             <form id="answerForm" class="answers"></form>
@@ -43,6 +40,7 @@
             </div>
 
             <section id="feedback" class="feedback hidden" aria-live="polite"></section>
+            <p id="questionMeta" class="question-meta"></p>
           </article>
         </section>
 
@@ -68,6 +66,9 @@
             <div class="panel-heading">
               <h2>Definitions</h2>
               <span id="definitionStatus">0 terms</span>
+            </div>
+            <div class="definition-actions">
+              <button id="defineButton" type="button">Define terms</button>
             </div>
             <div id="definitionList" class="definition-list"></div>
           </section>

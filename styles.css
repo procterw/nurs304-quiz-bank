@@ -55,6 +55,7 @@ select:focus-visible {
   padding: 20px 24px;
   border-bottom: 1px solid var(--line);
   background: #fff;
+  text-align: center;
 }
 
 .topbar h1 {
@@ -236,9 +237,9 @@ select:focus-visible {
 }
 
 .question-meta {
-  margin: 0 0 8px;
+  margin: 0;
   color: var(--muted);
-  font-size: 0.86rem;
+  font-size: 0.78rem;
   font-weight: 700;
 }
 
@@ -329,6 +330,14 @@ select:focus-visible {
   max-height: 650px;
   overflow: auto;
   padding: 14px;
+}
+
+.definition-actions {
+  padding: 14px;
+}
+
+.definition-actions button {
+  width: 100%;
 }
 
 .definition-item {
