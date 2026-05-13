@@ -112,13 +112,8 @@ const medicalTerms = {
 };
 
 const el = {
-  search: document.getElementById("searchInput"),
   topic: document.getElementById("topicFilter"),
   category: document.getElementById("categoryFilter"),
-  system: document.getElementById("systemFilter"),
-  type: document.getElementById("typeFilter"),
-  difficulty: document.getElementById("difficultyFilter"),
-  drug: document.getElementById("drugFilter"),
   emptyState: document.getElementById("emptyState"),
   questionCard: document.getElementById("questionCard"),
   questionMeta: document.getElementById("questionMeta"),
@@ -134,7 +129,7 @@ const el = {
   next: document.getElementById("nextButton"),
 };
 
-const filters = [el.search, el.topic, el.category, el.system, el.type, el.difficulty, el.drug];
+const filters = [el.topic, el.category];
 
 async function init() {
   try {
@@ -166,10 +161,6 @@ function bindEvents() {
 function buildFilters() {
   fillSelect(el.topic, "All topics", state.questions.map((q) => q.topic));
   fillSelect(el.category, "All categories", state.questions.map((q) => q.category));
-  fillSelect(el.system, "All systems", state.questions.map((q) => q.system));
-  fillSelect(el.type, "All types", state.questions.map((q) => q.type));
-  fillSelect(el.difficulty, "All difficulties", state.questions.map((q) => q.difficulty));
-  fillSelect(el.drug, "All drugs", state.questions.map((q) => q.drug).filter(Boolean));
 }
 
 function fillSelect(select, label, values, pairValues = false) {
@@ -186,39 +177,15 @@ function fillSelect(select, label, values, pairValues = false) {
 }
 
 function applyFilters() {
-  const query = el.search.value.trim().toLowerCase();
   const selected = {
     topic: el.topic.value,
     category: el.category.value,
-    system: el.system.value,
-    type: el.type.value,
-    difficulty: el.difficulty.value,
-    drug: el.drug.value,
   };
 
   state.filtered = state.questions.filter((question) => {
     if (selected.topic && question.topic !== selected.topic) return false;
     if (selected.category && question.category !== selected.category) return false;
-    if (selected.system && question.system !== selected.system) return false;
-    if (selected.type && question.type !== selected.type) return false;
-    if (selected.difficulty && question.difficulty !== selected.difficulty) return false;
-    if (selected.drug && question.drug !== selected.drug) return false;
-    if (!query) return true;
-
-    const searchable = [
-      question.stem,
-      question.topic,
-      question.system,
-      question.category,
-      question.drug,
-      question.rationale,
-      question.source,
-      ...question.options,
-    ]
-      .filter(Boolean)
-      .join(" ")
-      .toLowerCase();
-    return searchable.includes(query);
+    return true;
   });
 
   if (!state.filtered.some((question) => question.id === state.currentId)) {

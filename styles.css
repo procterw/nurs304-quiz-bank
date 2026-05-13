@@ -106,7 +106,7 @@ select:focus-visible {
 
 .filters {
   display: grid;
-  grid-template-columns: minmax(240px, 2fr) repeat(6, minmax(135px, 1fr));
+  grid-template-columns: minmax(240px, 2fr) minmax(160px, 1fr);
   gap: 12px;
   padding: 14px;
 }
