@@ -105,13 +105,13 @@ select:focus-visible {
   background: var(--blue);
 }
 
-.practice-actions button:last-child:not(:disabled) {
+#nextButton:not(:disabled) {
   border-color: var(--blue);
   color: #fff;
   background: var(--blue);
 }
 
-.practice-actions button:first-child:not(.hidden):not(:disabled) {
+#submitButton:not(.hidden):not(:disabled) {
   border-color: var(--blue);
   color: #fff;
   background: var(--blue);
@@ -135,8 +135,9 @@ select:focus-visible {
 
 .filters-panel,
 .question-panel,
-.definitions-panel,
-.videos-panel {
+.study-support-panel,
+.videos-panel,
+.slide-preview-panel {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
@@ -320,29 +321,35 @@ select:focus-visible {
 
   .practice-page .layout {
     height: calc(100vh - 56px);
+    min-height: 0;
     overflow: hidden;
   }
 
   .practice-page .workspace {
     min-height: 0;
     height: 100%;
+    overflow: hidden;
   }
 
   .practice-page .question-panel {
-    max-height: 100%;
+    min-height: 0;
+    height: 100%;
     overflow: auto;
   }
 
   .practice-page .right-sidebar {
-    max-height: 100%;
+    min-height: 0;
+    height: calc(100dvh - 96px);
+    max-height: calc(100dvh - 96px);
     overflow-y: auto;
+    overscroll-behavior: contain;
     padding-right: 4px;
     scrollbar-gutter: stable;
   }
 }
 
 .filters-panel,
-.definitions-panel {
+.study-support-panel {
   min-width: 0;
 }
 
@@ -350,11 +357,20 @@ select:focus-visible {
   min-width: 0;
 }
 
+.slide-preview-panel {
+  min-width: 0;
+  overflow: hidden;
+}
+
 .right-sidebar {
-  display: grid;
-  align-content: start;
+  display: flex;
+  flex-direction: column;
   gap: 18px;
   min-width: 0;
+}
+
+.right-sidebar > * {
+  flex: 0 0 auto;
 }
 
 .panel-heading {
@@ -545,6 +561,13 @@ select:focus-visible {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  justify-content: space-between;
+}
+
+.practice-actions-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   justify-content: flex-end;
 }
 
@@ -579,11 +602,11 @@ select:focus-visible {
   padding: 14px;
 }
 
-.definition-actions {
+.study-support-actions {
   padding: 14px;
 }
 
-.definition-actions button {
+.study-support-actions button {
   width: 100%;
 }
 
@@ -604,7 +627,8 @@ select:focus-visible {
   font-size: 0.9rem;
 }
 
-.video-list {
+.video-list,
+.slide-list {
   display: grid;
   gap: 10px;
   padding: 14px;
@@ -629,10 +653,25 @@ select:focus-visible {
 }
 
 .video-item p,
-.video-empty {
+.video-empty,
+.slide-empty {
   margin: 4px 0 0;
   color: var(--muted);
   font-size: 0.84rem;
+}
+
+.slide-preview {
+  margin: 0;
+  padding: 0;
+}
+
+.slide-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
 }
 
 @media (max-width: 1100px) {

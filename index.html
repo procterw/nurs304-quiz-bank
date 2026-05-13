@@ -43,8 +43,11 @@
             <form id="answerForm" class="answers"></form>
 
             <div class="practice-actions">
-              <button id="submitButton" type="button" class="hidden">Submit</button>
-              <button id="nextButton" type="button">Next</button>
+              <button id="previousButton" type="button">Previous</button>
+              <div class="practice-actions-right">
+                <button id="submitButton" type="button" class="hidden">Submit</button>
+                <button id="nextButton" type="button">Next</button>
+              </div>
             </div>
 
             <section id="feedback" class="feedback hidden" aria-live="polite"></section>
@@ -86,14 +89,15 @@
             </div>
           </section>
 
-          <section class="definitions-panel" aria-label="Medical word definitions">
+          <section class="study-support-panel" aria-label="Relevant slides and definitions">
             <div class="panel-heading">
-              <h2>Definitions</h2>
-              <span id="definitionStatus">0 terms</span>
+              <h2>Study support</h2>
+              <span id="studySupportStatus">0 slides · 0 terms</span>
             </div>
-            <div class="definition-actions">
-              <button id="defineButton" type="button">Define terms</button>
+            <div class="study-support-actions">
+              <button id="defineButton" type="button">Show slides and definitions</button>
             </div>
+            <div id="slideList" class="slide-list"></div>
             <div id="definitionList" class="definition-list"></div>
           </section>
 

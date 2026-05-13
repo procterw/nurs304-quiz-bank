@@ -2,10 +2,12 @@ const state = {
   questions: [],
   questionById: new Map(),
   videosBySubtopic: {},
+  slidesById: new Map(),
   filtered: [],
   currentId: null,
+  previousIds: [],
   renderedQuestionId: null,
-  definitionsVisible: false,
+  studySupportVisible: false,
   answers: new Map(),
   answered: {},
 };
@@ -412,13 +414,15 @@ const el = {
   questionStem: document.getElementById("questionStem"),
   answerForm: document.getElementById("answerForm"),
   feedback: document.getElementById("feedback"),
-  definitionStatus: document.getElementById("definitionStatus"),
+  studySupportStatus: document.getElementById("studySupportStatus"),
   definitionList: document.getElementById("definitionList"),
   videoStatus: document.getElementById("videoStatus"),
   videoList: document.getElementById("videoList"),
+  slideList: document.getElementById("slideList"),
   define: document.getElementById("defineButton"),
   filtersContent: document.getElementById("filtersContent"),
   filtersToggle: document.getElementById("filtersToggleButton"),
+  previous: document.getElementById("previousButton"),
   next: document.getElementById("nextButton"),
   submit: document.getElementById("submitButton"),
   resetAnswered: document.getElementById("resetAnsweredButton"),
@@ -429,12 +433,14 @@ const filters = [el.week, el.subtopic, el.source];
 
 async function init() {
   try {
-    const [questions, videosBySubtopic] = await Promise.all([
+    const [questions, videosBySubtopic, slides] = await Promise.all([
       fetchJson("data/questions.json"),
       fetchJson("data/videos.json").catch(() => ({})),
+      fetchJson("data/slides.json").catch(() => []),
     ]);
     state.questions = prepareQuestions(questions);
     state.videosBySubtopic = videosBySubtopic;
+    state.slidesById = new Map(slides.map((slide) => [slide.id, slide]));
     state.questionById = new Map(state.questions.map((question) => [question.id, question]));
     shuffleInPlace(state.questions);
     state.answered = loadAnsweredResults();
@@ -468,8 +474,9 @@ function prepareQuestions(questions) {
 
 function bindEvents() {
   filters.forEach((filter) => filter.addEventListener("input", applyFilters));
-  el.define.addEventListener("click", showDefinitions);
+  el.define.addEventListener("click", showStudySupport);
   el.filtersToggle.addEventListener("click", toggleFilters);
+  el.previous.addEventListener("click", selectPrevious);
   el.next.addEventListener("click", selectNext);
   el.submit.addEventListener("click", submitCurrentQuestion);
   el.resetAnswered.addEventListener("click", resetAnsweredQuestions);
@@ -504,6 +511,7 @@ function fillSelect(select, label, values) {
 
 function applyFilters() {
   const selected = getSelectedFilters();
+  const currentIdBeforeFiltering = state.currentId;
 
   state.filtered = state.questions.filter((question) => {
     return matchesSelectedFilters(question, selected) && !isQuestionCompleted(question.id);
@@ -511,6 +519,10 @@ function applyFilters() {
 
   if (!state.filtered.some((question) => question.id === state.currentId)) {
     state.currentId = getRandomQuestion(state.filtered)?.id ?? null;
+  }
+
+  if (state.currentId !== currentIdBeforeFiltering) {
+    state.previousIds = [];
   }
 
   render();
@@ -530,24 +542,26 @@ function renderCurrentQuestion() {
     const hasCompletedMatchingQuestions = getMatchingQuestions().some((item) => isQuestionCompleted(item.id));
     el.emptyState.classList.remove("hidden");
     el.questionCard.classList.add("hidden");
+    el.previous.disabled = true;
     el.emptyTitle.textContent = hasCompletedMatchingQuestions ? "All matching questions answered correctly" : "No matching questions";
     el.emptyMessage.textContent = hasCompletedMatchingQuestions
       ? "Reset answered questions to practice this set again."
       : "Adjust the filters to continue practicing.";
     state.renderedQuestionId = null;
-    state.definitionsVisible = false;
-    renderDefinitions(null);
+    state.studySupportVisible = false;
+    renderStudySupport(null);
     renderVideos(null);
     return;
   }
 
   if (question.id !== state.renderedQuestionId) {
     state.renderedQuestionId = question.id;
-    state.definitionsVisible = false;
+    state.studySupportVisible = false;
   }
 
   el.emptyState.classList.add("hidden");
   el.questionCard.classList.remove("hidden");
+  el.previous.disabled = state.previousIds.length === 0;
   el.questionMeta.textContent = [
     question.topic,
     question.subtopic,
@@ -560,7 +574,7 @@ function renderCurrentQuestion() {
     .filter(Boolean)
     .join(" · ");
   el.questionStem.textContent = question.stem;
-  renderDefinitions(question);
+  renderStudySupport(question);
   renderVideos(question);
 
   el.answerForm.innerHTML = "";
@@ -737,13 +751,25 @@ function showFillAnswer(question) {
 function selectNext() {
   if (state.filtered.length === 0) {
     state.currentId = null;
+    state.previousIds = [];
     render();
     return;
   }
 
   const nextPool = state.filtered.filter((question) => question.id !== state.currentId);
   const nextQuestion = getRandomQuestion(nextPool.length > 0 ? nextPool : state.filtered);
-  state.currentId = nextQuestion?.id ?? null;
+  const nextId = nextQuestion?.id ?? null;
+  if (state.currentId && nextId && nextId !== state.currentId) {
+    state.previousIds.push(state.currentId);
+  }
+  state.currentId = nextId;
+  render();
+}
+
+function selectPrevious() {
+  const previousId = state.previousIds.pop();
+  if (!previousId) return;
+  state.currentId = previousId;
   render();
 }
 
@@ -806,6 +832,7 @@ function loadAnsweredResults() {
 function resetAnsweredQuestions() {
   state.answered = {};
   state.answers.clear();
+  state.previousIds = [];
   localStorage.removeItem(ANSWERED_STORAGE_KEY);
   applyFilters();
 }
@@ -830,42 +857,57 @@ function getRandomQuestion(questions) {
   return questions[Math.floor(Math.random() * questions.length)];
 }
 
-function showDefinitions() {
-  state.definitionsVisible = true;
-  renderDefinitions(getCurrentQuestion());
+function showStudySupport() {
+  state.studySupportVisible = true;
+  renderStudySupport(getCurrentQuestion());
 }
 
-function renderDefinitions(question) {
+function renderStudySupport(question) {
   el.definitionList.innerHTML = "";
+  el.slideList.innerHTML = "";
 
   if (!question) {
-    el.definitionStatus.textContent = "0 terms";
+    el.studySupportStatus.textContent = "0 slides · 0 terms";
     el.define.disabled = true;
     el.define.parentElement.classList.add("hidden");
     el.definitionList.classList.add("hidden");
+    el.slideList.classList.add("hidden");
     return;
   }
 
   const terms = question._definitions ?? findMedicalTerms(question);
-  el.definitionStatus.textContent = `${terms.length} ${terms.length === 1 ? "term" : "terms"}`;
-  el.define.disabled = terms.length === 0;
+  const slides = getQuestionSlides(question);
+  el.studySupportStatus.textContent = [
+    `${slides.length} ${slides.length === 1 ? "slide" : "slides"}`,
+    `${terms.length} ${terms.length === 1 ? "term" : "terms"}`,
+  ].join(" · ");
+  el.define.disabled = slides.length === 0 && terms.length === 0;
 
-  if (terms.length === 0) {
+  if (slides.length === 0 && terms.length === 0) {
     el.define.parentElement.classList.add("hidden");
+    el.slideList.classList.remove("hidden");
     el.definitionList.classList.remove("hidden");
+    el.slideList.innerHTML = `<p class="slide-empty">No high-confidence slide matches for this question.</p>`;
     el.definitionList.innerHTML = `<p class="definition-empty">No glossary terms detected in this question.</p>`;
     return;
   }
 
-  if (!state.definitionsVisible) {
+  if (!state.studySupportVisible) {
     el.define.parentElement.classList.remove("hidden");
+    el.slideList.classList.add("hidden");
     el.definitionList.classList.add("hidden");
     return;
   }
 
   el.define.parentElement.classList.add("hidden");
+  el.slideList.classList.remove("hidden");
   el.definitionList.classList.remove("hidden");
 
+  renderSlides(slides);
+  renderDefinitions(terms);
+}
+
+function renderDefinitions(terms) {
   const fragment = document.createDocumentFragment();
   terms.forEach(([term, definition]) => {
     const item = document.createElement("article");
@@ -877,6 +919,12 @@ function renderDefinitions(question) {
     fragment.append(item);
   });
   el.definitionList.append(fragment);
+}
+
+function getQuestionSlides(question) {
+  return (question.slideRefs ?? [])
+    .map((slideId) => state.slidesById.get(slideId))
+    .filter(Boolean);
 }
 
 function renderVideos(question) {
@@ -907,6 +955,24 @@ function renderVideos(question) {
     fragment.append(item);
   });
   el.videoList.append(fragment);
+}
+
+function renderSlides(slides) {
+  if (slides.length === 0) {
+    el.slideList.innerHTML = `<p class="slide-empty">No high-confidence slide matches for this question.</p>`;
+    return;
+  }
+
+  const fragment = document.createDocumentFragment();
+  slides.forEach((slide) => {
+    const item = document.createElement("figure");
+    item.className = "slide-preview";
+    item.innerHTML = `
+      <img src="${escapeHtml(slide.image)}" alt="${escapeHtml(slide.title)}" loading="lazy">
+    `;
+    fragment.append(item);
+  });
+  el.slideList.append(fragment);
 }
 
 function findMedicalTerms(question) {
