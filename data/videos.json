@@ -1,0 +1,351 @@
+{
+  "Medication Administration, Safety, and Pharmacokinetics": [
+    {
+      "title": "Pharmacokinetics: Absorption, Distribution, Metabolism, Excretion",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.youtube.com/watch?v=6EmzU3x3_ps"
+    },
+    {
+      "title": "Pharmacodynamics: Agonist, Antagonist, Partial Agonist, Inverse Agonist",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.youtube.com/watch?v=cL5KSzAvB64"
+    }
+  ],
+  "Autonomic Pharmacology and Vasoactive Medications": [
+    {
+      "title": "Beta Blockers NCLEX Pharmacology Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/beta-blockers-nclex-pharmacology-review/"
+    },
+    {
+      "title": "Autonomic Nervous System Effects on the Heart",
+      "source": "Khan Academy",
+      "url": "https://www.khanacademy.org/science/health-and-medicine/circulatory-system/nerve-regulation-of-the-heart/v/autonomic-nervous-system-effects-on-the-heart"
+    }
+  ],
+  "Cell Injury, Adaptation, and Inflammation": [
+    {
+      "title": "Apoptosis",
+      "source": "Khan Academy",
+      "url": "https://www.khanacademy.org/science/biology/developmental-biology/apoptosis-in-development/v/apoptosis"
+    },
+    {
+      "title": "Necrosis and Apoptosis",
+      "source": "Osmosis",
+      "url": "https://www.osmosis.org/learn/Necrosis_and%20apoptosis"
+    }
+  ],
+  "Innate Immunity and Hypersensitivity": [
+    {
+      "title": "Inflammatory Response",
+      "source": "Khan Academy",
+      "url": "https://www.khanacademy.org/science/biology/human-biology/immunology/v/inflammatory-response"
+    },
+    {
+      "title": "Anaphylactic Shock NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/anaphylactic-shock-nclex-review/"
+    }
+  ],
+  "Adaptive Immunity and Immunosuppression": [
+    {
+      "title": "Types of Immune Responses: Innate and Adaptive, Humoral vs. Cell-Mediated",
+      "source": "Khan Academy",
+      "url": "https://www.khanacademy.org/science/biology/human-biology/immunology/v/types-of-immune-responses-innate-and-adaptive-humoral-vs-cell-mediated"
+    },
+    {
+      "title": "Antirejection Immunosuppressants: Nursing Pharmacology",
+      "source": "Osmosis",
+      "url": "https://www.osmosis.org/video/Antirejection_immunosuppressants%3A_Nursing_Pharmacology"
+    },
+    {
+      "title": "Immunosuppressants for Autoimmune Diseases: Nursing Pharmacology",
+      "source": "Osmosis",
+      "url": "https://www.osmosis.org/learn/Immunosuppressants_to_treat_autoimmune_diseases%3A_Nursing_Pharmacology"
+    }
+  ],
+  "Cardiac Anatomy, Valves, and Circulation": [
+    {
+      "title": "Circulatory System and the Heart",
+      "source": "Khan Academy",
+      "url": "https://en.khanacademy.org/science/biology/human-biology/v/circulatory-system-and-the-heart"
+    },
+    {
+      "title": "Heart Failure NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/heart-failure-nclex-review/"
+    }
+  ],
+  "Hypertension and Cardiovascular Pharmacology": [
+    {
+      "title": "Hypertension and Heart Damage",
+      "source": "Khan Academy",
+      "url": "https://www.khanacademy.org/science/health-and-medicine/circulatory-system-diseases/hypertension/v/hypertension-and-heart-damage"
+    },
+    {
+      "title": "ACE Inhibitors NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/ace-inhibitors-angiotensin-converting-enzyme-nclex-review/"
+    },
+    {
+      "title": "Calcium Channel Blockers Nursing Pharmacology NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/calcium-channel-blockers-nursing-pharmacology-nclex-review/"
+    }
+  ],
+  "Heart Failure, Shock, and Fluid Overload": [
+    {
+      "title": "Heart Failure NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/heart-failure-nclex-review/"
+    },
+    {
+      "title": "What Is Afterload?",
+      "source": "Khan Academy",
+      "url": "https://www.khanacademy.org/science/health-and-medicine/circulatory-system/changing-the-pv-loop-nm/v/what-is-afterload"
+    }
+  ],
+  "Cardiac Conduction and Dysrhythmias": [
+    {
+      "title": "Atrial Flutter ECG/EKG Nursing Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/atrial-flutter-ecg-ekg-nursing/"
+    },
+    {
+      "title": "Atrial Fibrillation ECG Quiz Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/atrial-fibrillation-a-fib-quiz/"
+    }
+  ],
+  "Coronary Artery Disease, Angina, and Myocardial Infarction": [
+    {
+      "title": "Myocardial Infarction NCLEX Review Part 1",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/myocardial-infarction-nclex-review-part-1/"
+    },
+    {
+      "title": "Myocardial Infarction NCLEX Review Part 2",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/myocardial-infarction-mi-nclex-review-part-2/"
+    }
+  ],
+  "Respiratory Physiology and Gas Exchange": [
+    {
+      "title": "Oxygen Movement from Alveoli to Capillaries",
+      "source": "Khan Academy",
+      "url": "https://www.khanacademy.org/science/health-and-medicine/respiratory-system/gas-exchange-jv/v/oxygen-movement-from-alveoli-to-capillaries"
+    },
+    {
+      "title": "Respiratory System Anatomy and Physiology",
+      "source": "Khan Academy",
+      "url": "https://www.khanacademy.org/science/biology/human-biology/respiratory-system"
+    }
+  ],
+  "Asthma and Bronchodilator Therapy": [
+    {
+      "title": "Asthma NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/asthma-nclex-review/"
+    },
+    {
+      "title": "Bronchodilators and Corticosteroids NCLEX Question",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/pharmacology-nclex-question-bronchodilators-corticosteroids/"
+    }
+  ],
+  "COPD and Chronic Respiratory Disease": [
+    {
+      "title": "COPD NCLEX Review Notes",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/copd-nclex-review-notes/"
+    },
+    {
+      "title": "Chronic Bronchitis vs. Emphysema Quiz Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/chronic-bronchitis-vs-emphysema-quiz/"
+    }
+  ],
+  "Pneumonia, Atelectasis, ARDS, and Pneumothorax": [
+    {
+      "title": "Pneumonia NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/pneumonia-nclex-review/"
+    },
+    {
+      "title": "ARDS NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/ards-nclex-review/"
+    },
+    {
+      "title": "Pneumothorax NCLEX Review Notes",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/pneumothorax-nclex-review-notes/"
+    }
+  ],
+  "Antihistamines and Allergy Pharmacology": [
+    {
+      "title": "Antihistamines: Nursing Pharmacology",
+      "source": "Osmosis",
+      "url": "https://www.osmosis.org/video/Antihistamines%3A_Nursing_Pharmacology"
+    },
+    {
+      "title": "Antihistamines and Decongestants",
+      "source": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/24-1-antihistamines-and-decongestants"
+    }
+  ],
+  "Renal Function, Kidney Injury, and CKD": [
+    {
+      "title": "Acute Kidney Injury NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/acute-kidney-injury-renal-failure-nclex-review/"
+    },
+    {
+      "title": "Chronic Kidney Disease NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/chronic-kidney-disease-nclex-review/"
+    }
+  ],
+  "Fluid, Electrolyte, and Acid-Base Balance": [
+    {
+      "title": "Fluid and Electrolytes Nursing Review: Comprehensive",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/fluid-and-electrolytes-nursing-review-comprehensive/"
+    },
+    {
+      "title": "ABG Interpretation Nursing Explained",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/arterial-blood-gas-interpretation-for-nurses-and-nursing-students/"
+    }
+  ],
+  "Diuretics and Renal Medications": [
+    {
+      "title": "Loop Diuretics NCLEX Pharmacology Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/loop-diuretics-nclex-pharmacology-review/"
+    },
+    {
+      "title": "Potassium-Sparing Diuretics Pharmacology NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/potassium-sparing-diuretics-pharmacology-nclex-review/"
+    }
+  ],
+  "GI Anatomy, Digestion, and Absorption": [
+    {
+      "title": "Gastrointestinal System Physiology and Disease",
+      "source": "Khan Academy",
+      "url": "https://www.khanacademy.org/science/health-and-medicine/gastro-intestinal-system"
+    },
+    {
+      "title": "Human Digestive System",
+      "source": "Khan Academy",
+      "url": "https://www.khanacademy.org/science/ncert-class-7-science/xcdd360a2d881eb3c%3Anutrition-in-animals/xcdd360a2d881eb3c%3Adigestion-in-humans/v/human-digestive-system-in"
+    }
+  ],
+  "Peptic Ulcer Disease and Acid Suppression": [
+    {
+      "title": "Peptic Ulcer Disease NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/peptic-ulcer-disease-nclex-review/"
+    },
+    {
+      "title": "Peptic Ulcer Disease NCLEX Practice Quiz",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/peptic-ulcer-disease-nclex-practice-quiz/"
+    }
+  ],
+  "Bowel Motility, Nausea, Vomiting, and Elimination": [
+    {
+      "title": "Antiemetics: Nursing Pharmacology",
+      "source": "Osmosis",
+      "url": "https://www.osmosis.org/video/Antiemetics%3A_Nursing_Pharmacology"
+    },
+    {
+      "title": "Gastrointestinal System: Diarrhea, Constipation, and Antidiarrheals",
+      "source": "NCBI Bookshelf",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK594994/"
+    }
+  ],
+  "Hematopoiesis, Anemia, and Erythropoietin": [
+    {
+      "title": "Hematopoiesis",
+      "source": "Khan Academy",
+      "url": "https://www.khanacademy.org/science/health-and-medicine/hematopoiesis/hematopoiesis/v/hematopoiesis"
+    },
+    {
+      "title": "Iron-Deficiency Anemia NCLEX Questions",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/iron-deficiency-anemia-nclex-questions/"
+    },
+    {
+      "title": "Pernicious Anemia NCLEX Review Notes",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/pernicious-anemia-nclex-review-notes/"
+    }
+  ],
+  "Leukocytes, Leukemia, and Lymphoma": [
+    {
+      "title": "Leukemia Classifications",
+      "source": "Khan Academy",
+      "url": "https://www.khanacademy.org/science/health-and-medicine/advanced-hematologic-system/leukemia/v/leukemia-classifications"
+    },
+    {
+      "title": "Lymphoma - Hodgkin and Non-Hodgkin: Nursing",
+      "source": "Osmosis",
+      "url": "https://www.osmosis.org/learn/Lymphoma_-_Hodgkin_%26_non-Hodgkin%3A_Nursing"
+    }
+  ],
+  "Hemostasis, Anticoagulation, and Thrombolytics": [
+    {
+      "title": "Anticoagulants Pharmacology Nursing NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/anticoagulants-pharmacology-nursing-nclex-review/"
+    },
+    {
+      "title": "Heparin Nursing Pharmacology NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/heparin-nursing-pharmacology-nclex-review-anticoagulant/"
+    },
+    {
+      "title": "Heparin vs. Warfarin Nursing NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/heparin-vs-warfarin-nursing-nclex-review/"
+    }
+  ],
+  "Endocrine and Adrenal Disorders": [
+    {
+      "title": "Addison's Disease vs. Cushing's Review Notes for NCLEX",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/addisons-disease-vs-cushings-review-notes-for-nclex/"
+    },
+    {
+      "title": "Cushing's Disease/Syndrome NCLEX Questions",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/cushings-disease-syndrome-nclex-questions/"
+    }
+  ],
+  "Diabetes and Glucose Regulation": [
+    {
+      "title": "Diabetes Mellitus NCLEX Review Notes, Medications, and Nursing Management",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/diabetes-mellitus-nclex-review-notes-medications-nursing-management/"
+    },
+    {
+      "title": "Diabetes Mellitus Pharmacology and Nursing Management NCLEX Quiz",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/diabetes-mellitus-pharmacology-nursing-management-nclex-quiz/"
+    }
+  ],
+  "Anti-Infective Pharmacology and Antibiotic Safety": [
+    {
+      "title": "Antibiotics - Penicillins: Nursing Pharmacology",
+      "source": "Osmosis",
+      "url": "https://www.osmosis.org/learn/Antibiotics_-_Penicillins%3A_Nursing_Pharmacology"
+    },
+    {
+      "title": "Antibiotics Nursing Pharmacology Questions",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/antibiotics-nursing-pharmacology-questions/"
+    }
+  ]
+}

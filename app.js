@@ -1,6 +1,7 @@
 const state = {
   questions: [],
   questionById: new Map(),
+  videosBySubtopic: {},
   filtered: [],
   currentId: null,
   renderedQuestionId: null,
@@ -401,6 +402,7 @@ const glossaryEntries = Object.entries(medicalTerms)
 
 const el = {
   week: document.getElementById("weekFilter"),
+  subtopic: document.getElementById("subtopicFilter"),
   source: document.getElementById("sourceFilter"),
   emptyState: document.getElementById("emptyState"),
   emptyTitle: document.getElementById("emptyTitle"),
@@ -412,6 +414,8 @@ const el = {
   feedback: document.getElementById("feedback"),
   definitionStatus: document.getElementById("definitionStatus"),
   definitionList: document.getElementById("definitionList"),
+  videoStatus: document.getElementById("videoStatus"),
+  videoList: document.getElementById("videoList"),
   define: document.getElementById("defineButton"),
   filtersContent: document.getElementById("filtersContent"),
   filtersToggle: document.getElementById("filtersToggleButton"),
@@ -421,13 +425,16 @@ const el = {
   questionsLeftCount: document.getElementById("questionsLeftCount"),
 };
 
-const filters = [el.week, el.source];
+const filters = [el.week, el.subtopic, el.source];
 
 async function init() {
   try {
-    const response = await fetch("data/questions.json");
-    if (!response.ok) throw new Error(`Question data returned ${response.status}`);
-    state.questions = prepareQuestions(await response.json());
+    const [questions, videosBySubtopic] = await Promise.all([
+      fetchJson("data/questions.json"),
+      fetchJson("data/videos.json").catch(() => ({})),
+    ]);
+    state.questions = prepareQuestions(questions);
+    state.videosBySubtopic = videosBySubtopic;
     state.questionById = new Map(state.questions.map((question) => [question.id, question]));
     shuffleInPlace(state.questions);
     state.answered = loadAnsweredResults();
@@ -443,10 +450,17 @@ async function init() {
   }
 }
 
+async function fetchJson(url) {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`${url} returned ${response.status}`);
+  return response.json();
+}
+
 function prepareQuestions(questions) {
   return questions.map((question) => ({
     ...question,
     _filterWeek: String(question.week ?? ""),
+    _filterSubtopic: question.subtopic ?? "",
     _filterSource: question.sourceType ?? "",
     _definitions: findMedicalTerms(question),
   }));
@@ -463,6 +477,7 @@ function bindEvents() {
 
 function buildFilters() {
   fillWeekSelect(el.week, "All weeks", state.questions);
+  fillSelect(el.subtopic, "All subtopics", state.questions.map((q) => q.subtopic));
   fillSelect(el.source, "All sources", state.questions.map((q) => q.sourceType));
 }
 
@@ -522,6 +537,7 @@ function renderCurrentQuestion() {
     state.renderedQuestionId = null;
     state.definitionsVisible = false;
     renderDefinitions(null);
+    renderVideos(null);
     return;
   }
 
@@ -534,6 +550,7 @@ function renderCurrentQuestion() {
   el.questionCard.classList.remove("hidden");
   el.questionMeta.textContent = [
     question.topic,
+    question.subtopic,
     question.system,
     question.category,
     question.type,
@@ -544,6 +561,7 @@ function renderCurrentQuestion() {
     .join(" · ");
   el.questionStem.textContent = question.stem;
   renderDefinitions(question);
+  renderVideos(question);
 
   el.answerForm.innerHTML = "";
 
@@ -741,12 +759,14 @@ function getMatchingQuestions() {
 function getSelectedFilters() {
   return {
     week: el.week.value,
+    subtopic: el.subtopic.value,
     source: el.source.value,
   };
 }
 
 function matchesSelectedFilters(question, selected) {
   if (selected.week && question._filterWeek !== selected.week) return false;
+  if (selected.subtopic && question._filterSubtopic !== selected.subtopic) return false;
   if (selected.source && question._filterSource !== selected.source) return false;
   return true;
 }
@@ -857,6 +877,36 @@ function renderDefinitions(question) {
     fragment.append(item);
   });
   el.definitionList.append(fragment);
+}
+
+function renderVideos(question) {
+  el.videoList.innerHTML = "";
+
+  if (!question) {
+    el.videoStatus.textContent = "0 videos";
+    el.videoList.innerHTML = `<p class="video-empty">Choose a question to see related videos.</p>`;
+    return;
+  }
+
+  const videos = state.videosBySubtopic[question.subtopic] ?? [];
+  el.videoStatus.textContent = `${videos.length} ${videos.length === 1 ? "video" : "videos"}`;
+
+  if (videos.length === 0) {
+    el.videoList.innerHTML = `<p class="video-empty">No videos mapped for this subtopic yet.</p>`;
+    return;
+  }
+
+  const fragment = document.createDocumentFragment();
+  videos.forEach((video) => {
+    const item = document.createElement("article");
+    item.className = "video-item";
+    item.innerHTML = `
+      <a href="${escapeHtml(video.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(video.title)}</a>
+      <p>${escapeHtml(video.source)}</p>
+    `;
+    fragment.append(item);
+  });
+  el.videoList.append(fragment);
 }
 
 function findMedicalTerms(question) {

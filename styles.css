@@ -135,7 +135,8 @@ select:focus-visible {
 
 .filters-panel,
 .question-panel,
-.definitions-panel {
+.definitions-panel,
+.videos-panel {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
@@ -311,12 +312,41 @@ select:focus-visible {
   min-height: 620px;
 }
 
-.filters-panel {
-  min-width: 0;
+@media (min-width: 821px) {
+  .practice-page {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .practice-page .layout {
+    height: calc(100vh - 56px);
+    overflow: hidden;
+  }
+
+  .practice-page .workspace {
+    min-height: 0;
+    height: 100%;
+  }
+
+  .practice-page .question-panel {
+    max-height: 100%;
+    overflow: auto;
+  }
+
+  .practice-page .right-sidebar {
+    max-height: 100%;
+    overflow-y: auto;
+    padding-right: 4px;
+    scrollbar-gutter: stable;
+  }
+}
+
+.filters-panel,
+.definitions-panel {
   min-width: 0;
 }
 
-.definitions-panel {
+.videos-panel {
   min-width: 0;
 }
 
@@ -545,9 +575,7 @@ select:focus-visible {
 
 .definition-list {
   display: grid;
-  gap: 10px;
-  max-height: 650px;
-  overflow: auto;
+  gap: 12px;
   padding: 14px;
 }
 
@@ -560,10 +588,7 @@ select:focus-visible {
 }
 
 .definition-item {
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 12px;
-  background: #fff;
+  padding: 0;
 }
 
 .definition-item h3 {
@@ -577,6 +602,37 @@ select:focus-visible {
   margin: 0;
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.video-list {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+}
+
+.video-item {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px;
+  background: #fff;
+}
+
+.video-item a {
+  color: var(--blue);
+  font-size: 0.92rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.video-item a:hover {
+  text-decoration: underline;
+}
+
+.video-item p,
+.video-empty {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 0.84rem;
 }
 
 @media (max-width: 1100px) {

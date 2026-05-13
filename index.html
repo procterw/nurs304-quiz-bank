@@ -14,7 +14,7 @@
       gtag('config', 'G-KGQEJYSERN');
     </script>
   </head>
-  <body>
+  <body class="practice-page">
     <header class="topbar">
       <h1>NURS 304 💊 💉 🫀</h1>
       <nav class="topbar-tabs" aria-label="Study tools">
@@ -73,6 +73,11 @@
               </label>
 
               <label class="field">
+                <span>Subtopic</span>
+                <select id="subtopicFilter"></select>
+              </label>
+
+              <label class="field">
                 <span>Source</span>
                 <select id="sourceFilter"></select>
               </label>
@@ -90,6 +95,14 @@
               <button id="defineButton" type="button">Define terms</button>
             </div>
             <div id="definitionList" class="definition-list"></div>
+          </section>
+
+          <section class="videos-panel" aria-label="Related study videos">
+            <div class="panel-heading">
+              <h2>Related videos</h2>
+              <span id="videoStatus">0 videos</span>
+            </div>
+            <div id="videoList" class="video-list"></div>
           </section>
         </aside>
       </section>
