@@ -5925,7 +5925,7 @@
       "Report facial or tongue swelling",
       "Stop abruptly when blood pressure normalizes",
       "Report persistent dry cough",
-      "Take extra doses for missed lifestyle changes",
+      "Take lisinopril only when blood pressure is elevated",
       "Avoid potassium salt substitutes unless approved"
     ],
     "correctAnswers": [
@@ -5933,7 +5933,7 @@
       "Report persistent dry cough",
       "Avoid potassium salt substitutes unless approved"
     ],
-    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or self-adjust doses.",
+    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or take ACE inhibitors only when blood pressure is elevated.",
     "source": "AI generated from audited NURS 304 course materials, saved quizzes, practice exam, PowerPoint text, and study guides.",
     "sourceType": "AI",
     "id": 241,
@@ -6921,7 +6921,7 @@
     "options": [
       "Report facial or tongue swelling",
       "Report persistent dry cough",
-      "Take extra doses for missed lifestyle changes",
+      "Take lisinopril only when blood pressure is elevated",
       "Stop abruptly when blood pressure normalizes",
       "Avoid potassium salt substitutes unless approved"
     ],
@@ -6930,7 +6930,7 @@
       "Report persistent dry cough",
       "Avoid potassium salt substitutes unless approved"
     ],
-    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or self-adjust doses.",
+    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or take ACE inhibitors only when blood pressure is elevated.",
     "source": "AI generated from audited NURS 304 course materials, saved quizzes, practice exam, PowerPoint text, and study guides.",
     "sourceType": "AI",
     "id": 281,
@@ -7003,7 +7003,7 @@
     "options": [
       "Avoid potassium salt substitutes unless approved",
       "Report facial or tongue swelling",
-      "Take extra doses for missed lifestyle changes",
+      "Take lisinopril only when blood pressure is elevated",
       "Report persistent dry cough",
       "Stop abruptly when blood pressure normalizes"
     ],
@@ -7012,7 +7012,7 @@
       "Report persistent dry cough",
       "Avoid potassium salt substitutes unless approved"
     ],
-    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or self-adjust doses.",
+    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or take ACE inhibitors only when blood pressure is elevated.",
     "source": "AI generated from audited NURS 304 course materials, saved quizzes, practice exam, PowerPoint text, and study guides.",
     "sourceType": "AI",
     "id": 284,
@@ -7252,7 +7252,7 @@
     "options": [
       "Avoid potassium salt substitutes unless approved",
       "Stop abruptly when blood pressure normalizes",
-      "Take extra doses for missed lifestyle changes",
+      "Take lisinopril only when blood pressure is elevated",
       "Report persistent dry cough",
       "Report facial or tongue swelling"
     ],
@@ -7261,7 +7261,7 @@
       "Report persistent dry cough",
       "Avoid potassium salt substitutes unless approved"
     ],
-    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or self-adjust doses.",
+    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or take ACE inhibitors only when blood pressure is elevated.",
     "source": "AI generated from audited NURS 304 course materials, saved quizzes, practice exam, PowerPoint text, and study guides.",
     "sourceType": "AI",
     "id": 294,
@@ -7301,7 +7301,7 @@
     "difficulty": "Core",
     "stem": "The nurse is answering a client question. Which teaching points fit ACE inhibitors such as lisinopril? Select all that apply.",
     "options": [
-      "Take extra doses for missed lifestyle changes",
+      "Take lisinopril only when blood pressure is elevated",
       "Stop abruptly when blood pressure normalizes",
       "Report facial or tongue swelling",
       "Report persistent dry cough",
@@ -7312,7 +7312,7 @@
       "Report persistent dry cough",
       "Avoid potassium salt substitutes unless approved"
     ],
-    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or self-adjust doses.",
+    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or take ACE inhibitors only when blood pressure is elevated.",
     "source": "AI generated from audited NURS 304 course materials, saved quizzes, practice exam, PowerPoint text, and study guides.",
     "sourceType": "AI",
     "id": 296,
@@ -9444,7 +9444,7 @@
     "stem": "During a focused assessment, which teaching points fit ACE inhibitors such as lisinopril? Select all that apply.",
     "options": [
       "Report facial or tongue swelling",
-      "Take extra doses for missed lifestyle changes",
+      "Take lisinopril only when blood pressure is elevated",
       "Avoid potassium salt substitutes unless approved",
       "Stop abruptly when blood pressure normalizes",
       "Report persistent dry cough"
@@ -9454,7 +9454,7 @@
       "Report persistent dry cough",
       "Avoid potassium salt substitutes unless approved"
     ],
-    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or self-adjust doses.",
+    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or take ACE inhibitors only when blood pressure is elevated.",
     "source": "AI generated from audited NURS 304 course materials, saved quizzes, practice exam, PowerPoint text, and study guides.",
     "sourceType": "AI",
     "id": 382,
@@ -10593,7 +10593,7 @@
     "difficulty": "Application",
     "stem": "At a follow-up visit, which teaching points fit ACE inhibitors such as lisinopril? Select all that apply.",
     "options": [
-      "Take extra doses for missed lifestyle changes",
+      "Take lisinopril only when blood pressure is elevated",
       "Avoid potassium salt substitutes unless approved",
       "Stop abruptly when blood pressure normalizes",
       "Report persistent dry cough",
@@ -10604,7 +10604,7 @@
       "Report persistent dry cough",
       "Avoid potassium salt substitutes unless approved"
     ],
-    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or self-adjust doses.",
+    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or take ACE inhibitors only when blood pressure is elevated.",
     "source": "AI generated from audited NURS 304 course materials, saved quizzes, practice exam, PowerPoint text, and study guides.",
     "sourceType": "AI",
     "id": 428,
@@ -12992,14 +12992,14 @@
       "Stop abruptly when blood pressure normalizes",
       "Report facial or tongue swelling",
       "Report persistent dry cough",
-      "Take extra doses for missed lifestyle changes"
+      "Take lisinopril only when blood pressure is elevated"
     ],
     "correctAnswers": [
       "Report facial or tongue swelling",
       "Report persistent dry cough",
       "Avoid potassium salt substitutes unless approved"
     ],
-    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or self-adjust doses.",
+    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or take ACE inhibitors only when blood pressure is elevated.",
     "source": "AI generated from audited NURS 304 course materials, saved quizzes, practice exam, PowerPoint text, and study guides.",
     "sourceType": "AI",
     "id": 524,
@@ -13970,7 +13970,7 @@
     "stem": "During a medication review, which teaching points fit ACE inhibitors such as lisinopril? Select all that apply.",
     "options": [
       "Report persistent dry cough",
-      "Take extra doses for missed lifestyle changes",
+      "Take lisinopril only when blood pressure is elevated",
       "Stop abruptly when blood pressure normalizes",
       "Report facial or tongue swelling",
       "Avoid potassium salt substitutes unless approved"
@@ -13980,7 +13980,7 @@
       "Report persistent dry cough",
       "Avoid potassium salt substitutes unless approved"
     ],
-    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or self-adjust doses.",
+    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or take ACE inhibitors only when blood pressure is elevated.",
     "source": "AI generated from audited NURS 304 course materials, saved quizzes, practice exam, PowerPoint text, and study guides.",
     "sourceType": "AI",
     "id": 563,
@@ -18423,7 +18423,7 @@
       "Stop abruptly when blood pressure normalizes",
       "Report persistent dry cough",
       "Avoid potassium salt substitutes unless approved",
-      "Take extra doses for missed lifestyle changes",
+      "Take lisinopril only when blood pressure is elevated",
       "Report facial or tongue swelling"
     ],
     "correctAnswers": [
@@ -18431,7 +18431,7 @@
       "Report persistent dry cough",
       "Avoid potassium salt substitutes unless approved"
     ],
-    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or self-adjust doses.",
+    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or take ACE inhibitors only when blood pressure is elevated.",
     "source": "AI generated from audited NURS 304 course materials, saved quizzes, practice exam, PowerPoint text, and study guides.",
     "sourceType": "AI",
     "id": 743,
@@ -20098,7 +20098,7 @@
     "options": [
       "Avoid potassium salt substitutes unless approved",
       "Report facial or tongue swelling",
-      "Take extra doses for missed lifestyle changes",
+      "Take lisinopril only when blood pressure is elevated",
       "Report persistent dry cough",
       "Stop abruptly when blood pressure normalizes"
     ],
@@ -20107,7 +20107,7 @@
       "Report persistent dry cough",
       "Avoid potassium salt substitutes unless approved"
     ],
-    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or self-adjust doses.",
+    "rationale": "ACE inhibitors require teaching about angioedema, cough, and hyperkalemia risk. Clients should not abruptly stop therapy or take ACE inhibitors only when blood pressure is elevated.",
     "source": "AI generated from audited NURS 304 course materials, saved quizzes, practice exam, PowerPoint text, and study guides.",
     "sourceType": "AI",
     "id": 811,
