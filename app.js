@@ -150,6 +150,68 @@ const medicalTerms = {
   wheezing: "A high-pitched breath sound caused by narrowed airways.",
 };
 
+Object.assign(medicalTerms, {
+  "absolute insulin deficiency": "A state where the body produces little to no insulin, classically from pancreatic beta-cell destruction in type 1 diabetes. Without insulin, glucose cannot enter many cells effectively, blood glucose rises, and the client is at risk for ketosis and diabetic ketoacidosis.",
+  "acute kidney injury": "A sudden decline in kidney filtration that can raise creatinine and BUN, reduce urine output, and disturb fluid, electrolyte, and acid-base balance. Normal adult serum creatinine is roughly 0.6-1.3 mg/dL, but the trend and baseline matter clinically.",
+  albumin: "The major plasma protein that maintains oncotic pressure and binds many medications in the bloodstream. Normal serum albumin is roughly 3.5-5.0 g/dL; low albumin can increase free levels of highly protein-bound drugs and contribute to edema.",
+  alkalosis: "A blood pH disturbance where base is increased or acid is decreased, raising pH above the normal arterial range of about 7.35-7.45. Respiratory alkalosis usually reflects low PaCO2 from hyperventilation.",
+  anemia: "A reduced red blood cell mass or hemoglobin level that lowers oxygen-carrying capacity. It commonly causes fatigue, pallor, tachycardia, and dyspnea on exertion; normal adult hemoglobin is roughly 12-16 g/dL in females and 13.5-17.5 g/dL in males.",
+  "arterial blood gas": "A blood test used to evaluate oxygenation, ventilation, and acid-base balance. Common reference points are pH 7.35-7.45, PaCO2 35-45 mm Hg, HCO3 22-26 mEq/L, and PaO2 about 80-100 mm Hg on room air.",
+  "beta cell": "An endocrine pancreatic cell in the islets of Langerhans that produces insulin. Beta-cell destruction causes absolute insulin deficiency, which is the core problem in type 1 diabetes.",
+  "beta-cell": "An endocrine pancreatic cell in the islets of Langerhans that produces insulin. Beta-cell destruction causes absolute insulin deficiency, which is the core problem in type 1 diabetes.",
+  "beta-cell destruction": "Loss of insulin-producing pancreatic beta cells, most often from autoimmune destruction in type 1 diabetes. The result is absolute insulin deficiency, hyperglycemia, and risk for ketoacidosis.",
+  bicarbonate: "A major base in the bicarbonate-carbonic acid buffer system that helps regulate blood pH. Normal serum bicarbonate or arterial HCO3 is about 22-26 mEq/L; low values suggest metabolic acidosis and high values suggest metabolic alkalosis or compensation.",
+  "blood urea nitrogen": "A nitrogenous waste marker of kidney function and protein metabolism, commonly abbreviated BUN. A typical adult range is about 7-20 mg/dL; it can rise with reduced renal perfusion, kidney injury, dehydration, or increased protein breakdown.",
+  bun: "Blood urea nitrogen, a kidney function marker that rises when renal clearance falls or protein breakdown increases. A typical adult range is about 7-20 mg/dL, but interpretation depends on hydration, renal perfusion, and clinical context.",
+  calcium: "An electrolyte important for bones, neuromuscular signaling, clotting, and cardiac function. Normal total serum calcium is roughly 8.5-10.5 mg/dL; low calcium can cause tetany, while high calcium can cause weakness, lethargy, constipation, and dysrhythmias.",
+  "cardiac output": "The amount of blood the heart pumps per minute, calculated as heart rate multiplied by stroke volume. Normal resting adult cardiac output is roughly 4-8 L/min, and it falls when filling, contractility, rhythm, or afterload are impaired.",
+  "chronic kidney disease": "Progressive, long-term reduction in kidney function, often related to diabetes or hypertension. CKD can impair waste excretion, fluid and electrolyte balance, acid-base control, blood pressure regulation, vitamin D activation, and erythropoietin production.",
+  "cortisol": "A glucocorticoid hormone from the adrenal cortex that helps regulate stress response, glucose metabolism, inflammation, vascular tone, and fluid balance. Excess cortisol is associated with Cushing syndrome and can cause hyperglycemia, weight/fat redistribution, hypertension, and fluid changes.",
+  "creatinine": "A muscle metabolism waste product used as a marker of kidney filtration. Normal adult serum creatinine is roughly 0.6-1.3 mg/dL, but baseline muscle mass matters; rising creatinine usually signals reduced kidney filtration.",
+  "cushing syndrome": "A disorder caused by prolonged excess cortisol exposure. Common findings include hyperglycemia, hypertension, fluid retention, muscle weakness, thin skin, infection risk, and characteristic fat redistribution such as truncal obesity or moon face.",
+  diabetes: "A metabolic disease involving impaired insulin secretion, insulin action, or both, causing hyperglycemia. Fasting blood glucose is normally about 70-99 mg/dL; diabetes is diagnosed using criteria such as fasting glucose at or above 126 mg/dL or A1c at or above 6.5%.",
+  "diabetes mellitus": "A disorder of glucose regulation caused by impaired insulin secretion, insulin action, or both. Persistent hyperglycemia damages blood vessels and nerves and increases risk for kidney disease, cardiovascular disease, infection, and ketoacidosis in type 1 diabetes.",
+  "diabetic ketoacidosis": "A serious complication caused by insulin deficiency, lipolysis, ketone production, dehydration, and metabolic acidosis. It is most associated with type 1 diabetes and commonly presents with hyperglycemia, ketones, low pH, and low bicarbonate.",
+  "erythrocyte": "A red blood cell that carries oxygen through hemoglobin. Normal RBC count varies by lab and sex, but the nursing significance is oxygen delivery; low erythrocytes, hemoglobin, or hematocrit can cause anemia symptoms.",
+  "erythrocyte count": "A count of red blood cells, which carry oxygen through hemoglobin. A typical adult range is roughly 4.2-5.9 million cells/mcL depending on sex and lab; low values can reduce oxygen-carrying capacity.",
+  erythropoietin: "A kidney-produced hormone that stimulates red blood cell production in bone marrow. Kidney disease can reduce erythropoietin, lowering hemoglobin and hematocrit and contributing to anemia.",
+  "fluid changes": "Alterations in body water distribution or retention, often seen as edema, weight change, blood pressure change, or altered urine output. In endocrine disorders such as Cushing syndrome, cortisol effects can promote sodium and water retention.",
+  glucose: "The main blood sugar used by cells for energy. Normal fasting blood glucose is about 70-99 mg/dL; persistent elevation suggests impaired glucose regulation, and very low glucose can cause neuroglycopenic and adrenergic symptoms.",
+  hematocrit: "The percentage of blood volume occupied by red blood cells. Normal adult hematocrit is roughly 36-46% in females and 41-53% in males; low hematocrit supports anemia and reduced oxygen-carrying capacity.",
+  hemoglobin: "The oxygen-carrying protein inside red blood cells. Normal adult hemoglobin is roughly 12-16 g/dL in females and 13.5-17.5 g/dL in males; low hemoglobin is a key marker of anemia.",
+  hypercalcemia: "An elevated serum calcium level, usually above about 10.5 mg/dL. It can cause weakness, lethargy, constipation, kidney stones, dehydration, and cardiac rhythm changes.",
+  hyperglycemia: "An elevated blood glucose level. Fasting glucose is normally about 70-99 mg/dL; persistent fasting glucose at or above 126 mg/dL meets a diabetes diagnostic threshold, and acute marked hyperglycemia can cause dehydration and altered mental status.",
+  hyperkalemia: "An elevated serum potassium level, commonly above about 5.0 mEq/L. It is dangerous because it can cause cardiac conduction changes such as peaked T waves and life-threatening dysrhythmias.",
+  hypocalcemia: "A low serum calcium level, usually below about 8.5 mg/dL. It increases neuromuscular excitability and can cause paresthesias, muscle cramps, tetany, seizures, or prolonged QT interval.",
+  hypoglycemia: "A low blood glucose level, commonly below 70 mg/dL. Symptoms may include sweating, tremor, palpitations, hunger, confusion, or seizures; beta blockers can mask some adrenergic warning signs.",
+  hypokalemia: "A low serum potassium level, commonly below about 3.5 mEq/L. It can cause muscle weakness, cramps, ileus, and cardiac rhythm changes such as U waves.",
+  hypomagnesemia: "A low serum magnesium level, often below about 1.7 mg/dL depending on the lab. It can cause neuromuscular irritability and dysrhythmias and is commonly associated with alcohol use disorder, GI loss, or renal wasting.",
+  hyponatremia: "A low serum sodium level, commonly below 135 mEq/L. It can cause headache, confusion, seizures, and other neurologic symptoms because sodium strongly affects serum osmolality and brain water balance.",
+  insulin: "A pancreatic beta-cell hormone and medication that lowers blood glucose by promoting cellular glucose uptake and storage. Normal fasting glucose is about 70-99 mg/dL; inadequate insulin effect causes hyperglycemia and, in type 1 diabetes, risk for ketoacidosis.",
+  "insulin deficiency": "Too little insulin effect to move glucose into cells and suppress ketone production. Absolute insulin deficiency is typical of type 1 diabetes and can lead to hyperglycemia, dehydration, and diabetic ketoacidosis.",
+  magnesium: "An electrolyte important for neuromuscular function, enzyme activity, and cardiac rhythm stability. A typical serum magnesium range is about 1.7-2.2 mg/dL; low levels can cause tremor, weakness, tetany, or dysrhythmias.",
+  nephron: "The kidney's functional filtration unit, made of a glomerulus and tubules. Nephrons filter blood, reabsorb needed substances, secrete wastes, and help regulate fluid, electrolytes, and acid-base balance.",
+  "paCO2": "Partial pressure of carbon dioxide in arterial blood, reflecting ventilation. Normal PaCO2 is about 35-45 mm Hg; high PaCO2 points toward respiratory acidosis, while low PaCO2 points toward respiratory alkalosis.",
+  "paO2": "Partial pressure of oxygen in arterial blood, reflecting oxygenation. Normal PaO2 on room air is about 80-100 mm Hg, though expected values decline with age and clinical context.",
+  "ph": "A measure of acidity or alkalinity. Normal arterial blood pH is about 7.35-7.45; below this range is acidemia and above it is alkalemia.",
+  platelet: "A blood cell fragment involved in clot formation; also called a thrombocyte. Normal platelet count is roughly 150,000-400,000 per microliter, and low levels increase bleeding risk.",
+  potassium: "A major intracellular electrolyte essential for nerve, muscle, and cardiac electrical function. Normal serum potassium is about 3.5-5.0 mEq/L; both high and low levels can cause dangerous dysrhythmias.",
+  sodium: "A major extracellular electrolyte central to fluid balance, nerve conduction, and blood pressure regulation. Normal serum sodium is about 135-145 mEq/L; abnormal levels can cause neurologic symptoms.",
+  tetany: "Involuntary muscle spasms or cramps caused by increased neuromuscular excitability. It is classically associated with hypocalcemia and may appear with tingling, carpopedal spasm, or a positive Chvostek or Trousseau sign.",
+  "thyroid hormone": "Hormones T3 and T4 produced by the thyroid gland that regulate metabolic rate, temperature, energy use, and cardiovascular responsiveness. Low thyroid hormone slows metabolism, while excess thyroid hormone increases metabolic activity.",
+});
+
+const termLabels = {
+  bun: "BUN",
+  copd: "COPD",
+  ecg: "ECG",
+  nsaid: "NSAID",
+  "nsaid use": "NSAID Use",
+  "paCO2": "PaCO2",
+  "paO2": "PaO2",
+  ph: "pH",
+};
+
 const el = {
   week: document.getElementById("weekFilter"),
   category: document.getElementById("categoryFilter"),
@@ -168,9 +230,7 @@ const el = {
   next: document.getElementById("nextButton"),
   submit: document.getElementById("submitButton"),
   resetAnswered: document.getElementById("resetAnsweredButton"),
-  progressCorrect: document.getElementById("progressCorrect"),
-  progressIncorrect: document.getElementById("progressIncorrect"),
-  progressUnanswered: document.getElementById("progressUnanswered"),
+  questionsLeftCount: document.getElementById("questionsLeftCount"),
 };
 
 const filters = [el.week, el.category, el.source];
@@ -240,7 +300,7 @@ function applyFilters() {
     if (selected.week && String(question.week) !== selected.week) return false;
     if (selected.category && question.category !== selected.category) return false;
     if (selected.source && question.sourceType !== selected.source) return false;
-    if (state.answered[String(question.id)]) return false;
+    if (isQuestionCompleted(question.id)) return false;
     return true;
   });
 
@@ -262,11 +322,11 @@ function renderCurrentQuestion() {
   el.feedback.innerHTML = "";
 
   if (!question) {
-    const hasMatchingAnswered = getMatchingQuestions().some((item) => state.answered[String(item.id)]);
+    const hasCompletedMatchingQuestions = getMatchingQuestions().some((item) => isQuestionCompleted(item.id));
     el.emptyState.classList.remove("hidden");
     el.questionCard.classList.add("hidden");
-    el.emptyTitle.textContent = hasMatchingAnswered ? "All matching questions answered" : "No matching questions";
-    el.emptyMessage.textContent = hasMatchingAnswered
+    el.emptyTitle.textContent = hasCompletedMatchingQuestions ? "All matching questions answered correctly" : "No matching questions";
+    el.emptyMessage.textContent = hasCompletedMatchingQuestions
       ? "Reset answered questions to practice this set again."
       : "Adjust the filters to continue practicing.";
     state.renderedQuestionId = null;
@@ -419,8 +479,7 @@ function showAnswer(question, updateMetrics = true) {
 
   el.feedback.className = `feedback ${isCorrect ? "correct" : "incorrect"}`;
   el.feedback.innerHTML = `<p>${escapeHtml(question.rationale)}</p>`;
-  saveAnsweredResult(question.id, isCorrect);
-  state.filtered = state.filtered.filter((item) => item.id !== question.id);
+  updateQuestionResult(question.id, isCorrect);
   renderProgress();
 }
 
@@ -441,8 +500,7 @@ function showMatchingAnswer(question) {
   el.submit.disabled = true;
   el.feedback.className = `feedback ${isCorrect ? "correct" : "incorrect"}`;
   el.feedback.innerHTML = `<p>${escapeHtml(question.rationale)}</p>`;
-  saveAnsweredResult(question.id, isCorrect);
-  state.filtered = state.filtered.filter((item) => item.id !== question.id);
+  updateQuestionResult(question.id, isCorrect);
   renderProgress();
 }
 
@@ -464,8 +522,7 @@ function showFillAnswer(question) {
   el.submit.disabled = true;
   el.feedback.className = `feedback ${isCorrect ? "correct" : "incorrect"}`;
   el.feedback.innerHTML = `<p>${escapeHtml(question.rationale)}</p>`;
-  saveAnsweredResult(question.id, isCorrect);
-  state.filtered = state.filtered.filter((item) => item.id !== question.id);
+  updateQuestionResult(question.id, isCorrect);
   renderProgress();
 }
 
@@ -477,7 +534,7 @@ function selectNext() {
   }
   const currentIndex = state.filtered.findIndex((question) => question.id === state.currentId);
 
-  if (currentIndex !== -1 && !state.answered[String(state.currentId)]) {
+  if (currentIndex !== -1 && !isQuestionCompleted(state.currentId)) {
     const [currentQuestion] = state.filtered.splice(currentIndex, 1);
     const insertIndex = state.filtered.length === 0
       ? 0
@@ -510,21 +567,25 @@ function getMatchingQuestions() {
 }
 
 function renderProgress() {
-  const total = state.questions.length;
-  const results = Object.values(state.answered);
-  const correct = results.filter((result) => result === "correct").length;
-  const incorrect = results.filter((result) => result === "incorrect").length;
-  const answered = correct + incorrect;
-  const unanswered = Math.max(total - answered, 0);
+  const matchingQuestions = getMatchingQuestions();
+  const questionsLeft = matchingQuestions.filter((question) => !isQuestionCompleted(question.id)).length;
 
-  el.progressCorrect.style.flexBasis = `${total ? (correct / total) * 100 : 0}%`;
-  el.progressIncorrect.style.flexBasis = `${total ? (incorrect / total) * 100 : 0}%`;
-  el.progressUnanswered.style.flexBasis = `${total ? (unanswered / total) * 100 : 100}%`;
+  el.questionsLeftCount.textContent = questionsLeft;
 }
 
-function saveAnsweredResult(questionId, isCorrect) {
-  state.answered[String(questionId)] = isCorrect ? "correct" : "incorrect";
+function updateQuestionResult(questionId, isCorrect) {
+  if (isCorrect) {
+    state.answered[String(questionId)] = "correct";
+    state.filtered = state.filtered.filter((item) => item.id !== questionId);
+  } else {
+    delete state.answered[String(questionId)];
+    state.answers.delete(questionId);
+  }
   localStorage.setItem(ANSWERED_STORAGE_KEY, JSON.stringify(state.answered));
+}
+
+function isQuestionCompleted(questionId) {
+  return state.answered[String(questionId)] === "correct";
 }
 
 function loadAnsweredResults() {
@@ -632,6 +693,7 @@ function escapeRegExp(value) {
 }
 
 function toTitleCase(value) {
+  if (termLabels[value]) return termLabels[value];
   return value.replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 

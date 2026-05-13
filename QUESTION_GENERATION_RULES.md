@@ -20,7 +20,7 @@ Do not overemphasize detailed medication information that only appears in a sepa
 - Do not use artificial lead-ins such as "In a short clinical vignette focused on..." or "Which option best reflects the course materials?" Stems should read like normal Canvas/NURS questions.
 - Avoid vague stems, trick wording, and answer choices that are accidentally correct.
 - Distractors should be plausible but clearly less correct than the keyed answer.
-- Keep rationales to one short paragraph explaining why the answer is correct and, when useful, why major distractors are not correct.
+- Keep rationales to one helpful paragraph, usually 2-4 concise sentences, explaining why the answer is correct and, when useful, why major distractors are not correct.
 - Prefer NCLEX-style nursing judgment, safety, patient teaching, symptom recognition, lab interpretation, and mechanism questions.
 - Difficulty should reflect the level and style of the saved course quizzes and practice exam: mostly direct nursing application, safety, teaching, lab/ABG interpretation, and symptom recognition. Do not make questions substantially more detailed, obscure, or pharmacology-heavy than the existing exams unless the user explicitly asks for advanced review.
 
@@ -34,6 +34,8 @@ Do not overemphasize detailed medication information that only appears in a sepa
 - Use `sourceType` values consistently: `Course` for saved quiz/test items and `AI` for generated items.
 - Use `sourceConfidence` to document how the key was established, especially when Canvas hid responses and the answer was audited from course content.
 - Use `topic` values matching the PowerPoint folder-derived topic labels already in the app.
+- Glossary/definition coverage should err on the side of including useful clinical terms from both stems and answer choices. Define lab values, pathophysiology terms, medication classes, adverse-effect terms, and meaningful anatomy/physiology terms; omit only very basic words.
+- Definitions should be more than one-word glosses. Include nursing relevance and normal healthy ranges when relevant, such as calcium, potassium, sodium, magnesium, hemoglobin, hematocrit, glucose, pH, PaCO2, PaO2, BUN, creatinine, albumin, and platelet count.
 
 ## Current App Bank
 
