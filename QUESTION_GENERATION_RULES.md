@@ -21,6 +21,7 @@ Do not overemphasize detailed medication information that only appears in a sepa
 - Distractors should be plausible but clearly less correct than the keyed answer.
 - Keep rationales to one short paragraph explaining why the answer is correct and, when useful, why major distractors are not correct.
 - Prefer NCLEX-style nursing judgment, safety, patient teaching, symptom recognition, lab interpretation, and mechanism questions.
+- Difficulty should reflect the level and style of the saved course quizzes and practice exam: mostly direct nursing application, safety, teaching, lab/ABG interpretation, and symptom recognition. Do not make questions substantially more detailed, obscure, or pharmacology-heavy than the existing exams unless the user explicitly asks for advanced review.
 
 ## Format Rules
 
