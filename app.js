@@ -1,5 +1,6 @@
 const state = {
   questions: [],
+  questionById: new Map(),
   filtered: [],
   currentId: null,
   renderedQuestionId: null,
@@ -389,6 +390,15 @@ const termLabels = {
   tpa: "tPA",
 };
 
+const glossaryEntries = Object.entries(medicalTerms)
+  .map(([term, definition]) => ({
+    term,
+    definition,
+    regex: buildTermRegex(term),
+    dedupeKey: `${term.replaceAll("-", " ")}|${definition}`,
+  }))
+  .sort((a, b) => a.term.localeCompare(b.term));
+
 const el = {
   week: document.getElementById("weekFilter"),
   source: document.getElementById("sourceFilter"),
@@ -417,7 +427,8 @@ async function init() {
   try {
     const response = await fetch("data/questions.json");
     if (!response.ok) throw new Error(`Question data returned ${response.status}`);
-    state.questions = await response.json();
+    state.questions = prepareQuestions(await response.json());
+    state.questionById = new Map(state.questions.map((question) => [question.id, question]));
     shuffleInPlace(state.questions);
     state.answered = loadAnsweredResults();
     buildFilters();
@@ -430,6 +441,15 @@ async function init() {
     `;
     console.error(error);
   }
+}
+
+function prepareQuestions(questions) {
+  return questions.map((question) => ({
+    ...question,
+    _filterWeek: String(question.week ?? ""),
+    _filterSource: question.sourceType ?? "",
+    _definitions: findMedicalTerms(question),
+  }));
 }
 
 function bindEvents() {
@@ -468,16 +488,10 @@ function fillSelect(select, label, values) {
 }
 
 function applyFilters() {
-  const selected = {
-    week: el.week.value,
-    source: el.source.value,
-  };
+  const selected = getSelectedFilters();
 
   state.filtered = state.questions.filter((question) => {
-    if (selected.week && String(question.week) !== selected.week) return false;
-    if (selected.source && question.sourceType !== selected.source) return false;
-    if (isQuestionCompleted(question.id)) return false;
-    return true;
+    return matchesSelectedFilters(question, selected) && !isQuestionCompleted(question.id);
   });
 
   if (!state.filtered.some((question) => question.id === state.currentId)) {
@@ -625,7 +639,7 @@ function submitCurrentQuestion() {
   showAnswer(question);
 }
 
-function showAnswer(question, updateMetrics = true) {
+function showAnswer(question) {
   if (question.type === "Matching") {
     showMatchingAnswer(question);
     return;
@@ -708,36 +722,33 @@ function selectNext() {
     render();
     return;
   }
-  const currentIndex = state.filtered.findIndex((question) => question.id === state.currentId);
 
-  if (currentIndex !== -1 && !isQuestionCompleted(state.currentId)) {
-    const [currentQuestion] = state.filtered.splice(currentIndex, 1);
-    const insertIndex = state.filtered.length === 0
-      ? 0
-      : Math.floor(Math.random() * (state.filtered.length + 1));
-    state.filtered.splice(insertIndex, 0, currentQuestion);
-  }
-
-  const nextQuestion = state.filtered.find((question) => question.id !== state.currentId) ?? state.filtered[0];
+  const nextPool = state.filtered.filter((question) => question.id !== state.currentId);
+  const nextQuestion = getRandomQuestion(nextPool.length > 0 ? nextPool : state.filtered);
   state.currentId = nextQuestion?.id ?? null;
   render();
 }
 
 function getCurrentQuestion() {
-  return state.questions.find((question) => question.id === state.currentId);
+  return state.questionById.get(state.currentId) ?? null;
 }
 
 function getMatchingQuestions() {
-  const selected = {
+  const selected = getSelectedFilters();
+  return state.questions.filter((question) => matchesSelectedFilters(question, selected));
+}
+
+function getSelectedFilters() {
+  return {
     week: el.week.value,
     source: el.source.value,
   };
+}
 
-  return state.questions.filter((question) => {
-    if (selected.week && String(question.week) !== selected.week) return false;
-    if (selected.source && question.sourceType !== selected.source) return false;
-    return true;
-  });
+function matchesSelectedFilters(question, selected) {
+  if (selected.week && question._filterWeek !== selected.week) return false;
+  if (selected.source && question._filterSource !== selected.source) return false;
+  return true;
 }
 
 function renderProgress() {
@@ -815,7 +826,7 @@ function renderDefinitions(question) {
     return;
   }
 
-  const terms = findMedicalTerms(question);
+  const terms = question._definitions ?? findMedicalTerms(question);
   el.definitionStatus.textContent = `${terms.length} ${terms.length === 1 ? "term" : "terms"}`;
   el.define.disabled = terms.length === 0;
 
@@ -835,6 +846,7 @@ function renderDefinitions(question) {
   el.define.parentElement.classList.add("hidden");
   el.definitionList.classList.remove("hidden");
 
+  const fragment = document.createDocumentFragment();
   terms.forEach(([term, definition]) => {
     const item = document.createElement("article");
     item.className = "definition-item";
@@ -842,8 +854,9 @@ function renderDefinitions(question) {
       <h3>${escapeHtml(toTitleCase(term))}</h3>
       <p>${escapeHtml(definition)}</p>
     `;
-    el.definitionList.append(item);
+    fragment.append(item);
   });
+  el.definitionList.append(fragment);
 }
 
 function findMedicalTerms(question) {
@@ -862,15 +875,15 @@ function findMedicalTerms(question) {
   const searchableText = normalizeMedicalTermText(text);
 
   const seen = new Set();
-  return Object.entries(medicalTerms)
-    .filter(([term]) => buildTermRegex(term).test(searchableText))
-    .filter(([term, definition]) => {
-      const key = `${term.replaceAll("-", " ")}|${definition}`;
+  return glossaryEntries
+    .filter(({ regex }) => regex.test(searchableText))
+    .filter(({ dedupeKey }) => {
+      const key = dedupeKey;
       if (seen.has(key)) return false;
       seen.add(key);
       return true;
     })
-    .sort(([a], [b]) => a.localeCompare(b));
+    .map(({ term, definition }) => [term, definition]);
 }
 
 function normalizeMedicalTermText(text) {
