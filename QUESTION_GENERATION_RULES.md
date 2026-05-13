@@ -18,6 +18,7 @@ Do not overemphasize detailed medication information that only appears in a sepa
 - Every question must make clinical and grammatical sense.
 - Every correct answer must be verified against course materials or standard nursing pathophysiology/pharmacology knowledge represented in those materials.
 - Do not use artificial lead-ins such as "In a short clinical vignette focused on..." or "Which option best reflects the course materials?" Stems should read like normal Canvas/NURS questions.
+- Do not prepend generic activity labels such as "During medication reconciliation," "During client teaching," "While reviewing assessment data," "At a clinic visit," or "The nurse is answering a client question" unless that setting changes the nursing action being tested. The lead-in must fit the task: teaching for teaching, assessment for assessment, medication reconciliation for reconciliation, acute care for urgent IV or respiratory events.
 - Avoid vague stems, trick wording, and answer choices that are accidentally correct.
 - Distractors should be plausible but clearly less correct than the keyed answer.
 - Keep rationales to one helpful paragraph, usually 2-4 concise sentences, explaining why the answer is correct and, when useful, why major distractors are not correct.

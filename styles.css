@@ -59,8 +59,11 @@ select:focus-visible {
 }
 
 .topbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
   padding: 16px 20px 4px;
-  text-align: center;
 }
 
 .topbar h1 {
@@ -71,13 +74,44 @@ select:focus-visible {
   white-space: nowrap;
 }
 
-.practice-actions button:last-child {
+.topbar-tabs {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 3px;
+  background: #fff;
+}
+
+.topbar-tab {
+  border-radius: 6px;
+  padding: 5px 10px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.topbar-tab:hover {
+  color: var(--ink);
+  background: #f4f6f5;
+}
+
+.topbar-tab.active {
+  color: #fff;
+  background: var(--blue);
+}
+
+.practice-actions button:last-child:not(:disabled) {
   border-color: var(--blue);
   color: #fff;
   background: var(--blue);
 }
 
-.practice-actions button:first-child:not(.hidden) {
+.practice-actions button:first-child:not(.hidden):not(:disabled) {
   border-color: var(--blue);
   color: #fff;
   background: var(--blue);
@@ -91,6 +125,14 @@ select:focus-visible {
   padding: 20px;
 }
 
+.reference-layout {
+  display: grid;
+  gap: 18px;
+  width: min(1280px, 100%);
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .filters-panel,
 .question-panel,
 .definitions-panel {
@@ -98,6 +140,120 @@ select:focus-visible {
   border-radius: 8px;
   background: var(--panel);
   box-shadow: var(--shadow);
+}
+
+.range-intro,
+.range-card,
+.range-note {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.range-intro {
+  padding: 18px 20px;
+}
+
+.range-intro h2,
+.range-note h2 {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+}
+
+.range-intro p,
+.range-note p,
+.range-note li {
+  color: var(--muted);
+}
+
+.range-intro p,
+.range-note p {
+  max-width: 900px;
+  margin: 0;
+}
+
+.range-note a {
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.range-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.range-card {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.range-card-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.range-card-heading h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.range-pill {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px 8px;
+  color: var(--muted);
+  background: #f7f9f8;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.range-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.range-table th,
+.range-table td {
+  border-bottom: 1px solid var(--line);
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.range-table th {
+  color: var(--muted);
+  background: #fafbfa;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+}
+
+.range-table td:first-child {
+  width: 28%;
+  font-weight: 800;
+}
+
+.range-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.range-note {
+  padding: 18px 20px;
+}
+
+.range-note ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.range-note li + li {
+  margin-top: 6px;
 }
 
 .filters {
@@ -352,6 +508,7 @@ select:focus-visible {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  justify-content: flex-end;
 }
 
 .feedback {
@@ -419,9 +576,17 @@ select:focus-visible {
   .filters {
     grid-template-columns: 1fr;
   }
+
+  .range-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 820px) {
+  .topbar {
+    flex-wrap: wrap;
+  }
+
   .topbar h1 {
     white-space: normal;
   }
@@ -436,6 +601,18 @@ select:focus-visible {
 
   .question-panel {
     padding: 16px;
+  }
+
+  .reference-layout {
+    padding: 16px;
+  }
+
+  .range-card {
+    overflow-x: auto;
+  }
+
+  .range-table {
+    min-width: 640px;
   }
 
   .question-card-header {

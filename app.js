@@ -624,6 +624,7 @@ function renderDefinitions(question) {
   if (!question) {
     el.definitionStatus.textContent = "0 terms";
     el.define.disabled = true;
+    el.define.parentElement.classList.add("hidden");
     el.definitionList.classList.add("hidden");
     return;
   }
@@ -633,16 +634,19 @@ function renderDefinitions(question) {
   el.define.disabled = terms.length === 0;
 
   if (terms.length === 0) {
+    el.define.parentElement.classList.add("hidden");
     el.definitionList.classList.remove("hidden");
     el.definitionList.innerHTML = `<p class="definition-empty">No glossary terms detected in this question.</p>`;
     return;
   }
 
   if (!state.definitionsVisible) {
+    el.define.parentElement.classList.remove("hidden");
     el.definitionList.classList.add("hidden");
     return;
   }
 
+  el.define.parentElement.classList.add("hidden");
   el.definitionList.classList.remove("hidden");
 
   terms.forEach(([term, definition]) => {
