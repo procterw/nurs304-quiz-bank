@@ -113,7 +113,7 @@ const medicalTerms = {
 
 const el = {
   search: document.getElementById("searchInput"),
-  week: document.getElementById("weekFilter"),
+  topic: document.getElementById("topicFilter"),
   category: document.getElementById("categoryFilter"),
   system: document.getElementById("systemFilter"),
   type: document.getElementById("typeFilter"),
@@ -134,7 +134,7 @@ const el = {
   next: document.getElementById("nextButton"),
 };
 
-const filters = [el.search, el.week, el.category, el.system, el.type, el.difficulty, el.drug];
+const filters = [el.search, el.topic, el.category, el.system, el.type, el.difficulty, el.drug];
 
 async function init() {
   try {
@@ -164,7 +164,7 @@ function bindEvents() {
 }
 
 function buildFilters() {
-  fillSelect(el.week, "All weeks", state.questions.map((q) => [q.week, q.weekLabel]), true);
+  fillSelect(el.topic, "All topics", state.questions.map((q) => q.topic));
   fillSelect(el.category, "All categories", state.questions.map((q) => q.category));
   fillSelect(el.system, "All systems", state.questions.map((q) => q.system));
   fillSelect(el.type, "All types", state.questions.map((q) => q.type));
@@ -188,7 +188,7 @@ function fillSelect(select, label, values, pairValues = false) {
 function applyFilters() {
   const query = el.search.value.trim().toLowerCase();
   const selected = {
-    week: el.week.value,
+    topic: el.topic.value,
     category: el.category.value,
     system: el.system.value,
     type: el.type.value,
@@ -197,7 +197,7 @@ function applyFilters() {
   };
 
   state.filtered = state.questions.filter((question) => {
-    if (selected.week && String(question.week) !== selected.week) return false;
+    if (selected.topic && question.topic !== selected.topic) return false;
     if (selected.category && question.category !== selected.category) return false;
     if (selected.system && question.system !== selected.system) return false;
     if (selected.type && question.type !== selected.type) return false;
@@ -247,9 +247,8 @@ function renderCurrentQuestion() {
   el.emptyState.classList.add("hidden");
   el.questionCard.classList.remove("hidden");
   el.questionMeta.textContent = [
-    question.weekLabel,
-    question.system,
     question.topic,
+    question.system,
     question.category,
     question.type,
     question.difficulty,
