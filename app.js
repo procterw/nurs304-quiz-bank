@@ -345,9 +345,12 @@ function showAnswer(question, updateMetrics = true) {
     const input = label.querySelector("input");
     const value = input.value;
     input.disabled = true;
+    const isSelected = selected.has(value);
+    const isCorrectOption = correct.has(value);
+    const isMissedCorrectOption = question.type === "Multiple Answer" && isCorrectOption && !isSelected;
     label.classList.add("revealed");
-    label.classList.toggle("correct", correct.has(value));
-    label.classList.toggle("incorrect", selected.has(value) && !correct.has(value));
+    label.classList.toggle("correct", isCorrectOption && !isMissedCorrectOption);
+    label.classList.toggle("incorrect", (isSelected && !isCorrectOption) || isMissedCorrectOption);
   });
   el.submit.disabled = true;
 
