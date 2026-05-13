@@ -132,7 +132,6 @@ const el = {
   random: document.getElementById("randomButton"),
   submit: document.getElementById("submitButton"),
   resetAnswered: document.getElementById("resetAnsweredButton"),
-  progressText: document.getElementById("progressText"),
   progressCorrect: document.getElementById("progressCorrect"),
   progressIncorrect: document.getElementById("progressIncorrect"),
   progressUnanswered: document.getElementById("progressUnanswered"),
@@ -306,11 +305,7 @@ function showAnswer(question, updateMetrics = true) {
   el.submit.disabled = true;
 
   el.feedback.className = `feedback ${isCorrect ? "correct" : "incorrect"}`;
-  el.feedback.innerHTML = `
-    <strong>${isCorrect ? "Correct" : "Review this one"}</strong>
-    <div><b>Answer:</b> ${question.correctAnswers.map(escapeHtml).join("; ")}</div>
-    <div><b>Rationale:</b> ${escapeHtml(question.rationale)}</div>
-  `;
+  el.feedback.innerHTML = `<p>${escapeHtml(question.rationale)}</p>`;
   saveAnsweredResult(question.id, isCorrect);
   state.filtered = state.filtered.filter((item) => item.id !== question.id);
   renderProgress();
@@ -348,7 +343,6 @@ function renderProgress() {
   const answered = correct + incorrect;
   const unanswered = Math.max(total - answered, 0);
 
-  el.progressText.textContent = `${answered} answered · ${unanswered} remaining`;
   el.progressCorrect.style.flexBasis = `${total ? (correct / total) * 100 : 0}%`;
   el.progressIncorrect.style.flexBasis = `${total ? (incorrect / total) * 100 : 0}%`;
   el.progressUnanswered.style.flexBasis = `${total ? (unanswered / total) * 100 : 100}%`;
