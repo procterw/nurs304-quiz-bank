@@ -155,27 +155,36 @@ function bindEvents() {
 }
 
 function buildFilters() {
-  fillSelect(el.topic, "All topics", state.questions.map((q) => q.topic));
-  fillSelect(el.category, "All categories", state.questions.map((q) => q.category));
+  fillRadioGroup(el.topic, "topic", "All topics", state.questions.map((q) => q.topic));
+  fillRadioGroup(el.category, "category", "All categories", state.questions.map((q) => q.category));
 }
 
-function fillSelect(select, label, values, pairValues = false) {
-  select.innerHTML = "";
-  select.append(new Option(label, ""));
+function fillRadioGroup(container, name, allLabel, values) {
+  container.innerHTML = "";
+  const options = [
+    ["", allLabel],
+    ...[...new Set(values.filter(Boolean).map(String))]
+      .sort((a, b) => a.localeCompare(b))
+      .map((value) => [value, value]),
+  ];
 
-  const options = pairValues
-    ? [...new Map(values.map(([value, text]) => [String(value), text])).entries()]
-    : [...new Set(values.filter(Boolean).map(String))]
-        .sort((a, b) => a.localeCompare(b))
-        .map((value) => [value, value]);
-
-  options.forEach(([value, text]) => select.append(new Option(text, value)));
+  options.forEach(([value, label], index) => {
+    const id = `${name}-${index}`;
+    const option = document.createElement("label");
+    option.className = "radio-option";
+    option.innerHTML = `
+      <input id="${id}" type="radio" name="${name}" value="${escapeHtml(value)}" ${index === 0 ? "checked" : ""}>
+      <span>${escapeHtml(label)}</span>
+    `;
+    option.querySelector("input").addEventListener("change", applyFilters);
+    container.append(option);
+  });
 }
 
 function applyFilters() {
   const selected = {
-    topic: el.topic.value,
-    category: el.category.value,
+    topic: getRadioValue("topic"),
+    category: getRadioValue("category"),
   };
 
   state.filtered = state.questions.filter((question) => {
@@ -309,6 +318,10 @@ function selectRandom() {
 
 function getCurrentQuestion() {
   return state.questions.find((question) => question.id === state.currentId);
+}
+
+function getRadioValue(name) {
+  return document.querySelector(`input[name="${name}"]:checked`)?.value ?? "";
 }
 
 function renderDefinitions(question) {
