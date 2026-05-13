@@ -1,6 +1,6 @@
 # NURS 304 Quiz Bank
 
-A static single-page quiz bank for GitHub Pages. The app loads `data/questions.json`, then lets you filter by week and category.
+A static single-page quiz bank for GitHub Pages. The app loads `data/questions.json`, then lets you filter by week, category, and source.
 
 ## Run locally
 
@@ -32,5 +32,6 @@ Replace `data/questions.json` with another array of question objects using the s
 - `correctAnswers`
 - `rationale`
 - `source`
+- `sourceType`
 
 Follow `QUESTION_GENERATION_RULES.md` when generating more questions.

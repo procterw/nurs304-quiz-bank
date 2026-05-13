@@ -30,6 +30,7 @@ Do not overemphasize detailed medication information that only appears in a sepa
 - Include some `Multiple Answer` / "Select all that apply" questions in roughly the same proportion as the saved quizzes, usually about 20-25% of a mixed set.
 - For `Multiple Answer` questions, include only answer choices that are unambiguously correct in `correctAnswers`.
 - Use `category` values consistently: `Medication` or `A&P`.
+- Use `sourceType` values consistently: `Course` for saved quiz/test items and `AI` for generated items.
 - Use `topic` values matching the PowerPoint folder-derived topic labels already in the app.
 
 ## Current App Seed Set

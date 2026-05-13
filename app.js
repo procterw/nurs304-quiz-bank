@@ -8,7 +8,7 @@ const state = {
   answered: {},
 };
 
-const ANSWERED_STORAGE_KEY = "nurs304-answered-results-v1";
+const ANSWERED_STORAGE_KEY = "nurs304-answered-results-v3";
 
 const medicalTerms = {
   "ace inhibitor": "A drug class that blocks conversion of angiotensin I to angiotensin II, lowering vasoconstriction and aldosterone effects.",
@@ -153,6 +153,7 @@ const medicalTerms = {
 const el = {
   week: document.getElementById("weekFilter"),
   category: document.getElementById("categoryFilter"),
+  source: document.getElementById("sourceFilter"),
   emptyState: document.getElementById("emptyState"),
   emptyTitle: document.getElementById("emptyTitle"),
   emptyMessage: document.getElementById("emptyMessage"),
@@ -172,7 +173,7 @@ const el = {
   progressUnanswered: document.getElementById("progressUnanswered"),
 };
 
-const filters = [el.week, el.category];
+const filters = [el.week, el.category, el.source];
 
 async function init() {
   try {
@@ -204,6 +205,7 @@ function bindEvents() {
 function buildFilters() {
   fillWeekSelect(el.week, "All weeks", state.questions);
   fillSelect(el.category, "All categories", state.questions.map((q) => q.category));
+  fillSelect(el.source, "All sources", state.questions.map((q) => q.sourceType));
 }
 
 function fillWeekSelect(select, label, questions) {
@@ -231,11 +233,13 @@ function applyFilters() {
   const selected = {
     week: el.week.value,
     category: el.category.value,
+    source: el.source.value,
   };
 
   state.filtered = state.questions.filter((question) => {
     if (selected.week && String(question.week) !== selected.week) return false;
     if (selected.category && question.category !== selected.category) return false;
+    if (selected.source && question.sourceType !== selected.source) return false;
     if (state.answered[String(question.id)]) return false;
     return true;
   });
@@ -390,11 +394,13 @@ function getMatchingQuestions() {
   const selected = {
     week: el.week.value,
     category: el.category.value,
+    source: el.source.value,
   };
 
   return state.questions.filter((question) => {
     if (selected.week && String(question.week) !== selected.week) return false;
     if (selected.category && question.category !== selected.category) return false;
+    if (selected.source && question.sourceType !== selected.source) return false;
     return true;
   });
 }
