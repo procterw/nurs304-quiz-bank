@@ -12,6 +12,7 @@ const state = {
 };
 
 const ANSWERED_STORAGE_KEY = "nurs304-answered-results-v4";
+const SHOW_ALL_QUESTIONS = new URLSearchParams(window.location.search).has("all_questions");
 
 const medicalTerms = {
   "ace inhibitor": "A drug class that blocks conversion of angiotensin I to angiotensin II, lowering vasoconstriction and aldosterone effects.",
@@ -405,6 +406,7 @@ const el = {
   week: document.getElementById("weekFilter"),
   subtopic: document.getElementById("subtopicFilter"),
   source: document.getElementById("sourceFilter"),
+  sourceField: document.getElementById("sourceFilterField"),
   emptyState: document.getElementById("emptyState"),
   emptyTitle: document.getElementById("emptyTitle"),
   emptyMessage: document.getElementById("emptyMessage"),
@@ -425,7 +427,7 @@ const el = {
   questionsLeftCount: document.getElementById("questionsLeftCount"),
 };
 
-const filters = [el.week, el.subtopic, el.source];
+const filters = SHOW_ALL_QUESTIONS ? [el.week, el.subtopic, el.source] : [el.week, el.subtopic];
 
 async function init() {
   try {
@@ -433,7 +435,7 @@ async function init() {
       fetchJson("data/questions.json"),
       fetchJson("data/slides.json").catch(() => []),
     ]);
-    state.questions = prepareQuestions(questions);
+    state.questions = prepareQuestions(getVisibleQuestions(questions));
     state.slidesById = new Map(slides.map((slide) => [slide.id, slide]));
     state.questionById = new Map(state.questions.map((question) => [question.id, question]));
     shuffleInPlace(state.questions);
@@ -466,6 +468,11 @@ function prepareQuestions(questions) {
   }));
 }
 
+function getVisibleQuestions(questions) {
+  if (SHOW_ALL_QUESTIONS) return questions;
+  return questions.filter((question) => question.sourceType !== "Course");
+}
+
 function bindEvents() {
   filters.forEach((filter) => filter.addEventListener("input", applyFilters));
   el.define.addEventListener("click", showStudySupport);
@@ -479,7 +486,12 @@ function bindEvents() {
 function buildFilters() {
   fillWeekSelect(el.week, "All weeks", state.questions);
   fillSelect(el.subtopic, "All subtopics", state.questions.map((q) => q.subtopic));
-  fillSelect(el.source, "All sources", state.questions.map((q) => q.sourceType));
+  if (SHOW_ALL_QUESTIONS) {
+    fillSelect(el.source, "All sources", state.questions.map((q) => q.sourceType));
+  } else {
+    el.source.value = "";
+    el.sourceField.classList.add("hidden");
+  }
 }
 
 function fillWeekSelect(select, label, questions) {
@@ -767,7 +779,7 @@ function getSelectedFilters() {
   return {
     week: el.week.value,
     subtopic: el.subtopic.value,
-    source: el.source.value,
+    source: SHOW_ALL_QUESTIONS ? el.source.value : "",
   };
 }
 

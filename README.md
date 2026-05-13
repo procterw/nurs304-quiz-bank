@@ -1,6 +1,8 @@
 # NURS 304 Quiz Bank
 
-A static single-page quiz bank for GitHub Pages. The app loads `data/questions.json` and `data/slides.json`, then lets you filter by week, subtopic, and source.
+A static single-page quiz bank for GitHub Pages. The app loads `data/questions.json` and `data/slides.json`, then lets you filter by week and subtopic.
+
+By default, the practice page excludes saved course questions and shows only generated questions. Add `?all_questions` to the URL to include saved course questions and show the source filter.
 
 ## Run locally
 
