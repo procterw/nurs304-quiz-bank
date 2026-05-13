@@ -159,7 +159,7 @@ const medicalTerms = {
 };
 
 const el = {
-  topic: document.getElementById("topicFilter"),
+  week: document.getElementById("weekFilter"),
   category: document.getElementById("categoryFilter"),
   emptyState: document.getElementById("emptyState"),
   emptyTitle: document.getElementById("emptyTitle"),
@@ -180,7 +180,7 @@ const el = {
   progressUnanswered: document.getElementById("progressUnanswered"),
 };
 
-const filters = [el.topic, el.category];
+const filters = [el.week, el.category];
 
 async function init() {
   try {
@@ -210,8 +210,20 @@ function bindEvents() {
 }
 
 function buildFilters() {
-  fillSelect(el.topic, "All topics", state.questions.map((q) => q.topic));
+  fillWeekSelect(el.week, "All weeks", state.questions);
   fillSelect(el.category, "All categories", state.questions.map((q) => q.category));
+}
+
+function fillWeekSelect(select, label, questions) {
+  select.innerHTML = "";
+  select.append(new Option(label, ""));
+
+  [...new Map(
+    questions
+      .filter((question) => question.week && question.topic)
+      .sort((a, b) => a.week - b.week)
+      .map((question) => [String(question.week), `Week ${question.week}: ${question.topic}`])
+  ).entries()].forEach(([value, text]) => select.append(new Option(text, value)));
 }
 
 function fillSelect(select, label, values) {
@@ -225,12 +237,12 @@ function fillSelect(select, label, values) {
 
 function applyFilters() {
   const selected = {
-    topic: el.topic.value,
+    week: el.week.value,
     category: el.category.value,
   };
 
   state.filtered = state.questions.filter((question) => {
-    if (selected.topic && question.topic !== selected.topic) return false;
+    if (selected.week && String(question.week) !== selected.week) return false;
     if (selected.category && question.category !== selected.category) return false;
     if (state.answered[String(question.id)]) return false;
     return true;
@@ -381,12 +393,12 @@ function getCurrentQuestion() {
 
 function getMatchingQuestions() {
   const selected = {
-    topic: el.topic.value,
+    week: el.week.value,
     category: el.category.value,
   };
 
   return state.questions.filter((question) => {
-    if (selected.topic && question.topic !== selected.topic) return false;
+    if (selected.week && String(question.week) !== selected.week) return false;
     if (selected.category && question.category !== selected.category) return false;
     return true;
   });
