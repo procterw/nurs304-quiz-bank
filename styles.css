@@ -99,7 +99,7 @@ select:focus-visible {
 
 .filters {
   display: grid;
-  grid-template-columns: minmax(240px, 2fr) minmax(160px, 1fr);
+  grid-template-columns: 1fr;
   gap: 12px;
   padding: 14px;
 }
@@ -128,9 +128,21 @@ select:focus-visible {
 
 .workspace {
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(300px, 0.65fr);
+  grid-template-columns: minmax(220px, 300px) 1fr;
   min-height: 620px;
   overflow: hidden;
+}
+
+.filters-panel {
+  min-width: 0;
+  border-right: 1px solid var(--line);
+  background: #fbfcfa;
+}
+
+.study-area {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(300px, 0.65fr);
+  min-width: 0;
 }
 
 .definitions-panel {
@@ -345,6 +357,15 @@ select:focus-visible {
 
   .filters,
   .workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .filters-panel {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .study-area {
     grid-template-columns: 1fr;
   }
 
