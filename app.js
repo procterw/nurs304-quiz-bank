@@ -155,36 +155,23 @@ function bindEvents() {
 }
 
 function buildFilters() {
-  fillRadioGroup(el.topic, "topic", "All topics", state.questions.map((q) => q.topic));
-  fillRadioGroup(el.category, "category", "All categories", state.questions.map((q) => q.category));
+  fillSelect(el.topic, "All topics", state.questions.map((q) => q.topic));
+  fillSelect(el.category, "All categories", state.questions.map((q) => q.category));
 }
 
-function fillRadioGroup(container, name, allLabel, values) {
-  container.innerHTML = "";
-  const options = [
-    ["", allLabel],
-    ...[...new Set(values.filter(Boolean).map(String))]
-      .sort((a, b) => a.localeCompare(b))
-      .map((value) => [value, value]),
-  ];
+function fillSelect(select, label, values) {
+  select.innerHTML = "";
+  select.append(new Option(label, ""));
 
-  options.forEach(([value, label], index) => {
-    const id = `${name}-${index}`;
-    const option = document.createElement("label");
-    option.className = "radio-option";
-    option.innerHTML = `
-      <input id="${id}" type="radio" name="${name}" value="${escapeHtml(value)}" ${index === 0 ? "checked" : ""}>
-      <span>${escapeHtml(label)}</span>
-    `;
-    option.querySelector("input").addEventListener("change", applyFilters);
-    container.append(option);
-  });
+  [...new Set(values.filter(Boolean).map(String))]
+    .sort((a, b) => a.localeCompare(b))
+    .forEach((value) => select.append(new Option(value, value)));
 }
 
 function applyFilters() {
   const selected = {
-    topic: getRadioValue("topic"),
-    category: getRadioValue("category"),
+    topic: el.topic.value,
+    category: el.category.value,
   };
 
   state.filtered = state.questions.filter((question) => {
@@ -318,10 +305,6 @@ function selectRandom() {
 
 function getCurrentQuestion() {
   return state.questions.find((question) => question.id === state.currentId);
-}
-
-function getRadioValue(name) {
-  return document.querySelector(`input[name="${name}"]:checked`)?.value ?? "";
 }
 
 function renderDefinitions(question) {
