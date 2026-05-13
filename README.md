@@ -32,3 +32,5 @@ Replace `data/questions.json` with another array of question objects using the s
 - `correctAnswers`
 - `rationale`
 - `source`
+
+Follow `QUESTION_GENERATION_RULES.md` when generating more questions.
