@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NURS 304 Quiz Bank</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">NURS 304</p>
+        <h1>Quiz Bank</h1>
+      </div>
+      <div class="topbar-actions">
+        <button id="shuffleButton" type="button">Shuffle</button>
+        <button id="resetButton" type="button">Reset filters</button>
+        <button id="exportButton" type="button">Export filtered JSON</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="filters" aria-label="Question filters">
+        <label class="field field-wide">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Search stems, rationales, drugs, systems">
+        </label>
+
+        <label class="field">
+          <span>Week</span>
+          <select id="weekFilter"></select>
+        </label>
+
+        <label class="field">
+          <span>Category</span>
+          <select id="categoryFilter"></select>
+        </label>
+
+        <label class="field">
+          <span>System</span>
+          <select id="systemFilter"></select>
+        </label>
+
+        <label class="field">
+          <span>Question type</span>
+          <select id="typeFilter"></select>
+        </label>
+
+        <label class="field">
+          <span>Difficulty</span>
+          <select id="difficultyFilter"></select>
+        </label>
+
+        <label class="field">
+          <span>Drug</span>
+          <select id="drugFilter"></select>
+        </label>
+      </section>
+
+      <section class="metrics" aria-label="Filtered question summary">
+        <div>
+          <span id="filteredCount" class="metric-value">0</span>
+          <span class="metric-label">shown</span>
+        </div>
+        <div>
+          <span id="medCount" class="metric-value">0</span>
+          <span class="metric-label">medication</span>
+        </div>
+        <div>
+          <span id="apCount" class="metric-value">0</span>
+          <span class="metric-label">A&amp;P</span>
+        </div>
+        <div>
+          <span id="answeredCount" class="metric-value">0</span>
+          <span class="metric-label">answered</span>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <aside class="question-list" aria-label="Questions">
+          <div class="panel-heading">
+            <h2>Questions</h2>
+            <span id="listStatus">Loading</span>
+          </div>
+          <div id="questionList" class="list-items"></div>
+        </aside>
+
+        <section class="question-panel" aria-live="polite">
+          <div id="emptyState" class="empty-state">
+            <h2>Select a question</h2>
+            <p>Use the filters to narrow the bank, then choose a question to practice.</p>
+          </div>
+
+          <article id="questionCard" class="question-card hidden">
+            <div class="question-card-header">
+              <div>
+                <p id="questionMeta" class="question-meta"></p>
+                <h2 id="questionStem"></h2>
+              </div>
+              <button id="randomButton" type="button">Random</button>
+            </div>
+
+            <form id="answerForm" class="answers"></form>
+
+            <div class="practice-actions">
+              <button id="checkButton" type="button">Check answer</button>
+              <button id="clearButton" type="button">Clear</button>
+              <button id="nextButton" type="button">Next</button>
+            </div>
+
+            <section id="feedback" class="feedback hidden" aria-live="polite"></section>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
