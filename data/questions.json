@@ -21623,5 +21623,804 @@
     "sourceType": "AI",
     "id": 872,
     "sourceConfidence": "generated-audited"
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "A client has been prescribed omeprazole by the primary health care provider. When the nurse asks whether the medication is providing relief, the client replies, “I think it’s working quite well, and I’ve gotten in the routine of taking it every morning before breakfast.” How should the nurse respond?",
+    "options": [
+      "“That’s great. If you find later that it’s not working as well, you might want to try taking while eating dinner\"",
+      "“That’s good, but remember that you shouldn’t take it on days when you’re not having any symptoms.”",
+      "“I’m glad it’s working for you, but you’ll probably find it works even better if you take it after eating.”",
+      "\"I’m glad to hear that. It sounds like you’re taking it exactly like it should be taken.”"
+    ],
+    "correctAnswers": [
+      "\"I’m glad to hear that. It sounds like you’re taking it exactly like it should be taken.”"
+    ],
+    "rationale": "Omeprazole is a proton pump inhibitor that works best when taken before a meal, commonly before breakfast, so active proton pumps are inhibited as acid secretion is stimulated. Taking it only on symptomatic days or after meals is less consistent with how PPIs are intended to work.",
+    "sourceConfidence": "completed-results-key",
+    "id": 873,
+    "drug": "omeprazole"
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "A nurse is reviewing the pathophysiology of acute leukemia with a student nurse. Which statement by the student indicates understanding of this disorder?",
+    "options": [
+      "“Acute leukemia is characterized by the overproduction of mature, functional leukocytes.”",
+      "“Acute leukemia develops slowly over several years as leukocytes gradually lose their function.”",
+      "“Leukemia results in an increased production of all blood cell types equally.”",
+      "“The bone marrow in acute leukemia is unable to produce red blood cells and platelets due to overcrowding with immature white cells.”"
+    ],
+    "correctAnswers": [
+      "“The bone marrow in acute leukemia is unable to produce red blood cells and platelets due to overcrowding with immature white cells.”"
+    ],
+    "rationale": "Acute leukemia involves rapid proliferation of immature leukocytes that crowd the marrow. This suppresses normal hematopoiesis, so anemia, thrombocytopenia, infection risk, and bleeding risk can develop rather than equal increases in all blood cell lines.",
+    "sourceConfidence": "completed-results-key",
+    "id": 874
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "A nurse is reviewing the diagnosis of acute lymphoblastic leukemia (ALL) with a student nurse. Which statement by the student indicates an accurate understanding of this disorder?",
+    "options": [
+      "“ALL results from an overproduction of mature lymphocytes that function normally.”",
+      "“ALL involves uncontrolled overproduction of immature lymphoid cells that crowd the bone marrow and suppress normal hematopoiesis.”",
+      "“ALL is most common in older adults and rarely occurs in children.”",
+      "“ALL is a malignancy of the myeloid stem cells leading to excessive granulocyte production.”"
+    ],
+    "correctAnswers": [
+      "“ALL involves uncontrolled overproduction of immature lymphoid cells that crowd the bone marrow and suppress normal hematopoiesis.”"
+    ],
+    "rationale": "ALL is an acute leukemia of immature lymphoid cells. These blasts crowd the bone marrow and suppress normal blood cell production; mature normally functioning lymphocytes and myeloid granulocyte overproduction describe different processes.",
+    "sourceConfidence": "completed-results-key",
+    "id": 875
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "A client is receiving low-molecular-weight heparin (LMWH) to prevent thromboembolic complications. The nursing student asks the instructor the reason why this treatment is given instead of heparin. What is the instructor's best explanation of the rationale for LMWH over heparin?",
+    "options": [
+      "“LWMH is more effective than standard heparin for clients with hypertension.”",
+      "“LMWH is associated with less thrombocytopenia than standard heparin.”",
+      "“LWMH is associated with stronger anticoagulant effects than standard heparin.”",
+      "\"LWMH is given to clients who have a history of blood dyscrasia.”"
+    ],
+    "correctAnswers": [
+      "“LMWH is associated with less thrombocytopenia than standard heparin.”"
+    ],
+    "rationale": "Low-molecular-weight heparins have a lower risk of heparin-induced thrombocytopenia than unfractionated heparin. They are not chosen because of hypertension, stronger anticoagulation, or a history of blood dyscrasia.",
+    "sourceConfidence": "completed-results-key",
+    "id": 876,
+    "drug": "LMWH"
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "A nurse is reviewing the pathophysiology of chronic lymphocytic leukemia (CLL). Which statement by the student nurse demonstrates accurate understanding?",
+    "options": [
+      "“CLL is a malignancy of T lymphocytes and progresses rapidly.”",
+      "“CLL primarily results from malignant proliferation of mature B lymphocytes that resist apoptosis.”",
+      "“CLL causes rapid accumulation of immature lymphoblasts similar to acute lymphoblastic leukemia.”",
+      "“CLL involves proliferation of immature myeloid cells that crowd the bone marrow.”"
+    ],
+    "correctAnswers": [
+      "“CLL primarily results from malignant proliferation of mature B lymphocytes that resist apoptosis.”"
+    ],
+    "rationale": "CLL is typically a slower chronic leukemia involving mature-appearing B lymphocytes that accumulate because they resist apoptosis. Rapid immature lymphoblast accumulation is more consistent with acute lymphoblastic leukemia, and immature myeloid proliferation points away from CLL.",
+    "sourceConfidence": "completed-results-key",
+    "id": 877
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "Which would be appropriate for a client who is receiving iron therapy?",
+    "options": [
+      "Advising the client to limit the amount of fiber in their diet",
+      "Encouraging the client to take the drug on an empty stomach",
+      "Cautioning the client that stool may be dark or green",
+      "Ensuring that the client consumes three large meals per day"
+    ],
+    "correctAnswers": [
+      "Cautioning the client that stool may be dark or green"
+    ],
+    "rationale": "Iron commonly darkens stool to a dark green or black color, so clients should be warned about this expected effect. Iron may cause GI upset and constipation, but limiting fiber or focusing on three large meals is not the priority teaching point.",
+    "sourceConfidence": "completed-results-key",
+    "id": 878,
+    "drug": "iron"
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "What begins the digestive process?",
+    "options": [
+      "Small intestine",
+      "Stomach",
+      "Esophagus",
+      "Saliva"
+    ],
+    "correctAnswers": [
+      "Saliva"
+    ],
+    "rationale": "Digestion begins in the mouth when saliva moistens food and salivary enzymes begin chemical breakdown. The stomach and small intestine continue digestion later, while the esophagus mainly transports food.",
+    "sourceConfidence": "completed-results-key",
+    "id": 879
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / renal",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "The home care nurse is caring for a client who is self-administering epoetin. What assessment is most important for the nurse to complete during the visit?",
+    "options": [
+      "Temperature",
+      "Pulse",
+      "Respirations",
+      "Blood pressure"
+    ],
+    "correctAnswers": [
+      "Blood pressure"
+    ],
+    "rationale": "Epoetin stimulates red blood cell production and can increase blood pressure or worsen hypertension. Blood pressure monitoring is therefore the priority assessment during home administration.",
+    "sourceConfidence": "completed-results-key",
+    "id": 880,
+    "drug": "epoetin"
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / oncology",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "Reed-Sternberg cells are the hallmark of which disease?",
+    "options": [
+      "Non-hodgkin lymphoma",
+      "Hodgkin lymphoma"
+    ],
+    "correctAnswers": [
+      "Hodgkin lymphoma"
+    ],
+    "rationale": "Reed-Sternberg cells are the characteristic malignant cells associated with Hodgkin lymphoma. Their presence helps distinguish Hodgkin lymphoma from non-Hodgkin lymphomas.",
+    "sourceConfidence": "completed-results-key",
+    "id": 881
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "Which medication reduces the secretion of gastric acid by inhibition of the hydrogen-potassium adenosine triphosphate (ATPase) enzyme system of the gastric parietal cells?",
+    "options": [
+      "Omeprazole (PPI)",
+      "Calcium Carbonate (Antacid)",
+      "Famotidine (H2 Receptor Antagonist)"
+    ],
+    "correctAnswers": [
+      "Omeprazole (PPI)"
+    ],
+    "rationale": "Omeprazole is a proton pump inhibitor that blocks the gastric H+/K+ ATPase pump in parietal cells. Calcium carbonate neutralizes existing acid, and famotidine blocks H2 receptors rather than the proton pump.",
+    "sourceConfidence": "completed-results-key",
+    "id": 882,
+    "drug": "omeprazole"
+  },
+  {
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "A client has recently been prescribed a drug that treats hypertension by blocking the sympathetic receptors in the sympathetic nervous system. This action is characteristic of which?",
+    "options": [
+      "an adrenergic agonist.",
+      "an adrenergic antagonist.",
+      "a neurotransmitter.",
+      "a cardiotonic."
+    ],
+    "correctAnswers": [
+      "an adrenergic antagonist."
+    ],
+    "rationale": "An adrenergic antagonist blocks sympathetic adrenergic receptors, reducing sympathetic effects such as increased heart rate or vascular tone depending on the receptor. Agonists stimulate receptors, neurotransmitters transmit signals, and cardiotonics increase cardiac contractility.",
+    "sourceConfidence": "completed-results-key",
+    "id": 883,
+    "drug": "adrenergic antagonist"
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "Causes of peptic ulcers include which of the following? (Select all that apply)",
+    "options": [
+      "Hypertension",
+      "Constipation",
+      "H. Pylori infection",
+      "Zollinger–Ellison syndrome"
+    ],
+    "correctAnswers": [
+      "H. Pylori infection",
+      "Zollinger–Ellison syndrome"
+    ],
+    "rationale": "H. pylori infection is a major cause of peptic ulcer disease, and Zollinger-Ellison syndrome can cause excess gastric acid that promotes ulceration. Hypertension and constipation are not direct causes of peptic ulcers.",
+    "sourceConfidence": "completed-results-key",
+    "id": 884
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "Acid rebound is a condition that occurs when",
+    "options": [
+      "combining protein, calcium, and smoking greatly elevates gastric acid levels.",
+      "lowering gastric acid to an alkaline level stimulates the release of gastric acid.",
+      "eating citrus fruit neutralizes gastric acid.",
+      "raising gastric acid levels causes heartburn."
+    ],
+    "correctAnswers": [
+      "lowering gastric acid to an alkaline level stimulates the release of gastric acid."
+    ],
+    "rationale": "Acid rebound occurs when gastric acid is neutralized enough that the body responds by stimulating more acid secretion. This is associated with antacid effects, especially calcium-containing antacids, rather than citrus neutralization or hypertension-type mechanisms.",
+    "sourceConfidence": "completed-results-key",
+    "id": 885,
+    "drug": "antacid"
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal, Electrolytes, Acid-Base",
+    "system": "Renal / Electrolytes",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "The nurse is instructing a health class of high school seniors on the function of the kidney. The nurse is correct to highlight which information? (Select all that apply)",
+    "options": [
+      "Regulates calcium and the synthesis of vitamin D",
+      "Regulates estrogen and progesterone",
+      "Regulates red blood cell production",
+      "Controls blood pressure",
+      "Excretes waste products",
+      "Activates growth hormone"
+    ],
+    "correctAnswers": [
+      "Regulates calcium and the synthesis of vitamin D",
+      "Regulates red blood cell production",
+      "Controls blood pressure",
+      "Excretes waste products"
+    ],
+    "rationale": "The kidneys excrete waste, help regulate blood pressure, activate vitamin D for calcium balance, and produce erythropoietin to support red blood cell production. They do not regulate estrogen/progesterone or activate growth hormone as primary kidney functions.",
+    "sourceConfidence": "completed-results-key",
+    "id": 886
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal, Electrolytes, Acid-Base",
+    "system": "Renal / Electrolytes",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "A nurse is preparing a teaching plan for a client with edema who is prescribed a diuretic. Which teaching should the nurse prioritize?",
+    "options": [
+      "Encourage exercise.",
+      "Gradually increase the dosage.",
+      "Administer early in the day.",
+      "Decrease fluid intake."
+    ],
+    "correctAnswers": [
+      "Administer early in the day."
+    ],
+    "rationale": "Diuretics increase urination, so taking them early in the day reduces nocturia and fall risk from nighttime bathroom trips. Clients should not independently increase the dose or restrict fluids unless specifically instructed.",
+    "sourceConfidence": "completed-results-key",
+    "id": 887,
+    "drug": "diuretic"
+  },
+  {
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "Medication",
+    "type": "True or False",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "Norepinephrine and epinephrine are both naturally occurring catecholamines.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "rationale": "Epinephrine and norepinephrine are endogenous catecholamines produced by the body and involved in sympathetic nervous system responses. The statement is therefore true.",
+    "sourceConfidence": "completed-results-key",
+    "id": 888,
+    "drug": "epinephrine; norepinephrine"
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Foundations, Immunity, Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "The nurse is caring for an older adult female client being seen in the clinic for a routine physical. The client has a history of lupus, which has been managed well with prednisone 10 mg daily. What follow-up screening test should the nurse anticipate as most important?",
+    "options": [
+      "physical therapy evaluation",
+      "bone mineral density test",
+      "cardiac enzymes",
+      "urinalysis for culture and sensitivity"
+    ],
+    "correctAnswers": [
+      "bone mineral density test"
+    ],
+    "rationale": "Long-term corticosteroid therapy such as prednisone increases the risk for bone loss and osteoporosis. Bone mineral density screening is therefore the most relevant follow-up assessment among the options.",
+    "sourceConfidence": "completed-results-key",
+    "id": 889,
+    "drug": "prednisone"
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Foundations, Immunity, Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "What are the element(s) of the pharmacokinetic phase of drug activity? Select all that apply.",
+    "options": [
+      "Distribution",
+      "Alterations",
+      "Absorption",
+      "Metabolism",
+      "Excretion"
+    ],
+    "correctAnswers": [
+      "Distribution",
+      "Absorption",
+      "Metabolism",
+      "Excretion"
+    ],
+    "rationale": "Pharmacokinetics describes what the body does to a drug: absorption, distribution, metabolism, and excretion. “Alterations” is not one of the standard pharmacokinetic phases.",
+    "sourceConfidence": "completed-results-key",
+    "id": 890
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Foundations, Immunity, Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "The nursing responsibilities associated with the administration of opioid drugs include which action(s)? Select all that apply.",
+    "options": [
+      "engaging in the opioids count at the beginning and end of each shift",
+      "promptly recording all opioid administrations on the unit's opioid sheet",
+      "notifying the house supervisor when the opioid count is not accurate",
+      "keeping the client's medication administration record up to date",
+      "ensuring that all opioids are stored in locked containers"
+    ],
+    "correctAnswers": [
+      "engaging in the opioids count at the beginning and end of each shift",
+      "promptly recording all opioid administrations on the unit's opioid sheet",
+      "notifying the house supervisor when the opioid count is not accurate",
+      "keeping the client's medication administration record up to date",
+      "ensuring that all opioids are stored in locked containers"
+    ],
+    "rationale": "Opioids are controlled substances, so safe administration includes secure storage, accurate counts, prompt documentation, MAR accuracy, and reporting count discrepancies. These steps support patient safety and regulatory accountability.",
+    "sourceConfidence": "completed-results-key",
+    "id": 891,
+    "drug": "opioid"
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "An older adult client has been on long-term proton pump inhibitor (PPI) therapy. The nurse practitioner should focus on what assessment related to adverse effects?",
+    "options": [
+      "dental health",
+      "joint mobility",
+      "bone density",
+      "integumentary system"
+    ],
+    "correctAnswers": [
+      "bone density"
+    ],
+    "rationale": "Long-term PPI therapy is associated with decreased calcium absorption and increased fracture risk, so bone density is an important assessment focus. Dental, joint, and integumentary assessments are less directly tied to this adverse effect profile.",
+    "sourceConfidence": "completed-results-key",
+    "id": 892,
+    "drug": "proton pump inhibitor"
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal, Electrolytes, Acid-Base",
+    "system": "Renal / Electrolytes",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "A nurse is providing client teaching about the body's plasma pH and the client asks the nurse what is the major chemical regulator of plasma pH. What is the best response by the nurse?",
+    "options": [
+      "renin–angiotensin–aldosterone system",
+      "sodium–potassium pump",
+      "ADH–ANP buffer system",
+      "bicarbonate–carbonic acid buffer system"
+    ],
+    "correctAnswers": [
+      "bicarbonate–carbonic acid buffer system"
+    ],
+    "rationale": "The bicarbonate-carbonic acid buffer system is the major extracellular chemical buffer for plasma pH. The RAAS and ADH/ANP systems regulate fluid and blood pressure, and the sodium-potassium pump maintains cellular ion gradients.",
+    "sourceConfidence": "completed-results-key",
+    "id": 893
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal, Electrolytes, Acid-Base",
+    "system": "Renal / Electrolytes",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "After teaching a client about the action of spironolactone, the nurse determines that the teaching was successful when the client states:",
+    "options": [
+      "\"I can still use my salt substitute if I want to.\"",
+      "\"I need to make sure I don't eat too many high potassium foods.\"",
+      "\"I should take the medicine around dinnertime for the best effect\"",
+      "\"I need to take the drug on an empty stomach.\""
+    ],
+    "correctAnswers": [
+      "\"I need to make sure I don't eat too many high potassium foods.\""
+    ],
+    "rationale": "Spironolactone is potassium-sparing, so clients should avoid excess potassium intake and potassium-containing salt substitutes unless approved. Taking it late in the day can worsen nocturia, and it does not require an empty stomach as the key teaching point.",
+    "sourceConfidence": "completed-results-key",
+    "id": 894,
+    "drug": "spironolactone"
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal, Electrolytes, Acid-Base",
+    "system": "Renal / Electrolytes",
+    "category": "A&P",
+    "type": "Matching",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "Match the symptom to whether it is seen in hypocalcemia or hypercalcemia.",
+    "options": [
+      "hypocalcemia",
+      "hypercalcemia"
+    ],
+    "correctAnswers": [
+      "Thirst, polyuria -> hypercalcemia",
+      "Muscle twitching, cramps, spasms -> hypocalcemia",
+      "Bone pain -> hypercalcemia",
+      "Paresthesias -> hypocalcemia",
+      "Laryngospasm -> hypocalcemia"
+    ],
+    "rationale": "Hypocalcemia increases neuromuscular excitability, causing paresthesias, twitching, cramps, spasms, and possible laryngospasm. Hypercalcemia can cause bone pain and renal concentrating problems that contribute to thirst and polyuria.",
+    "sourceConfidence": "completed-results-key",
+    "id": 895,
+    "prompts": [
+      {
+        "prompt": "Thirst, polyuria",
+        "answer": "hypercalcemia"
+      },
+      {
+        "prompt": "Muscle twitching, cramps, spasms",
+        "answer": "hypocalcemia"
+      },
+      {
+        "prompt": "Bone pain",
+        "answer": "hypercalcemia"
+      },
+      {
+        "prompt": "Paresthesias",
+        "answer": "hypocalcemia"
+      },
+      {
+        "prompt": "Laryngospasm",
+        "answer": "hypocalcemia"
+      }
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Foundations, Immunity, Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "A client reports increased sedation after the initiation of diphenydramine to treat allergies. Which antihistamines could the nurse recommend to the client to treat allergy symptoms that would result in less sedation? (Select all that apply.)",
+    "options": [
+      "First generation antihistamine",
+      "Third generation antihistamine",
+      "Fourth generation antihistamine",
+      "Second generation antihistamine"
+    ],
+    "correctAnswers": [
+      "Third generation antihistamine",
+      "Second generation antihistamine"
+    ],
+    "rationale": "First-generation antihistamines such as diphenhydramine cross the blood-brain barrier more readily and cause more sedation. Later-generation antihistamines are less sedating, so second- and third-generation choices better fit the client concern.",
+    "sourceConfidence": "completed-results-key",
+    "id": 896,
+    "drug": "diphenhydramine; antihistamine"
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "The client is currently receiving a continuous IV infusion of heparin. Which procedure should the nurse avoid when possible?",
+    "options": [
+      "Measuring urine output",
+      "Assessing respirations",
+      "Giving intramuscular injections",
+      "Measuring noninvasive blood pressure"
+    ],
+    "correctAnswers": [
+      "Giving intramuscular injections"
+    ],
+    "rationale": "Heparin increases bleeding risk, so intramuscular injections should be avoided when possible because they can cause bleeding or hematoma formation. Routine assessment of urine output, respirations, and noninvasive blood pressure is still appropriate.",
+    "sourceConfidence": "completed-results-key",
+    "id": 897,
+    "drug": "heparin"
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Foundations, Immunity, Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "What is the chemical mediator released in immune and inflammatory response to allergic reactions?",
+    "options": [
+      "Histamine",
+      "Norepinephrine",
+      "Epinephrine",
+      "Mast cells"
+    ],
+    "correctAnswers": [
+      "Histamine"
+    ],
+    "rationale": "Histamine is a chemical mediator released during allergic and inflammatory responses, especially from mast cells and basophils. Mast cells are the cells that release mediators, while epinephrine and norepinephrine are catecholamines.",
+    "sourceConfidence": "completed-results-key",
+    "id": 898
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "Case Study: Mr. Chen\nBackground\nMr. David Chen, a 68-year-old male, is admitted to the emergency department with acute shortness of breath and right calf swelling. He has a history of hypertension, atrial fibrillation, and type 2 diabetes. His medications include metoprolol, lisinopril, and aspirin.\n\nAdmission Assessment\nFindings:\n\nHR 116, BP 148/92, RR 24, O2 sat 91% RA\n\nRight calf: red, warm, swollen\n\nD-dimer: elevated\n\nDuplex ultrasound: deep vein thrombosis (DVT)\n\nThe provider prescribes IV unfractionated heparin.\n\nWhich laboratory value should the nurse monitor to determine if the heparin infusion is therapeutic?",
+    "options": [
+      "Complete blood count (CBC)",
+      "Prothrombin time (PT)",
+      "International normalized ratio (INR)",
+      "Activated partial thromboplastin time (aPTT)"
+    ],
+    "correctAnswers": [
+      "Activated partial thromboplastin time (aPTT)"
+    ],
+    "rationale": "The therapeutic effect of an IV unfractionated heparin infusion is monitored with aPTT. PT/INR are used for warfarin monitoring, and CBC helps assess bleeding or thrombocytopenia but does not determine whether the heparin infusion is therapeutic.",
+    "sourceConfidence": "completed-results-missed-audited-key",
+    "id": 899,
+    "drug": "heparin"
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "Six hours after starting heparin:\n\naPTT = 110 seconds\n\nThe patient reports new-onset bruising and bleeding gums.\n\nVital signs: BP 100/60, HR 98, pale and anxious.\n\nWhich action should the nurse take first?",
+    "options": [
+      "Administer protamine sulfate",
+      "Decrease the infusion rate by half",
+      "Document findings and continue monitoring",
+      "Stop the heparin infusion and notify the provider"
+    ],
+    "correctAnswers": [
+      "Stop the heparin infusion and notify the provider"
+    ],
+    "rationale": "An aPTT of 110 seconds with bleeding signs suggests excessive anticoagulation. The first nursing action is to stop the heparin infusion and notify the provider; protamine may be ordered, but stopping the source of anticoagulation comes first.",
+    "sourceConfidence": "completed-results-key",
+    "id": 900,
+    "drug": "heparin"
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "Once stabilized, Mr. Chen is switched to oral warfarin (Coumadin) for discharge planning. He will overlap heparin and warfarin for several days.\n\nWhich statement by the patient indicates a need for further teaching about warfarin therapy?",
+    "options": [
+      "“I can eat salads occasionally, but I’ll try to keep my vitamin K intake consistent.”",
+      "“I’ll have my blood drawn regularly to check my INR.”",
+      "“I’ll take an aspirin daily to help prevent clots.”",
+      "“If I notice blood in my urine or stools, I’ll call my provider.”"
+    ],
+    "correctAnswers": [
+      "“I’ll take an aspirin daily to help prevent clots.”"
+    ],
+    "rationale": "Aspirin can increase bleeding risk when combined with warfarin and should not be added unless specifically prescribed. Consistent vitamin K intake, INR monitoring, and reporting bleeding signs are appropriate warfarin teaching points.",
+    "sourceConfidence": "completed-results-key",
+    "id": 901,
+    "drug": "warfarin"
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "One week later, a home health nurse notes:\n\nPetechiae on the arms\n\nHematuria\n\nINR = 5.2\n\nWhich medication should the nurse anticipate being ordered?",
+    "options": [
+      "Fresh frozen plasma",
+      "Alteplase (TPA)",
+      "Vitamin K (phytonadione)",
+      "Protamine sulfate"
+    ],
+    "correctAnswers": [
+      "Vitamin K (phytonadione)"
+    ],
+    "rationale": "An INR of 5.2 with bleeding signs suggests excessive warfarin effect. Vitamin K, or phytonadione, reverses warfarin; protamine reverses heparin, and alteplase is a thrombolytic that would worsen bleeding risk.",
+    "sourceConfidence": "completed-results-key",
+    "id": 902,
+    "drug": "warfarin; vitamin K"
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "Saved course quiz/test capture: 2026-05-13-knowledge-check-3.md",
+    "sourceType": "Course",
+    "stem": "Two months later, Mr. Chen presents with left-sided weakness and slurred speech. CT scan confirms ischemic stroke. The provider considers tPA (alteplase) administration.\n\nWhich finding would contraindicate administration of tPA?",
+    "options": [
+      "Stroke onset 1 hour ago",
+      "Platelet count 90,000/mm³",
+      "INR 1.2",
+      "Blood pressure 160/88"
+    ],
+    "correctAnswers": [
+      "Platelet count 90,000/mm³"
+    ],
+    "rationale": "Alteplase increases bleeding risk and is contraindicated with significant thrombocytopenia such as a platelet count below 100,000/mm3. Stroke onset 1 hour ago, INR 1.2, and BP 160/88 do not by themselves contraindicate tPA under typical eligibility criteria.",
+    "sourceConfidence": "completed-results-key",
+    "id": 903,
+    "drug": "alteplase"
   }
 ]

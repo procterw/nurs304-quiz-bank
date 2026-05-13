@@ -36,6 +36,8 @@ const medicalTerms = {
   "atrial fibrillation": "An irregular atrial rhythm that reduces atrial kick and increases thromboembolic stroke risk.",
   "atrial flutter": "A rapid atrial tachyarrhythmia often associated with a sawtooth waveform on ECG.",
   "av node": "The atrioventricular node delays electrical conduction between atria and ventricles.",
+  "b cell": "A lymphocyte involved in humoral immunity that can differentiate into plasma cells and produce antibodies.",
+  "b-cell": "A lymphocyte involved in humoral immunity that can differentiate into plasma cells and produce antibodies.",
   basophil: "A granulocyte involved in allergic and hypersensitivity responses through histamine release.",
   "beta 2 agonist": "A bronchodilator class that stimulates beta-2 receptors in airway smooth muscle; short-acting agents like albuterol are rescue medications.",
   "beta blocker": "A drug class that blocks beta-adrenergic receptors to reduce heart rate, contractility, and blood pressure.",
@@ -73,9 +75,11 @@ const medicalTerms = {
   erythrocyte: "A red blood cell that carries oxygen through hemoglobin.",
   erythropoietin: "A kidney-produced hormone that stimulates red blood cell production in bone marrow.",
   excretion: "Removal of drugs or waste products from the body, commonly through the kidneys.",
+  "first-generation antihistamine": "An older antihistamine class that crosses the blood-brain barrier more readily, causing more sedation and anticholinergic effects such as dry mouth, urinary retention, constipation, and blurred vision.",
   "first-pass metabolism": "Presystemic drug metabolism in the gut wall or liver before a drug reaches systemic circulation.",
   fluticasone: "An inhaled corticosteroid used for long-term control of airway inflammation.",
   formoterol: "A long-acting beta-2 agonist used for maintenance bronchodilation, not as sole rescue therapy for asthma.",
+  "fourth-generation antihistamine": "A nonstandard or less commonly emphasized antihistamine generation label in this course context. Course questions usually contrast sedating first-generation agents with less-sedating second- and third-generation antihistamines.",
   furosemide: "A loop diuretic used for rapid fluid removal in edema, heart failure, and pulmonary edema.",
   granulocyte: "A white blood cell with cytoplasmic granules, including neutrophils, eosinophils, and basophils.",
   hematocrit: "The percentage of blood volume occupied by red blood cells.",
@@ -109,6 +113,7 @@ const medicalTerms = {
   "monoclonal antibody": "A targeted biologic medication that binds a specific immune or disease-related target; course materials emphasize infection risk with immune suppression.",
   montelukast: "A leukotriene receptor antagonist used for asthma maintenance and allergic rhinitis; it carries neuropsychiatric warning concerns.",
   mucosal: "Related to a mucus-secreting membrane lining body passages such as the GI or respiratory tract.",
+  "mycophenolate mofetil": "An immunosuppressant that inhibits lymphocyte proliferation by interfering with purine synthesis; used in transplant rejection prevention and some autoimmune conditions.",
   nephron: "The kidney's functional filtration unit.",
   nephrotoxic: "Capable of causing kidney injury.",
   neutrophil: "The most numerous granulocyte and a key phagocyte in acute bacterial infection.",
@@ -127,14 +132,20 @@ const medicalTerms = {
   "potassium chloride": "An electrolyte replacement used to treat or prevent hypokalemia; IV administration requires careful safety precautions.",
   preload: "Ventricular stretch at the end of diastole, related to venous return and filling volume.",
   "pulmonary edema": "Fluid accumulation in lung interstitium or alveoli, often from left-sided heart failure.",
+  prednisone: "A systemic corticosteroid that suppresses inflammation and immune responses; long-term use can increase infection risk, hyperglycemia, hypertension, adrenal suppression, and bone loss.",
   respiration: "Gas exchange involving oxygen uptake and carbon dioxide removal at the lungs or tissues.",
   salmeterol: "A long-acting beta-2 agonist used for maintenance bronchodilation, not rescue therapy.",
   "sa node": "The sinoatrial node, the normal pacemaker of the heart.",
+  "second-generation antihistamine": "A newer antihistamine class with less central nervous system penetration than first-generation agents, so it usually causes less sedation while treating allergy symptoms.",
   sodium: "A major extracellular electrolyte central to fluid balance, nerve conduction, and blood pressure regulation.",
   spironolactone: "A potassium-sparing aldosterone antagonist used in heart failure and selected resistant hypertension or edema states.",
   statin: "A cholesterol-lowering drug class that inhibits HMG-CoA reductase.",
   surfactant: "A substance that lowers alveolar surface tension and helps keep alveoli open.",
+  tacrolimus: "A calcineurin inhibitor immunosuppressant that suppresses T-cell activation; used in transplant rejection prevention and some immune-mediated conditions.",
   tachycardia: "A faster-than-normal heart rate, commonly above 100 beats per minute in adults.",
+  "t cell": "A lymphocyte involved in cell-mediated immunity, including helper, cytotoxic, and regulatory immune functions.",
+  "t-cell": "A lymphocyte involved in cell-mediated immunity, including helper, cytotoxic, and regulatory immune functions.",
+  "third-generation antihistamine": "A later antihistamine class or active-metabolite group with low sedation risk compared with first-generation antihistamines; course questions use it as a less-sedating allergy option.",
   thrombocyte: "Another name for a platelet, a cell fragment involved in clotting.",
   thrombolytic: "A medication class that breaks down clots, used only in specific high-risk situations because bleeding risk is significant.",
   tiotropium: "A long-acting muscarinic antagonist used for maintenance bronchodilation, especially in COPD.",
@@ -153,17 +164,23 @@ const medicalTerms = {
 Object.assign(medicalTerms, {
   "absolute insulin deficiency": "A state where the body produces little to no insulin, classically from pancreatic beta-cell destruction in type 1 diabetes. Without insulin, glucose cannot enter many cells effectively, blood glucose rises, and the client is at risk for ketosis and diabetic ketoacidosis.",
   "acute kidney injury": "A sudden decline in kidney filtration that can raise creatinine and BUN, reduce urine output, and disturb fluid, electrolyte, and acid-base balance. Normal adult serum creatinine is roughly 0.6-1.3 mg/dL, but the trend and baseline matter clinically.",
+  "adrenergic antagonist": "A medication that blocks adrenergic receptors and reduces sympathetic nervous system effects. In cardiovascular questions, this often refers to drugs that lower heart rate, contractility, vascular tone, or blood pressure depending on receptor selectivity.",
   albumin: "The major plasma protein that maintains oncotic pressure and binds many medications in the bloodstream. Normal serum albumin is roughly 3.5-5.0 g/dL; low albumin can increase free levels of highly protein-bound drugs and contribute to edema.",
+  alteplase: "A thrombolytic medication, also called tPA, that dissolves fibrin clots in carefully selected patients such as some ischemic stroke cases. It carries major bleeding risk and has strict contraindications, including low platelets or other bleeding risks.",
   alkalosis: "A blood pH disturbance where base is increased or acid is decreased, raising pH above the normal arterial range of about 7.35-7.45. Respiratory alkalosis usually reflects low PaCO2 from hyperventilation.",
   anemia: "A reduced red blood cell mass or hemoglobin level that lowers oxygen-carrying capacity. It commonly causes fatigue, pallor, tachycardia, and dyspnea on exertion; normal adult hemoglobin is roughly 12-16 g/dL in females and 13.5-17.5 g/dL in males.",
+  antacid: "A medication class that neutralizes existing gastric acid rather than preventing acid production. Calcium carbonate is an example; antacids can provide quick symptom relief but may cause acid rebound or electrolyte-related concerns depending on the agent.",
   "arterial blood gas": "A blood test used to evaluate oxygenation, ventilation, and acid-base balance. Common reference points are pH 7.35-7.45, PaCO2 35-45 mm Hg, HCO3 22-26 mEq/L, and PaO2 about 80-100 mm Hg on room air.",
+  beclomethasone: "An inhaled corticosteroid used for long-term asthma control by reducing airway inflammation. Clients should rinse the mouth after use to reduce local candidiasis/thrush risk.",
   "beta cell": "An endocrine pancreatic cell in the islets of Langerhans that produces insulin. Beta-cell destruction causes absolute insulin deficiency, which is the core problem in type 1 diabetes.",
   "beta-cell": "An endocrine pancreatic cell in the islets of Langerhans that produces insulin. Beta-cell destruction causes absolute insulin deficiency, which is the core problem in type 1 diabetes.",
   "beta-cell destruction": "Loss of insulin-producing pancreatic beta cells, most often from autoimmune destruction in type 1 diabetes. The result is absolute insulin deficiency, hyperglycemia, and risk for ketoacidosis.",
+  bisoprolol: "A beta-1 selective beta blocker used in cardiovascular disease, including selected heart failure patients. Like other beta blockers, it can lower heart rate and blood pressure and requires assessment before administration.",
   bicarbonate: "A major base in the bicarbonate-carbonic acid buffer system that helps regulate blood pH. Normal serum bicarbonate or arterial HCO3 is about 22-26 mEq/L; low values suggest metabolic acidosis and high values suggest metabolic alkalosis or compensation.",
   "blood urea nitrogen": "A nitrogenous waste marker of kidney function and protein metabolism, commonly abbreviated BUN. A typical adult range is about 7-20 mg/dL; it can rise with reduced renal perfusion, kidney injury, dehydration, or increased protein breakdown.",
   bun: "Blood urea nitrogen, a kidney function marker that rises when renal clearance falls or protein breakdown increases. A typical adult range is about 7-20 mg/dL, but interpretation depends on hydration, renal perfusion, and clinical context.",
   calcium: "An electrolyte important for bones, neuromuscular signaling, clotting, and cardiac function. Normal total serum calcium is roughly 8.5-10.5 mg/dL; low calcium can cause tetany, while high calcium can cause weakness, lethargy, constipation, and dysrhythmias.",
+  "calcium carbonate": "An antacid and calcium supplement that neutralizes gastric acid. In GI pharmacology questions, it can be associated with acid rebound and constipation, and it may affect calcium balance.",
   "cardiac output": "The amount of blood the heart pumps per minute, calculated as heart rate multiplied by stroke volume. Normal resting adult cardiac output is roughly 4-8 L/min, and it falls when filling, contractility, rhythm, or afterload are impaired.",
   "chronic kidney disease": "Progressive, long-term reduction in kidney function, often related to diabetes or hypertension. CKD can impair waste excretion, fluid and electrolyte balance, acid-base control, blood pressure regulation, vitamin D activation, and erythropoietin production.",
   "cortisol": "A glucocorticoid hormone from the adrenal cortex that helps regulate stress response, glucose metabolism, inflammation, vascular tone, and fluid balance. Excess cortisol is associated with Cushing syndrome and can cause hyperglycemia, weight/fat redistribution, hypertension, and fluid changes.",
@@ -172,16 +189,20 @@ Object.assign(medicalTerms, {
   diabetes: "A metabolic disease involving impaired insulin secretion, insulin action, or both, causing hyperglycemia. Fasting blood glucose is normally about 70-99 mg/dL; diabetes is diagnosed using criteria such as fasting glucose at or above 126 mg/dL or A1c at or above 6.5%.",
   "diabetes mellitus": "A disorder of glucose regulation caused by impaired insulin secretion, insulin action, or both. Persistent hyperglycemia damages blood vessels and nerves and increases risk for kidney disease, cardiovascular disease, infection, and ketoacidosis in type 1 diabetes.",
   "diabetic ketoacidosis": "A serious complication caused by insulin deficiency, lipolysis, ketone production, dehydration, and metabolic acidosis. It is most associated with type 1 diabetes and commonly presents with hyperglycemia, ketones, low pH, and low bicarbonate.",
+  epoetin: "A synthetic erythropoietin-stimulating medication that increases red blood cell production. It is used for selected anemias such as chronic kidney disease-related anemia and can worsen hypertension, so blood pressure monitoring is important.",
   "erythrocyte": "A red blood cell that carries oxygen through hemoglobin. Normal RBC count varies by lab and sex, but the nursing significance is oxygen delivery; low erythrocytes, hemoglobin, or hematocrit can cause anemia symptoms.",
   "erythrocyte count": "A count of red blood cells, which carry oxygen through hemoglobin. A typical adult range is roughly 4.2-5.9 million cells/mcL depending on sex and lab; low values can reduce oxygen-carrying capacity.",
   erythropoietin: "A kidney-produced hormone that stimulates red blood cell production in bone marrow. Kidney disease can reduce erythropoietin, lowering hemoglobin and hematocrit and contributing to anemia.",
   "fluid changes": "Alterations in body water distribution or retention, often seen as edema, weight change, blood pressure change, or altered urine output. In endocrine disorders such as Cushing syndrome, cortisol effects can promote sodium and water retention.",
+  famotidine: "An H2 receptor antagonist that reduces gastric acid secretion by blocking histamine H2 receptors on gastric parietal cells. It is used for GERD, ulcers, and acid-related symptoms but works by a different mechanism than PPIs.",
+  fexofenadine: "A later-generation antihistamine used for allergic rhinitis and urticaria. It has low blood-brain barrier penetration compared with first-generation antihistamines, so it is less sedating.",
   glucose: "The main blood sugar used by cells for energy. Normal fasting blood glucose is about 70-99 mg/dL; persistent elevation suggests impaired glucose regulation, and very low glucose can cause neuroglycopenic and adrenergic symptoms.",
   hematocrit: "The percentage of blood volume occupied by red blood cells. Normal adult hematocrit is roughly 36-46% in females and 41-53% in males; low hematocrit supports anemia and reduced oxygen-carrying capacity.",
   hemoglobin: "The oxygen-carrying protein inside red blood cells. Normal adult hemoglobin is roughly 12-16 g/dL in females and 13.5-17.5 g/dL in males; low hemoglobin is a key marker of anemia.",
   hypercalcemia: "An elevated serum calcium level, usually above about 10.5 mg/dL. It can cause weakness, lethargy, constipation, kidney stones, dehydration, and cardiac rhythm changes.",
   hyperglycemia: "An elevated blood glucose level. Fasting glucose is normally about 70-99 mg/dL; persistent fasting glucose at or above 126 mg/dL meets a diabetes diagnostic threshold, and acute marked hyperglycemia can cause dehydration and altered mental status.",
   hyperkalemia: "An elevated serum potassium level, commonly above about 5.0 mEq/L. It is dangerous because it can cause cardiac conduction changes such as peaked T waves and life-threatening dysrhythmias.",
+  hydrocodone: "A Schedule II opioid analgesic used for moderate to severe pain. It has misuse and dependence risk and can cause respiratory depression, sedation, constipation, nausea, and other opioid adverse effects.",
   hypocalcemia: "A low serum calcium level, usually below about 8.5 mg/dL. It increases neuromuscular excitability and can cause paresthesias, muscle cramps, tetany, seizures, or prolonged QT interval.",
   hypoglycemia: "A low blood glucose level, commonly below 70 mg/dL. Symptoms may include sweating, tremor, palpitations, hunger, confusion, or seizures; beta blockers can mask some adrenergic warning signs.",
   hypokalemia: "A low serum potassium level, commonly below about 3.5 mEq/L. It can cause muscle weakness, cramps, ileus, and cardiac rhythm changes such as U waves.",
@@ -189,6 +210,16 @@ Object.assign(medicalTerms, {
   hyponatremia: "A low serum sodium level, commonly below 135 mEq/L. It can cause headache, confusion, seizures, and other neurologic symptoms because sodium strongly affects serum osmolality and brain water balance.",
   insulin: "A pancreatic beta-cell hormone and medication that lowers blood glucose by promoting cellular glucose uptake and storage. Normal fasting glucose is about 70-99 mg/dL; inadequate insulin effect causes hyperglycemia and, in type 1 diabetes, risk for ketoacidosis.",
   "insulin deficiency": "Too little insulin effect to move glucose into cells and suppress ketone production. Absolute insulin deficiency is typical of type 1 diabetes and can lead to hyperglycemia, dehydration, and diabetic ketoacidosis.",
+  "inhaled corticosteroid": "A controller medication class for asthma that reduces airway inflammation over time. It is not a rescue bronchodilator, and clients should rinse the mouth after use to reduce thrush risk.",
+  "h2 receptor antagonist": "A gastric acid-reducing medication class that blocks histamine H2 receptors on parietal cells. Famotidine is an example; it reduces acid secretion but does not block the proton pump directly.",
+  iron: "A mineral used therapeutically to treat iron-deficiency anemia by supporting hemoglobin and red blood cell production. Oral iron can cause GI upset, constipation, and dark green or black stools.",
+  laba: "Long-acting beta-2 agonist, a maintenance bronchodilator class used for long-term control, not as sole rescue treatment for acute bronchospasm. Examples include salmeterol and formoterol.",
+  lama: "Long-acting muscarinic antagonist, a maintenance bronchodilator class that blocks airway muscarinic receptors to reduce bronchoconstriction. Tiotropium is a common example, especially in COPD.",
+  "leukotriene receptor antagonist": "A controller medication class that blocks leukotriene effects involved in bronchoconstriction, mucus, and airway inflammation. Montelukast and zafirlukast are examples; montelukast has neuropsychiatric warning concerns.",
+  lmwh: "Low-molecular-weight heparin, an anticoagulant class related to heparin with more predictable dosing and lower risk of thrombocytopenia than unfractionated heparin.",
+  loratadine: "A second-generation antihistamine used for allergic rhinitis and urticaria. It usually causes less sedation than first-generation antihistamines because it has lower central nervous system penetration.",
+  "loop diuretic": "A diuretic class, such as furosemide, that acts in the loop of Henle and can remove fluid rapidly. Nursing priorities include monitoring blood pressure, volume status, urine output, and electrolytes such as potassium.",
+  "low-molecular-weight heparin": "An anticoagulant class related to heparin with more predictable dosing and lower risk of thrombocytopenia than unfractionated heparin. Enoxaparin is a common example, though the course question focuses on the class comparison.",
   magnesium: "An electrolyte important for neuromuscular function, enzyme activity, and cardiac rhythm stability. A typical serum magnesium range is about 1.7-2.2 mg/dL; low levels can cause tremor, weakness, tetany, or dysrhythmias.",
   nephron: "The kidney's functional filtration unit, made of a glomerulus and tubules. Nephrons filter blood, reabsorb needed substances, secrete wastes, and help regulate fluid, electrolytes, and acid-base balance.",
   "paCO2": "Partial pressure of carbon dioxide in arterial blood, reflecting ventilation. Normal PaCO2 is about 35-45 mm Hg; high PaCO2 points toward respiratory acidosis, while low PaCO2 points toward respiratory alkalosis.",
@@ -197,24 +228,47 @@ Object.assign(medicalTerms, {
   platelet: "A blood cell fragment involved in clot formation; also called a thrombocyte. Normal platelet count is roughly 150,000-400,000 per microliter, and low levels increase bleeding risk.",
   potassium: "A major intracellular electrolyte essential for nerve, muscle, and cardiac electrical function. Normal serum potassium is about 3.5-5.0 mEq/L; both high and low levels can cause dangerous dysrhythmias.",
   sodium: "A major extracellular electrolyte central to fluid balance, nerve conduction, and blood pressure regulation. Normal serum sodium is about 135-145 mEq/L; abnormal levels can cause neurologic symptoms.",
+  "osmotic diuretic": "A diuretic class that increases osmotic pressure in renal tubules to promote water excretion. Mannitol is an example and is given intravenously in course questions.",
+  phentolamine: "An alpha-adrenergic blocker used as an antidote for some vasopressor extravasations, including norepinephrine, because it counteracts local vasoconstriction.",
+  phytonadione: "Vitamin K1, used to reverse excessive warfarin anticoagulation by supporting synthesis of vitamin K-dependent clotting factors.",
+  "potassium-sparing diuretic": "A diuretic class that promotes sodium and water excretion while retaining potassium. Spironolactone is an example, so hyperkalemia and potassium-containing salt substitutes are key safety concerns.",
+  "proton pump inhibitor": "A gastric acid-suppressing medication class that blocks the H+/K+ ATPase proton pump in parietal cells. Omeprazole is an example and is typically taken before meals for best effect.",
+  protamine: "A medication used to reverse heparin anticoagulation. In bleeding scenarios, it may be ordered after stopping heparin and notifying the provider.",
+  "protamine sulfate": "A medication used to reverse heparin anticoagulation. It binds heparin and is distinct from vitamin K, which reverses warfarin.",
+  saba: "Short-acting beta-2 agonist, a rescue bronchodilator class used for rapid relief of acute bronchospasm. Albuterol is the key course example.",
+  sama: "Short-acting muscarinic antagonist, a bronchodilator class that blocks airway muscarinic receptors. Ipratropium is an example and may be used with other bronchodilators, but it is not the sole rescue drug for severe acute asthma.",
+  "thiazide diuretic": "A diuretic class used for hypertension and mild edema that can lower potassium and sodium. Hydrochlorothiazide is the key course example.",
   tetany: "Involuntary muscle spasms or cramps caused by increased neuromuscular excitability. It is classically associated with hypocalcemia and may appear with tingling, carpopedal spasm, or a positive Chvostek or Trousseau sign.",
   "thyroid hormone": "Hormones T3 and T4 produced by the thyroid gland that regulate metabolic rate, temperature, energy use, and cardiovascular responsiveness. Low thyroid hormone slows metabolism, while excess thyroid hormone increases metabolic activity.",
+  tpa: "Tissue plasminogen activator; alteplase is the medication example used to dissolve selected clots. It has strict eligibility rules because it can cause serious bleeding.",
+  "vitamin k": "A fat-soluble vitamin needed to synthesize clotting factors II, VII, IX, and X. As phytonadione, it is used to reverse excessive warfarin effect.",
+  zafirlukast: "A leukotriene receptor antagonist used for asthma maintenance, not acute rescue. It should be taken apart from meals because food can reduce absorption.",
 });
 
 const termLabels = {
+  "b cell": "B Cell",
+  "b-cell": "B Cell",
   bun: "BUN",
   copd: "COPD",
   ecg: "ECG",
+  "h2 receptor antagonist": "H2 Receptor Antagonist",
+  laba: "LABA",
+  lama: "LAMA",
+  lmwh: "LMWH",
   nsaid: "NSAID",
   "nsaid use": "NSAID Use",
   "paCO2": "PaCO2",
   "paO2": "PaO2",
   ph: "pH",
+  saba: "SABA",
+  sama: "SAMA",
+  "t cell": "T Cell",
+  "t-cell": "T Cell",
+  tpa: "tPA",
 };
 
 const el = {
   week: document.getElementById("weekFilter"),
-  category: document.getElementById("categoryFilter"),
   source: document.getElementById("sourceFilter"),
   emptyState: document.getElementById("emptyState"),
   emptyTitle: document.getElementById("emptyTitle"),
@@ -233,7 +287,7 @@ const el = {
   questionsLeftCount: document.getElementById("questionsLeftCount"),
 };
 
-const filters = [el.week, el.category, el.source];
+const filters = [el.week, el.source];
 
 async function init() {
   try {
@@ -264,7 +318,6 @@ function bindEvents() {
 
 function buildFilters() {
   fillWeekSelect(el.week, "All weeks", state.questions);
-  fillSelect(el.category, "All categories", state.questions.map((q) => q.category));
   fillSelect(el.source, "All sources", state.questions.map((q) => q.sourceType));
 }
 
@@ -292,20 +345,18 @@ function fillSelect(select, label, values) {
 function applyFilters() {
   const selected = {
     week: el.week.value,
-    category: el.category.value,
     source: el.source.value,
   };
 
   state.filtered = state.questions.filter((question) => {
     if (selected.week && String(question.week) !== selected.week) return false;
-    if (selected.category && question.category !== selected.category) return false;
     if (selected.source && question.sourceType !== selected.source) return false;
     if (isQuestionCompleted(question.id)) return false;
     return true;
   });
 
   if (!state.filtered.some((question) => question.id === state.currentId)) {
-    state.currentId = state.filtered[0]?.id ?? null;
+    state.currentId = getRandomQuestion(state.filtered)?.id ?? null;
   }
 
   render();
@@ -554,13 +605,11 @@ function getCurrentQuestion() {
 function getMatchingQuestions() {
   const selected = {
     week: el.week.value,
-    category: el.category.value,
     source: el.source.value,
   };
 
   return state.questions.filter((question) => {
     if (selected.week && String(question.week) !== selected.week) return false;
-    if (selected.category && question.category !== selected.category) return false;
     if (selected.source && question.sourceType !== selected.source) return false;
     return true;
   });
@@ -611,6 +660,11 @@ function shuffleInPlace(items) {
     [items[index], items[swapIndex]] = [items[swapIndex], items[index]];
   }
   return items;
+}
+
+function getRandomQuestion(questions) {
+  if (questions.length === 0) return null;
+  return questions[Math.floor(Math.random() * questions.length)];
 }
 
 function showDefinitions() {
@@ -673,10 +727,48 @@ function findMedicalTerms(question) {
     .filter(Boolean)
     .join(" ")
     .toLowerCase();
+  const searchableText = normalizeMedicalTermText(text);
 
+  const seen = new Set();
   return Object.entries(medicalTerms)
-    .filter(([term]) => new RegExp(`\\b${escapeRegExp(term)}\\b`, "i").test(text))
+    .filter(([term]) => buildTermRegex(term).test(searchableText))
+    .filter(([term, definition]) => {
+      const key = `${term.replaceAll("-", " ")}|${definition}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
     .sort(([a], [b]) => a.localeCompare(b));
+}
+
+function normalizeMedicalTermText(text) {
+  return text
+    .replace(/\b([a-z])-?\s+and\s+([a-z])-cell(s)?\b/g, "$1-cell $2-cell")
+    .replace(/\b([a-z])-?\s+and\s+([a-z])\s+cell(s)?\b/g, "$1 cell $2 cell");
+}
+
+function buildTermRegex(term) {
+  const variants = new Set([term]);
+  const tokens = term.split(/[\s-]+/).filter(Boolean);
+  const lastToken = tokens.at(-1);
+
+  if (lastToken) {
+    const pluralTokens = [...tokens];
+    pluralTokens[pluralTokens.length - 1] = pluralizeTermToken(lastToken);
+    variants.add(pluralTokens.join(" "));
+  }
+
+  const pattern = [...variants]
+    .map((variant) => variant.split(/[\s-]+/).filter(Boolean).map(escapeRegExp).join("[\\s-]+"))
+    .join("|");
+
+  return new RegExp(`\\b(?:${pattern})\\b`, "i");
+}
+
+function pluralizeTermToken(token) {
+  if (/[^aeiou]y$/i.test(token)) return token.replace(/y$/i, "ies");
+  if (/(s|x|z|ch|sh)$/i.test(token)) return `${token}es`;
+  return `${token}s`;
 }
 
 function setsMatch(a, b) {
