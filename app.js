@@ -122,8 +122,6 @@ const el = {
   feedback: document.getElementById("feedback"),
   definitionStatus: document.getElementById("definitionStatus"),
   definitionList: document.getElementById("definitionList"),
-  reset: document.getElementById("resetButton"),
-  export: document.getElementById("exportButton"),
   random: document.getElementById("randomButton"),
   clear: document.getElementById("clearButton"),
   next: document.getElementById("nextButton"),
@@ -151,8 +149,6 @@ async function init() {
 
 function bindEvents() {
   filters.forEach((filter) => filter.addEventListener("input", applyFilters));
-  el.reset.addEventListener("click", resetFilters);
-  el.export.addEventListener("click", exportFiltered);
   el.random.addEventListener("click", selectRandom);
   el.clear.addEventListener("click", clearAnswer);
   el.next.addEventListener("click", selectNext);
@@ -309,25 +305,6 @@ function selectRandom() {
   const index = Math.floor(Math.random() * state.filtered.length);
   state.currentId = state.filtered[index].id;
   render();
-}
-
-function resetFilters() {
-  filters.forEach((filter) => {
-    filter.value = "";
-  });
-  applyFilters();
-}
-
-function exportFiltered() {
-  const blob = new Blob([JSON.stringify(state.filtered, null, 2)], { type: "application/json" });
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement("a");
-  link.href = url;
-  link.download = "nurs304-filtered-questions.json";
-  document.body.append(link);
-  link.click();
-  link.remove();
-  URL.revokeObjectURL(url);
 }
 
 function getCurrentQuestion() {

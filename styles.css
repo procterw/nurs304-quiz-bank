@@ -75,13 +75,6 @@ select:focus-visible {
   text-transform: uppercase;
 }
 
-.topbar-actions {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 8px;
-}
-
 .practice-actions button:last-child {
   border-color: var(--blue);
   color: #fff;
@@ -348,10 +341,6 @@ select:focus-visible {
   .topbar {
     align-items: flex-start;
     flex-direction: column;
-  }
-
-  .topbar-actions {
-    justify-content: flex-start;
   }
 
   .filters,
