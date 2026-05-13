@@ -13,7 +13,6 @@
         <h1>Quiz Bank</h1>
       </div>
       <div class="topbar-actions">
-        <button id="shuffleButton" type="button">Shuffle</button>
         <button id="resetButton" type="button">Reset filters</button>
         <button id="exportButton" type="button">Export filtered JSON</button>
       </div>
@@ -57,38 +56,11 @@
         </label>
       </section>
 
-      <section class="metrics" aria-label="Filtered question summary">
-        <div>
-          <span id="filteredCount" class="metric-value">0</span>
-          <span class="metric-label">shown</span>
-        </div>
-        <div>
-          <span id="medCount" class="metric-value">0</span>
-          <span class="metric-label">medication</span>
-        </div>
-        <div>
-          <span id="apCount" class="metric-value">0</span>
-          <span class="metric-label">A&amp;P</span>
-        </div>
-        <div>
-          <span id="answeredCount" class="metric-value">0</span>
-          <span class="metric-label">answered</span>
-        </div>
-      </section>
-
       <section class="workspace">
-        <aside class="question-list" aria-label="Questions">
-          <div class="panel-heading">
-            <h2>Questions</h2>
-            <span id="listStatus">Loading</span>
-          </div>
-          <div id="questionList" class="list-items"></div>
-        </aside>
-
         <section class="question-panel" aria-live="polite">
           <div id="emptyState" class="empty-state">
-            <h2>Select a question</h2>
-            <p>Use the filters to narrow the bank, then choose a question to practice.</p>
+            <h2>No matching questions</h2>
+            <p>Adjust the filters to continue practicing.</p>
           </div>
 
           <article id="questionCard" class="question-card hidden">
@@ -103,7 +75,6 @@
             <form id="answerForm" class="answers"></form>
 
             <div class="practice-actions">
-              <button id="checkButton" type="button">Check answer</button>
               <button id="clearButton" type="button">Clear</button>
               <button id="nextButton" type="button">Next</button>
             </div>
@@ -111,6 +82,14 @@
             <section id="feedback" class="feedback hidden" aria-live="polite"></section>
           </article>
         </section>
+
+        <aside class="definitions-panel" aria-label="Medical word definitions">
+          <div class="panel-heading">
+            <h2>Definitions</h2>
+            <span id="definitionStatus">0 terms</span>
+          </div>
+          <div id="definitionList" class="definition-list"></div>
+        </aside>
       </section>
     </main>
 

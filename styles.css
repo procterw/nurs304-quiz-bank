@@ -82,8 +82,7 @@ select:focus-visible {
   gap: 8px;
 }
 
-.topbar-actions button:first-child,
-.practice-actions button:first-child {
+.practice-actions button:last-child {
   border-color: var(--blue);
   color: #fff;
   background: var(--blue);
@@ -98,7 +97,6 @@ select:focus-visible {
 }
 
 .filters,
-.metrics,
 .workspace {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -135,42 +133,15 @@ select:focus-visible {
   background: #fff;
 }
 
-.metrics {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(120px, 1fr));
-  overflow: hidden;
-}
-
-.metrics > div {
-  padding: 13px 16px;
-  border-right: 1px solid var(--line);
-}
-
-.metrics > div:last-child {
-  border-right: 0;
-}
-
-.metric-value {
-  display: block;
-  font-size: 1.45rem;
-  font-weight: 800;
-}
-
-.metric-label {
-  color: var(--muted);
-  font-size: 0.82rem;
-}
-
 .workspace {
   display: grid;
-  grid-template-columns: minmax(300px, 420px) 1fr;
+  grid-template-columns: minmax(0, 1.35fr) minmax(300px, 0.65fr);
   min-height: 620px;
   overflow: hidden;
 }
 
-.question-list {
+.definitions-panel {
   min-width: 0;
-  border-right: 1px solid var(--line);
   background: #fbfcfa;
 }
 
@@ -191,42 +162,6 @@ select:focus-visible {
 .panel-heading span {
   color: var(--muted);
   font-size: 0.8rem;
-}
-
-.list-items {
-  max-height: 650px;
-  overflow: auto;
-}
-
-.question-list-item {
-  display: grid;
-  gap: 7px;
-  width: 100%;
-  height: auto;
-  min-height: 84px;
-  border: 0;
-  border-bottom: 1px solid var(--line);
-  border-radius: 0;
-  padding: 12px 14px;
-  text-align: left;
-  background: transparent;
-}
-
-.question-list-item:hover,
-.question-list-item.active {
-  background: #eef4f1;
-}
-
-.question-list-item.active {
-  box-shadow: inset 4px 0 0 var(--green);
-}
-
-.list-title {
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  font-weight: 750;
 }
 
 .tags {
@@ -255,6 +190,7 @@ select:focus-visible {
 
 .question-panel {
   min-width: 0;
+  border-right: 1px solid var(--line);
   padding: 22px;
 }
 
@@ -281,6 +217,7 @@ select:focus-visible {
 .question-card {
   display: grid;
   gap: 18px;
+  max-width: 940px;
 }
 
 .question-card-header {
@@ -319,6 +256,7 @@ select:focus-visible {
   border-radius: 8px;
   padding: 12px;
   background: #fff;
+  cursor: pointer;
 }
 
 .answer-option.correct {
@@ -335,6 +273,10 @@ select:focus-visible {
   width: 18px;
   height: 18px;
   margin-top: 2px;
+}
+
+.answer-option.revealed input {
+  cursor: default;
 }
 
 .practice-actions {
@@ -364,6 +306,34 @@ select:focus-visible {
   background: #fff1ef;
 }
 
+.definition-list {
+  display: grid;
+  gap: 10px;
+  max-height: 650px;
+  overflow: auto;
+  padding: 14px;
+}
+
+.definition-item {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+}
+
+.definition-item h3 {
+  margin: 0 0 4px;
+  font-size: 0.98rem;
+  letter-spacing: 0;
+}
+
+.definition-item p,
+.definition-empty {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 @media (max-width: 1100px) {
   .filters {
     grid-template-columns: repeat(3, minmax(160px, 1fr));
@@ -385,27 +355,17 @@ select:focus-visible {
   }
 
   .filters,
-  .metrics,
   .workspace {
     grid-template-columns: 1fr;
   }
 
-  .question-list {
+  .question-panel {
     border-right: 0;
     border-bottom: 1px solid var(--line);
   }
 
-  .list-items {
-    max-height: 300px;
-  }
-
-  .metrics > div {
-    border-right: 0;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .metrics > div:last-child {
-    border-bottom: 0;
+  .definition-list {
+    max-height: none;
   }
 
   .question-panel {
