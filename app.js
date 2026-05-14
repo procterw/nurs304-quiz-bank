@@ -9,6 +9,7 @@ const state = {
   studySupportVisible: false,
   answers: new Map(),
   answered: {},
+  optionOrders: new Map(),
 };
 
 const ANSWERED_STORAGE_KEY = "nurs304-answered-results-v4";
@@ -690,7 +691,7 @@ function renderChoiceQuestion(question) {
   el.submit.classList.toggle("hidden", question.type !== "Multiple Answer");
   el.submit.disabled = false;
 
-  question.options.forEach((option, index) => {
+  getOptionOrder(question).forEach((option, index) => {
     const id = `${question.id}-${index}`;
     const label = document.createElement("label");
     label.className = "answer-option";
@@ -711,6 +712,7 @@ function renderChoiceQuestion(question) {
 function renderMatchingQuestion(question) {
   el.submit.classList.remove("hidden");
   el.submit.disabled = false;
+  const options = getOptionOrder(question);
 
   question.prompts.forEach((prompt, index) => {
     const row = document.createElement("label");
@@ -719,7 +721,7 @@ function renderMatchingQuestion(question) {
       <span>${escapeHtml(prompt.prompt)}</span>
       <select data-prompt-index="${index}" aria-label="${escapeHtml(prompt.prompt)} match">
         <option value="">Select match</option>
-        ${question.options.map((option) => `<option value="${escapeHtml(option)}">${escapeHtml(option)}</option>`).join("")}
+        ${options.map((option) => `<option value="${escapeHtml(option)}">${escapeHtml(option)}</option>`).join("")}
       </select>
       <small class="matching-answer"></small>
     `;
@@ -943,6 +945,13 @@ function shuffleInPlace(items) {
     [items[index], items[swapIndex]] = [items[swapIndex], items[index]];
   }
   return items;
+}
+
+function getOptionOrder(question) {
+  if (!state.optionOrders.has(question.id)) {
+    state.optionOrders.set(question.id, shuffleInPlace([...question.options]));
+  }
+  return state.optionOrders.get(question.id);
 }
 
 function shuffleCurrentQuestionBack() {
