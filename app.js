@@ -13,7 +13,10 @@ const state = {
 };
 
 const ANSWERED_STORAGE_KEY = "nurs304-answered-results-v4";
-const SHOW_ALL_QUESTIONS = new URLSearchParams(window.location.search).has("all_questions");
+const QUERY_PARAMS = new URLSearchParams(window.location.search);
+const SHOW_ALL_QUESTIONS = QUERY_PARAMS.has("all_questions");
+const SHOW_NEW_QUESTIONS = QUERY_PARAMS.has("new_questions");
+const SHOW_SOURCE_FILTER = SHOW_ALL_QUESTIONS && !SHOW_NEW_QUESTIONS;
 
 const medicalTerms = {
   "ace inhibitor": "A drug class that blocks conversion of angiotensin I to angiotensin II, lowering vasoconstriction and aldosterone effects.",
@@ -377,6 +380,7 @@ Object.assign(medicalTerms, {
   "enteric nervous system": "The intrinsic nervous system of the GI tract. It coordinates local reflexes, motility, secretion, and blood flow in response to stretch and chemical contents.",
   epigastric: "Related to the upper central abdomen over the stomach area. Epigastric burning or gnawing pain is a common description in peptic ulcer disease and GERD questions.",
   erythromycin: "A macrolide antibiotic used for selected bacterial infections, including some situations where penicillin is contraindicated. It can cause GI effects, QT prolongation concerns, and drug interactions such as increased digoxin or warfarin effects.",
+  enoxaparin: "A low-molecular-weight heparin anticoagulant used to prevent or treat thromboembolic disorders. It is commonly given subcutaneously and has more predictable effects than unfractionated heparin, but bleeding and thrombocytopenia remain safety concerns.",
   esophagitis: "Inflammation of the esophageal lining, often from chronic acid exposure in GERD. Symptoms can include heartburn, pain, dysphagia, or bleeding.",
   "factor xa": "A clotting factor in the common pathway that helps generate thrombin. Direct factor Xa inhibitors such as rivaroxaban reduce clot formation by blocking this step.",
   "factor xa inhibitor": "An anticoagulant class that blocks factor Xa and reduces thrombin generation. Rivaroxaban is the course example and carries bleeding risk without routine INR monitoring.",
@@ -398,10 +402,16 @@ Object.assign(medicalTerms, {
   hypothyroidism: "Low thyroid hormone activity, commonly from Hashimoto syndrome. Findings often include fatigue, cold intolerance, weight gain, bradycardia, constipation, and slowed metabolism.",
   "hashimoto syndrome": "Autoimmune hypothyroidism caused by immune-mediated thyroid destruction. It is the most common cause of thyroid hormone deficiency in many settings.",
   amlodipine: "A dihydropyridine calcium channel blocker used for hypertension and angina. It primarily relaxes vascular smooth muscle, so it has less direct slowing effect on heart rate than nondihydropyridines such as diltiazem.",
+  azithromycin: "A macrolide antibiotic used for selected respiratory and other bacterial infections. Course-relevant safety themes for macrolides include GI effects, hypersensitivity, and QT prolongation concerns.",
+  ciprofloxacin: "A fluoroquinolone antibiotic. It can chelate with calcium, magnesium, aluminum, and iron, reducing absorption, and the class carries safety concerns such as tendon injury, CNS effects, dysglycemia, and QT prolongation.",
+  doxycycline: "A tetracycline antibiotic. It can cause photosensitivity and reduced absorption when taken with calcium, iron, magnesium, aluminum, dairy products, or antacids.",
   empagliflozin: "An SGLT2 inhibitor used in diabetes management that lowers blood glucose by increasing urinary glucose excretion. Course-relevant safety themes include hydration, kidney considerations, and recognizing infection or ketoacidosis warning signs when taught by the prescriber.",
   "glp-1 receptor agonist": "A diabetes medication class that mimics incretin signaling to increase glucose-dependent insulin release, slow gastric emptying, and promote satiety. Semaglutide is a course prototype.",
   "hmg-coa reductase": "The liver enzyme inhibited by statins to reduce cholesterol synthesis. Blocking this enzyme lowers LDL cholesterol and helps reduce cardiovascular risk.",
   "insulin glargine": "A long-acting basal insulin used to provide steady background insulin coverage. It is not used for rapid mealtime correction in the way rapid-acting insulin is.",
+  "insulin aspart": "A rapid-acting insulin used for mealtime glucose control. It begins working quickly and is not the same as long-acting basal insulin.",
+  "insulin detemir": "A long-acting basal insulin used to provide background insulin coverage. It is not used for IV insulin infusion in acute DKA protocols.",
+  "insulin lispro": "A rapid-acting insulin used around meals to manage postprandial glucose rises. It has a faster onset than regular insulin.",
   levothyroxine: "Synthetic T4 thyroid hormone used to treat hypothyroidism. Therapy is commonly monitored with TSH and clinical response, and excess dosing can cause hyperthyroid-like symptoms.",
   macrolide: "An antibiotic class that includes erythromycin, azithromycin, and clarithromycin. Course safety issues include hypersensitivity, QT prolongation, GI effects, and interactions that can increase digoxin or warfarin effects.",
   macrocytic: "Describes red blood cells that are larger than normal, often reflected by elevated MCV. Vitamin B12 and folate deficiencies are common causes of macrocytic anemia.",
@@ -413,6 +423,7 @@ Object.assign(medicalTerms, {
   mucosa: "The innermost lining layer of the GI tract. It contains absorptive and secretory epithelium, so mucosal injury or malfunction can impair nutrient absorption or contribute to ulcer symptoms.",
   mylanta: "An antacid product containing aluminum hydroxide, magnesium hydroxide, and simethicone. It neutralizes existing gastric acid and can interact with absorption of some medications.",
   "normal flora": "The expected microorganisms that live on or in the body, especially in the GI tract. Antibiotics can disrupt normal flora and allow superinfection such as C. difficile or candidiasis.",
+  "nph insulin": "An intermediate-acting insulin used for basal coverage over part of the day. It has a peak effect and is distinct from rapid-acting mealtime insulin and long-acting basal analogs.",
   normocytic: "Describes red blood cells of normal size. Normocytic anemia can occur with acute blood loss, chronic disease, kidney disease, or mixed causes.",
   "normocytic anemia": "Anemia with red blood cells that are normal in size but reduced in number or hemoglobin content. Chronic kidney disease and acute blood loss are common course-relevant contexts.",
   phenothiazine: "A medication class that includes promethazine for nausea and vomiting. Sedation and anticholinergic effects are important safety considerations.",
@@ -420,12 +431,18 @@ Object.assign(medicalTerms, {
   "phosphodiesterase-5 inhibitor": "A medication class used for erectile dysfunction and some pulmonary hypertension indications. Combining these drugs with nitrates such as nitroglycerin can cause dangerous hypotension.",
   promethazine: "A phenothiazine antiemetic used for nausea and vomiting. It can cause sedation, dizziness, and anticholinergic effects, so fall risk and driving safety matter.",
   prostaglandin: "A lipid mediator involved in inflammation, pain, fever, and uterine contractions. Primary dysmenorrhea is strongly linked to prostaglandin-mediated uterine cramping.",
+  "oral contraceptive": "A medication used to prevent pregnancy, often containing estrogen plus progestin or progestin alone. Consistent dosing matters, and estrogen-containing products increase thrombotic risk, especially with smoking and older age.",
+  "oral contraceptives": "Medications used to prevent pregnancy, often containing estrogen plus progestin or progestin alone. Consistent dosing matters, and estrogen-containing products increase thrombotic risk, especially with smoking and older age.",
   ptu: "Propylthiouracil, a thioamide used for hyperthyroidism. It is often preferred in the first trimester of pregnancy and can also reduce peripheral conversion of T4 to T3.",
+  propylthiouracil: "A thioamide medication, abbreviated PTU, used for hyperthyroidism. It is often preferred in the first trimester of pregnancy and can also reduce peripheral conversion of T4 to T3.",
   psyllium: "A bulk-forming laxative that absorbs water and increases stool bulk. It should be taken with adequate fluid to reduce choking or obstruction risk.",
   "reed-sternberg cells": "Large abnormal cells classically associated with Hodgkin lymphoma. Their presence helps distinguish Hodgkin lymphoma from non-Hodgkin lymphoma.",
+  "regular insulin": "A short-acting insulin that can be given intravenously in selected acute care protocols, including DKA treatment. It has a slower onset than rapid-acting analogs such as lispro or aspart.",
   rivaroxaban: "A direct factor Xa inhibitor anticoagulant used to prevent or treat thromboembolic disorders. Bleeding is the major safety concern, but INR is not used for routine monitoring.",
+  "sacubitril/valsartan": "An angiotensin receptor-neprilysin inhibitor combination used in selected heart failure patients. It must not overlap with ACE inhibitors; a 36-hour washout reduces angioedema risk.",
   rhabdomyolysis: "Severe skeletal muscle breakdown that can release myoglobin into the blood and injure the kidneys. Unexplained muscle pain with dark urine is a warning pattern, including in statin safety questions.",
   semaglutide: "A GLP-1 receptor agonist used in diabetes management. It supports glucose control through incretin effects and is commonly associated with GI adverse effects such as nausea.",
+  sildenafil: "A phosphodiesterase-5 inhibitor used for erectile dysfunction and some pulmonary hypertension indications. It should not be combined with nitrates such as nitroglycerin because severe hypotension can occur.",
   "sickle cell anemia": "An inherited anemia involving abnormal hemoglobin S. Red cells can sickle during stress or low oxygen states, causing hemolysis, vaso-occlusion, pain, and organ ischemia.",
   "sglt2 inhibitor": "A diabetes medication class that lowers blood glucose by blocking renal glucose reabsorption and increasing urinary glucose excretion. Empagliflozin is a course prototype.",
   simethicone: "An antiflatulent agent included in some antacid mixtures such as Mylanta. It helps reduce gas bubbles but does not suppress acid production.",
@@ -526,7 +543,7 @@ const el = {
   questionsLeftCount: document.getElementById("questionsLeftCount"),
 };
 
-const filters = SHOW_ALL_QUESTIONS ? [el.week, el.subtopic, el.source] : [el.week, el.subtopic];
+const filters = SHOW_SOURCE_FILTER ? [el.week, el.subtopic, el.source] : [el.week, el.subtopic];
 
 async function init() {
   try {
@@ -568,8 +585,13 @@ function prepareQuestions(questions) {
 }
 
 function getVisibleQuestions(questions) {
+  if (SHOW_NEW_QUESTIONS) return questions.filter(isNewQuestion);
   if (SHOW_ALL_QUESTIONS) return questions;
   return questions.filter((question) => question.sourceType !== "Course");
+}
+
+function isNewQuestion(question) {
+  return Boolean(question.sourceDetail) || question.sourceConfidence === "online-practice-style-course-audited";
 }
 
 function bindEvents() {
@@ -585,7 +607,7 @@ function bindEvents() {
 function buildFilters() {
   fillWeekSelect(el.week, "All weeks", state.questions);
   fillSelect(el.subtopic, "All subtopics", state.questions.map((q) => q.subtopic));
-  if (SHOW_ALL_QUESTIONS) {
+  if (SHOW_SOURCE_FILTER) {
     fillSelect(el.source, "All sources", state.questions.map((q) => q.sourceType));
   } else {
     el.source.value = "";
@@ -880,7 +902,7 @@ function getSelectedFilters() {
   return {
     week: el.week.value,
     subtopic: el.subtopic.value,
-    source: SHOW_ALL_QUESTIONS ? el.source.value : "",
+    source: SHOW_SOURCE_FILTER ? el.source.value : "",
   };
 }
 
