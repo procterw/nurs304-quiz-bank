@@ -56,20 +56,6 @@
     "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s026.png"
   },
   {
-    "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s029",
-    "week": 1,
-    "weekLabel": "Week 1",
-    "deckId": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine",
-    "deckTitle": "01-W1 In Class Friday-W1 304_Pharmacokinetic-Pharmacodynamic_STUDENT",
-    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd/01-W1 In Class Friday-W1 304_Pharmacokinetic-Pharmacodynamic_STUDENT.pptx",
-    "slideNumber": 29,
-    "title": "Metabolism continued… Enzyme induction Increases enzyme levels and activity Faster breakdown Example St John’s",
-    "text": "Metabolism continued… Enzyme induction Increases enzyme levels and activity Faster breakdown Example St John’s Wort ( Hypericum perforatum ): induces cytochrome P450 3A4 subtype",
-    "textLength": 177,
-    "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
-    "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s029.png"
-  },
-  {
     "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s051",
     "week": 1,
     "weekLabel": "Week 1",
@@ -166,6 +152,20 @@
     "textLength": 142,
     "subtopic": "Antihistamines and Allergy Pharmacology",
     "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s071.png"
+  },
+  {
+    "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s020",
+    "week": 1,
+    "weekLabel": "Week 1",
+    "deckId": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co",
+    "deckTitle": "01-W1 In Class Tuesday-W1 Foundational Concepts & Immune System Patho_STUDENT",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd/01-W1 In Class Tuesday-W1 Foundational Concepts & Immune System Patho_STUDENT.pptx",
+    "slideNumber": 20,
+    "title": "Hypertrophy Growth in size due to increase in workload, support, or stimulation Consuming more energy and oxyg",
+    "text": "Hypertrophy Growth in size due to increase in workload, support, or stimulation Consuming more energy and oxygen Physiologic Genetic Pathologic",
+    "textLength": 143,
+    "subtopic": "Respiratory Physiology and Gas Exchange",
+    "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s020.png"
   },
   {
     "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s022",
@@ -280,6 +280,20 @@
     "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s038.png"
   },
   {
+    "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s042",
+    "week": 1,
+    "weekLabel": "Week 1",
+    "deckId": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co",
+    "deckTitle": "01-W1 In Class Tuesday-W1 Foundational Concepts & Immune System Patho_STUDENT",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd/01-W1 In Class Tuesday-W1 Foundational Concepts & Immune System Patho_STUDENT.pptx",
+    "slideNumber": 42,
+    "title": "Type II: Cytotoxic Mistakenly identifies normal antigen on cells as foreign Release IgG and IgM Bind to antige",
+    "text": "Type II: Cytotoxic Mistakenly identifies normal antigen on cells as foreign Release IgG and IgM Bind to antigens on those cells Example Autoimmune diseases: Graves diseases Pernicious anemia",
+    "textLength": 190,
+    "subtopic": "Innate Immunity and Hypersensitivity",
+    "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s042.png"
+  },
+  {
     "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s044",
     "week": 1,
     "weekLabel": "Week 1",
@@ -306,6 +320,20 @@
     "textLength": 202,
     "subtopic": "Innate Immunity and Hypersensitivity",
     "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s046.png"
+  },
+  {
+    "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s047",
+    "week": 1,
+    "weekLabel": "Week 1",
+    "deckId": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co",
+    "deckTitle": "01-W1 In Class Tuesday-W1 Foundational Concepts & Immune System Patho_STUDENT",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd/01-W1 In Class Tuesday-W1 Foundational Concepts & Immune System Patho_STUDENT.pptx",
+    "slideNumber": 47,
+    "title": "Exemplar: Rheumatoid Arthritis Most common inflammatory arthritic disorder 1% of population worldwide 3:1 fema",
+    "text": "Exemplar: Rheumatoid Arthritis Most common inflammatory arthritic disorder 1% of population worldwide 3:1 female - to-male ratio, peaks 4 th or 5 th decade Etiology : genetic & environmental, poorly understood Pathoge nesis : Innate & adaptive immunity, involving macrophages, T cells, B cells, fibroblasts, chondrocytes, dendritic cells Production of RF antibodies against self-IgG in the synovium  formation of immune complexes  phagocytosis produces proinflammatory cytokines within the joint (IL-1, IL-6, & TNF)",
+    "textLength": 517,
+    "subtopic": "Innate Immunity and Hypersensitivity",
+    "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s047.png"
   },
   {
     "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s048",
@@ -560,6 +588,34 @@
     "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s021.png"
   },
   {
+    "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s023",
+    "week": 1,
+    "weekLabel": "Week 1",
+    "deckId": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu",
+    "deckTitle": "01-W1 Required Asynchronous-NURS 304 Immune Modulator Medications Student",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd/01-W1 Required Asynchronous-NURS 304 Immune Modulator Medications Student.pptx",
+    "slideNumber": 23,
+    "title": "T & B Cell Suppressors continued T-Cell Suppressor: Tacrolimus B-Cell Suppressor: Mycophenolate mofetil",
+    "text": "T & B Cell Suppressors continued T-Cell Suppressor: Tacrolimus B-Cell Suppressor: Mycophenolate mofetil",
+    "textLength": 103,
+    "subtopic": "Adaptive Immunity and Immunosuppression",
+    "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s023.png"
+  },
+  {
+    "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s028",
+    "week": 1,
+    "weekLabel": "Week 1",
+    "deckId": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu",
+    "deckTitle": "01-W1 Required Asynchronous-NURS 304 Immune Modulator Medications Student",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd/01-W1 Required Asynchronous-NURS 304 Immune Modulator Medications Student.pptx",
+    "slideNumber": 28,
+    "title": "Nursing T & B Cell Suppressors Intervention Assess for symptoms of organ rejection through therapy Blood tests",
+    "text": "Nursing T & B Cell Suppressors Intervention Assess for symptoms of organ rejection through therapy Blood tests prior and periodically through treatment Blood level monitoring to evaluate for drug toxicity Protect the patient from unnecessary exposure to infection. Provide support and reassurance to the patient",
+    "textLength": 311,
+    "subtopic": "Adaptive Immunity and Immunosuppression",
+    "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s028.png"
+  },
+  {
     "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s033",
     "week": 1,
     "weekLabel": "Week 1",
@@ -588,20 +644,6 @@
     "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s034.png"
   },
   {
-    "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s035",
-    "week": 1,
-    "weekLabel": "Week 1",
-    "deckId": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu",
-    "deckTitle": "01-W1 Required Asynchronous-NURS 304 Immune Modulator Medications Student",
-    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd/01-W1 Required Asynchronous-NURS 304 Immune Modulator Medications Student.pptx",
-    "slideNumber": 35,
-    "title": "Drug-Drug Interactions Monoclonal Antibodies Live vaccinations Use with any other immunosuppressant drug",
-    "text": "Drug-Drug Interactions Monoclonal Antibodies Live vaccinations Use with any other immunosuppressant drug",
-    "textLength": 104,
-    "subtopic": "Adaptive Immunity and Immunosuppression",
-    "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s035.png"
-  },
-  {
     "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-med--s006",
     "week": 1,
     "weekLabel": "Week 1",
@@ -614,6 +656,20 @@
     "textLength": 175,
     "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
     "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-med--s006.png"
+  },
+  {
+    "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-med--s007",
+    "week": 1,
+    "weekLabel": "Week 1",
+    "deckId": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-med-",
+    "deckTitle": "01-W1 Required Asynchronous-NURS 304 Med Safety Student",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd/01-W1 Required Asynchronous-NURS 304 Med Safety Student.pptx",
+    "slideNumber": 7,
+    "title": "02 Right Drug - When preparing the medication -Use generic names Use the 3 Checks - When pulling the medicatio",
+    "text": "02 Right Drug - When preparing the medication -Use generic names Use the 3 Checks - When pulling the medication -Always label meds ! - When at the bedside (Hanson & Haddad, 2022)",
+    "textLength": 178,
+    "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
+    "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-med--s007.png"
   },
   {
     "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-med--s010",
@@ -642,6 +698,20 @@
     "textLength": 163,
     "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
     "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-med--s011.png"
+  },
+  {
+    "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-med--s016",
+    "week": 1,
+    "weekLabel": "Week 1",
+    "deckId": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-med-",
+    "deckTitle": "01-W1 Required Asynchronous-NURS 304 Med Safety Student",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd/01-W1 Required Asynchronous-NURS 304 Med Safety Student.pptx",
+    "slideNumber": 16,
+    "title": "Med Reconciliation 1",
+    "text": "Med Reconciliation 1. Verify medication history 2. Clarify & compare to current orders 3. Reconciliation: document changes (IHI, 2023., McShane & Stark, 2018 )",
+    "textLength": 159,
+    "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
+    "image": "data/slide-previews/week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-med--s016.png"
   },
   {
     "id": "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-wk-2-neurotra-s004",
@@ -980,6 +1050,20 @@
     "image": "data/slide-previews/week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s017.png"
   },
   {
+    "id": "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s018",
+    "week": 2,
+    "weekLabel": "Week 2",
+    "deckId": "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student",
+    "deckTitle": "02-W2 In Class Tuesday-HTN_ACS_Arrhythmia_HF_Patho_STUDENT",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-02-cardiovascular-pathopharmacology/02-W2 In Class Tuesday-HTN_ACS_Arrhythmia_HF_Patho_STUDENT.pptx",
+    "slideNumber": 18,
+    "title": "Afterload The amount of impedance or resistance that must be overcome to eject blood from heart Increased afte",
+    "text": "Afterload The amount of impedance or resistance that must be overcome to eject blood from heart Increased afterload Hypertension Aortic valve stenosis",
+    "textLength": 150,
+    "subtopic": "Hypertension and Cardiovascular Pharmacology",
+    "image": "data/slide-previews/week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s018.png"
+  },
+  {
     "id": "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s020",
     "week": 2,
     "weekLabel": "Week 2",
@@ -1006,6 +1090,20 @@
     "textLength": 655,
     "subtopic": "Hypertension and Cardiovascular Pharmacology",
     "image": "data/slide-previews/week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s026.png"
+  },
+  {
+    "id": "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s034",
+    "week": 2,
+    "weekLabel": "Week 2",
+    "deckId": "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student",
+    "deckTitle": "02-W2 In Class Tuesday-HTN_ACS_Arrhythmia_HF_Patho_STUDENT",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-02-cardiovascular-pathopharmacology/02-W2 In Class Tuesday-HTN_ACS_Arrhythmia_HF_Patho_STUDENT.pptx",
+    "slideNumber": 34,
+    "title": "Clinical Manifestations of Hypertension Symptoms Early Moderate to Severe Malignant Vague, non-specific, or no",
+    "text": "Clinical Manifestations of Hypertension Symptoms Early Moderate to Severe Malignant Vague, non-specific, or none! Human body adapts to slow changes Headache , dizziness, N/V Confusion/disorientation Visual disturbances Decreased urine output Decreased LOC Coma Other event (i.e. ruptured aneurysm, MI, CVA, heart failure)",
+    "textLength": 321,
+    "subtopic": "Heart Failure, Shock, and Fluid Overload",
+    "image": "data/slide-previews/week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s034.png"
   },
   {
     "id": "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s041",
@@ -1260,6 +1358,20 @@
     "image": "data/slide-previews/week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s002.png"
   },
   {
+    "id": "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s009",
+    "week": 2,
+    "weekLabel": "Week 2",
+    "deckId": "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student",
+    "deckTitle": "02-W2 Required Asynchronous-NURS 304 CAD Pharmacology Student",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-02-cardiovascular-pathopharmacology/02-W2 Required Asynchronous-NURS 304 CAD Pharmacology Student.pptx",
+    "slideNumber": 9,
+    "title": "HMG-CoA Reductase Inhibitors Mechanism of Action Inhibit HMH-CoA enzyme, decreasing cholesterol synthesis, inc",
+    "text": "HMG-CoA Reductase Inhibitors Mechanism of Action Inhibit HMH-CoA enzyme, decreasing cholesterol synthesis, increase in LDL receptors, decrease more LDL and VLDL Drug names Atorvastatin (Lipitor) Rosuvastatin (Crestor) Simvastatin (Zocor) Pravastatin (Pravachol)",
+    "textLength": 261,
+    "subtopic": "Coronary Artery Disease, Angina, and Myocardial Infarction",
+    "image": "data/slide-previews/week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s009.png"
+  },
+  {
     "id": "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s013",
     "week": 2,
     "weekLabel": "Week 2",
@@ -1314,6 +1426,20 @@
     "textLength": 497,
     "subtopic": "Heart Failure, Shock, and Fluid Overload",
     "image": "data/slide-previews/week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s031.png"
+  },
+  {
+    "id": "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s038",
+    "week": 2,
+    "weekLabel": "Week 2",
+    "deckId": "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student",
+    "deckTitle": "02-W2 Required Asynchronous-NURS 304 CAD Pharmacology Student",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-02-cardiovascular-pathopharmacology/02-W2 Required Asynchronous-NURS 304 CAD Pharmacology Student.pptx",
+    "slideNumber": 38,
+    "title": "Patient Education : Nitrates continued Acute Anginal Attack Sublingual Sit down and take medication at first s",
+    "text": "Patient Education : Nitrates continued Acute Anginal Attack Sublingual Sit down and take medication at first sign of chest pain Do not chew tablet, let it absorb under tongue Relief usually within 5 minutes May repeat dose 5–10 min if pain persists Call provider/ER if pain not relieved after that time For spray → lift tongue and spray under the tongue",
+    "textLength": 353,
+    "subtopic": "Coronary Artery Disease, Angina, and Myocardial Infarction",
+    "image": "data/slide-previews/week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s038.png"
   },
   {
     "id": "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-hypersensitivity-and-antihistamine-student-s005",
@@ -1750,20 +1876,6 @@
     "image": "data/slide-previews/week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s003.png"
   },
   {
-    "id": "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s013",
-    "week": 3,
-    "weekLabel": "Week 3",
-    "deckId": "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student",
-    "deckTitle": "03-W3 In Class Tuesday-W3 Respiratory Patho STUDENT",
-    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-03-pulmonary-pathopharmacology/03-W3 In Class Tuesday-W3 Respiratory Patho STUDENT.pptx",
-    "slideNumber": 13,
-    "title": "Diffusion The exchange of gases",
-    "text": "Diffusion The exchange of gases. At the alveolar level, this is called respiration. Illustration by Smart-Servier Medical Art",
-    "textLength": 125,
-    "subtopic": "Respiratory Physiology and Gas Exchange",
-    "image": "data/slide-previews/week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s013.png"
-  },
-  {
     "id": "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s014",
     "week": 3,
     "weekLabel": "Week 3",
@@ -1918,6 +2030,20 @@
     "image": "data/slide-previews/week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s060.png"
   },
   {
+    "id": "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s064",
+    "week": 3,
+    "weekLabel": "Week 3",
+    "deckId": "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student",
+    "deckTitle": "03-W3 In Class Tuesday-W3 Respiratory Patho STUDENT",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-03-pulmonary-pathopharmacology/03-W3 In Class Tuesday-W3 Respiratory Patho STUDENT.pptx",
+    "slideNumber": 64,
+    "title": "Emphysema S ymptoms typically begin after >30% of lung is damaged",
+    "text": "Emphysema S ymptoms typically begin after >30% of lung is damaged. Signs/symptoms include: Cough, wheezing, weight loss, prolonged expiration, breathes through pursed lips , barrel chest",
+    "textLength": 186,
+    "subtopic": "COPD and Chronic Respiratory Disease",
+    "image": "data/slide-previews/week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s064.png"
+  },
+  {
     "id": "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s065",
     "week": 3,
     "weekLabel": "Week 3",
@@ -1930,6 +2056,20 @@
     "textLength": 120,
     "subtopic": "Pneumonia, Atelectasis, ARDS, and Pneumothorax",
     "image": "data/slide-previews/week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s065.png"
+  },
+  {
+    "id": "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s066",
+    "week": 3,
+    "weekLabel": "Week 3",
+    "deckId": "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student",
+    "deckTitle": "03-W3 In Class Tuesday-W3 Respiratory Patho STUDENT",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-03-pulmonary-pathopharmacology/03-W3 In Class Tuesday-W3 Respiratory Patho STUDENT.pptx",
+    "slideNumber": 66,
+    "title": "E nd Stage E mphysema Disease complications include: Polycythemia Decrease oxygen saturation : O2 may be order",
+    "text": "E nd Stage E mphysema Disease complications include: Polycythemia Decrease oxygen saturation : O2 may be ordered for sats <95% , OR LOWER May lose ability to sense hypercapnia (high level of CO2) Only O2 receptors function to drive respiratory impulse Pursed lip breathing helps keep airway open longer (long expiration) Tripoding helps lower diaphragm and chest expand more fully",
+    "textLength": 380,
+    "subtopic": "Respiratory Physiology and Gas Exchange",
+    "image": "data/slide-previews/week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s066.png"
   },
   {
     "id": "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s069",
@@ -2140,6 +2280,20 @@
     "textLength": 119,
     "subtopic": "Asthma and Bronchodilator Therapy",
     "image": "data/slide-previews/week-03-pulmonary-pathopharmacology-03-w3-required-asynchronous-nurs-304-respiratory-case-study-asynchronous-2025-studen-s019.png"
+  },
+  {
+    "id": "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s011",
+    "week": 4,
+    "weekLabel": "Week 4",
+    "deckId": "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student",
+    "deckTitle": "04-W4 In Class Friday-W4 NURS 304 Fluid and Diuretics STUDENT",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-04-renal-pathopharmacology-electrolytes/04-W4 In Class Friday-W4 NURS 304 Fluid and Diuretics STUDENT.pptx",
+    "slideNumber": 11,
+    "title": "Fluid Volume Deficit: Cellular Dehydration Loss of water, leads to hypernatremia Hypertonic environment caused",
+    "text": "Fluid Volume Deficit: Cellular Dehydration Loss of water, leads to hypernatremia Hypertonic environment caused by: Hypernatremia Hyperglycemia Use of hypertonic solutions",
+    "textLength": 170,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "image": "data/slide-previews/week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s011.png"
   },
   {
     "id": "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s012",
@@ -2702,20 +2856,6 @@
     "image": "data/slide-previews/week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s010.png"
   },
   {
-    "id": "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s014",
-    "week": 5,
-    "weekLabel": "Week 5",
-    "deckId": "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student",
-    "deckTitle": "05-W5 In Class Friday-W5 NURS 304 Upper GI Medications STUDENT",
-    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-05-gastrointestinal-pathopharmacology/05-W5 In Class Friday-W5 NURS 304 Upper GI Medications STUDENT.pptx",
-    "slideNumber": 14,
-    "title": "Signs/Symptoms of PUD Gastric Dull ache after eating Food does not relieve pain Heartburn Bloating Hemorrhage ",
-    "text": "Signs/Symptoms of PUD Gastric Dull ache after eating Food does not relieve pain Heartburn Bloating Hemorrhage more likely (hematemesis more likely than melena) Duodenal Severe pain, worse w/ stomach is empty & at night Food relieves pain Heartburn Bloating Vomiting uncommon Hemorrhage less likely (melena more likely than hematemesis",
-    "textLength": 334,
-    "subtopic": "Peptic Ulcer Disease and Acid Suppression",
-    "image": "data/slide-previews/week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s014.png"
-  },
-  {
     "id": "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s017",
     "week": 5,
     "weekLabel": "Week 5",
@@ -2954,20 +3094,6 @@
     "image": "data/slide-previews/week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s042.png"
   },
   {
-    "id": "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s044",
-    "week": 5,
-    "weekLabel": "Week 5",
-    "deckId": "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student",
-    "deckTitle": "05-W5 In Class Tuesday-W5 GI_STUDENT",
-    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-05-gastrointestinal-pathopharmacology/05-W5 In Class Tuesday-W5 GI_STUDENT.pptx",
-    "slideNumber": 44,
-    "title": "Pylori Treatment Elimination of infection reduce risk of ulcer recurrence and gastric CA Combination drug ther",
-    "text": "H. Pylori Treatment Elimination of infection reduce risk of ulcer recurrence and gastric CA Combination drug therapy 2 antibiotics Acid reducer (e.g. proton pump inhibitor) Occasionally bismuth subsalicylate (Pepto Bismol) Sometimes metronidazole (Flagyl) – if there are penicillin allergies These drug protocols Are Not on exam, but good to know!",
-    "textLength": 347,
-    "subtopic": "Peptic Ulcer Disease and Acid Suppression",
-    "image": "data/slide-previews/week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s044.png"
-  },
-  {
     "id": "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s047",
     "week": 5,
     "weekLabel": "Week 5",
@@ -3052,20 +3178,6 @@
     "image": "data/slide-previews/week-05-gastrointestinal-pathopharmacology-05-w5-required-asynchronous-nurs-304-n-v-and-lower-gi-medications-s026.png"
   },
   {
-    "id": "week-05-gastrointestinal-pathopharmacology-05-w5-required-asynchronous-nurs-304-n-v-and-lower-gi-medications-s035",
-    "week": 5,
-    "weekLabel": "Week 5",
-    "deckId": "week-05-gastrointestinal-pathopharmacology-05-w5-required-asynchronous-nurs-304-n-v-and-lower-gi-medications",
-    "deckTitle": "05-W5 Required Asynchronous-NURS 304 N-V and Lower GI Medications",
-    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-05-gastrointestinal-pathopharmacology/05-W5 Required Asynchronous-NURS 304 N-V and Lower GI Medications.pptx",
-    "slideNumber": 35,
-    "title": "Drug Therapy Laxatives Cathartics Soft, formed stools Ex",
-    "text": "Drug Therapy Laxatives Cathartics Soft, formed stools Ex. Bulk forming Laxatives Liquid or semi-liquid stool Ex. Bisacodyl (Dulcolax)",
-    "textLength": 133,
-    "subtopic": "Bowel Motility, Nausea, Vomiting, and Elimination",
-    "image": "data/slide-previews/week-05-gastrointestinal-pathopharmacology-05-w5-required-asynchronous-nurs-304-n-v-and-lower-gi-medications-s035.png"
-  },
-  {
     "id": "week-05-gastrointestinal-pathopharmacology-05-w5-required-asynchronous-nurs-304-n-v-and-lower-gi-medications-s036",
     "week": 5,
     "weekLabel": "Week 5",
@@ -3136,6 +3248,20 @@
     "image": "data/slide-previews/week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s005.png"
   },
   {
+    "id": "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s006",
+    "week": 6,
+    "weekLabel": "Week 6",
+    "deckId": "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor",
+    "deckTitle": "06-W6 In Class Friday-Anemias_Meds_Instructor",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-06-hematology-and-coagulation/06-W6 In Class Friday-Anemias_Meds_Instructor.pptx",
+    "slideNumber": 6,
+    "title": "Ferrous Sulfate Pharmacokinetics & Contraindications Pharmacokinetics Oral (tablet or elixir) Poor absorption ",
+    "text": "Ferrous Sulfate Pharmacokinetics & Contraindications Pharmacokinetics Oral (tablet or elixir) Poor absorption when taken with calcium Onset: 4 days Excretion: urine, sweat Contraindications Hypersensitivity Patients in iron-overloaded states (hemochromatosis, hemolytic anemia)",
+    "textLength": 277,
+    "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
+    "image": "data/slide-previews/week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s006.png"
+  },
+  {
     "id": "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s008",
     "week": 6,
     "weekLabel": "Week 6",
@@ -3176,6 +3302,20 @@
     "textLength": 277,
     "subtopic": "Hemostasis, Anticoagulation, and Thrombolytics",
     "image": "data/slide-previews/week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s016.png"
+  },
+  {
+    "id": "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s020",
+    "week": 6,
+    "weekLabel": "Week 6",
+    "deckId": "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor",
+    "deckTitle": "06-W6 In Class Friday-Anemias_Meds_Instructor",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-06-hematology-and-coagulation/06-W6 In Class Friday-Anemias_Meds_Instructor.pptx",
+    "slideNumber": 20,
+    "title": "Medications Affecting Coagulation Anti-coagulant medications Warfarin Rivaroxaban Apixaban Dabigatran Endoxaba",
+    "text": "Medications Affecting Coagulation Anti-coagulant medications Warfarin Rivaroxaban Apixaban Dabigatran Endoxaban Betrixaban Heparin (IV or SQ) Enoxaparin (SQ) Dalteparin (SQ) Fondaparinux (SQ) Argatroban (IV) Bivalirudin (IV) Desirudin (SQ) Protein C concentrate (IV) Antithrombin (IV) K K K",
+    "textLength": 290,
+    "subtopic": "Hemostasis, Anticoagulation, and Thrombolytics",
+    "image": "data/slide-previews/week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s020.png"
   },
   {
     "id": "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s021",
@@ -3388,6 +3528,20 @@
     "image": "data/slide-previews/week-06-hematology-and-coagulation-06-w6-in-class-tuesday-anemia-coagulopathy-patho-student-s004.png"
   },
   {
+    "id": "week-06-hematology-and-coagulation-06-w6-in-class-tuesday-anemia-coagulopathy-patho-student-s005",
+    "week": 6,
+    "weekLabel": "Week 6",
+    "deckId": "week-06-hematology-and-coagulation-06-w6-in-class-tuesday-anemia-coagulopathy-patho-student",
+    "deckTitle": "06-W6 In Class Tuesday-Anemia & Coagulopathy_Patho_STUDENT",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-06-hematology-and-coagulation/06-W6 In Class Tuesday-Anemia & Coagulopathy_Patho_STUDENT.pptx",
+    "slideNumber": 5,
+    "title": "Complete Blood Count, Continued WBC Count Platelet count RBC count Hemoglobin [Hb] Hematocrit [Hct] + MCV, MCH",
+    "text": "Complete Blood Count, Continued WBC Count Platelet count RBC count Hemoglobin [Hb] Hematocrit [Hct] + MCV, MCH, MCHC, RDW 1 2 3 4",
+    "textLength": 129,
+    "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
+    "image": "data/slide-previews/week-06-hematology-and-coagulation-06-w6-in-class-tuesday-anemia-coagulopathy-patho-student-s005.png"
+  },
+  {
     "id": "week-06-hematology-and-coagulation-06-w6-in-class-tuesday-anemia-coagulopathy-patho-student-s009",
     "week": 6,
     "weekLabel": "Week 6",
@@ -3542,20 +3696,6 @@
     "image": "data/slide-previews/week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s008.png"
   },
   {
-    "id": "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s009",
-    "week": 6,
-    "weekLabel": "Week 6",
-    "deckId": "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025",
-    "deckTitle": "06-W6 Required Asynchronous-NURS 304 Leukemia and Lymphoma 2025",
-    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-06-hematology-and-coagulation/06-W6 Required Asynchronous-NURS 304 Leukemia and Lymphoma 2025.pptx",
-    "slideNumber": 9,
-    "title": "Acute Myelogenous Leukemia (AML) Proliferation of myeloblasts (immature eosinophils, neutrophils, basophils, m",
-    "text": "Acute Myelogenous Leukemia (AML) Proliferation of myeloblasts (immature eosinophils, neutrophils, basophils, monocytes) in the bone marrow Dx requires at least 20% myeloblasts in marrow/blood Most commonly occurs in adults",
-    "textLength": 222,
-    "subtopic": "Leukocytes, Leukemia, and Lymphoma",
-    "image": "data/slide-previews/week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s009.png"
-  },
-  {
     "id": "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s010",
     "week": 6,
     "weekLabel": "Week 6",
@@ -3612,6 +3752,20 @@
     "image": "data/slide-previews/week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s017.png"
   },
   {
+    "id": "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s019",
+    "week": 6,
+    "weekLabel": "Week 6",
+    "deckId": "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025",
+    "deckTitle": "06-W6 Required Asynchronous-NURS 304 Leukemia and Lymphoma 2025",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-06-hematology-and-coagulation/06-W6 Required Asynchronous-NURS 304 Leukemia and Lymphoma 2025.pptx",
+    "slideNumber": 19,
+    "title": "CML/CLL Signs & Symptoms CML and CLL: 50% or more are asymptomatic at diagnosis Increase infections (neutropen",
+    "text": "CML/CLL Signs & Symptoms CML and CLL: 50% or more are asymptomatic at diagnosis Increase infections (neutropenia) Fever Fatigue, SOB (anemia- low Hgb/HCT) S/ sx of bleeding (e.g. ecchymosis, petechia, heavier menses) Unexplained weight loss Night sweats Splenomegaly LUQ pain Most common physical finding in CML Second most common finding in CLL Anemia ( fatigu Bleeding from thrombocytopenia Recurrent Lymphadenopathy (CLL- most common finding) Hepatomegaly (CLL) Skin- ma Weight loss Fevers Night Swets",
+    "textLength": 504,
+    "subtopic": "Leukocytes, Leukemia, and Lymphoma",
+    "image": "data/slide-previews/week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s019.png"
+  },
+  {
     "id": "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s026",
     "week": 6,
     "weekLabel": "Week 6",
@@ -3624,20 +3778,6 @@
     "textLength": 156,
     "subtopic": "Leukocytes, Leukemia, and Lymphoma",
     "image": "data/slide-previews/week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s026.png"
-  },
-  {
-    "id": "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s028",
-    "week": 6,
-    "weekLabel": "Week 6",
-    "deckId": "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025",
-    "deckTitle": "06-W6 Required Asynchronous-NURS 304 Leukemia and Lymphoma 2025",
-    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-06-hematology-and-coagulation/06-W6 Required Asynchronous-NURS 304 Leukemia and Lymphoma 2025.pptx",
-    "slideNumber": 28,
-    "title": "Hodgkins Lymphoma Arise in the lymph node, spreading in the lymphatic system Two peak ages Early 20’s Over 50’",
-    "text": "Hodgkins Lymphoma Arise in the lymph node, spreading in the lymphatic system Two peak ages Early 20’s Over 50’s Reed-Sternberg Cells",
-    "textLength": 132,
-    "subtopic": "Leukocytes, Leukemia, and Lymphoma",
-    "image": "data/slide-previews/week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s028.png"
   },
   {
     "id": "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s031",
@@ -3920,6 +4060,20 @@
     "image": "data/slide-previews/week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s087.png"
   },
   {
+    "id": "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s091",
+    "week": 7,
+    "weekLabel": "Week 7",
+    "deckId": "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026",
+    "deckTitle": "07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-07-endocrine-pathopharmacology/07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026.pptx",
+    "slideNumber": 91,
+    "title": "Diagnosis & Tx: Addison’s disease Diagnosis ACTH Stimulation test Insulin Tolerance test Serum lab: sodium, po",
+    "text": "Diagnosis & Tx: Addison’s disease Diagnosis ACTH Stimulation test Insulin Tolerance test Serum lab: sodium, potassium, ACTH and cortisol levels Imaging Treatment",
+    "textLength": 161,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "image": "data/slide-previews/week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s091.png"
+  },
+  {
     "id": "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s092",
     "week": 7,
     "weekLabel": "Week 7",
@@ -4018,6 +4172,20 @@
     "image": "data/slide-previews/week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s003.png"
   },
   {
+    "id": "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s005",
+    "week": 8,
+    "weekLabel": "Week 8",
+    "deckId": "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro",
+    "deckTitle": "08-W8 Required Asynchronous-NURS 304 Antibiotics Amino-Fluoro-Tetras-Macros Asynchronous 2025",
+    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-08-infection-pathopharmacology/08-W8 Required Asynchronous-NURS 304 Antibiotics Amino-Fluoro-Tetras-Macros Asynchronous 2025.pptx",
+    "slideNumber": 5,
+    "title": "Pharmacokinetics: Aminoglycosides Processes ADME Absorption Oral, IM, IV, Opthalmic, topical, intrathecal Dist",
+    "text": "Pharmacokinetics: Aminoglycosides Processes ADME Absorption Oral, IM, IV, Opthalmic, topical, intrathecal Distribution Wide distribution, but accumulates in the renal tubules and the inner ear Metabolism Unchanged Elimination Kidneys",
+    "textLength": 233,
+    "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
+    "image": "data/slide-previews/week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s005.png"
+  },
+  {
     "id": "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s007",
     "week": 8,
     "weekLabel": "Week 8",
@@ -4086,20 +4254,6 @@
     "textLength": 299,
     "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
     "image": "data/slide-previews/week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s016.png"
-  },
-  {
-    "id": "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s018",
-    "week": 8,
-    "weekLabel": "Week 8",
-    "deckId": "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro",
-    "deckTitle": "08-W8 Required Asynchronous-NURS 304 Antibiotics Amino-Fluoro-Tetras-Macros Asynchronous 2025",
-    "deckPath": "../school-assistant/captures/NURS304/powerpoints/week-08-infection-pathopharmacology/08-W8 Required Asynchronous-NURS 304 Antibiotics Amino-Fluoro-Tetras-Macros Asynchronous 2025.pptx",
-    "slideNumber": 18,
-    "title": "Pharmacokinetics: Tetracycline Processes ADME Absorption PO and IV Best taken on empty stomach Distribution Cr",
-    "text": "Pharmacokinetics: Tetracycline Processes ADME Absorption PO and IV Best taken on empty stomach Distribution Crosses placenta Enters chestmilk Metabolism Liver Elimination Kidneys",
-    "textLength": 178,
-    "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
-    "image": "data/slide-previews/week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s018.png"
   },
   {
     "id": "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s020",

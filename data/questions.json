@@ -1334,8 +1334,8 @@
     "id": 44,
     "subtopic": "Asthma and Bronchodilator Therapy",
     "slideRefs": [
-      "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s051",
-      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-wk-2-neurotra-s025"
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-wk-2-neurotra-s025",
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s051"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -1722,8 +1722,7 @@
     "id": 57,
     "subtopic": "Respiratory Physiology and Gas Exchange",
     "slideRefs": [
-      "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s056",
-      "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s013"
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s056"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -1881,7 +1880,8 @@
     "id": 62,
     "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
     "slideRefs": [
-      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-304-intro-stude-s009"
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-304-intro-stude-s009",
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-med--s007"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -1995,8 +1995,8 @@
     "id": 66,
     "subtopic": "Hypertension and Cardiovascular Pharmacology",
     "slideRefs": [
-      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-friday-w2-nurs-304-cardiac-meds-student-s030",
-      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s026"
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s026",
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-friday-w2-nurs-304-cardiac-meds-student-s030"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -2262,7 +2262,7 @@
     "id": 75,
     "subtopic": "Adaptive Immunity and Immunosuppression",
     "slideRefs": [
-      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s035"
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s068"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -2324,8 +2324,8 @@
     "id": 77,
     "subtopic": "Coronary Artery Disease, Angina, and Myocardial Infarction",
     "slideRefs": [
-      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s062",
-      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s051"
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s051",
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s062"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -3651,7 +3651,8 @@
     "id": 122,
     "subtopic": "Heart Failure, Shock, and Fluid Overload",
     "slideRefs": [
-      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s085"
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s085",
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s077"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -4614,7 +4615,7 @@
     "subtopic": "Asthma and Bronchodilator Therapy",
     "slideRefs": [
       "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s051",
-      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s028"
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-wk-2-neurotra-s025"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -5218,8 +5219,8 @@
     "sourceConfidence": "generated-audited",
     "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
     "slideRefs": [
-      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-304-intro-stude-s023",
-      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s069"
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s069",
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-304-intro-stude-s023"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -6279,7 +6280,6 @@
     "drug": "proton pump inhibitor",
     "subtopic": "Endocrine and Adrenal Disorders",
     "slideRefs": [
-      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s044",
       "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s019"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
@@ -6363,7 +6363,7 @@
     ],
     "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
     "slideRefs": [
-      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-tuesday-w4-renal-student-s037"
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-tuesday-w4-renal-student-s048"
     ]
   },
   {
@@ -6692,7 +6692,6 @@
     "sourceConfidence": "audited-ai",
     "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
     "slideRefs": [
-      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s029",
       "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s067"
     ],
     "id": 223,
@@ -6874,8 +6873,7 @@
     "sourceConfidence": "audited-ai",
     "subtopic": "Adaptive Immunity and Immunosuppression",
     "slideRefs": [
-      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s048",
-      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s033"
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s048"
     ],
     "id": 229,
     "auditNote": "2026-05-13 rationale-quality-audit"
@@ -7903,8 +7901,8 @@
     "sourceConfidence": "audited-ai",
     "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
     "slideRefs": [
-      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s005",
-      "week-06-hematology-and-coagulation-06-w6-in-class-tuesday-anemia-coagulopathy-patho-student-s004"
+      "week-06-hematology-and-coagulation-06-w6-in-class-tuesday-anemia-coagulopathy-patho-student-s004",
+      "week-06-hematology-and-coagulation-06-w6-in-class-tuesday-anemia-coagulopathy-patho-student-s005"
     ],
     "id": 263,
     "auditNote": "2026-05-13 rationale-quality-audit"
@@ -7965,8 +7963,8 @@
     "sourceConfidence": "audited-ai",
     "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
     "slideRefs": [
-      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s005",
-      "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s011"
+      "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s011",
+      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s005"
     ],
     "id": 265,
     "auditNote": "2026-05-13 rationale-quality-audit"
@@ -8026,7 +8024,7 @@
     "subtopic": "Leukocytes, Leukemia, and Lymphoma",
     "slideRefs": [
       "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s026",
-      "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s028"
+      "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s031"
     ],
     "id": 267,
     "auditNote": "2026-05-13 rationale-quality-audit"
@@ -8414,7 +8412,7 @@
     "sourceConfidence": "audited-ai",
     "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
     "slideRefs": [
-      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s021"
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s005"
     ],
     "id": 280,
     "auditNote": "2026-05-13 rationale-quality-audit"
@@ -8708,7 +8706,8 @@
     "rationale": "The best answer is Sublingual. Sublingual absorption enters systemic circulation without first passing through the liver. Oral and NG routes generally enter portal circulation first. Clinically, the medication name should be tied back to its class, monitoring concern, or major teaching point rather than treated as a memorized isolated fact.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s012"
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s012",
+      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s031"
     ],
     "id": 290,
     "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
@@ -8880,6 +8879,7 @@
     "rationale": "The best answer is Pathologic hypertrophy. Hypertrophy is increased cell size from increased workload. In hypertension, ventricular hypertrophy is pathologic because it reflects pressure overload. The key test-taking cue is to connect the assessment finding or lab pattern in the stem with the underlying physiology, then eliminate options from other body systems.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s020",
       "week-02-cardiovascular-pathopharmacology-02-w2-in-class-friday-w2-nurs-304-cardiac-meds-student-s061"
     ],
     "id": 296,
@@ -9301,8 +9301,8 @@
     "rationale": "The best answer is Ventricular filling or stretch before contraction. Preload is related to venous return and end-diastolic stretch. Afterload is the pressure the ventricle pumps against. The key test-taking cue is to connect the assessment finding or lab pattern in the stem with the underlying physiology, then eliminate options from other body systems.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s017",
-      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s075"
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s075",
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s017"
     ],
     "id": 310,
     "subtopic": "Heart Failure, Shock, and Fluid Overload",
@@ -9447,8 +9447,8 @@
     "rationale": "The best answer is Left-sided heart failure. Left-sided failure backs up into the lungs, causing pulmonary congestion and dyspnea. Right-sided failure causes systemic venous congestion. The key test-taking cue is to connect the assessment finding or lab pattern in the stem with the underlying physiology, then eliminate options from other body systems.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-friday-w2-nurs-304-cardiac-meds-student-s053",
-      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s085"
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s085",
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-friday-w2-nurs-304-cardiac-meds-student-s053"
     ],
     "id": 315,
     "subtopic": "Heart Failure, Shock, and Fluid Overload",
@@ -9536,8 +9536,8 @@
     "rationale": "The best answer is Symptoms at rest. NYHA class IV is severe functional limitation with symptoms at rest. It indicates poor functional status. The key test-taking cue is to connect the assessment finding or lab pattern in the stem with the underlying physiology, then eliminate options from other body systems.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s075",
-      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-friday-w2-nurs-304-cardiac-meds-student-s064"
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s034",
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s075"
     ],
     "id": 318,
     "subtopic": "Heart Failure, Shock, and Fluid Overload",
@@ -10995,8 +10995,8 @@
     "rationale": "The best answer is High pH and low PaCO2. Respiratory alkalosis comes from low PaCO2, often from hyperventilation. The pH rises above normal. The key test-taking cue is to connect the assessment finding or lab pattern in the stem with the underlying physiology, then eliminate options from other body systems.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-04-renal-pathopharmacology-electrolytes-04-w4-required-asynchronous-acid-base-patho-student-s035",
-      "week-05-gastrointestinal-pathopharmacology-05-w5-required-asynchronous-w5-abg-interpretation-activity-student-s008"
+      "week-05-gastrointestinal-pathopharmacology-05-w5-required-asynchronous-w5-abg-interpretation-activity-student-s008",
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-required-asynchronous-acid-base-patho-student-s035"
     ],
     "id": 367,
     "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
@@ -11442,7 +11442,7 @@
     "rationale": "The best answer is Moving the food bolus toward the stomach by peristalsis. The esophagus is a muscular tube that propels swallowed material to the stomach through peristalsis. Most nutrient absorption occurs in the small intestine, bile is produced by the liver, and enzyme secretion is mainly pancreatic and gastric.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s021"
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s026"
     ],
     "id": 382,
     "subtopic": "Innate Immunity and Hypersensitivity",
@@ -11974,8 +11974,7 @@
     "rationale": "The best answer is Cimetidine. Cimetidine is an H2 receptor antagonist and reduces acid secretion by blocking H2 receptors on gastric parietal cells. Omeprazole blocks the proton pump, psyllium is a bulk-forming laxative, and loperamide slows intestinal motility.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s044",
-      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s017"
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s044"
     ],
     "id": 400,
     "subtopic": "Peptic Ulcer Disease and Acid Suppression",
@@ -12005,7 +12004,7 @@
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
       "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s021",
-      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s014"
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s047"
     ],
     "id": 401,
     "subtopic": "Peptic Ulcer Disease and Acid Suppression",
@@ -12093,7 +12092,7 @@
     "rationale": "The best answer is Stimulant laxative or cathartic. Bisacodyl stimulates intestinal motility to promote bowel evacuation, which is why it is used for constipation rather than diarrhea or gastric acid suppression. Loperamide would be an antidiarrheal, omeprazole is a proton pump inhibitor, and cimetidine is an H2 receptor antagonist.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-05-gastrointestinal-pathopharmacology-05-w5-required-asynchronous-nurs-304-n-v-and-lower-gi-medications-s035"
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s030"
     ],
     "id": 404,
     "subtopic": "Bowel Motility, Nausea, Vomiting, and Elimination",
@@ -12637,7 +12636,7 @@
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
       "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s007",
-      "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s009"
+      "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s019"
     ],
     "id": 422,
     "subtopic": "Leukocytes, Leukemia, and Lymphoma",
@@ -13049,8 +13048,8 @@
     "rationale": "The best answer is Autoimmune destruction of the thyroid gland causing hypothyroidism. Hashimoto syndrome is autoimmune hypothyroidism caused by immune-mediated thyroid destruction. Graves disease is autoimmune stimulation of thyroid hormone production. The key test-taking cue is to connect the assessment finding or lab pattern in the stem with the underlying physiology, then eliminate options from other body systems.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s007",
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s009"
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s009",
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s007"
     ],
     "id": 436,
     "subtopic": "Endocrine and Adrenal Disorders",
@@ -13966,8 +13965,8 @@
     "rationale": "The best answer is Photosensitivity. Tetracycline can make the skin more sensitive to sunlight, so clients should use sun protection and avoid prolonged direct sun exposure. Ototoxicity is more associated with aminoglycosides, tendon injury with fluoroquinolones, and acid rebound with antacid or acid-suppression concepts.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s020",
-      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s014"
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s014",
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s020"
     ],
     "id": 467,
     "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
@@ -14267,8 +14266,7 @@
     "rationale": "The correct selections are Calcium supplements, Iron supplements, Magnesium-containing antacids, and Dairy products. Tetracycline absorption is reduced by chelation with calcium, iron, magnesium, aluminum, and similar cations, including dairy and many antacids. Plain water is generally preferred for administration.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s021",
-      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s018"
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s021"
     ],
     "id": 477,
     "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
@@ -14389,5 +14387,2895 @@
     "id": 481,
     "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
     "auditNote": "2026-05-13 rationale-quality-audit"
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A medication order uses a trailing zero, such as “1.0 mg.” What is the nurse’s priority action before giving the medication?",
+    "options": [
+      "Clarify the order because the dose could be misread",
+      "Administer the dose because trailing zeros improve accuracy",
+      "Round the dose down without asking",
+      "Document that the order was unclear after giving it"
+    ],
+    "correctAnswers": [
+      "Clarify the order because the dose could be misread"
+    ],
+    "rationale": "The best answer is Clarify the order because the dose could be misread. Trailing zeros can create tenfold dosing errors if the decimal is missed. The nurse should clarify unsafe notation rather than independently changing or administering the dose.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 482,
+    "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-med--s010"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client cannot swallow a prescribed large capsule. Which medication right is the nurse reassessing by asking whether a liquid formulation is available?",
+    "options": [
+      "Right route",
+      "Right time",
+      "Right documentation",
+      "Right evaluation"
+    ],
+    "correctAnswers": [
+      "Right route"
+    ],
+    "rationale": "The best answer is Right route. The route includes the form and path used to administer a medication. A liquid formulation may be safer than crushing or forcing a capsule, depending on the medication. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 483,
+    "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-med--s011"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which actions support safe medication administration? Select all that apply.",
+    "options": [
+      "Use two client identifiers",
+      "Clarify unclear abbreviations",
+      "Compare the medication with the order",
+      "Document administration accurately",
+      "Use the room number as the primary identifier"
+    ],
+    "correctAnswers": [
+      "Use two client identifiers",
+      "Clarify unclear abbreviations",
+      "Compare the medication with the order",
+      "Document administration accurately"
+    ],
+    "rationale": "The correct answers are Use two client identifiers, Clarify unclear abbreviations, Compare the medication with the order, and Document administration accurately. These actions reduce wrong-patient, wrong-drug, and unclear-order errors. A room number is not a reliable patient identifier.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 484,
+    "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-med--s016"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A highly protein-bound drug is prescribed for a client with low albumin. Which response is the nurse most concerned about?",
+    "options": [
+      "Increased free drug and toxicity risk",
+      "Decreased free drug with no clinical effect",
+      "Complete prevention of absorption",
+      "Immediate renal excretion of the entire dose"
+    ],
+    "correctAnswers": [
+      "Increased free drug and toxicity risk"
+    ],
+    "rationale": "The best answer is Increased free drug and toxicity risk. Albumin binds many medications in plasma. Low albumin can increase the active unbound fraction of highly protein-bound drugs and raise adverse-effect risk. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 485,
+    "subtopic": "Innate Immunity and Hypersensitivity",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s011"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which route is most likely to bypass first-pass metabolism?",
+    "options": [
+      "Sublingual",
+      "Oral",
+      "Nasogastric",
+      "Swallowed liquid"
+    ],
+    "correctAnswers": [
+      "Sublingual"
+    ],
+    "rationale": "The best answer is Sublingual. Sublingual medications absorb through oral mucosa into systemic circulation. Swallowed medications usually pass through the GI tract and portal circulation before reaching systemic blood. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 486,
+    "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s012"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A medication induces hepatic enzymes. What effect can this have on another medication metabolized by those enzymes?",
+    "options": [
+      "Lower serum levels and reduced therapeutic effect",
+      "Higher levels of every medication",
+      "No possible interaction",
+      "Immediate anaphylaxis"
+    ],
+    "correctAnswers": [
+      "Lower serum levels and reduced therapeutic effect"
+    ],
+    "rationale": "The best answer is Lower serum levels and reduced therapeutic effect. Enzyme induction can speed metabolism of susceptible medications, lowering concentrations and possibly reducing efficacy. The effect depends on the specific drug pathway. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 487,
+    "subtopic": "Innate Immunity and Hypersensitivity",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s042"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "One mature cell type is replaced by another mature cell type better able to tolerate chronic irritation. What is this called?",
+    "options": [
+      "Metaplasia",
+      "Necrosis",
+      "Apoptosis",
+      "Atrophy"
+    ],
+    "correctAnswers": [
+      "Metaplasia"
+    ],
+    "rationale": "The best answer is Metaplasia. Metaplasia is a reversible cellular adaptation to chronic stress. Necrosis and apoptosis are forms of cell death, while atrophy is decreased cell size. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 488,
+    "subtopic": "Innate Immunity and Hypersensitivity",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s033"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which finding best indicates irreversible cell injury?",
+    "options": [
+      "Cell membrane rupture with lysosomal enzyme release",
+      "Mild cell swelling",
+      "Temporary ATP depletion with recovery",
+      "Reversible fatty change"
+    ],
+    "correctAnswers": [
+      "Cell membrane rupture with lysosomal enzyme release"
+    ],
+    "rationale": "The best answer is Cell membrane rupture with lysosomal enzyme release. Loss of membrane integrity and enzyme release indicate necrosis and irreversible injury. Cell swelling can occur earlier while recovery is still possible. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 489,
+    "subtopic": "Cell Injury, Adaptation, and Inflammation",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s025"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which defenses are part of innate immunity? Select all that apply.",
+    "options": [
+      "Skin and mucous membranes",
+      "Neutrophil phagocytosis",
+      "Complement activation",
+      "Inflammatory mediator release",
+      "Memory antibody response after vaccination"
+    ],
+    "correctAnswers": [
+      "Skin and mucous membranes",
+      "Neutrophil phagocytosis",
+      "Complement activation",
+      "Inflammatory mediator release"
+    ],
+    "rationale": "The correct answers are Skin and mucous membranes, Neutrophil phagocytosis, Complement activation, and Inflammatory mediator release. Innate immunity is immediate and nonspecific. Memory antibody responses are adaptive because they are antigen-specific and improve after exposure. The incorrect option is excluded because it describes a different condition, medication class, or physiologic process rather than the pattern being tested.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 490,
+    "subtopic": "Leukocytes, Leukemia, and Lymphoma",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s047"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client develops hives, wheezing, and hypotension minutes after eating peanuts. Which hypersensitivity mechanism is most likely?",
+    "options": [
+      "IgE-mediated mast cell degranulation",
+      "Delayed T-cell activation",
+      "Immune-complex deposition",
+      "Antibody destruction of red blood cells"
+    ],
+    "correctAnswers": [
+      "IgE-mediated mast cell degranulation"
+    ],
+    "rationale": "The best answer is IgE-mediated mast cell degranulation. Rapid anaphylaxis is type I hypersensitivity involving IgE, mast cells, and histamine release. The other mechanisms describe types IV, III, and II hypersensitivity. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 491,
+    "subtopic": "Innate Immunity and Hypersensitivity",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-hypersensitivity-and-antihistamine-student-s005"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A hemolytic transfusion reaction caused by incompatible blood is which hypersensitivity type?",
+    "options": [
+      "Type II",
+      "Type I",
+      "Type III",
+      "Type IV"
+    ],
+    "correctAnswers": [
+      "Type II"
+    ],
+    "rationale": "The best answer is Type II. Type II hypersensitivity involves antibodies binding antigens on cell surfaces and causing cellular destruction. Incompatible red blood cell transfusion reactions are a classic example. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 492,
+    "subtopic": "Innate Immunity and Hypersensitivity",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-hypersensitivity-and-antihistamine-student-s006"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "In systemic lupus erythematosus, antigen-antibody complexes can lodge in tissues such as the glomeruli. Which hypersensitivity type is this?",
+    "options": [
+      "Type III",
+      "Type I",
+      "Type II",
+      "Type IV"
+    ],
+    "correctAnswers": [
+      "Type III"
+    ],
+    "rationale": "The best answer is Type III. Type III hypersensitivity involves immune-complex deposition that triggers inflammation in tissues. Lupus nephritis is a course-relevant example. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 493,
+    "subtopic": "Innate Immunity and Hypersensitivity",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-hypersensitivity-and-antihistamine-student-s007"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Contact dermatitis that appears 48 hours after poison ivy exposure is most consistent with which hypersensitivity type?",
+    "options": [
+      "Type IV",
+      "Type I",
+      "Type II",
+      "Type III"
+    ],
+    "correctAnswers": [
+      "Type IV"
+    ],
+    "rationale": "The best answer is Type IV. Type IV hypersensitivity is delayed and T-cell mediated, often occurring 24 to 72 hours after exposure. Contact dermatitis is a classic example. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 494,
+    "subtopic": "Innate Immunity and Hypersensitivity",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s044"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which immunoglobulin is most associated with allergic reactions?",
+    "options": [
+      "IgE",
+      "IgA",
+      "IgG only",
+      "IgD"
+    ],
+    "correctAnswers": [
+      "IgE"
+    ],
+    "rationale": "The best answer is IgE. IgE binds mast cells and basophils and mediates type I allergic responses. Histamine release then produces itching, vasodilation, bronchoconstriction, and other allergy findings. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 495,
+    "subtopic": "Antihistamines and Allergy Pharmacology",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s071"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which white blood cell is most associated with acute bacterial phagocytosis?",
+    "options": [
+      "Neutrophil",
+      "Basophil",
+      "Erythrocyte",
+      "Platelet"
+    ],
+    "correctAnswers": [
+      "Neutrophil"
+    ],
+    "rationale": "The best answer is Neutrophil. Neutrophils are the most numerous granulocytes and are key early phagocytes in bacterial infection. Basophils are more associated with histamine and allergic reactions. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 496,
+    "subtopic": "Leukocytes, Leukemia, and Lymphoma",
+    "slideRefs": [
+      "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s008",
+      "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s007"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which cell type is responsible for humoral immunity through antibody production?",
+    "options": [
+      "B lymphocyte",
+      "Cytotoxic T lymphocyte",
+      "Neutrophil",
+      "Eosinophil"
+    ],
+    "correctAnswers": [
+      "B lymphocyte"
+    ],
+    "rationale": "The best answer is B lymphocyte. B lymphocytes can differentiate into plasma cells that produce antibodies. T cells mediate cellular immune responses rather than directly producing antibodies. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 497,
+    "subtopic": "Adaptive Immunity and Immunosuppression",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s028"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which medications are examples of immunosuppressants discussed in the course? Select all that apply.",
+    "options": [
+      "Tacrolimus",
+      "Mycophenolate mofetil",
+      "Methotrexate",
+      "Prednisone",
+      "Calcium carbonate"
+    ],
+    "correctAnswers": [
+      "Tacrolimus",
+      "Mycophenolate mofetil",
+      "Methotrexate",
+      "Prednisone"
+    ],
+    "rationale": "The correct answers are Tacrolimus, Mycophenolate mofetil, Methotrexate, and Prednisone. These medications suppress immune responses through different mechanisms and are used in transplant, autoimmune, or inflammatory contexts. Calcium carbonate is an antacid or calcium supplement. The incorrect option is excluded because it describes a different condition, medication class, or physiologic process rather than the pattern being tested.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 498,
+    "subtopic": "Adaptive Immunity and Immunosuppression",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s003",
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s021"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Why should a transplant recipient taking tacrolimus be taught infection precautions?",
+    "options": [
+      "Tacrolimus suppresses T-cell activation",
+      "Tacrolimus increases platelet aggregation",
+      "Tacrolimus neutralizes gastric acid",
+      "Tacrolimus is a rescue bronchodilator"
+    ],
+    "correctAnswers": [
+      "Tacrolimus suppresses T-cell activation"
+    ],
+    "rationale": "The best answer is Tacrolimus suppresses T-cell activation. Tacrolimus is a calcineurin inhibitor that reduces T-cell activation and helps prevent rejection. The same immune suppression increases infection risk. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 499,
+    "subtopic": "Adaptive Immunity and Immunosuppression",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s023"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which long-term adverse effect is most associated with broad immune suppression from monoclonal antibody therapy?",
+    "options": [
+      "Increased risk of infection and malignancy",
+      "Increased platelet production",
+      "Permanent bronchodilation",
+      "Immediate acid rebound"
+    ],
+    "correctAnswers": [
+      "Increased risk of infection and malignancy"
+    ],
+    "rationale": "The best answer is Increased risk of infection and malignancy. Monoclonal antibodies and other immune-modulating biologics can suppress protective immune responses and immune surveillance. That makes infection monitoring and reporting unusual symptoms more important than platelet production, bronchodilation, or acid-related effects.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 500,
+    "subtopic": "Adaptive Immunity and Immunosuppression",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s033",
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s034"
+    ]
+  },
+  {
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Foundations / immune / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Redness and warmth at an inflamed site are primarily caused by which vascular response?",
+    "options": [
+      "Vasodilation of local arterioles",
+      "Decreased capillary blood flow",
+      "Platelet destruction",
+      "Reduced histamine release"
+    ],
+    "correctAnswers": [
+      "Vasodilation of local arterioles"
+    ],
+    "rationale": "The best answer is Vasodilation of local arterioles. Rubor and calor occur because inflammatory mediators cause local vasodilation and increased blood flow. This is distinct from clotting or leukocyte destruction. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 501,
+    "subtopic": "Innate Immunity and Hypersensitivity",
+    "slideRefs": [
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-tuesday-w1-foundational-co-s030"
+    ]
+  },
+  {
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "What determines cardiac output?",
+    "options": [
+      "Heart rate multiplied by stroke volume",
+      "Blood pressure divided by respiratory rate",
+      "Afterload minus preload",
+      "Oxygen saturation multiplied by hemoglobin"
+    ],
+    "correctAnswers": [
+      "Heart rate multiplied by stroke volume"
+    ],
+    "rationale": "The best answer is Heart rate multiplied by stroke volume. Cardiac output is the volume of blood pumped per minute and equals heart rate times stroke volume. Preload, afterload, and contractility influence stroke volume. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 502,
+    "subtopic": "Heart Failure, Shock, and Fluid Overload",
+    "slideRefs": [
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-tuesday-cv-pulm-kidney-student-s011",
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s017"
+    ]
+  },
+  {
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Afterload refers to which concept?",
+    "options": [
+      "The resistance the ventricle must overcome to eject blood",
+      "The amount of blood in the ventricle before contraction",
+      "The number of red blood cells available",
+      "The volume of air exhaled with a normal breath"
+    ],
+    "correctAnswers": [
+      "The resistance the ventricle must overcome to eject blood"
+    ],
+    "rationale": "The best answer is The resistance the ventricle must overcome to eject blood. Afterload is the pressure or resistance against ventricular ejection. Preload refers to filling and stretch before contraction. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 503,
+    "subtopic": "Heart Failure, Shock, and Fluid Overload",
+    "slideRefs": [
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s018"
+    ]
+  },
+  {
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Activation of the renin-angiotensin-aldosterone system most directly promotes which effect?",
+    "options": [
+      "Vasoconstriction and sodium/water retention",
+      "Immediate bronchodilation",
+      "Decreased aldosterone release",
+      "Destruction of alveolar surfactant"
+    ],
+    "correctAnswers": [
+      "Vasoconstriction and sodium/water retention"
+    ],
+    "rationale": "The best answer is Vasoconstriction and sodium/water retention. RAAS increases angiotensin II and aldosterone activity, raising vascular tone and retaining sodium and water. This contributes to hypertension and fluid overload. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 504,
+    "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
+    "slideRefs": []
+  },
+  {
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which process is central to the development of coronary artery disease?",
+    "options": [
+      "Atherosclerotic plaque formation in coronary arteries",
+      "Loss of gastric parietal cells",
+      "Excess erythropoietin secretion",
+      "Overproduction of mature functional leukocytes"
+    ],
+    "correctAnswers": [
+      "Atherosclerotic plaque formation in coronary arteries"
+    ],
+    "rationale": "The best answer is Atherosclerotic plaque formation in coronary arteries. Coronary artery disease develops as lipid-rich inflammatory plaques narrow or destabilize coronary arteries. This can progress to acute coronary syndrome or myocardial infarction. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 505,
+    "subtopic": "Coronary Artery Disease, Angina, and Myocardial Infarction",
+    "slideRefs": [
+      "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s002"
+    ]
+  },
+  {
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which drug class lowers cholesterol by inhibiting HMG-CoA reductase?",
+    "options": [
+      "Statins",
+      "Loop diuretics",
+      "Beta-2 agonists",
+      "Antacids"
+    ],
+    "correctAnswers": [
+      "Statins"
+    ],
+    "rationale": "The best answer is Statins. Statins such as atorvastatin reduce hepatic cholesterol synthesis and lower LDL. They are used to reduce cardiovascular risk, not to bronchodilate or neutralize acid. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 506,
+    "subtopic": "Coronary Artery Disease, Angina, and Myocardial Infarction",
+    "slideRefs": [
+      "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s009"
+    ]
+  },
+  {
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client taking atorvastatin reports new muscle pain and dark urine. What is the priority concern?",
+    "options": [
+      "Rhabdomyolysis",
+      "Acid rebound",
+      "Atelectasis",
+      "Hypocalcemia"
+    ],
+    "correctAnswers": [
+      "Rhabdomyolysis"
+    ],
+    "rationale": "The best answer is Rhabdomyolysis. Muscle pain with dark urine can indicate severe statin-associated muscle breakdown. This requires prompt evaluation because myoglobin release can injure the kidneys. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 507,
+    "subtopic": "Coronary Artery Disease, Angina, and Myocardial Infarction",
+    "slideRefs": [
+      "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s017"
+    ]
+  },
+  {
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which teaching points apply to sublingual nitroglycerin? Select all that apply.",
+    "options": [
+      "Sit or lie down before taking it",
+      "Report chest pain that does not improve as instructed",
+      "Avoid phosphodiesterase-5 inhibitors unless cleared",
+      "Store it as directed to preserve potency",
+      "Take it to increase preload before exercise"
+    ],
+    "correctAnswers": [
+      "Sit or lie down before taking it",
+      "Report chest pain that does not improve as instructed",
+      "Avoid phosphodiesterase-5 inhibitors unless cleared",
+      "Store it as directed to preserve potency"
+    ],
+    "rationale": "The correct answers are Sit or lie down before taking it, Report chest pain that does not improve as instructed, Avoid phosphodiesterase-5 inhibitors unless cleared, and Store it as directed to preserve potency. Nitroglycerin vasodilates and can cause hypotension, so safety and emergency follow-up matter. It reduces preload and myocardial oxygen demand rather than increasing preload.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 508,
+    "subtopic": "Coronary Artery Disease, Angina, and Myocardial Infarction",
+    "slideRefs": [
+      "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s038",
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s051"
+    ]
+  },
+  {
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Before giving metoprolol, which assessment is most directly related to safe administration?",
+    "options": [
+      "Heart rate and blood pressure",
+      "Serum calcium only",
+      "Bowel sounds only",
+      "Visual acuity only"
+    ],
+    "correctAnswers": [
+      "Heart rate and blood pressure"
+    ],
+    "rationale": "The best answer is Heart rate and blood pressure. Beta blockers lower heart rate and blood pressure. The nurse should check vital signs and order parameters before administration. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 509,
+    "subtopic": "Hypertension and Cardiovascular Pharmacology",
+    "slideRefs": [
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-friday-w2-nurs-304-cardiac-meds-student-s031",
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s026"
+    ]
+  },
+  {
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Why should a beta blocker not be stopped abruptly?",
+    "options": [
+      "Rebound hypertension, tachycardia, or angina can occur",
+      "It causes immediate C. difficile infection",
+      "It permanently blocks insulin production",
+      "It causes acid rebound"
+    ],
+    "correctAnswers": [
+      "Rebound hypertension, tachycardia, or angina can occur"
+    ],
+    "rationale": "The best answer is Rebound hypertension, tachycardia, or angina can occur. Abrupt withdrawal can increase sympathetic activity and worsen cardiovascular symptoms. Dose changes should be guided by the prescriber. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 510,
+    "subtopic": "Cardiac Conduction and Dysrhythmias",
+    "slideRefs": [
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s063"
+    ]
+  },
+  {
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A regular rhythm has a PR interval of 0.30 seconds. Which conduction problem is most likely?",
+    "options": [
+      "First-degree AV block",
+      "Atrial fibrillation",
+      "Ventricular tachycardia",
+      "Third-degree AV block"
+    ],
+    "correctAnswers": [
+      "First-degree AV block"
+    ],
+    "rationale": "The best answer is First-degree AV block. A PR interval longer than 0.20 seconds with conducted beats is first-degree AV block. Atrial fibrillation is irregular, and third-degree block involves AV dissociation. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 511,
+    "subtopic": "Cardiac Conduction and Dysrhythmias",
+    "slideRefs": [
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s065"
+    ]
+  },
+  {
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "What is the primary role of surfactant in the lungs?",
+    "options": [
+      "Lower alveolar surface tension to help keep alveoli open",
+      "Carry oxygen on red blood cells",
+      "Increase gastric acid secretion",
+      "Convert angiotensin I to angiotensin II"
+    ],
+    "correctAnswers": [
+      "Lower alveolar surface tension to help keep alveoli open"
+    ],
+    "rationale": "The best answer is Lower alveolar surface tension to help keep alveoli open. Surfactant reduces alveolar collapse and supports gas exchange. It does not transport oxygen in blood or regulate gastric acid. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 512,
+    "subtopic": "Respiratory Physiology and Gas Exchange",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s066"
+    ]
+  },
+  {
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "What mechanism moves oxygen and carbon dioxide across the alveolar-capillary membrane?",
+    "options": [
+      "Diffusion",
+      "Active transport",
+      "Osmosis",
+      "Phagocytosis"
+    ],
+    "correctAnswers": [
+      "Diffusion"
+    ],
+    "rationale": "The best answer is Diffusion. Respiratory gases move down partial pressure gradients by diffusion. Osmosis describes water movement, and phagocytosis is cellular engulfment. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 513,
+    "subtopic": "Respiratory Physiology and Gas Exchange",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s034"
+    ]
+  },
+  {
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client with a pulmonary embolism has alveoli that are ventilated but not well perfused. How should the nurse understand this mismatch?",
+    "options": [
+      "Dead space ventilation",
+      "Shunt physiology",
+      "Normal diffusion capacity",
+      "Improved perfusion"
+    ],
+    "correctAnswers": [
+      "Dead space ventilation"
+    ],
+    "rationale": "The best answer is Dead space ventilation. Ventilation continues but perfusion is reduced, creating dead space. Shunt physiology occurs when perfusion persists but ventilation is impaired. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 514,
+    "subtopic": "Respiratory Physiology and Gas Exchange",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-required-asynchronous-ards-asynch-student-w-recording-s004"
+    ]
+  },
+  {
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which finding is most characteristic of early acute respiratory distress syndrome?",
+    "options": [
+      "Refractory hypoxemia",
+      "Improved lung compliance",
+      "Bradycardia with slow respirations",
+      "Large sputum production as the defining sign"
+    ],
+    "correctAnswers": [
+      "Refractory hypoxemia"
+    ],
+    "rationale": "The best answer is Refractory hypoxemia. ARDS causes alveolar-capillary injury, edema, poor compliance, and severe hypoxemia that does not correct easily with oxygen. Productive sputum points more toward infection. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 515,
+    "subtopic": "Pneumonia, Atelectasis, ARDS, and Pneumothorax",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s086",
+      "week-03-pulmonary-pathopharmacology-03-w3-required-asynchronous-ards-asynch-student-w-recording-s007"
+    ]
+  },
+  {
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client has chronic productive cough for at least 3 months in 2 consecutive years. Which disorder does this describe?",
+    "options": [
+      "Chronic bronchitis",
+      "Atelectasis",
+      "Pneumothorax",
+      "Pulmonary embolism"
+    ],
+    "correctAnswers": [
+      "Chronic bronchitis"
+    ],
+    "rationale": "The best answer is Chronic bronchitis. Chronic bronchitis is defined by chronic productive cough over that time frame. It reflects mucus hypersecretion and airway inflammation. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 516,
+    "subtopic": "COPD and Chronic Respiratory Disease",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s064"
+    ]
+  },
+  {
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which findings are commonly associated with emphysema? Select all that apply.",
+    "options": [
+      "Alveolar wall destruction",
+      "Air trapping",
+      "Barrel chest",
+      "Reduced surface area for gas exchange",
+      "Increased elastic recoil"
+    ],
+    "correctAnswers": [
+      "Alveolar wall destruction",
+      "Air trapping",
+      "Barrel chest",
+      "Reduced surface area for gas exchange"
+    ],
+    "rationale": "The correct answers are Alveolar wall destruction, Air trapping, Barrel chest, and Reduced surface area for gas exchange. Emphysema destroys alveolar septa and reduces elastic recoil, leading to air trapping and hyperinflation. Elastic recoil is decreased, not increased.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 517,
+    "subtopic": "COPD and Chronic Respiratory Disease",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s064"
+    ]
+  },
+  {
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client is having an acute asthma attack. Which medication should be used first?",
+    "options": [
+      "Albuterol",
+      "Salmeterol",
+      "Fluticasone",
+      "Montelukast"
+    ],
+    "correctAnswers": [
+      "Albuterol"
+    ],
+    "rationale": "The best answer is Albuterol. Albuterol is a short-acting beta-2 agonist used for rapid rescue bronchodilation. Controller medications are not first-line for immediate relief. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 518,
+    "subtopic": "Asthma and Bronchodilator Therapy",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s015",
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s028"
+    ]
+  },
+  {
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which instruction is most appropriate for a client using an inhaled corticosteroid?",
+    "options": [
+      "Rinse the mouth after each use",
+      "Use it as the only rescue medication",
+      "Stop it after one symptom-free day",
+      "Expect immediate bronchodilation within seconds"
+    ],
+    "correctAnswers": [
+      "Rinse the mouth after each use"
+    ],
+    "rationale": "The best answer is Rinse the mouth after each use. Inhaled corticosteroids reduce inflammation over time and can cause thrush. Rinsing the mouth lowers local candidiasis risk. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 519,
+    "subtopic": "Asthma and Bronchodilator Therapy",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s032"
+    ]
+  },
+  {
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which teaching points should the nurse include for diphenhydramine? Select all that apply.",
+    "options": [
+      "It can cause sedation",
+      "It can cause dry mouth",
+      "It can cause urinary retention",
+      "Avoid driving until the effect is known",
+      "It is preferred when a completely nonsedating antihistamine is required"
+    ],
+    "correctAnswers": [
+      "It can cause sedation",
+      "It can cause dry mouth",
+      "It can cause urinary retention",
+      "Avoid driving until the effect is known"
+    ],
+    "rationale": "The correct answers are It can cause sedation, It can cause dry mouth, It can cause urinary retention, and Avoid driving until the effect is known. Diphenhydramine is a first-generation antihistamine with sedating and anticholinergic effects. It can impair driving and worsen urinary retention or narrow-angle glaucoma concerns.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 520,
+    "subtopic": "Antihistamines and Allergy Pharmacology",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-hypersensitivity-and-antihistamine-student-s021"
+    ]
+  },
+  {
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Ipratropium improves airflow by which mechanism?",
+    "options": [
+      "Blocking muscarinic receptors in the airways",
+      "Stimulating beta-1 receptors",
+      "Dissolving fibrin clots",
+      "Suppressing gastric parietal cells"
+    ],
+    "correctAnswers": [
+      "Blocking muscarinic receptors in the airways"
+    ],
+    "rationale": "The best answer is Blocking muscarinic receptors in the airways. Ipratropium is a short-acting muscarinic antagonist. Blocking airway muscarinic receptors reduces parasympathetic bronchoconstriction. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 521,
+    "subtopic": "Asthma and Bronchodilator Therapy",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s039",
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s035"
+    ]
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which functions are performed by the kidneys? Select all that apply.",
+    "options": [
+      "Excretion of waste products",
+      "Regulation of blood pressure",
+      "Activation of vitamin D",
+      "Regulation of red blood cell production",
+      "Primary production of thyroid hormone"
+    ],
+    "correctAnswers": [
+      "Excretion of waste products",
+      "Regulation of blood pressure",
+      "Activation of vitamin D",
+      "Regulation of red blood cell production"
+    ],
+    "rationale": "The correct answers are Excretion of waste products, Regulation of blood pressure, Activation of vitamin D, and Regulation of red blood cell production. Kidneys maintain waste excretion, blood pressure, acid-base, fluid/electrolyte, vitamin D, and erythropoietin functions. Thyroid hormone is produced by the thyroid gland.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 522,
+    "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
+    "slideRefs": [
+      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s008"
+    ]
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which kidney function directly helps maintain red blood cell production?",
+    "options": [
+      "Secretion of erythropoietin",
+      "Excretion of bile",
+      "Production of surfactant",
+      "Release of histamine"
+    ],
+    "correctAnswers": [
+      "Secretion of erythropoietin"
+    ],
+    "rationale": "The best answer is Secretion of erythropoietin. Erythropoietin from the kidneys stimulates bone marrow red blood cell production. Reduced erythropoietin contributes to anemia in kidney disease. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 523,
+    "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
+    "slideRefs": [
+      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s008"
+    ]
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client has pH 7.30, PaCO2 50 mm Hg, and HCO3 24 mEq/L. Which imbalance is most consistent with these values?",
+    "options": [
+      "Respiratory acidosis",
+      "Respiratory alkalosis",
+      "Metabolic acidosis",
+      "Metabolic alkalosis"
+    ],
+    "correctAnswers": [
+      "Respiratory acidosis"
+    ],
+    "rationale": "The best answer is Respiratory acidosis. The pH is low and PaCO2 is high, pointing to carbon dioxide retention as the primary problem. Bicarbonate is near normal, so the pattern is respiratory. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 524,
+    "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
+    "slideRefs": [
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-required-asynchronous-acid-base-patho-student-s011",
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-required-asynchronous-acid-base-patho-student-s035"
+    ]
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client has pH 7.52, PaCO2 30 mm Hg, and HCO3 24 mEq/L after hyperventilating. Which imbalance is most likely?",
+    "options": [
+      "Respiratory alkalosis",
+      "Metabolic alkalosis",
+      "Respiratory acidosis",
+      "Metabolic acidosis"
+    ],
+    "correctAnswers": [
+      "Respiratory alkalosis"
+    ],
+    "rationale": "The best answer is Respiratory alkalosis. The pH is high and PaCO2 is low, which fits excessive carbon dioxide loss. The bicarbonate is not elevated enough to make this a primary metabolic alkalosis. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 525,
+    "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
+    "slideRefs": [
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-required-asynchronous-acid-base-patho-student-s011",
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-required-asynchronous-acid-base-patho-student-s035"
+    ]
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client has pH 7.28, PaCO2 40 mm Hg, and HCO3 18 mEq/L. Which imbalance is most likely?",
+    "options": [
+      "Metabolic acidosis",
+      "Respiratory acidosis",
+      "Metabolic alkalosis",
+      "Respiratory alkalosis"
+    ],
+    "correctAnswers": [
+      "Metabolic acidosis"
+    ],
+    "rationale": "The best answer is Metabolic acidosis. The pH is low and bicarbonate is low, indicating a primary metabolic acid-base problem. PaCO2 is not elevated enough to explain the acidosis. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 526,
+    "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
+    "slideRefs": [
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-required-asynchronous-acid-base-patho-student-s011",
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-required-asynchronous-acid-base-patho-student-s035"
+    ]
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which findings are consistent with hypocalcemia? Select all that apply.",
+    "options": [
+      "Paresthesias",
+      "Muscle cramps or spasms",
+      "Laryngospasm",
+      "Thirst and polyuria",
+      "Bone pain from high calcium"
+    ],
+    "correctAnswers": [
+      "Paresthesias",
+      "Muscle cramps or spasms",
+      "Laryngospasm"
+    ],
+    "rationale": "The correct answers are Paresthesias, Muscle cramps or spasms, and Laryngospasm. Hypocalcemia increases neuromuscular excitability and can cause tingling, tetany, cramps, and laryngospasm. Thirst, polyuria, and bone pain point more toward hypercalcemia. The incorrect option is excluded because it describes a different condition, medication class, or physiologic process rather than the pattern being tested.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 527,
+    "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
+    "slideRefs": [
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-tuesday-w4-renal-student-s037"
+    ]
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which ECG finding is most associated with hyperkalemia?",
+    "options": [
+      "Tall, peaked T waves",
+      "Prominent U waves",
+      "Shortened PR interval only",
+      "ST elevation from every cause"
+    ],
+    "correctAnswers": [
+      "Tall, peaked T waves"
+    ],
+    "rationale": "The best answer is Tall, peaked T waves. Hyperkalemia can cause dangerous cardiac conduction changes, classically including tall peaked T waves. Hypokalemia is more associated with U waves. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 528,
+    "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
+    "slideRefs": [
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-tuesday-w4-renal-student-s032"
+    ]
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client with edema is prescribed furosemide. Which teaching point should the nurse prioritize?",
+    "options": [
+      "Take it early in the day",
+      "Take it only at bedtime",
+      "Avoid reporting dizziness",
+      "Increase potassium salt substitute without asking"
+    ],
+    "correctAnswers": [
+      "Take it early in the day"
+    ],
+    "rationale": "The best answer is Take it early in the day. Furosemide increases urine output, so morning dosing reduces nocturia and fall risk. Dizziness and electrolyte symptoms should be reported. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 529,
+    "subtopic": "Diuretics and Renal Medications",
+    "slideRefs": [
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s034",
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s058"
+    ]
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which electrolyte problem is the priority concern for a client with chronic kidney disease taking spironolactone?",
+    "options": [
+      "Hyperkalemia",
+      "Hypocalcemia only",
+      "Hypomagnesemia from alcohol use",
+      "Severe hypoglycemia"
+    ],
+    "correctAnswers": [
+      "Hyperkalemia"
+    ],
+    "rationale": "The best answer is Hyperkalemia. Spironolactone is potassium-sparing, and CKD reduces potassium excretion. The combination increases the risk of dangerous hyperkalemia. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 530,
+    "subtopic": "Diuretics and Renal Medications",
+    "slideRefs": [
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s034",
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s080"
+    ]
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A norepinephrine IV site becomes pale, cool, and painful. What is the nurse’s first priority action?",
+    "options": [
+      "Stop the infusion and leave the IV in place",
+      "Remove the IV immediately before assessment",
+      "Apply ice and continue the infusion",
+      "Document the finding after the bag is empty"
+    ],
+    "correctAnswers": [
+      "Stop the infusion and leave the IV in place"
+    ],
+    "rationale": "The best answer is Stop the infusion and leave the IV in place. This suggests vasopressor extravasation. Stopping the infusion prevents more tissue exposure, and the IV may be needed for antidote administration if ordered. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 531,
+    "subtopic": "Autonomic Pharmacology and Vasoactive Medications",
+    "slideRefs": [
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-required-asynchronous-shock-patho-and-vasopressors-student-s019"
+    ]
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which GI layer is most directly responsible for nutrient absorption?",
+    "options": [
+      "Mucosa",
+      "Serosa",
+      "Muscularis externa",
+      "Adventitia only"
+    ],
+    "correctAnswers": [
+      "Mucosa"
+    ],
+    "rationale": "The best answer is Mucosa. The mucosa contains the absorptive epithelium. The muscularis moves contents, and the serosa is an outer protective layer. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 532,
+    "subtopic": "GI Anatomy, Digestion, and Absorption",
+    "slideRefs": []
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "What begins the digestive process in the mouth?",
+    "options": [
+      "Saliva",
+      "Bile in the gallbladder",
+      "Gastric acid in the duodenum",
+      "Insulin from beta cells"
+    ],
+    "correctAnswers": [
+      "Saliva"
+    ],
+    "rationale": "The best answer is Saliva. Saliva moistens food and begins chemical digestion through salivary enzymes. Bile, acid, and insulin have other roles later or in other systems. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 533,
+    "subtopic": "Innate Immunity and Hypersensitivity",
+    "slideRefs": []
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which factors can contribute to constipation? Select all that apply.",
+    "options": [
+      "Opioid use",
+      "Low-fiber diet",
+      "Reduced mobility",
+      "Bowel obstruction",
+      "High fluid intake with regular activity"
+    ],
+    "correctAnswers": [
+      "Opioid use",
+      "Low-fiber diet",
+      "Reduced mobility",
+      "Bowel obstruction"
+    ],
+    "rationale": "The correct answers are Opioid use, Low-fiber diet, Reduced mobility, and Bowel obstruction. Opioids slow motility, low fiber reduces stool bulk, immobility decreases bowel stimulation, and obstruction can block stool passage. Adequate fluid and activity help prevent constipation.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 534,
+    "subtopic": "Bowel Motility, Nausea, Vomiting, and Elimination",
+    "slideRefs": [
+      "week-05-gastrointestinal-pathopharmacology-05-w5-required-asynchronous-nurs-304-n-v-and-lower-gi-medications-s039",
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s030"
+    ]
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which conditions or exposures are causes of peptic ulcer disease? Select all that apply.",
+    "options": [
+      "H. pylori infection",
+      "NSAID use",
+      "Zollinger-Ellison syndrome",
+      "Hypertension alone",
+      "Constipation alone"
+    ],
+    "correctAnswers": [
+      "H. pylori infection",
+      "NSAID use",
+      "Zollinger-Ellison syndrome"
+    ],
+    "rationale": "The correct answers are H. pylori infection, NSAID use, and Zollinger-Ellison syndrome. H. pylori and NSAIDs disrupt mucosal protection, while Zollinger-Ellison syndrome increases acid production. Hypertension and constipation are not direct ulcer causes by themselves. The incorrect option is excluded because it describes a different condition, medication class, or physiologic process rather than the pattern being tested.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 535,
+    "subtopic": "Peptic Ulcer Disease and Acid Suppression",
+    "slideRefs": [
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s042"
+    ]
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "When should omeprazole usually be taken for best effect?",
+    "options": [
+      "Before breakfast",
+      "Only after symptoms become severe",
+      "With the last bite of dinner only",
+      "At the same time as every antacid dose"
+    ],
+    "correctAnswers": [
+      "Before breakfast"
+    ],
+    "rationale": "The best answer is Before breakfast. Proton pump inhibitors work best when taken before a meal because they inhibit active proton pumps. They are not immediate rescue medications like antacids. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 536,
+    "subtopic": "Peptic Ulcer Disease and Acid Suppression",
+    "slideRefs": [
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s004"
+    ]
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client is prescribed famotidine for GERD. Which statement best describes this medication’s action?",
+    "options": [
+      "It blocks histamine H2 receptors to reduce acid secretion",
+      "It directly neutralizes acid already in the stomach",
+      "It blocks factor Xa to prevent clot formation",
+      "It stimulates beta-2 receptors for bronchodilation"
+    ],
+    "correctAnswers": [
+      "It blocks histamine H2 receptors to reduce acid secretion"
+    ],
+    "rationale": "The best answer is It blocks histamine H2 receptors to reduce acid secretion. Famotidine is an H2 receptor antagonist that reduces histamine-driven acid secretion from gastric parietal cells. Antacids neutralize existing acid, factor Xa inhibitors are anticoagulants, and beta-2 agonists are respiratory medications.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 537,
+    "subtopic": "Peptic Ulcer Disease and Acid Suppression",
+    "slideRefs": [
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s017",
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s021"
+    ]
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which medication neutralizes existing stomach acid rather than suppressing new acid production?",
+    "options": [
+      "Calcium carbonate",
+      "Omeprazole",
+      "Famotidine",
+      "Warfarin"
+    ],
+    "correctAnswers": [
+      "Calcium carbonate"
+    ],
+    "rationale": "The best answer is Calcium carbonate. Antacids neutralize acid already present in the stomach. PPIs and H2 blockers reduce acid secretion through different mechanisms. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 538,
+    "subtopic": "Peptic Ulcer Disease and Acid Suppression",
+    "slideRefs": [
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s030"
+    ]
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Acid rebound is most accurately described as what?",
+    "options": [
+      "Increased gastric acid secretion after acid is lowered to an alkaline level",
+      "Permanent absence of stomach acid",
+      "A blood clot traveling to the lung",
+      "A type IV delayed immune reaction"
+    ],
+    "correctAnswers": [
+      "Increased gastric acid secretion after acid is lowered to an alkaline level"
+    ],
+    "rationale": "The best answer is Increased gastric acid secretion after acid is lowered to an alkaline level. Acid rebound can occur when acid suppression or neutralization stimulates increased acid release. It is not a clotting or immune hypersensitivity problem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 539,
+    "subtopic": "Peptic Ulcer Disease and Acid Suppression",
+    "slideRefs": [
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s031",
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s021"
+    ]
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which medication treats nausea and vomiting by blocking 5-HT3 receptors?",
+    "options": [
+      "Ondansetron",
+      "Psyllium",
+      "Ferrous sulfate",
+      "Rivaroxaban"
+    ],
+    "correctAnswers": [
+      "Ondansetron"
+    ],
+    "rationale": "The best answer is Ondansetron. Ondansetron is a 5-HT3 receptor antagonist antiemetic. Psyllium treats constipation, ferrous sulfate treats iron deficiency, and rivaroxaban is an anticoagulant. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 540,
+    "subtopic": "Bowel Motility, Nausea, Vomiting, and Elimination",
+    "slideRefs": [
+      "week-05-gastrointestinal-pathopharmacology-05-w5-required-asynchronous-nurs-304-n-v-and-lower-gi-medications-s026"
+    ]
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which teaching points apply to proton pump inhibitors? Select all that apply.",
+    "options": [
+      "They reduce gastric acid secretion",
+      "Long-term use may be associated with bone-density concerns",
+      "Omeprazole is a prototype",
+      "They inhibit the hydrogen-potassium ATPase pump",
+      "They provide immediate rescue relief for bronchospasm"
+    ],
+    "correctAnswers": [
+      "They reduce gastric acid secretion",
+      "Long-term use may be associated with bone-density concerns",
+      "Omeprazole is a prototype",
+      "They inhibit the hydrogen-potassium ATPase pump"
+    ],
+    "rationale": "The correct answers are They reduce gastric acid secretion, Long-term use may be associated with bone-density concerns, Omeprazole is a prototype, and They inhibit the hydrogen-potassium ATPase pump. PPIs suppress gastric acid at the proton pump and are used for acid-related disorders. Long-term therapy can raise safety considerations such as bone-density concerns.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 541,
+    "subtopic": "Peptic Ulcer Disease and Acid Suppression",
+    "slideRefs": [
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s050"
+    ]
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which anemia pattern is most consistent with iron deficiency?",
+    "options": [
+      "Microcytic anemia",
+      "Macrocytic anemia",
+      "Polycythemia",
+      "Leukocytosis only"
+    ],
+    "correctAnswers": [
+      "Microcytic anemia"
+    ],
+    "rationale": "The best answer is Microcytic anemia. Iron deficiency limits hemoglobin synthesis and commonly produces small red blood cells with low MCV. B12 and folate deficiencies more often cause macrocytic anemia. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 542,
+    "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
+    "slideRefs": [
+      "week-06-hematology-and-coagulation-06-w6-in-class-tuesday-anemia-coagulopathy-patho-student-s020",
+      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s005"
+    ]
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which anemia pattern is most associated with vitamin B12 or folate deficiency?",
+    "options": [
+      "Macrocytic anemia",
+      "Microcytic anemia",
+      "Acute thrombocytosis",
+      "Polycythemia vera only"
+    ],
+    "correctAnswers": [
+      "Macrocytic anemia"
+    ],
+    "rationale": "The best answer is Macrocytic anemia. Vitamin B12 and folate are needed for DNA synthesis, so deficiencies produce larger red cells with elevated MCV. Iron deficiency is a common microcytic anemia. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 543,
+    "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
+    "slideRefs": [
+      "week-06-hematology-and-coagulation-06-w6-in-class-tuesday-anemia-coagulopathy-patho-student-s020"
+    ]
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which deficiency is most associated with numbness, tingling, and impaired position sense?",
+    "options": [
+      "Vitamin B12 deficiency",
+      "Mild sodium excess",
+      "Histamine deficiency",
+      "Surfactant deficiency in adults"
+    ],
+    "correctAnswers": [
+      "Vitamin B12 deficiency"
+    ],
+    "rationale": "The best answer is Vitamin B12 deficiency. Vitamin B12 deficiency can cause macrocytic anemia and neurologic involvement. Iron deficiency causes anemia symptoms but not the classic neurologic deficits. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 544,
+    "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
+    "slideRefs": [
+      "week-06-hematology-and-coagulation-06-w6-in-class-tuesday-anemia-coagulopathy-patho-student-s020"
+    ]
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which teaching point is appropriate for oral ferrous sulfate?",
+    "options": [
+      "Stool may become dark green or black",
+      "Stop the medication if stool darkens at all",
+      "Take it only with calcium carbonate",
+      "Expect immediate correction after one dose"
+    ],
+    "correctAnswers": [
+      "Stool may become dark green or black"
+    ],
+    "rationale": "The best answer is Stool may become dark green or black. Oral iron commonly darkens stool and can cause constipation or GI upset. Hemoglobin correction takes time and should be monitored over therapy. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 545,
+    "subtopic": "Bowel Motility, Nausea, Vomiting, and Elimination",
+    "slideRefs": [
+      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s006"
+    ]
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which assessment is especially important for a client receiving epoetin alfa?",
+    "options": [
+      "Blood pressure",
+      "Pupil response only",
+      "Bowel sounds every 5 minutes",
+      "Daily peak flow only"
+    ],
+    "correctAnswers": [
+      "Blood pressure"
+    ],
+    "rationale": "The best answer is Blood pressure. Epoetin-stimulating agents can raise blood pressure and thrombotic risk as red blood cell production increases. Blood pressure monitoring is a key nursing responsibility. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 546,
+    "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
+    "slideRefs": [
+      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s009"
+    ]
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which findings can result from insufficient red blood cells or hemoglobin? Select all that apply.",
+    "options": [
+      "Fatigue",
+      "Dyspnea on exertion",
+      "Pallor",
+      "Tachycardia",
+      "Sawtooth ECG waveform"
+    ],
+    "correctAnswers": [
+      "Fatigue",
+      "Dyspnea on exertion",
+      "Pallor",
+      "Tachycardia"
+    ],
+    "rationale": "The correct answers are Fatigue, Dyspnea on exertion, Pallor, and Tachycardia. Anemia reduces oxygen-carrying capacity, so clients may develop fatigue, pallor, dyspnea with activity, and compensatory tachycardia. Sawtooth waves suggest atrial flutter. The incorrect option is excluded because it describes a different condition, medication class, or physiologic process rather than the pattern being tested.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 547,
+    "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
+    "slideRefs": [
+      "week-06-hematology-and-coagulation-06-w6-in-class-tuesday-anemia-coagulopathy-patho-student-s017"
+    ]
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which description best distinguishes an embolus from a thrombus?",
+    "options": [
+      "An embolus travels through the bloodstream; a thrombus remains attached where it formed",
+      "An embolus is always a platelet",
+      "An embolus occurs only in arteries",
+      "There is no difference"
+    ],
+    "correctAnswers": [
+      "An embolus travels through the bloodstream; a thrombus remains attached where it formed"
+    ],
+    "rationale": "The best answer is An embolus travels through the bloodstream; a thrombus remains attached where it formed. A thrombus is a clot at its origin, while an embolus travels and can obstruct another vessel. Both can be clinically serious.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 548,
+    "subtopic": "Hemostasis, Anticoagulation, and Thrombolytics",
+    "slideRefs": [
+      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s023"
+    ]
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which factors are part of Virchow triad for thrombosis risk? Select all that apply.",
+    "options": [
+      "Venous stasis",
+      "Endothelial injury",
+      "Hypercoagulability",
+      "Increased salivary amylase",
+      "Excess surfactant"
+    ],
+    "correctAnswers": [
+      "Venous stasis",
+      "Endothelial injury",
+      "Hypercoagulability"
+    ],
+    "rationale": "The correct answers are Venous stasis, Endothelial injury, and Hypercoagulability. Virchow triad summarizes the major mechanisms of thrombosis risk. The distractors are unrelated to clot formation. The incorrect option is excluded because it describes a different condition, medication class, or physiologic process rather than the pattern being tested.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 549,
+    "subtopic": "Hemostasis, Anticoagulation, and Thrombolytics",
+    "slideRefs": [
+      "week-06-hematology-and-coagulation-06-w6-in-class-tuesday-anemia-coagulopathy-patho-student-s036"
+    ]
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which laboratory test is commonly used to monitor an IV unfractionated heparin infusion?",
+    "options": [
+      "aPTT",
+      "INR",
+      "Serum calcium only",
+      "TSH"
+    ],
+    "correctAnswers": [
+      "aPTT"
+    ],
+    "rationale": "The best answer is aPTT. Unfractionated heparin is commonly titrated using activated partial thromboplastin time. INR is used for warfarin therapy. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 550,
+    "subtopic": "Hemostasis, Anticoagulation, and Thrombolytics",
+    "slideRefs": [
+      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s026"
+    ]
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which medication reverses excessive warfarin effect?",
+    "options": [
+      "Vitamin K",
+      "Protamine sulfate",
+      "Albuterol",
+      "Omeprazole"
+    ],
+    "correctAnswers": [
+      "Vitamin K"
+    ],
+    "rationale": "The best answer is Vitamin K. Warfarin inhibits vitamin K-dependent clotting factor production, so phytonadione can reverse excessive effect. Protamine sulfate reverses heparin. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 551,
+    "subtopic": "Hemostasis, Anticoagulation, and Thrombolytics",
+    "slideRefs": [
+      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s034",
+      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s030"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "What is the primary problem in type 1 diabetes mellitus?",
+    "options": [
+      "Autoimmune beta-cell destruction causing absolute insulin deficiency",
+      "Excess thyroid hormone production",
+      "Aldosterone excess only",
+      "Histamine release from mast cells"
+    ],
+    "correctAnswers": [
+      "Autoimmune beta-cell destruction causing absolute insulin deficiency"
+    ],
+    "rationale": "The best answer is Autoimmune beta-cell destruction causing absolute insulin deficiency. Type 1 diabetes results from loss of pancreatic beta cells, producing absolute or near-absolute insulin deficiency. Type 2 diabetes centers on insulin resistance. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 552,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s019"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "What is the central pathophysiologic problem in type 2 diabetes mellitus?",
+    "options": [
+      "Insulin resistance with progressive beta-cell dysfunction",
+      "Immediate destruction of all thyroid tissue",
+      "Loss of all aldosterone secretion only",
+      "Excess surfactant production"
+    ],
+    "correctAnswers": [
+      "Insulin resistance with progressive beta-cell dysfunction"
+    ],
+    "rationale": "The best answer is Insulin resistance with progressive beta-cell dysfunction. Type 2 diabetes begins with reduced tissue responsiveness to insulin and can progress to beta-cell dysfunction. It differs from autoimmune beta-cell destruction in type 1 diabetes. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 553,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s019"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which finding is most consistent with diabetic ketoacidosis?",
+    "options": [
+      "Hyperglycemia with ketones and metabolic acidosis",
+      "Low glucose with respiratory alkalosis only",
+      "Normal glucose with isolated hypercalcemia",
+      "High calcium with laryngospasm"
+    ],
+    "correctAnswers": [
+      "Hyperglycemia with ketones and metabolic acidosis"
+    ],
+    "rationale": "The best answer is Hyperglycemia with ketones and metabolic acidosis. DKA occurs when insulin deficiency leads to lipolysis, ketone production, dehydration, and metabolic acidosis. It is most associated with type 1 diabetes. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 554,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s077"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which statement best distinguishes HHNS from DKA?",
+    "options": [
+      "HHNS has severe hyperglycemia and dehydration with little or no ketoacidosis",
+      "HHNS always has more ketones than DKA",
+      "HHNS is caused by too much surfactant",
+      "HHNS is a form of hypothyroidism"
+    ],
+    "correctAnswers": [
+      "HHNS has severe hyperglycemia and dehydration with little or no ketoacidosis"
+    ],
+    "rationale": "The best answer is HHNS has severe hyperglycemia and dehydration with little or no ketoacidosis. HHNS is usually associated with type 2 diabetes and severe hyperosmolar dehydration. DKA has prominent ketone production and acidosis. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 555,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s011"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which assessment findings fit low thyroid hormone activity? Select all that apply.",
+    "options": [
+      "Cold intolerance",
+      "Weight gain",
+      "Bradycardia",
+      "Constipation",
+      "Heat intolerance with tremor"
+    ],
+    "correctAnswers": [
+      "Cold intolerance",
+      "Weight gain",
+      "Bradycardia",
+      "Constipation"
+    ],
+    "rationale": "The correct answers are Cold intolerance, Weight gain, Bradycardia, and Constipation. Hypothyroidism slows metabolic activity and GI motility and can lower heart rate. Heat intolerance and tremor point toward hyperthyroidism. The incorrect option is excluded because it describes a different condition, medication class, or physiologic process rather than the pattern being tested.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 556,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s006",
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s041"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which assessment findings fit excess thyroid hormone activity? Select all that apply.",
+    "options": [
+      "Heat intolerance",
+      "Weight loss",
+      "Tachycardia",
+      "Tremor",
+      "Cold intolerance with bradycardia"
+    ],
+    "correctAnswers": [
+      "Heat intolerance",
+      "Weight loss",
+      "Tachycardia",
+      "Tremor"
+    ],
+    "rationale": "The correct answers are Heat intolerance, Weight loss, Tachycardia, and Tremor. Hyperthyroidism increases metabolic and adrenergic activity. Cold intolerance and bradycardia fit hypothyroidism instead. The incorrect option is excluded because it describes a different condition, medication class, or physiologic process rather than the pattern being tested.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 557,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s006",
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s007"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which medication is synthetic T4 used to treat hypothyroidism?",
+    "options": [
+      "Levothyroxine",
+      "Methimazole",
+      "Propylthiouracil",
+      "Semaglutide"
+    ],
+    "correctAnswers": [
+      "Levothyroxine"
+    ],
+    "rationale": "The best answer is Levothyroxine. Levothyroxine replaces thyroid hormone. Methimazole and PTU reduce thyroid hormone synthesis, and semaglutide is used in diabetes management. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 558,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s038"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which medication inhibits thyroid hormone synthesis and is commonly used for hyperthyroidism outside early pregnancy?",
+    "options": [
+      "Methimazole",
+      "Levothyroxine",
+      "Insulin glargine",
+      "Calcium carbonate"
+    ],
+    "correctAnswers": [
+      "Methimazole"
+    ],
+    "rationale": "The best answer is Methimazole. Methimazole is a thioamide that inhibits thyroid hormone synthesis. Levothyroxine replaces thyroid hormone and would worsen untreated hyperthyroidism. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 559,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s041"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which findings are most consistent with Addison disease?",
+    "options": [
+      "Cortisol deficiency with fatigue, hypotension, and possible hyperkalemia",
+      "Cortisol excess with hyperglycemia",
+      "Excess T4 with tremor",
+      "Absolute insulin excess"
+    ],
+    "correctAnswers": [
+      "Cortisol deficiency with fatigue, hypotension, and possible hyperkalemia"
+    ],
+    "rationale": "The best answer is Cortisol deficiency with fatigue, hypotension, and possible hyperkalemia. Addison disease involves adrenal insufficiency, often with cortisol deficiency and sometimes aldosterone deficiency. Cushing syndrome reflects cortisol excess. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 560,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s092",
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s091"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client has cortisol excess. Which finding pattern should the nurse associate with this condition?",
+    "options": [
+      "Hyperglycemia with fluid and body-composition changes",
+      "Cold intolerance with bradycardia",
+      "Low calcium with laryngospasm",
+      "Absolute insulin deficiency from beta-cell destruction"
+    ],
+    "correctAnswers": [
+      "Hyperglycemia with fluid and body-composition changes"
+    ],
+    "rationale": "The best answer is Hyperglycemia with fluid and body-composition changes. Cushing syndrome reflects excessive glucocorticoid effect, which can raise glucose, alter fat distribution, increase blood pressure, and affect fluid balance. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 561,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s006",
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s070"
+    ]
+  },
+  {
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection / antimicrobials",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which antibiotic class is associated with nephrotoxicity and ototoxicity concerns?",
+    "options": [
+      "Aminoglycosides",
+      "Proton pump inhibitors",
+      "Thiazide diuretics",
+      "Antihistamines"
+    ],
+    "correctAnswers": [
+      "Aminoglycosides"
+    ],
+    "rationale": "The best answer is Aminoglycosides. Aminoglycosides such as gentamicin require attention to renal function and hearing or vestibular symptoms. The other classes have different major safety concerns. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 562,
+    "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
+    "slideRefs": [
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s007"
+    ]
+  },
+  {
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection / antimicrobials",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client receiving gentamicin reports tinnitus. What should the nurse do?",
+    "options": [
+      "Notify the provider because this may indicate ototoxicity",
+      "Give the next dose early",
+      "Tell the client tinnitus is harmless",
+      "Administer calcium carbonate to reverse it"
+    ],
+    "correctAnswers": [
+      "Notify the provider because this may indicate ototoxicity"
+    ],
+    "rationale": "The best answer is Notify the provider because this may indicate ototoxicity. Tinnitus, hearing changes, or vertigo during aminoglycoside therapy may indicate ototoxicity. Giving further doses without evaluation can worsen harm. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 563,
+    "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
+    "slideRefs": [
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s007"
+    ]
+  },
+  {
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection / antimicrobials",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which substances can reduce absorption of tetracycline or fluoroquinolones? Select all that apply.",
+    "options": [
+      "Calcium supplements",
+      "Iron supplements",
+      "Magnesium-containing antacids",
+      "Dairy products",
+      "Plain water"
+    ],
+    "correctAnswers": [
+      "Calcium supplements",
+      "Iron supplements",
+      "Magnesium-containing antacids",
+      "Dairy products"
+    ],
+    "rationale": "The correct answers are Calcium supplements, Iron supplements, Magnesium-containing antacids, and Dairy products. These substances can chelate tetracyclines or fluoroquinolones and reduce absorption. Plain water is generally appropriate unless a specific medication instruction says otherwise. The incorrect option is excluded because it describes a different condition, medication class, or physiologic process rather than the pattern being tested.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 564,
+    "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
+    "slideRefs": [
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s021"
+    ]
+  },
+  {
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection / antimicrobials",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which tetracycline teaching point is most important for pregnancy or young-child safety?",
+    "options": [
+      "Tetracyclines can affect developing bones and teeth",
+      "Tetracyclines are preferred rescue medications for anaphylaxis",
+      "Tetracyclines directly reverse insulin",
+      "Tetracyclines dissolve fibrin clots"
+    ],
+    "correctAnswers": [
+      "Tetracyclines can affect developing bones and teeth"
+    ],
+    "rationale": "The best answer is Tetracyclines can affect developing bones and teeth. Tetracyclines bind calcium in developing bone and teeth, so they are avoided in pregnancy and young children. They are antibiotics, not clot-dissolving drugs. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 565,
+    "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
+    "slideRefs": [
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s001"
+    ]
+  },
+  {
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection / antimicrobials",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which adverse effect should be emphasized with fluoroquinolones?",
+    "options": [
+      "Tendon pain or rupture risk",
+      "Tooth discoloration in every adult",
+      "Guaranteed severe hypocalcemia",
+      "Immediate platelet formation"
+    ],
+    "correctAnswers": [
+      "Tendon pain or rupture risk"
+    ],
+    "rationale": "The best answer is Tendon pain or rupture risk. Fluoroquinolones carry important warnings including tendon injury. Clients should report tendon pain or swelling promptly. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 566,
+    "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
+    "slideRefs": [
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s014",
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s016"
+    ]
+  },
+  {
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection / antimicrobials",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client develops severe watery diarrhea after antibiotic therapy. Which complication is the nurse concerned about?",
+    "options": [
+      "Clostridioides difficile infection",
+      "First-degree AV block",
+      "Hypothyroidism",
+      "Atrial flutter"
+    ],
+    "correctAnswers": [
+      "Clostridioides difficile infection"
+    ],
+    "rationale": "The best answer is Clostridioides difficile infection. Antibiotics can disrupt normal intestinal flora and allow C. difficile overgrowth, causing severe watery diarrhea and colitis. The other options do not explain post-antibiotic diarrhea. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 567,
+    "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
+    "slideRefs": [
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s026"
+    ]
+  },
+  {
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection / antimicrobials",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which findings should be monitored during aminoglycoside therapy? Select all that apply.",
+    "options": [
+      "Serum creatinine",
+      "Hearing changes",
+      "Tinnitus",
+      "Vertigo",
+      "Waist circumference as the primary toxicity marker"
+    ],
+    "correctAnswers": [
+      "Serum creatinine",
+      "Hearing changes",
+      "Tinnitus",
+      "Vertigo"
+    ],
+    "rationale": "The correct answers are Serum creatinine, Hearing changes, Tinnitus, and Vertigo. Aminoglycosides can injure kidneys and the auditory or vestibular system. Renal function and ear-related symptoms are key monitoring points. The incorrect option is excluded because it describes a different condition, medication class, or physiologic process rather than the pattern being tested.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 568,
+    "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
+    "slideRefs": [
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s007"
+    ]
+  },
+  {
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection / antimicrobials",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which safety concern is important when a macrolide is prescribed for a client with a history of prolonged QT interval?",
+    "options": [
+      "Increased dysrhythmia risk",
+      "Loss of all immune memory",
+      "Immediate DKA",
+      "Complete reversal of warfarin"
+    ],
+    "correctAnswers": [
+      "Increased dysrhythmia risk"
+    ],
+    "rationale": "The best answer is Increased dysrhythmia risk. Macrolides can prolong QT interval or interact with other medications, increasing dysrhythmia risk in susceptible clients. They do not directly cause DKA or erase immune memory. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 569,
+    "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
+    "slideRefs": [
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s027"
+    ]
+  },
+  {
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection / antimicrobials",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Before starting antibiotics for a serious infection, which action is commonly prioritized if it will not delay urgent treatment?",
+    "options": [
+      "Obtain ordered cultures",
+      "Give vitamin K first",
+      "Start a proton pump inhibitor first",
+      "Hold all fluids for 24 hours"
+    ],
+    "correctAnswers": [
+      "Obtain ordered cultures"
+    ],
+    "rationale": "The best answer is Obtain ordered cultures. Cultures help identify the causative organism and guide antibiotic selection. They should be collected before antibiotics when feasible, but treatment should not be dangerously delayed. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 570,
+    "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
+    "slideRefs": [
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s001"
+    ]
+  },
+  {
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection / antimicrobials",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client taking warfarin is prescribed an antibiotic that can increase warfarin effect. Which risk should the nurse prioritize?",
+    "options": [
+      "Bleeding",
+      "Bronchospasm from beta-2 blockade",
+      "Hypothyroidism from low T4",
+      "Acid rebound"
+    ],
+    "correctAnswers": [
+      "Bleeding"
+    ],
+    "rationale": "The best answer is Bleeding. Some antibiotics can increase warfarin effect through metabolism changes or altered vitamin K-producing flora, raising INR and bleeding risk. The other choices are not the priority interaction. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 571,
+    "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
+    "slideRefs": [
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s027"
+    ]
+  },
+  {
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which medication is an ACE inhibitor used in hypertension and heart failure management?",
+    "options": [
+      "Lisinopril",
+      "Famotidine",
+      "Ondansetron",
+      "Gentamicin"
+    ],
+    "correctAnswers": [
+      "Lisinopril"
+    ],
+    "rationale": "The best answer is Lisinopril. Lisinopril blocks conversion of angiotensin I to angiotensin II, lowering vasoconstriction and aldosterone-mediated volume effects. Famotidine is an H2 blocker, ondansetron is an antiemetic, and gentamicin is an aminoglycoside antibiotic. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 572,
+    "subtopic": "Heart Failure, Shock, and Fluid Overload",
+    "slideRefs": [
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s086"
+    ]
+  },
+  {
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client taking lisinopril develops swelling of the lips and tongue. What complication is the nurse most concerned about?",
+    "options": [
+      "Angioedema",
+      "Acid rebound",
+      "Melena",
+      "Atelectasis"
+    ],
+    "correctAnswers": [
+      "Angioedema"
+    ],
+    "rationale": "The best answer is Angioedema. ACE inhibitors can rarely cause angioedema, which may threaten the airway. Lip and tongue swelling should be treated as urgent rather than a routine medication side effect. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 573,
+    "subtopic": "Hypertension and Cardiovascular Pharmacology",
+    "slideRefs": [
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-friday-w2-nurs-304-cardiac-meds-student-s044"
+    ]
+  },
+  {
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which findings are consistent with left-sided heart failure? Select all that apply.",
+    "options": [
+      "Dyspnea",
+      "Cough",
+      "Pulmonary crackles",
+      "Tachycardia",
+      "Hepatic engorgement as the primary finding"
+    ],
+    "correctAnswers": [
+      "Dyspnea",
+      "Cough",
+      "Pulmonary crackles",
+      "Tachycardia"
+    ],
+    "rationale": "The correct answers are Dyspnea, Cough, Pulmonary crackles, and Tachycardia. Left-sided heart failure backs pressure into the pulmonary circulation, causing dyspnea, cough, crackles, and compensatory tachycardia. Hepatic engorgement is more characteristic of right-sided systemic venous congestion. The incorrect option is excluded because it describes a different condition, medication class, or physiologic process rather than the pattern being tested.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 574,
+    "subtopic": "Heart Failure, Shock, and Fluid Overload",
+    "slideRefs": [
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s031",
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-friday-w2-nurs-304-cardiac-meds-student-s053"
+    ]
+  },
+  {
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A postoperative client is encouraged to cough, deep breathe, and use an incentive spirometer. Which complication is this primarily intended to prevent?",
+    "options": [
+      "Atelectasis",
+      "Hyperthyroidism",
+      "Peptic ulcer disease",
+      "Thrombocytopenia"
+    ],
+    "correctAnswers": [
+      "Atelectasis"
+    ],
+    "rationale": "The best answer is Atelectasis. Coughing, deep breathing, and incentive spirometry promote alveolar expansion after surgery. This helps prevent atelectasis, a common postoperative pulmonary complication. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 575,
+    "subtopic": "Pneumonia, Atelectasis, ARDS, and Pneumothorax",
+    "slideRefs": [
+      "week-03-pulmonary-pathopharmacology-03-w3-required-asynchronous-ards-asynch-student-w-recording-s003"
+    ]
+  },
+  {
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which medications can increase potassium and therefore require caution with potassium salt substitutes? Select all that apply.",
+    "options": [
+      "Lisinopril",
+      "Spironolactone",
+      "Furosemide",
+      "Albuterol",
+      "Calcium carbonate"
+    ],
+    "correctAnswers": [
+      "Lisinopril",
+      "Spironolactone"
+    ],
+    "rationale": "The correct answers are Lisinopril and Spironolactone. ACE inhibitors and potassium-sparing diuretics can raise potassium levels, especially in kidney disease. Potassium salt substitutes can add more potassium and increase hyperkalemia risk. The incorrect option is excluded because it describes a different condition, medication class, or physiologic process rather than the pattern being tested.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 576,
+    "subtopic": "Diuretics and Renal Medications",
+    "slideRefs": [
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s034"
+    ]
+  },
+  {
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client with diarrhea asks about loperamide. Which assessment is most important before recommending antidiarrheal use?",
+    "options": [
+      "Whether infection or bloody diarrhea is present",
+      "Whether the client has a history of atrial flutter only",
+      "Whether the client took levothyroxine this morning",
+      "Whether the client has a high platelet count"
+    ],
+    "correctAnswers": [
+      "Whether infection or bloody diarrhea is present"
+    ],
+    "rationale": "The best answer is Whether infection or bloody diarrhea is present. Antidiarrheals can be inappropriate or harmful when diarrhea is infectious, bloody, or associated with significant systemic illness. The nurse should assess the likely cause and red flags before focusing on symptom suppression.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 577,
+    "subtopic": "Bowel Motility, Nausea, Vomiting, and Elimination",
+    "slideRefs": [
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s025"
+    ]
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which leukemia is most consistent with malignant proliferation of mature B lymphocytes that resist apoptosis?",
+    "options": [
+      "Chronic lymphocytic leukemia",
+      "Acute lymphoblastic leukemia",
+      "Acute myelogenous leukemia",
+      "Hodgkin lymphoma"
+    ],
+    "correctAnswers": [
+      "Chronic lymphocytic leukemia"
+    ],
+    "rationale": "The best answer is Chronic lymphocytic leukemia. CLL is commonly a malignancy of mature B lymphocytes with impaired apoptosis and gradual accumulation. Acute leukemias involve immature blasts, and Hodgkin lymphoma is identified by Reed-Sternberg cells. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 578,
+    "subtopic": "Leukocytes, Leukemia, and Lymphoma",
+    "slideRefs": [
+      "week-06-hematology-and-coagulation-06-w6-required-asynchronous-nurs-304-leukemia-and-lymphoma-2025-s017"
+    ]
+  },
+  {
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "A client receiving heparin develops a falling platelet count. Which complication is the nurse concerned about?",
+    "options": [
+      "Heparin-induced thrombocytopenia",
+      "Cushing syndrome",
+      "Acid rebound",
+      "Hyperthyroidism"
+    ],
+    "correctAnswers": [
+      "Heparin-induced thrombocytopenia"
+    ],
+    "rationale": "The best answer is Heparin-induced thrombocytopenia. Heparin can cause heparin-induced thrombocytopenia, an immune-mediated platelet drop that paradoxically increases clotting risk. A falling platelet count during heparin therapy should be evaluated promptly. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 579,
+    "subtopic": "Hemostasis, Anticoagulation, and Thrombolytics",
+    "slideRefs": [
+      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s020"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which diabetes medication decreases hepatic glucose production and improves insulin sensitivity?",
+    "options": [
+      "Metformin",
+      "Alteplase",
+      "Methimazole",
+      "Diphenhydramine"
+    ],
+    "correctAnswers": [
+      "Metformin"
+    ],
+    "rationale": "The best answer is Metformin. Metformin is a biguanide that lowers hepatic glucose production and improves insulin sensitivity. Alteplase dissolves clots, methimazole treats hyperthyroidism, and diphenhydramine is an antihistamine. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 580,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s013"
+    ]
+  },
+  {
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection / antimicrobials",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "difficulty": "Course-level",
+    "source": "AI-generated study-guide coverage expansion: 2026-05-13 batch 2",
+    "sourceType": "AI",
+    "stem": "Which antibiotic class includes erythromycin and can interact with digoxin or warfarin?",
+    "options": [
+      "Macrolides",
+      "Aminoglycosides",
+      "Thioamides",
+      "Bulk-forming laxatives"
+    ],
+    "correctAnswers": [
+      "Macrolides"
+    ],
+    "rationale": "The best answer is Macrolides. Macrolides such as erythromycin can have clinically important drug interactions and may increase dysrhythmia risk in susceptible clients. Aminoglycosides are more associated with nephrotoxicity and ototoxicity. The distractors represent other medication classes, mechanisms, or unrelated adverse effects, so they do not match the priority safety issue in the stem.",
+    "sourceConfidence": "study-guide-and-lecture-audited",
+    "id": 581,
+    "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
+    "slideRefs": [
+      "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s027"
+    ]
   }
 ]
