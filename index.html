@@ -19,6 +19,8 @@
       <h1>NURS 304 💊 💉 🫀</h1>
       <nav class="topbar-tabs" aria-label="Study tools">
         <a class="topbar-tab active" href="index.html" aria-current="page">Practice questions</a>
+        <a class="topbar-tab" href="med-map.html">Med map</a>
+        <a class="topbar-tab" href="med-flashcards.html">Flashcards</a>
         <a class="topbar-tab" href="reference-ranges.html">Reference ranges</a>
       </nav>
     </header>
@@ -52,6 +54,9 @@
 
             <section id="feedback" class="feedback hidden" aria-live="polite"></section>
             <p class="question-disclaimer">Please let me know if any questions are incorrect, worded strangely, or wrongly associated with slides!</p>
+            <div class="question-id-row" aria-label="Question identifier">
+              <button id="copyQuestionIdButton" type="button"></button>
+            </div>
           </article>
         </section>
 
@@ -59,25 +64,11 @@
           <section class="filters-panel" aria-label="Question filters">
             <div class="panel-heading">
               <h2>Filters</h2>
-              <button
-                id="filtersToggleButton"
-                class="panel-toggle"
-                type="button"
-                aria-expanded="false"
-                aria-controls="filtersContent"
-              >
-                Show
-              </button>
             </div>
-            <div id="filtersContent" class="filters hidden">
+            <div id="filtersContent" class="filters">
               <label class="field">
                 <span>Week</span>
                 <select id="weekFilter"></select>
-              </label>
-
-              <label class="field">
-                <span>Subtopic</span>
-                <select id="subtopicFilter"></select>
               </label>
 
               <label id="sourceFilterField" class="field">
@@ -104,6 +95,6 @@
       </section>
     </main>
 
-    <script src="app.js?v=20260513-all-questions"></script>
+    <script src="app.js?v=20260515-question-id"></script>
   </body>
 </html>

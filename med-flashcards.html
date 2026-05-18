@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NURS 304 Flashcards</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KGQEJYSERN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KGQEJYSERN');
+    </script>
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>NURS 304 💊 💉 🫀</h1>
+      <nav class="topbar-tabs" aria-label="Study tools">
+        <a class="topbar-tab" href="index.html">Practice questions</a>
+        <a class="topbar-tab" href="med-map.html">Med map</a>
+        <a class="topbar-tab active" href="med-flashcards.html" aria-current="page">Flashcards</a>
+        <a class="topbar-tab" href="reference-ranges.html">Reference ranges</a>
+      </nav>
+    </header>
+
+    <main class="flashcard-layout">
+      <section class="flashcard-toolbar" aria-label="Medication flashcard controls">
+        <label class="field">
+          <span>Card type</span>
+          <select id="flashcardType">
+            <option value="classes">Drug classes</option>
+            <option value="drugs">Drugs</option>
+            <option value="conditions">Conditions</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Week</span>
+          <select id="flashcardWeekFilter"></select>
+        </label>
+        <label class="field">
+          <span>Search</span>
+          <input id="flashcardSearch" type="search" placeholder="Medication, class, condition">
+        </label>
+      </section>
+
+      <section class="flashcard-status" aria-live="polite">
+        <span><strong id="flashcardPosition">0 / 0</strong></span>
+        <div class="flashcard-deck-actions">
+          <button id="previousFlashcard" type="button">Previous</button>
+          <button id="nextFlashcard" type="button">Next</button>
+        </div>
+      </section>
+
+      <section id="flashcardDeck" class="flashcard-deck" aria-label="Medication flashcards"></section>
+    </main>
+
+    <script src="med-map.js?v=20260517-sidebar-week-select"></script>
+    <script src="med-flashcards.js?v=20260517-card-types"></script>
+  </body>
+</html>

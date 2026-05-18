@@ -40,4 +40,4 @@ Replace `data/questions.json` with another array of question objects using the s
 - `sourceConfidence`
 - `subtopic`
 
-Follow `QUESTION_GENERATION_RULES.md` when generating more questions, and use `COURSE_CONTENT_SOP.md` when adding new course materials or quiz results.
+Follow `QUESTION_GENERATION_RULES.md` when generating more questions, use `COURSE_CONTENT_SOP.md` when adding new course materials or quiz results, and follow `MED_MAP_RULES.md` when adding or auditing medication-condition map sections.

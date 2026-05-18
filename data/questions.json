@@ -1334,8 +1334,8 @@
     "id": 44,
     "subtopic": "Asthma and Bronchodilator Therapy",
     "slideRefs": [
-      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-wk-2-neurotra-s025",
-      "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s051"
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student-s051",
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-wk-2-neurotra-s025"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -1454,8 +1454,8 @@
     "id": 48,
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s036",
-      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s019"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s023",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s024"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -1484,8 +1484,8 @@
     "id": 49,
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-tuesday-w4-renal-student-s008",
-      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-friday-w2-nurs-304-cardiac-meds-student-s075"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s036",
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-tuesday-w4-renal-student-s008"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -1516,8 +1516,8 @@
     "id": 50,
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s036",
-      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-tuesday-w4-renal-student-s031"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s036",
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s036"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -1632,7 +1632,8 @@
     "id": 54,
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s019"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s023",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s024"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -2635,7 +2636,7 @@
     "id": 87,
     "subtopic": "Adaptive Immunity and Immunosuppression",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s020"
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-immu-s034"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -4994,7 +4995,8 @@
     "id": 167,
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s013"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s059",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s060"
     ]
   },
   {
@@ -5115,7 +5117,7 @@
     "sourceDetail": "Source patterns checked against RegisteredNurseRN NCLEX pharmacology quizzes, Real Life Pharmacology respiratory/GI practice questions, and the Lakeshore Nursing Pharmacology sample exam; wording and answer choices were rewritten for NURS 304 course alignment.",
     "auditNote": "2026-05-14 online-source alignment and quality pass",
     "id": 171,
-    "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
+    "subtopic": "Endocrine and Adrenal Disorders",
     "slideRefs": [
       "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s038"
     ]
@@ -5175,10 +5177,10 @@
     "sourceDetail": "Source patterns checked against RegisteredNurseRN NCLEX pharmacology quizzes, Real Life Pharmacology respiratory/GI practice questions, and the Lakeshore Nursing Pharmacology sample exam; wording and answer choices were rewritten for NURS 304 course alignment.",
     "auditNote": "2026-05-14 online-source alignment and quality pass",
     "id": 173,
-    "subtopic": "Endocrine and Adrenal Disorders",
+    "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s006",
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s080"
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s056",
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s077"
     ]
   },
   {
@@ -5364,8 +5366,7 @@
     "id": 179,
     "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
     "slideRefs": [
-      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s051",
-      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s052"
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-in-class-friday-w1-304-pharmacokine-s051"
     ]
   },
   {
@@ -6208,7 +6209,8 @@
     "drug": "prednisone",
     "subtopic": "Endocrine and Adrenal Disorders",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s092"
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s045",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s061"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -6307,7 +6309,7 @@
     "drug": "proton pump inhibitor",
     "subtopic": "Endocrine and Adrenal Disorders",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s019"
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s044"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -6571,7 +6573,7 @@
     "subtopic": "Hemostasis, Anticoagulation, and Thrombolytics",
     "slideRefs": [
       "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s021",
-      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s030"
+      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s035"
     ],
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
@@ -8172,10 +8174,10 @@
     ],
     "rationale": "The best answer is Bone loss and hyperglycemia. Long-term glucocorticoid therapy can contribute to osteoporosis, hyperglycemia, infection risk, and adrenal suppression. Bone density and glucose monitoring are clinically relevant. Clinically, the medication name should be tied back to its class, monitoring concern, or major teaching point rather than treated as a memorized isolated fact.",
     "sourceConfidence": "audited-ai",
-    "subtopic": "Endocrine and Adrenal Disorders",
+    "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s045",
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s043"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s032",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s084"
     ],
     "id": 271,
     "auditNote": "2026-05-13 rationale-quality-audit"
@@ -8204,7 +8206,7 @@
     "sourceConfidence": "audited-ai",
     "subtopic": "Endocrine and Adrenal Disorders",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s024"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s024"
     ],
     "id": 272,
     "auditNote": "2026-05-13 rationale-quality-audit"
@@ -8262,7 +8264,8 @@
     "sourceConfidence": "audited-ai",
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s019"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s062",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s003"
     ],
     "id": 274,
     "auditNote": "2026-05-13 rationale-quality-audit"
@@ -8291,7 +8294,7 @@
     "sourceConfidence": "audited-ai",
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s036"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s054"
     ],
     "id": 275,
     "auditNote": "2026-05-13 rationale-quality-audit"
@@ -8324,7 +8327,8 @@
     "sourceConfidence": "audited-ai",
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s085"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s023",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s024"
     ],
     "id": 276,
     "auditNote": "2026-05-13 rationale-quality-audit"
@@ -11471,7 +11475,7 @@
     "rationale": "The best answer is Moving the food bolus toward the stomach by peristalsis. The esophagus is a muscular tube that propels swallowed material to the stomach through peristalsis. Most nutrient absorption occurs in the small intestine, bile is produced by the liver, and enzyme secretion is mainly pancreatic and gastric.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s026"
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-tuesday-w5-gi-student-s021"
     ],
     "id": 382,
     "subtopic": "Innate Immunity and Hypersensitivity",
@@ -12003,7 +12007,8 @@
     "rationale": "The best answer is Cimetidine. Cimetidine is an H2 receptor antagonist and reduces acid secretion by blocking H2 receptors on gastric parietal cells. Omeprazole blocks the proton pump, psyllium is a bulk-forming laxative, and loperamide slows intestinal motility.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s044"
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s044",
+      "week-05-gastrointestinal-pathopharmacology-05-w5-in-class-friday-w5-nurs-304-upper-gi-medications-student-s017"
     ],
     "id": 400,
     "subtopic": "Peptic Ulcer Disease and Acid Suppression",
@@ -12351,7 +12356,7 @@
       "Tachycardia",
       "Pallor",
       "Dyspnea on exertion",
-      "Black tarry stool as the defining symptom of all anemia",
+      "Increased exercise tolerance",
       "Fatigue"
     ],
     "correctAnswers": [
@@ -12360,7 +12365,7 @@
       "Dyspnea on exertion",
       "Tachycardia"
     ],
-    "rationale": "The correct selections are Fatigue, Pallor, Dyspnea on exertion, and Tachycardia. Anemia decreases oxygen delivery, so fatigue, pallor, dyspnea with activity, and compensatory tachycardia are common. Melena can be a cause or clue to bleeding but is not a defining symptom of all anemia.",
+    "rationale": "The correct selections are Fatigue, Pallor, Dyspnea on exertion, and Tachycardia. Anemia reduces the blood's oxygen-carrying capacity, so clients commonly report fatigue and shortness of breath with activity; pallor can occur from reduced hemoglobin, and tachycardia is a compensatory response to maintain oxygen delivery. Increased exercise tolerance would not be expected.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
       "week-06-hematology-and-coagulation-06-w6-in-class-tuesday-anemia-coagulopathy-patho-student-s017"
@@ -12871,7 +12876,7 @@
     "rationale": "The best answer is Rivaroxaban. Rivaroxaban directly inhibits factor Xa in the coagulation cascade. Alteplase is thrombolytic, ferrous sulfate treats iron deficiency, and epoetin stimulates red blood cell production. Clinically, the medication name should be tied back to its class, monitoring concern, or major teaching point rather than treated as a memorized isolated fact.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s036"
+      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s021"
     ],
     "id": 429,
     "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
@@ -13048,7 +13053,7 @@
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
       "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s006",
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s087"
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-wk-2-neurotra-s008"
     ],
     "id": 435,
     "subtopic": "Endocrine and Adrenal Disorders",
@@ -13111,7 +13116,8 @@
     "rationale": "The correct selections are Cold intolerance, Weight gain, Bradycardia, and Constipation. Low thyroid hormone slows metabolism, causing cold intolerance, weight gain, bradycardia, fatigue, and constipation. Heat intolerance and weight loss are more consistent with hyperthyroidism.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s038"
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s097",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s033"
     ],
     "id": 437,
     "subtopic": "Endocrine and Adrenal Disorders",
@@ -13202,7 +13208,8 @@
     "rationale": "The best answer is Pancreatic beta cells. Type 1 diabetes results from autoimmune destruction of pancreatic beta cells, causing absolute insulin deficiency. The other cells relate to GI acid secretion, Hodgkin lymphoma, and immune defense in the lungs.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s019"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s016",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s017"
     ],
     "id": 440,
     "subtopic": "Diabetes and Glucose Regulation",
@@ -13231,7 +13238,8 @@
     "rationale": "The best answer is Insulin deficiency prevents normal cellular glucose uptake and glucose regulation. Without adequate insulin, glucose cannot enter many insulin-sensitive tissues effectively and hepatic glucose output is not suppressed, so blood glucose rises. Type 1 diabetes is not caused by excess insulin.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-wk-2-neurotra-s004"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s003",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s024"
     ],
     "id": 441,
     "subtopic": "Diabetes and Glucose Regulation",
@@ -13260,7 +13268,8 @@
     "rationale": "The best answer is DKA includes significant ketone production and metabolic acidosis. DKA results from insulin deficiency leading to lipolysis, ketone production, and metabolic acidosis. HHNS usually has severe hyperglycemia and dehydration with minimal or absent ketoacidosis.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s077"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s032",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s072"
     ],
     "id": 442,
     "subtopic": "Diabetes and Glucose Regulation",
@@ -13289,7 +13298,8 @@
     "rationale": "The best answer is Insulin resistance with relative insulin deficiency over time. Type 2 diabetes begins with insulin resistance and often progresses to impaired insulin secretion. Type 1 diabetes is the classic autoimmune beta-cell destruction process.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s019"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s003",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s016"
     ],
     "id": 443,
     "subtopic": "Diabetes and Glucose Regulation",
@@ -13322,7 +13332,7 @@
     "rationale": "The correct selections are Cortisol deficiency, Hypotension, Fatigue and weakness, and Hyperkalemia may occur. Addison disease is adrenal insufficiency with low cortisol and sometimes low aldosterone, causing fatigue, weakness, hypotension, and possible hyperkalemia. Cortisol excess findings belong to Cushing syndrome.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s087"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s016"
     ],
     "id": 444,
     "subtopic": "Endocrine and Adrenal Disorders",
@@ -13355,11 +13365,11 @@
     "rationale": "The correct selections are Cortisol excess, Hyperglycemia, Fluid retention or hypertension, and Increased infection risk. Cushing syndrome reflects prolonged cortisol excess. Cortisol raises glucose, affects fluid and blood pressure regulation, suppresses immune responses, and can cause characteristic body composition changes.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s006",
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s068"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s033",
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s077"
     ],
     "id": 445,
-    "subtopic": "Endocrine and Adrenal Disorders",
+    "subtopic": "Diabetes and Glucose Regulation",
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
   {
@@ -13385,11 +13395,11 @@
     "rationale": "The best answer is Insulin. Insulin lowers blood glucose by promoting cellular uptake and storage. Cortisol, glucagon, and epinephrine generally raise glucose or oppose insulin effects in stress or fasting states. The key test-taking cue is to connect the assessment finding or lab pattern in the stem with the underlying physiology, then eliminate options from other body systems.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s056",
-      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-wk-2-neurotra-s008"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s005",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s003"
     ],
     "id": 446,
-    "subtopic": "Endocrine and Adrenal Disorders",
+    "subtopic": "Diabetes and Glucose Regulation",
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
   {
@@ -13419,7 +13429,7 @@
       "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s056"
     ],
     "id": 447,
-    "subtopic": "Endocrine and Adrenal Disorders",
+    "subtopic": "Diabetes and Glucose Regulation",
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
   {
@@ -13445,10 +13455,10 @@
     "rationale": "The best answer is Prostaglandin-mediated uterine contractions and inflammation. Primary dysmenorrhea is strongly linked to prostaglandin-mediated uterine contractions and inflammatory pain. It is not caused by erythropoietin or parietal cell failure. The key test-taking cue is to connect the assessment finding or lab pattern in the stem with the underlying physiology, then eliminate options from other body systems.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s024"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s025"
     ],
     "id": 448,
-    "subtopic": "Innate Immunity and Hypersensitivity",
+    "subtopic": "Endocrine and Adrenal Disorders",
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
   {
@@ -13477,7 +13487,7 @@
       "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s038"
     ],
     "id": 449,
-    "subtopic": "GI Anatomy, Digestion, and Absorption",
+    "subtopic": "Endocrine and Adrenal Disorders",
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
   {
@@ -13503,10 +13513,10 @@
     "rationale": "The best answer is TSH. TSH is commonly used to assess thyroid replacement adequacy in primary hypothyroidism. aPTT monitors heparin, D-dimer relates to clot evaluation, and lipase relates to pancreatic injury. Clinically, the medication name should be tied back to its class, monitoring concern, or major teaching point rather than treated as a memorized isolated fact.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s034"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s026"
     ],
     "id": 450,
-    "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
+    "subtopic": "Endocrine and Adrenal Disorders",
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
   {
@@ -13564,7 +13574,7 @@
       "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s041"
     ],
     "id": 452,
-    "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
+    "subtopic": "Endocrine and Adrenal Disorders",
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
   {
@@ -13589,7 +13599,9 @@
     ],
     "rationale": "The best answer is Rapid-acting insulin. Rapid-acting insulin has a fast onset and is used for mealtime or correction coverage. Long-acting and ultra-long-acting insulins provide basal coverage rather than quick meal coverage. Clinically, the medication name should be tied back to its class, monitoring concern, or major teaching point rather than treated as a memorized isolated fact.",
     "sourceConfidence": "study-guide-and-lecture-audited",
-    "slideRefs": [],
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s048"
+    ],
     "id": 453,
     "subtopic": "Diabetes and Glucose Regulation",
     "auditNote": "2026-05-13 rationale-quality-audit"
@@ -13617,7 +13629,8 @@
     "rationale": "The best answer is Metformin. Metformin is a biguanide that decreases hepatic glucose production and improves insulin sensitivity. Levothyroxine replaces thyroid hormone, prednisone can raise glucose, and cimetidine reduces gastric acid. Clinically, the medication name should be tied back to its class, monitoring concern, or major teaching point rather than treated as a memorized isolated fact.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s013"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s059",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s060"
     ],
     "id": 454,
     "subtopic": "Diabetes and Glucose Regulation",
@@ -13646,8 +13659,8 @@
     "rationale": "The best answer is Genitourinary infection risk from increased glucose in urine. Empagliflozin is an SGLT2 inhibitor that increases urinary glucose excretion, which can promote genital mycotic infections and urinary symptoms. Ototoxicity is an aminoglycoside concern, and tooth discoloration from calcium binding is associated with tetracyclines.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s013",
-      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-wk-2-neurotra-s004"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s060",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s068"
     ],
     "id": 455,
     "subtopic": "Diabetes and Glucose Regulation",
@@ -13675,7 +13688,10 @@
     ],
     "rationale": "The best answer is It is a GLP-1 receptor agonist that increases glucose-dependent insulin effects and slows gastric emptying. Semaglutide is a GLP-1 receptor agonist used in diabetes and weight-related care; it enhances glucose-dependent insulin secretion, suppresses glucagon, slows gastric emptying, and can reduce appetite.",
     "sourceConfidence": "study-guide-and-lecture-audited",
-    "slideRefs": [],
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s080",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s083"
+    ],
     "id": 456,
     "subtopic": "Diabetes and Glucose Regulation",
     "auditNote": "2026-05-13 rationale-quality-audit"
@@ -13703,7 +13719,7 @@
     "rationale": "The best answer is Do not stop the medication abruptly unless instructed. Long-term systemic corticosteroids can suppress the adrenal axis, so abrupt discontinuation can precipitate adrenal insufficiency. Prednisone can increase glucose and infection risk, so those issues require monitoring rather than self-adjusted extra dosing.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s070"
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s097"
     ],
     "id": 457,
     "subtopic": "Endocrine and Adrenal Disorders",
@@ -13735,10 +13751,11 @@
     "rationale": "The correct selections are Increased clotting risk in some clients, Reduced effectiveness with certain enzyme-inducing drugs, and Use for dysmenorrhea or cycle control in some clients. Combined estrogen-progestin contraceptives can help regulate cycles and reduce dysmenorrhea, but estrogen-containing therapy can increase thrombotic risk and may interact with enzyme-inducing drugs. They do not protect against sexually transmitted infections and require caution in clients with thromboembolic history.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "slideRefs": [
-      "week-06-hematology-and-coagulation-06-w6-in-class-friday-anemias-meds-instructor-s030"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s024",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s025"
     ],
     "id": 458,
-    "subtopic": "Hemostasis, Anticoagulation, and Thrombolytics",
+    "subtopic": "Endocrine and Adrenal Disorders",
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
   {
@@ -13763,9 +13780,11 @@
     ],
     "rationale": "The best answer is Polycythemia. Testosterone can increase red blood cell production and cause polycythemia, increasing viscosity and thrombotic concern. The other options are not expected testosterone effects. Clinically, the medication name should be tied back to its class, monitoring concern, or major teaching point rather than treated as a memorized isolated fact.",
     "sourceConfidence": "study-guide-and-lecture-audited",
-    "slideRefs": [],
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s021"
+    ],
     "id": 459,
-    "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
+    "subtopic": "Endocrine and Adrenal Disorders",
     "auditNote": "2026-05-13 rationale-quality-audit"
   },
   {
@@ -15246,7 +15265,7 @@
     "id": 510,
     "subtopic": "Cardiac Conduction and Dysrhythmias",
     "slideRefs": [
-      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s063"
+      "week-02-cardiovascular-pathopharmacology-02-w2-in-class-tuesday-htn-acs-arrhythmia-hf-patho-student-s059"
     ]
   },
   {
@@ -16465,7 +16484,8 @@
     "id": 552,
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s019"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s062",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s003"
     ]
   },
   {
@@ -16493,7 +16513,8 @@
     "id": 553,
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s019"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s003",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s016"
     ]
   },
   {
@@ -16521,7 +16542,7 @@
     "id": 554,
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s077"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s032"
     ]
   },
   {
@@ -16549,7 +16570,7 @@
     "id": 555,
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s011"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s035"
     ]
   },
   {
@@ -16581,8 +16602,8 @@
     "id": 556,
     "subtopic": "Endocrine and Adrenal Disorders",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s006",
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s041"
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s097",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s033"
     ]
   },
   {
@@ -16615,7 +16636,7 @@
     "subtopic": "Endocrine and Adrenal Disorders",
     "slideRefs": [
       "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s006",
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s007"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s018"
     ]
   },
   {
@@ -16697,9 +16718,9 @@
     "rationale": "Addison disease can involve deficient cortisol and aldosterone activity. Reduced aldosterone effect promotes sodium loss and potassium retention, so hyponatremia with possible hyperkalemia is the most relevant electrolyte pattern.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "id": 560,
-    "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
+    "subtopic": "Endocrine and Adrenal Disorders",
     "slideRefs": [
-      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-tuesday-w4-renal-student-s048"
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s081"
     ]
   },
   {
@@ -16725,10 +16746,10 @@
     "rationale": "The best answer is Hyperglycemia with fluid and body-composition changes. Cushing syndrome reflects excessive glucocorticoid effect, which can raise glucose, alter fat distribution, increase blood pressure, and affect fluid balance. The distractors point to other body systems or different pathophysiology, so they do not explain the finding or mechanism in the stem.",
     "sourceConfidence": "study-guide-and-lecture-audited",
     "id": 561,
-    "subtopic": "Endocrine and Adrenal Disorders",
+    "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s006",
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s070"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s064",
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s077"
     ]
   },
   {
@@ -17276,7 +17297,8 @@
     "id": 580,
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s013"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s059",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s060"
     ]
   },
   {
@@ -17520,7 +17542,8 @@
     "id": 588,
     "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
     "slideRefs": [
-      "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s037"
+      "week-02-cardiovascular-pathopharmacology-02-w2-required-asynchronous-nurs-304-cad-pharmacology-student-s037",
+      "week-01-introduction-pharmacotherapeutics-pathophysiology-immune-cellular-pkpd-01-w1-required-asynchronous-nurs-304-foun-s009"
     ]
   },
   {
@@ -17673,9 +17696,7 @@
     "auditNote": "2026-05-14 online-source alignment and quality pass",
     "id": 593,
     "subtopic": "Adaptive Immunity and Immunosuppression",
-    "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s020"
-    ]
+    "slideRefs": []
   },
   {
     "week": 2,
@@ -18888,7 +18909,7 @@
     "id": 632,
     "subtopic": "Endocrine and Adrenal Disorders",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s019"
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s035"
     ]
   },
   {
@@ -19619,7 +19640,8 @@
     "id": 656,
     "subtopic": "Endocrine and Adrenal Disorders",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s024"
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s097",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s033"
     ]
   },
   {
@@ -19677,9 +19699,10 @@
     "sourceDetail": "Source patterns checked against RegisteredNurseRN NCLEX pharmacology quizzes, Real Life Pharmacology respiratory/GI practice questions, and the Lakeshore Nursing Pharmacology sample exam; wording and answer choices were rewritten for NURS 304 course alignment.",
     "auditNote": "2026-05-14 online-source alignment and quality pass",
     "id": 658,
-    "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
+    "subtopic": "Endocrine and Adrenal Disorders",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s044"
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s044",
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s097"
     ]
   },
   {
@@ -19707,9 +19730,9 @@
     "sourceDetail": "Source patterns checked against RegisteredNurseRN NCLEX pharmacology quizzes, Real Life Pharmacology respiratory/GI practice questions, and the Lakeshore Nursing Pharmacology sample exam; wording and answer choices were rewritten for NURS 304 course alignment.",
     "auditNote": "2026-05-14 online-source alignment and quality pass",
     "id": 659,
-    "subtopic": "Medication Administration, Safety, and Pharmacokinetics",
+    "subtopic": "Endocrine and Adrenal Disorders",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s034"
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s038"
     ]
   },
   {
@@ -19739,7 +19762,7 @@
     "id": 660,
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-tuesday-w4-renal-student-s031"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s017"
     ]
   },
   {
@@ -19769,7 +19792,8 @@
     "id": 661,
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s077"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s035",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s029"
     ]
   },
   {
@@ -19798,7 +19822,9 @@
     "auditNote": "2026-05-14 online-source alignment and quality pass",
     "id": 662,
     "subtopic": "Diabetes and Glucose Regulation",
-    "slideRefs": []
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s048"
+    ]
   },
   {
     "week": 7,
@@ -19826,7 +19852,9 @@
     "auditNote": "2026-05-14 online-source alignment and quality pass",
     "id": 663,
     "subtopic": "Diabetes and Glucose Regulation",
-    "slideRefs": []
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s048"
+    ]
   },
   {
     "week": 7,
@@ -19854,7 +19882,9 @@
     "auditNote": "2026-05-14 online-source alignment and quality pass",
     "id": 664,
     "subtopic": "Diabetes and Glucose Regulation",
-    "slideRefs": []
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s048"
+    ]
   },
   {
     "week": 7,
@@ -19886,7 +19916,8 @@
     "id": 665,
     "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s014"
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s060",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s081"
     ]
   },
   {
@@ -19914,8 +19945,11 @@
     "sourceDetail": "Source patterns checked against RegisteredNurseRN NCLEX pharmacology quizzes, Real Life Pharmacology respiratory/GI practice questions, and the Lakeshore Nursing Pharmacology sample exam; wording and answer choices were rewritten for NURS 304 course alignment.",
     "auditNote": "2026-05-14 online-source alignment and quality pass",
     "id": 666,
-    "subtopic": "Bowel Motility, Nausea, Vomiting, and Elimination",
-    "slideRefs": []
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s064",
+      "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student-s017"
+    ]
   },
   {
     "week": 7,
@@ -19944,7 +19978,7 @@
     "id": 667,
     "subtopic": "Endocrine and Adrenal Disorders",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s019"
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s043"
     ]
   },
   {
@@ -19976,10 +20010,10 @@
     "sourceDetail": "Source patterns checked against RegisteredNurseRN NCLEX pharmacology quizzes, Real Life Pharmacology respiratory/GI practice questions, and the Lakeshore Nursing Pharmacology sample exam; wording and answer choices were rewritten for NURS 304 course alignment.",
     "auditNote": "2026-05-14 online-source alignment and quality pass",
     "id": 668,
-    "subtopic": "Endocrine and Adrenal Disorders",
+    "subtopic": "Diabetes and Glucose Regulation",
     "slideRefs": [
-      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s080",
-      "week-04-renal-pathopharmacology-electrolytes-04-w4-required-asynchronous-shock-patho-and-vasopressors-student-s015"
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s077",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s035"
     ]
   },
   {
@@ -20379,6 +20413,1368 @@
     "subtopic": "Anti-Infective Pharmacology and Antibiotic Safety",
     "slideRefs": [
       "week-08-infection-pathopharmacology-08-w8-required-asynchronous-nurs-304-antibiotics-amino-fluoro-tetras-macros-asynchro-s014"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "source": "Saved course quiz/test capture: 2026-05-17-week-07-endocrinology-quiz.md",
+    "sourceType": "Course",
+    "sourceConfidence": "course-content-inferred",
+    "auditNote": "2026-05-17 pasted-course-quiz-entry; answers inferred from Week 7 course materials because no Canvas feedback key was provided",
+    "stem": "Which factors will cause hypoglycemia in a client with diabetes? (Select all that apply)",
+    "options": [
+      "Client has been exercising more than usual.",
+      "Client is experiencing effects of the aging process.",
+      "Client has been sleeping excessively.",
+      "Client has not consumed sufficient calories.",
+      "Client has not consumed food and continues to take insulin or oral antidiabetic medications."
+    ],
+    "correctAnswers": [
+      "Client has been exercising more than usual.",
+      "Client has not consumed sufficient calories.",
+      "Client has not consumed food and continues to take insulin or oral antidiabetic medications."
+    ],
+    "rationale": "Exercise, missed or inadequate food intake, and continuing insulin or other glucose-lowering medications without food can lower blood glucose below the expected range. Sleeping excessively may occur with illness or glucose problems but is not itself a cause, and aging alone is not the direct cause identified in the Week 7 diabetes materials.",
+    "id": 682,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s080"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "Saved course quiz/test capture: 2026-05-17-week-07-endocrinology-quiz.md",
+    "sourceType": "Course",
+    "sourceConfidence": "course-content-inferred",
+    "auditNote": "2026-05-17 pasted-course-quiz-entry; answers inferred from Week 7 course materials because no Canvas feedback key was provided",
+    "stem": "A client with a 30-year history of type 2 diabetes is having an annual physical and blood work. Which test result would the health care provider consider most helpful with monitoring the client's treatment effectiveness?",
+    "options": [
+      "CT scan",
+      "glycosylated hemoglobin (HbA1C)",
+      "postprandial glucose",
+      "hematocrit"
+    ],
+    "correctAnswers": [
+      "glycosylated hemoglobin (HbA1C)"
+    ],
+    "rationale": "HbA1C reflects average blood glucose control over roughly the prior 2 to 3 months and is used to monitor long-term diabetes treatment effectiveness. A postprandial glucose is a point-in-time value, while CT scan and hematocrit do not evaluate glycemic control.",
+    "id": 683,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s026",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s025"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "Saved course quiz/test capture: 2026-05-17-week-07-endocrinology-quiz.md",
+    "sourceType": "Course",
+    "sourceConfidence": "course-content-inferred",
+    "auditNote": "2026-05-17 pasted-course-quiz-entry; answers inferred from Week 7 course materials because no Canvas feedback key was provided",
+    "stem": "When describing the effects of incretins on blood glucose control to a group of students, which would an instructor include?",
+    "options": [
+      "Increases insulin release",
+      "Increases glucagon release",
+      "Increases protein building",
+      "Increases GI emptying"
+    ],
+    "correctAnswers": [
+      "Increases insulin release"
+    ],
+    "rationale": "Incretin effects increase glucose-dependent insulin release after eating. They do not increase glucagon release or GI emptying; GLP-1 based therapies generally slow gastric emptying.",
+    "id": 684,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s059",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s080"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "Saved course quiz/test capture: 2026-05-17-week-07-endocrinology-quiz.md",
+    "sourceType": "Course",
+    "sourceConfidence": "course-content-inferred",
+    "auditNote": "2026-05-17 pasted-course-quiz-entry; answers inferred from Week 7 course materials because no Canvas feedback key was provided",
+    "stem": "A nurse is assessing a client with possible Cushing's syndrome. In a client with Cushing's syndrome, the nurse expects to find:",
+    "options": [
+      "hypotension",
+      "weight gain in arms and legs",
+      "thick, coarse skin",
+      "deposits of adipose tissue in the trunk and dorsocervical area"
+    ],
+    "correctAnswers": [
+      "deposits of adipose tissue in the trunk and dorsocervical area"
+    ],
+    "rationale": "Cushing syndrome causes cortisol excess with central obesity, moon face, and dorsocervical fat pad or buffalo hump. Hypotension is more consistent with adrenal insufficiency, and the skin is typically thin and fragile rather than thick and coarse.",
+    "id": 685,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s006",
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s068"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "source": "Saved course quiz/test capture: 2026-05-17-week-07-endocrinology-quiz.md",
+    "sourceType": "Course",
+    "sourceConfidence": "course-content-inferred",
+    "auditNote": "2026-05-17 pasted-course-quiz-entry; answers inferred from Week 7 course materials because no Canvas feedback key was provided",
+    "stem": "Which of the following are characteristic of diabetic ketoacidosis (DKA)? (Select all that apply)",
+    "options": [
+      "Absent ketones",
+      "Normal arterial pH level",
+      "More common in type 1 diabetes",
+      "Rapid onset",
+      "Elevated blood urea nitrogen (BUN) and creatinine"
+    ],
+    "correctAnswers": [
+      "More common in type 1 diabetes",
+      "Rapid onset",
+      "Elevated blood urea nitrogen (BUN) and creatinine"
+    ],
+    "rationale": "DKA is more common in type 1 diabetes, develops quickly, and causes dehydration that can elevate BUN and creatinine. Ketones are present, and metabolic acidosis lowers arterial pH rather than leaving it normal.",
+    "id": 686,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-tuesday-w4-renal-student-s008"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "Saved course quiz/test capture: 2026-05-17-week-07-endocrinology-quiz.md",
+    "sourceType": "Course",
+    "sourceConfidence": "course-content-inferred",
+    "auditNote": "2026-05-17 pasted-course-quiz-entry; answers inferred from Week 7 course materials because no Canvas feedback key was provided",
+    "stem": "A client with a history of type 1 diabetes is demonstrating fast, deep, labored breathing and has fruity odored breath. What could be the cause of the client's current serious condition?",
+    "options": [
+      "ketoacidosis",
+      "hepatic disorder",
+      "hyperosmolar hyperglycemic nonketotic syndrome",
+      "all options are correct"
+    ],
+    "correctAnswers": [
+      "ketoacidosis"
+    ],
+    "rationale": "Kussmaul respirations and fruity breath are classic findings in diabetic ketoacidosis from ketosis and metabolic acidosis. HHNS usually lacks significant ketones, and hepatic disorder does not best explain this pattern.",
+    "id": 687,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s032"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "Saved course quiz/test capture: 2026-05-17-week-07-endocrinology-quiz.md",
+    "sourceType": "Course",
+    "sourceConfidence": "course-content-inferred",
+    "auditNote": "2026-05-17 pasted-course-quiz-entry; answers inferred from Week 7 course materials because no Canvas feedback key was provided",
+    "stem": "A school nurse who is teaching a health course at the local high school is presenting information on human development and sexuality. When talking about the role of hormones in sexual development, which hormone does the nurse teach the class is the most important for developing and maintaining the female reproductive organs?",
+    "options": [
+      "Estrogen",
+      "Androgens",
+      "Follicle-stimulating hormone",
+      "Progesterone"
+    ],
+    "correctAnswers": [
+      "Estrogen"
+    ],
+    "rationale": "Estrogen is the primary hormone for development and maintenance of female reproductive organs and secondary sex characteristics. Progesterone mainly supports the uterine lining and pregnancy, while FSH regulates ovarian follicle development.",
+    "id": 688,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s020",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s006"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "source": "Saved course quiz/test capture: 2026-05-17-week-07-endocrinology-quiz.md",
+    "sourceType": "Course",
+    "sourceConfidence": "course-content-inferred",
+    "auditNote": "2026-05-17 pasted-course-quiz-entry; answers inferred from Week 7 course materials because no Canvas feedback key was provided",
+    "stem": "Signs and symptoms of adrenal insufficiency (Addison's disease) include which of the following? (Select all that apply)",
+    "options": [
+      "apathy",
+      "confusion",
+      "skin pigmentation changes",
+      "hypertension",
+      "muscle weakness"
+    ],
+    "correctAnswers": [
+      "apathy",
+      "confusion",
+      "skin pigmentation changes",
+      "muscle weakness"
+    ],
+    "rationale": "Addison disease causes cortisol and aldosterone deficiency, leading to weakness, fatigue or apathy, neurologic changes during crisis, and hyperpigmentation in primary disease. Hypotension rather than hypertension is expected.",
+    "id": 689,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s075"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "Saved course quiz/test capture: 2026-05-17-week-07-endocrinology-quiz.md",
+    "sourceType": "Course",
+    "sourceConfidence": "course-content-inferred",
+    "auditNote": "2026-05-17 pasted-course-quiz-entry; answers inferred from Week 7 course materials because no Canvas feedback key was provided",
+    "stem": "An adolescent client comes to the clinic with reports of “terrible pain” during menstruation. What should the nurse document this subjective data as?",
+    "options": [
+      "Amenorrhea",
+      "Metrorrhagia",
+      "Dysmenorrhea",
+      "Menorrhagia"
+    ],
+    "correctAnswers": [
+      "Dysmenorrhea"
+    ],
+    "rationale": "Dysmenorrhea means painful menstruation. Amenorrhea is absence of menstruation, metrorrhagia is bleeding between periods, and menorrhagia is excessive menstrual bleeding.",
+    "id": 690,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s026",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s024"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "source": "Saved course quiz/test capture: 2026-05-17-week-07-endocrinology-quiz.md",
+    "sourceType": "Course",
+    "sourceConfidence": "course-content-inferred",
+    "auditNote": "2026-05-17 pasted-course-quiz-entry; answers inferred from Week 7 course materials because no Canvas feedback key was provided",
+    "stem": "A client with a 20-year history of hypothyroidism who has not been compliant with taking thyroid replacement therapy is brought into the ED with a diagnosis of myxedema coma. What client symptoms are consistent with this life-threatening event? (Select all that apply)",
+    "options": [
+      "Hypotension",
+      "Tachycardia",
+      "Hypothermia",
+      "Hyperactivity",
+      "Hypoventilation"
+    ],
+    "correctAnswers": [
+      "Hypotension",
+      "Hypothermia",
+      "Hypoventilation"
+    ],
+    "rationale": "Myxedema coma is severe decompensated hypothyroidism, so slowed metabolism can produce hypothermia, hypotension, bradycardia, hypoventilation, and altered mental status. Tachycardia and hyperactivity fit hyperthyroid physiology more than severe hypothyroidism.",
+    "id": 691,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s038"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which statement best explains why type 1 diabetes causes persistent hyperglycemia?",
+    "options": [
+      "Autoimmune destruction of pancreatic beta cells causes an absolute insulin deficiency.",
+      "The adrenal cortex secretes excess cortisol after meals.",
+      "Placental hormones permanently suppress glucagon release.",
+      "The thyroid gland releases excess T3 and T4."
+    ],
+    "correctAnswers": [
+      "Autoimmune destruction of pancreatic beta cells causes an absolute insulin deficiency."
+    ],
+    "rationale": "Type 1 diabetes results from autoimmune beta-cell destruction, so the pancreas cannot make enough insulin to move glucose into cells. The other options describe unrelated endocrine mechanisms.",
+    "id": 692,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s017",
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s016"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which findings are consistent with hypoglycemia? (Select all that apply)",
+    "options": [
+      "Diaphoresis and tremor",
+      "Tachycardia and palpitations",
+      "Confusion or difficulty concentrating",
+      "Blood glucose greater than 600 mg/dL",
+      "Fruity breath with Kussmaul respirations"
+    ],
+    "correctAnswers": [
+      "Diaphoresis and tremor",
+      "Tachycardia and palpitations",
+      "Confusion or difficulty concentrating"
+    ],
+    "rationale": "Low blood glucose commonly produces adrenergic symptoms such as sweating, tremor, tachycardia, and palpitations, followed by neurologic symptoms such as confusion. Very high glucose and fruity breath with Kussmaul respirations point to hyperglycemic crises, especially DKA.",
+    "id": 693,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s031"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "A client with hyperglycemia has blood glucose of 680 mg/dL, profound dehydration, severe confusion, no ketones, and a normal pH. Which complication does this pattern most strongly suggest?",
+    "options": [
+      "Hyperglycemic hyperosmolar nonketotic syndrome",
+      "Diabetic ketoacidosis",
+      "Myxedema coma",
+      "Primary adrenal insufficiency"
+    ],
+    "correctAnswers": [
+      "Hyperglycemic hyperosmolar nonketotic syndrome"
+    ],
+    "rationale": "HHNS is more common in type 2 diabetes, develops over days to weeks, and causes very high glucose, dehydration, and neurologic changes without significant ketones or acidosis. DKA usually has ketones and low pH.",
+    "id": 694,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s033"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "The nurse gives regular insulin at 0730. When should the nurse monitor most closely for the peak hypoglycemia risk?",
+    "options": [
+      "0800 to 0830",
+      "0930 to 1130",
+      "1400 to 1930",
+      "The next morning"
+    ],
+    "correctAnswers": [
+      "0930 to 1130"
+    ],
+    "rationale": "Regular insulin peaks about 2 to 4 hours after administration. If given at 0730, the highest risk period for hypoglycemia is roughly 0930 to 1130.",
+    "id": 695,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s056"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which instruction is correct when a client must mix NPH insulin with regular insulin in the same syringe?",
+    "options": [
+      "Draw up the clear regular insulin before the cloudy NPH insulin.",
+      "Draw up the cloudy NPH insulin before the clear regular insulin.",
+      "Mix insulin glargine with the regular insulin to prevent a peak.",
+      "Shake both vials vigorously before drawing up insulin."
+    ],
+    "correctAnswers": [
+      "Draw up the clear regular insulin before the cloudy NPH insulin."
+    ],
+    "rationale": "When short-acting regular insulin is mixed with NPH, the nurse draws up clear before cloudy to avoid contaminating the regular insulin vial with NPH. Glargine should not be mixed with other insulins.",
+    "id": 696,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s048"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which client statement indicates correct understanding of insulin glargine?",
+    "options": [
+      "This insulin provides overnight basal coverage and should not be mixed with other insulins.",
+      "This insulin is the only insulin that can be given IV.",
+      "This insulin has a strong peak 30 minutes after injection.",
+      "This insulin is used only to treat acute DKA."
+    ],
+    "correctAnswers": [
+      "This insulin provides overnight basal coverage and should not be mixed with other insulins."
+    ],
+    "rationale": "Insulin glargine is a long-acting basal insulin with no pronounced peak and should not be mixed with other insulins. Regular insulin is the insulin commonly used IV, including in acute settings.",
+    "id": 697,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s048"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "A client with asthma asks about inhaled insulin. Which response by the nurse is most appropriate?",
+    "options": [
+      "Inhaled insulin is contraindicated in asthma because it can cause bronchospasm.",
+      "Inhaled insulin is preferred because asthma improves its absorption.",
+      "Inhaled insulin replaces all long-acting basal insulin needs.",
+      "Inhaled insulin prevents hypoglycemia because it does not enter the bloodstream."
+    ],
+    "correctAnswers": [
+      "Inhaled insulin is contraindicated in asthma because it can cause bronchospasm."
+    ],
+    "rationale": "The diabetes medication slides identify inhaled insulin as contraindicated in clients with COPD or asthma because of bronchospasm risk. It can still lower blood glucose and does not replace all basal insulin needs.",
+    "id": 698,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s050"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which instruction should the nurse include for a client starting metformin?",
+    "options": [
+      "Take the medication with meals to reduce gastrointestinal distress.",
+      "Take the medication only when blood glucose is above 250 mg/dL.",
+      "Stop checking renal function once the dose is stable.",
+      "Expect urine ketones as the intended effect."
+    ],
+    "correctAnswers": [
+      "Take the medication with meals to reduce gastrointestinal distress."
+    ],
+    "rationale": "Metformin is taken with meals to reduce GI adverse effects such as nausea, vomiting, diarrhea, and abdominal discomfort. Renal function should be assessed before therapy and periodically because severe renal impairment increases lactic acidosis risk.",
+    "id": 699,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s064"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which findings would concern the nurse for possible metformin-associated lactic acidosis? (Select all that apply)",
+    "options": [
+      "Drowsiness and malaise",
+      "Respiratory distress",
+      "Bradycardia and hypotension",
+      "Improved appetite with weight gain",
+      "Warm dry skin with exophthalmos"
+    ],
+    "correctAnswers": [
+      "Drowsiness and malaise",
+      "Respiratory distress",
+      "Bradycardia and hypotension"
+    ],
+    "rationale": "The metformin nursing implications list drowsiness, malaise, respiratory distress, bradycardia, and hypotension as symptoms that can suggest lactic acidosis. Exophthalmos is associated with Graves disease, not metformin toxicity.",
+    "id": 700,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s064"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "A client taking metformin is scheduled for a CT scan with iodinated contrast. Which action aligns with the Week 7 medication teaching?",
+    "options": [
+      "Follow protocol to hold metformin before and after contrast and reassess renal function before restarting.",
+      "Double the metformin dose the morning of the scan.",
+      "Switch to empagliflozin only on the day of the scan.",
+      "Take metformin without fluids to reduce kidney workload."
+    ],
+    "correctAnswers": [
+      "Follow protocol to hold metformin before and after contrast and reassess renal function before restarting."
+    ],
+    "rationale": "The slides note that protocols may require holding metformin around iodinated contrast and checking renal function before restarting. This reduces risk if contrast exposure contributes to renal impairment.",
+    "id": 701,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s064"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which teaching point is most important for a client prescribed empagliflozin?",
+    "options": [
+      "Maintain hydration and report symptoms of urinary or genital infection.",
+      "Avoid all carbohydrate intake because the medication replaces diet therapy.",
+      "Expect the medication to be first-line treatment for type 1 diabetes.",
+      "Take the medication to prevent all ketone production."
+    ],
+    "correctAnswers": [
+      "Maintain hydration and report symptoms of urinary or genital infection."
+    ],
+    "rationale": "SGLT2 inhibitors increase urinary glucose excretion, which can contribute to volume depletion and urinary or genitourinary fungal infections. They are indicated for type 2 diabetes and can be associated with DKA, including euglycemic DKA.",
+    "id": 702,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-04-renal-pathopharmacology-electrolytes-04-w4-in-class-friday-w4-nurs-304-fluid-and-diuretics-student-s014"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which adverse effects or risks should the nurse monitor for in a client taking an SGLT-2 inhibitor? (Select all that apply)",
+    "options": [
+      "Volume depletion or hypotension",
+      "Urinary tract or genitourinary fungal infection",
+      "Diabetic ketoacidosis",
+      "Agranulocytosis",
+      "Severe bradycardia as the expected therapeutic effect"
+    ],
+    "correctAnswers": [
+      "Volume depletion or hypotension",
+      "Urinary tract or genitourinary fungal infection",
+      "Diabetic ketoacidosis"
+    ],
+    "rationale": "SGLT2 inhibitors can cause dehydration or hypotension from osmotic diuresis, urinary/genitourinary infections, and DKA. Agranulocytosis is a thioamide concern rather than an SGLT2 inhibitor effect.",
+    "id": 703,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s072"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "A client prescribed oral semaglutide asks how to take it. Which instruction should the nurse provide?",
+    "options": [
+      "Take it in the morning on an empty stomach with no more than 4 oz of water, at least 30 minutes before food or other medications.",
+      "Take it with the largest meal of the day to prevent thyroid cancer.",
+      "Crush it and mix it with juice if nausea occurs.",
+      "Take it at bedtime with oral contraceptives to improve absorption."
+    ],
+    "correctAnswers": [
+      "Take it in the morning on an empty stomach with no more than 4 oz of water, at least 30 minutes before food or other medications."
+    ],
+    "rationale": "The GLP-1 receptor agonist slide specifies that oral semaglutide is taken on an empty stomach in the morning with only 4 oz of water and at least 30 minutes before food or other drugs. Delayed gastric emptying can also affect absorption of other oral medications.",
+    "id": 704,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s078"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which history would be most concerning before starting semaglutide?",
+    "options": [
+      "Personal or family history of thyroid cancer or MEN 2",
+      "Mild seasonal allergies",
+      "Remote appendectomy",
+      "Use of corrective lenses"
+    ],
+    "correctAnswers": [
+      "Personal or family history of thyroid cancer or MEN 2"
+    ],
+    "rationale": "The GLP-1 receptor agonist slides list personal or family history of thyroid cancer and MEN 2 as contraindications or major concerns. The other histories do not match the listed high-risk concerns.",
+    "id": 705,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s079"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which findings should a client with diabetes be taught to report promptly during sick days? (Select all that apply)",
+    "options": [
+      "Blood glucose greater than 250 mg/dL",
+      "Ketones in the urine",
+      "Shortness of breath or chest pain",
+      "One normal fasting glucose value",
+      "A temperature greater than 100 F"
+    ],
+    "correctAnswers": [
+      "Blood glucose greater than 250 mg/dL",
+      "Ketones in the urine",
+      "Shortness of breath or chest pain",
+      "A temperature greater than 100 F"
+    ],
+    "rationale": "The patient teaching slide instructs clients to seek medical attention for glucose greater than 250 mg/dL, ketones in urine, fever above 100 F, nausea/vomiting, shortness of breath, chest pain, or abdominal pain. One normal fasting glucose value alone is not a danger sign.",
+    "id": 706,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s085"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "A continuous glucose monitor shows a glucose trend that does not match a client's finger-stick result. Which explanation is most accurate?",
+    "options": [
+      "CGM measures interstitial glucose and may lag behind blood glucose by about 15 minutes.",
+      "CGM always measures arterial glucose and is more current than a finger stick.",
+      "CGM only detects ketones, not glucose.",
+      "CGM eliminates the need for safety checks before driving or exercise."
+    ],
+    "correctAnswers": [
+      "CGM measures interstitial glucose and may lag behind blood glucose by about 15 minutes."
+    ],
+    "rationale": "The Week 7 diabetes deck notes that CGM monitors interstitial fluid and can lag behind serum or finger-stick blood glucose by about 15 minutes. Clients still need safety decision-making around driving, exercise, and symptoms.",
+    "id": 707,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-diabetes-mellitus-student-2026-s045"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "A client has low T3 and T4 with a high TSH. Which pattern does this best support?",
+    "options": [
+      "Primary hypothyroidism",
+      "Primary hyperthyroidism",
+      "Secondary hyperthyroidism",
+      "Euglycemic DKA"
+    ],
+    "correctAnswers": [
+      "Primary hypothyroidism"
+    ],
+    "rationale": "In primary hypothyroidism, the thyroid gland underproduces T3 and T4, so pituitary TSH rises in response. Primary hyperthyroidism usually has high T3/T4 with low TSH.",
+    "id": 708,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s024"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which cause of hypothyroidism is emphasized as the most common autoimmune mechanism in the Week 7 study guide?",
+    "options": [
+      "Hashimoto syndrome",
+      "Graves disease",
+      "Cushing disease",
+      "Gestational diabetes"
+    ],
+    "correctAnswers": [
+      "Hashimoto syndrome"
+    ],
+    "rationale": "The study guide identifies autoimmune hypothyroidism, specifically Hashimoto syndrome, as the key etiology and mechanism for thyroid hormone deficiency. Graves disease is associated with hyperthyroidism.",
+    "id": 709,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s024",
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s007"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "A client has high T3 and T4 with low TSH. Which condition best fits this lab pattern?",
+    "options": [
+      "Primary hyperthyroidism",
+      "Primary hypothyroidism",
+      "Secondary hypothyroidism",
+      "Addison disease"
+    ],
+    "correctAnswers": [
+      "Primary hyperthyroidism"
+    ],
+    "rationale": "Primary hyperthyroidism occurs when the thyroid gland overproduces T3 and T4, suppressing TSH through negative feedback. Addison disease affects adrenal hormones rather than thyroid hormone production.",
+    "id": 710,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s027",
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s032"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which client statement indicates a need for further teaching about levothyroxine?",
+    "options": [
+      "I can stop taking this medication once my energy improves.",
+      "I should take this medication in the morning on an empty stomach.",
+      "My dose may be adjusted based on symptoms and thyroid lab tests.",
+      "I should report adverse effects and keep follow-up thyroid testing."
+    ],
+    "correctAnswers": [
+      "I can stop taking this medication once my energy improves."
+    ],
+    "rationale": "Levothyroxine is thyroid hormone replacement and should not be stopped just because symptoms improve. The slides emphasize taking it consistently in the morning on an empty stomach and monitoring symptoms and thyroid labs.",
+    "id": 711,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s038"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Before administering levothyroxine, the nurse notes the client's heart rate is 112 beats/min. What is the priority action?",
+    "options": [
+      "Notify the prescriber before administration.",
+      "Give the dose and recheck the pulse in 8 hours.",
+      "Hold all fluids for the rest of the shift.",
+      "Give methimazole at the same time."
+    ],
+    "correctAnswers": [
+      "Notify the prescriber before administration."
+    ],
+    "rationale": "The levothyroxine nursing implications state to assess heart rate and blood pressure before administration and notify the prescriber if the heart rate is greater than 100 beats/min. Thyroid hormone can increase cardiac workload and worsen dysrhythmias or angina.",
+    "id": 712,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s037"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which teaching points are appropriate for a client newly prescribed methimazole? (Select all that apply)",
+    "options": [
+      "Report fever or sore throat promptly.",
+      "Keep periodic thyroid function testing appointments.",
+      "Expect periodic CBC monitoring for bone marrow suppression.",
+      "Stop the medication as soon as palpitations improve.",
+      "Use it to replace missing thyroid hormone."
+    ],
+    "correctAnswers": [
+      "Report fever or sore throat promptly.",
+      "Keep periodic thyroid function testing appointments.",
+      "Expect periodic CBC monitoring for bone marrow suppression."
+    ],
+    "rationale": "Methimazole is a thioamide that reduces new thyroid hormone synthesis and can cause agranulocytosis, so fever or sore throat requires prompt reporting and CBC monitoring. It is not thyroid hormone replacement and should not be stopped without provider direction.",
+    "id": 713,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s045"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which situation best matches a preferred use of propylthiouracil (PTU) from the Week 7 thyroid medication slides?",
+    "options": [
+      "First trimester of pregnancy or thyroid storm",
+      "Routine lifelong replacement for hypothyroidism",
+      "Prevention of hypoglycemia during exercise",
+      "Long-acting basal insulin coverage"
+    ],
+    "correctAnswers": [
+      "First trimester of pregnancy or thyroid storm"
+    ],
+    "rationale": "The thioamide slide notes that PTU is acceptable in the first trimester and is used in thyroid storm because of faster onset. Levothyroxine is used for hypothyroid replacement, and insulin products address diabetes.",
+    "id": 714,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s041"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which manifestations are consistent with Cushing syndrome? (Select all that apply)",
+    "options": [
+      "Central obesity with moon face or buffalo hump",
+      "Thin fragile skin with purple striae",
+      "Hyperglycemia and hypertension",
+      "Hypoglycemia with severe hypotension as the typical pattern",
+      "Hyperpigmentation from adrenal insufficiency"
+    ],
+    "correctAnswers": [
+      "Central obesity with moon face or buffalo hump",
+      "Thin fragile skin with purple striae",
+      "Hyperglycemia and hypertension"
+    ],
+    "rationale": "Cushing syndrome reflects excess cortisol and is associated with fat redistribution, thin fragile skin and purple striae, hyperglycemia, and hypertension. Hypoglycemia, severe hypotension, and hyperpigmentation fit Addison disease more closely.",
+    "id": 715,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s075"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which cause of Cushing disease is specifically described in the Week 7 adrenal slides?",
+    "options": [
+      "Pituitary tumor increasing ACTH and cortisol",
+      "Autoimmune destruction of the adrenal cortex",
+      "Pancreatic beta-cell destruction",
+      "Low iodine intake causing low thyroid hormone"
+    ],
+    "correctAnswers": [
+      "Pituitary tumor increasing ACTH and cortisol"
+    ],
+    "rationale": "The adrenal slides distinguish Cushing disease as a pituitary gland tumor that increases ACTH, leading to increased cortisol. Autoimmune adrenal cortex destruction is a cause of Addison disease.",
+    "id": 716,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s070",
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s072"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which findings are expected in adrenal crisis? (Select all that apply)",
+    "options": [
+      "Severe hypotension or shock",
+      "Hyponatremia and hyperkalemia",
+      "Hypoglycemia",
+      "Extreme weakness and dehydration",
+      "Central obesity with buffalo hump"
+    ],
+    "correctAnswers": [
+      "Severe hypotension or shock",
+      "Hyponatremia and hyperkalemia",
+      "Hypoglycemia",
+      "Extreme weakness and dehydration"
+    ],
+    "rationale": "Adrenal crisis causes severe hypotension or shock, neurologic changes, GI symptoms, hyponatremia, hyperkalemia, hypoglycemia, weakness, dehydration, and fever. Buffalo hump is a Cushing syndrome manifestation.",
+    "id": 717,
+    "subtopic": "Diabetes and Glucose Regulation",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s087"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which teaching is most important for a client prescribed long-term prednisone replacement for adrenal insufficiency?",
+    "options": [
+      "Do not abruptly stop the medication, and expect the dose may increase during illness or stress.",
+      "Take the medication only when symptoms of weakness occur.",
+      "Avoid wearing medical identification because it may confuse providers.",
+      "Take the dose at midnight to match the normal cortisol peak."
+    ],
+    "correctAnswers": [
+      "Do not abruptly stop the medication, and expect the dose may increase during illness or stress."
+    ],
+    "rationale": "The prednisone teaching slides emphasize taking therapy as prescribed, not stopping abruptly, wearing medical alert identification for long-term therapy, and increasing dosage during illness or stress when directed. Cortisol replacement is commonly taken in the morning.",
+    "id": 718,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-in-class-tuesday-nurs-304-endocrinology-student-2026-s096"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which process best explains primary dysmenorrhea?",
+    "options": [
+      "Endometrial prostaglandin release promotes uterine contractions, hypoxia, and pain.",
+      "Complete absence of menstruation occurs because estrogen remains high.",
+      "Excess cortisol causes central adipose tissue deposits.",
+      "A urinary tract infection causes all menstrual cramping."
+    ],
+    "correctAnswers": [
+      "Endometrial prostaglandin release promotes uterine contractions, hypoxia, and pain."
+    ],
+    "rationale": "The dysmenorrhea slides describe primary dysmenorrhea as an inflammatory process involving prostaglandins, COX activity, uterine contraction, hypoxia, metabolite accumulation, and pain. Amenorrhea means absence of menses and does not describe painful menstruation.",
+    "id": 719,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s025"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Why are NSAIDs commonly used first line for primary dysmenorrhea?",
+    "options": [
+      "They address pain and inflammation related to prostaglandin-mediated uterine contractions.",
+      "They induce permanent menopause.",
+      "They increase endometrial growth to reduce bleeding.",
+      "They prevent thromboembolism in clients using estrogen."
+    ],
+    "correctAnswers": [
+      "They address pain and inflammation related to prostaglandin-mediated uterine contractions."
+    ],
+    "rationale": "NSAIDs are commonly first-line because they target both pain and inflammation in prostaglandin-mediated dysmenorrhea. The slides also note cautions such as GI bleeding, bronchospasm, and renal or hepatic injury.",
+    "id": 720,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s026"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which client histories require caution or follow-up before recommending NSAIDs for dysmenorrhea? (Select all that apply)",
+    "options": [
+      "History of GI bleeding",
+      "Bronchospasm with NSAID use",
+      "Significant renal injury",
+      "Hepatic injury",
+      "Corrected vision with glasses"
+    ],
+    "correctAnswers": [
+      "History of GI bleeding",
+      "Bronchospasm with NSAID use",
+      "Significant renal injury",
+      "Hepatic injury"
+    ],
+    "rationale": "The dysmenorrhea medication slide lists cautions around NSAID use including GI bleeding, bronchospasm, renal injury, and hepatic injury. Corrected vision is unrelated to NSAID risk.",
+    "id": 721,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s026"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "During a normal menstrual cycle, which hormone rises in the follicular phase to stimulate endometrial lining production?",
+    "options": [
+      "Estrogen",
+      "Cortisol",
+      "Insulin",
+      "Aldosterone"
+    ],
+    "correctAnswers": [
+      "Estrogen"
+    ],
+    "rationale": "The reproductive hormone slides state that estrogen rises in the follicular phase and stimulates endometrial lining production. Progesterone is dominant in the luteal phase and maintains the uterine lining.",
+    "id": 722,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s015"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which hormone is dominant in the luteal phase and helps maintain the uterine lining for possible implantation?",
+    "options": [
+      "Progesterone",
+      "Glucagon",
+      "Thyroid-stimulating hormone",
+      "Cortisol"
+    ],
+    "correctAnswers": [
+      "Progesterone"
+    ],
+    "rationale": "Progesterone is dominant in the luteal phase and maintains the uterine lining to facilitate implantation. Estrogen rises earlier in the follicular phase to rebuild the lining.",
+    "id": 723,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s015"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "A combined oral contraceptive containing ethinyl estradiol and levonorgestrel may be used for which noncontraceptive indication from the Week 7 slides?",
+    "options": [
+      "Dysmenorrhea",
+      "Diabetic ketoacidosis",
+      "Thyroid storm",
+      "Addisonian crisis"
+    ],
+    "correctAnswers": [
+      "Dysmenorrhea"
+    ],
+    "rationale": "The combined oral contraception slide lists dysmenorrhea, abnormal uterine bleeding, menstrual suppression, excessive lactation, and PCOS as indications in addition to contraception. DKA, thyroid storm, and Addisonian crisis require different urgent therapies.",
+    "id": 724,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s032"
+    ]
+  },
+  {
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "difficulty": "Course-level",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "source": "AI-generated Week 7 Endocrinology practice questions from NURS 304 Week 7 lecture decks and Endocrinology Study Guide: 2026-05-17",
+    "sourceType": "AI",
+    "sourceConfidence": "course-material-derived",
+    "sourceDetail": "Sources: Endocrinology Study Guide_9.23.25; 07-W7 In Class Tuesday-NURS 304 Endocrinology STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Diabetes Mellitus STUDENT 2026; 07-W7 Required Asynchronous-NURS 304 Dysmenorrhea and OCP.",
+    "auditNote": "2026-05-17 week-07-endocrinology-generation",
+    "stem": "Which points should the nurse include when teaching about combined oral contraceptives? (Select all that apply)",
+    "options": [
+      "Some antibiotics may reduce contraceptive efficacy.",
+      "Risk for thrombosis is an important contraindication consideration.",
+      "Mood changes and nausea/vomiting can occur.",
+      "They protect against sexually transmitted infections.",
+      "They are generally recommended as routine therapy after age 50."
+    ],
+    "correctAnswers": [
+      "Some antibiotics may reduce contraceptive efficacy.",
+      "Risk for thrombosis is an important contraindication consideration.",
+      "Mood changes and nausea/vomiting can occur."
+    ],
+    "rationale": "The combined oral contraception slide lists medication interactions, including many antibiotics reducing efficacy, thrombosis risk considerations, and adverse effects such as mood changes, nausea/vomiting, headache, and weight gain. Oral contraceptives do not protect against STIs and are not generally recommended after age 50.",
+    "id": 725,
+    "subtopic": "Endocrine and Adrenal Disorders",
+    "slideRefs": [
+      "week-07-endocrine-pathopharmacology-07-w7-required-asynchronous-nurs-304-dysmenorrhea-and-ocp-s033"
     ]
   }
 ]

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NURS 304 Med map</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KGQEJYSERN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KGQEJYSERN');
+    </script>
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>NURS 304 💊 💉 🫀</h1>
+      <nav class="topbar-tabs" aria-label="Study tools">
+        <a class="topbar-tab" href="index.html">Practice questions</a>
+        <a class="topbar-tab active" href="med-map.html" aria-current="page">Med map</a>
+        <a class="topbar-tab" href="med-flashcards.html">Flashcards</a>
+        <a class="topbar-tab" href="reference-ranges.html">Reference ranges</a>
+      </nav>
+    </header>
+
+    <main class="med-map-layout">
+      <section class="med-graph-shell" aria-label="Medication map">
+        <label class="week-select-panel mobile-week-select-panel" for="weekSelectMobile">
+          <span>Week</span>
+          <select id="weekSelectMobile" class="week-select" aria-label="Medication map week"></select>
+        </label>
+        <div class="med-graph-stage">
+          <div class="graph-scroll" tabindex="0" aria-label="Scrollable medication graph">
+            <div id="medGraph" class="link-map" role="img" aria-label="Medication graph linking drugs and conditions"></div>
+          </div>
+          <aside class="graph-details">
+            <label class="week-select-panel sidebar-week-select-panel" for="weekSelectSidebar">
+              <span>Week</span>
+              <select id="weekSelectSidebar" class="week-select" aria-label="Medication map week"></select>
+            </label>
+            <div id="graphDetails" class="graph-details-body" aria-live="polite">
+              <span class="graph-details-kicker">Selected</span>
+              <h3>Pick a node</h3>
+              <p>Use this as a quick recall map before practice questions.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <script src="med-map.js?v=20260517-sidebar-week-select"></script>
+  </body>
+</html>

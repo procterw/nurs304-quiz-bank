@@ -50,7 +50,19 @@ function classify(question) {
     question.category,
   ].filter(Boolean).join(" "));
 
-  if (question.week === 8 || has(primaryText, /anti[-\s]?infect|antibiotic|penicillin|cephalosporin|fluoroquinolone|culture/)) {
+  if (question.week === 8) {
+    return "Anti-Infective Pharmacology and Antibiotic Safety";
+  }
+
+  if (question.week === 7 || has(contextText, /endocrine/)) {
+    if (has(primaryText, /diabetes|insulin|metformin|glucose|hyperglyc|hypoglyc|ketoacidosis|\bdka\b|\bhhns\b|hyperosmolar|beta[-\s]?cell|pancreas|glucagon|a1c|antihyperglycemic|sglt|glp[-\s]?1|empagliflozin|semaglutide/)) {
+      return "Diabetes and Glucose Regulation";
+    }
+
+    return "Endocrine and Adrenal Disorders";
+  }
+
+  if (has(primaryText, /anti[-\s]?infect|antibiotic|penicillin|cephalosporin|fluoroquinolone|culture/)) {
     return "Anti-Infective Pharmacology and Antibiotic Safety";
   }
 
