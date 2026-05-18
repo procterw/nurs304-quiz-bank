@@ -2142,6 +2142,7 @@ function drawGraphConnectors(graph, container) {
     const from = container.querySelector(`.med-column [data-node-id="${fromId}"]`);
     const to = container.querySelector(`.condition-column [data-node-id="${toId}"]`);
     if (!from || !to) return;
+    const isActive = fromId === selectedGraphNodeId || toId === selectedGraphNodeId;
 
     const fromRect = from.getBoundingClientRect();
     const toRect = to.getBoundingClientRect();
@@ -2151,7 +2152,7 @@ function drawGraphConnectors(graph, container) {
     const y2 = toRect.top + toRect.height / 2 - containerRect.top;
     const control = Math.max(28, Math.abs(x2 - x1) * 0.45);
     const path = createSvg("path", {
-      class: "connector-path",
+      class: `connector-path${isActive ? " active" : ""}`,
       d: `M ${x1} ${y1} C ${x1 + control} ${y1}, ${x2 - control} ${y2}, ${x2} ${y2}`,
       "data-from": fromId,
       "data-to": toId
