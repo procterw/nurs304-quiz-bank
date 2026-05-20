@@ -19339,9 +19339,9 @@
     "topic": "Week 6 - Hematology and Coagulation",
     "system": "Hematology",
     "category": "A&P",
-    "type": "Multiple Choice",
+    "type": "Multiple Answer",
     "difficulty": "Course-level",
-    "stem": "Acute leukemia crowds the bone marrow with immature white cells. Which consequence should the nurse expect?",
+    "stem": "Acute leukemia crowds the bone marrow with immature white cells. Which consequences should the nurse expect? Select all that apply.",
     "options": [
       "Permanent protection from infection",
       "Increased infection risk from ineffective leukocytes",
@@ -19349,9 +19349,11 @@
       "Reduced production of red blood cells and platelets"
     ],
     "correctAnswers": [
+      "Increased infection risk from ineffective leukocytes",
+      "Anemia and thrombocytopenia from marrow suppression",
       "Reduced production of red blood cells and platelets"
     ],
-    "rationale": "Acute leukemia involves proliferation of immature blasts that crowd marrow and suppress normal hematopoiesis. This can cause anemia, thrombocytopenia, infection risk, and bleeding risk; immature cells do not provide reliable protection from infection.",
+    "rationale": "Acute leukemia involves proliferation of immature blasts that crowd marrow and suppress normal hematopoiesis. This can cause anemia, thrombocytopenia, infection risk, and bleeding risk. Immature leukocytes do not provide reliable protection from infection.",
     "source": "Online-practice-style question adapted from public nursing pharmacology practice sources and audited against NURS 304 study guides, lecture slide text, and saved course questions.",
     "sourceType": "AI",
     "sourceConfidence": "online-practice-style-course-audited",
