@@ -16,7 +16,9 @@ const ANSWERED_STORAGE_KEY = "nurs304-answered-results-v4";
 const QUERY_PARAMS = new URLSearchParams(window.location.search);
 const SHOW_ALL_QUESTIONS = QUERY_PARAMS.has("all_questions");
 const SHOW_NEW_QUESTIONS = QUERY_PARAMS.has("new_questions");
-const SHOW_SOURCE_FILTER = SHOW_ALL_QUESTIONS && !SHOW_NEW_QUESTIONS;
+const SHOW_LATEST_QUESTIONS = QUERY_PARAMS.has("latest_questions") || QUERY_PARAMS.has("latest_question");
+const SHOW_SOURCE_FILTER = SHOW_ALL_QUESTIONS && !SHOW_NEW_QUESTIONS && !SHOW_LATEST_QUESTIONS;
+const LATEST_QUESTIONS_AUDIT_NOTE = "2026-05-20 fill-in-the-blank multiple-choice expansion";
 
 const medicalTerms = {
   "ace inhibitor": "A drug class that blocks conversion of angiotensin I to angiotensin II, lowering vasoconstriction and aldosterone effects.",
@@ -520,6 +522,7 @@ const glossaryEntries = Object.entries(medicalTerms)
 
 const el = {
   week: document.getElementById("weekFilter"),
+  type: document.getElementById("typeFilter"),
   source: document.getElementById("sourceFilter"),
   sourceField: document.getElementById("sourceFilterField"),
   emptyState: document.getElementById("emptyState"),
@@ -542,7 +545,7 @@ const el = {
   questionsLeftCount: document.getElementById("questionsLeftCount"),
 };
 
-const filters = SHOW_SOURCE_FILTER ? [el.week, el.source] : [el.week];
+const filters = SHOW_SOURCE_FILTER ? [el.week, el.type, el.source] : [el.week, el.type];
 
 async function init() {
   try {
@@ -577,15 +580,22 @@ function prepareQuestions(questions) {
   return questions.map((question) => ({
     ...question,
     _filterWeek: String(question.week ?? ""),
+    _filterType: question.type ?? "",
     _filterSource: question.sourceType ?? "",
     _definitions: findMedicalTerms(question),
   }));
 }
 
 function getVisibleQuestions(questions) {
+  if (SHOW_LATEST_QUESTIONS) return questions.filter(isLatestQuestion);
   if (SHOW_NEW_QUESTIONS) return questions.filter(isNewQuestion);
   if (SHOW_ALL_QUESTIONS) return questions;
   return questions.filter((question) => question.sourceType !== "Course");
+}
+
+function isLatestQuestion(question) {
+  if (question.auditNote === LATEST_QUESTIONS_AUDIT_NOTE) return true;
+  return question.sourceConfidence === "course-derived-fill-in-blank-multiple-choice" && question.id >= 726 && question.id <= 775;
 }
 
 function isNewQuestion(question) {
@@ -604,6 +614,7 @@ function bindEvents() {
 
 function buildFilters() {
   fillWeekSelect(el.week, "All weeks", state.questions);
+  fillSelect(el.type, "All question types", state.questions.map((q) => q.type));
   if (SHOW_SOURCE_FILTER) {
     fillSelect(el.source, "All sources", state.questions.map((q) => q.sourceType));
   } else {
@@ -940,12 +951,14 @@ function getMatchingQuestions() {
 function getSelectedFilters() {
   return {
     week: el.week.value,
+    type: el.type.value,
     source: SHOW_SOURCE_FILTER ? el.source.value : "",
   };
 }
 
 function matchesSelectedFilters(question, selected) {
   if (selected.week && question._filterWeek !== selected.week) return false;
+  if (selected.type && question._filterType !== selected.type) return false;
   if (selected.source && question._filterSource !== selected.source) return false;
   return true;
 }
