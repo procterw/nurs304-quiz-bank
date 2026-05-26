@@ -476,6 +476,195 @@ const medMapData = {
       mechanism: "Bacteriostatic protein-synthesis inhibition; course content highlights respiratory-use alternatives when penicillin allergy limits beta-lactams.",
       considerations: "Review QT-prolonging medications and dysrhythmia history. Monitor for interactions that can increase digoxin toxicity or warfarin bleeding risk.",
       conditions: ["Bacterial infection", "Respiratory infection", "Penicillin allergy alternative", "QT prolongation risk", "Warfarin interaction bleeding risk", "Digoxin toxicity risk"]
+    },
+    {
+      name: "Penicillins",
+      week: 8,
+      drugs: ["Amoxicillin", "Penicillin G", "Penicillin VK", "Ampicillin", "Piperacillin-tazobactam"],
+      prototype: { name: "Amoxicillin", inCourseMaterial: true },
+      mechanism: "Beta-lactam cell-wall synthesis inhibition; course slides emphasize bactericidal leakage and cell death.",
+      considerations: "Assess allergy history before administration, draw cultures before antibiotics when ordered, monitor renal function and GI effects, and teach full-course adherence.",
+      conditions: ["Bacterial infection", "Gram-positive infection", "Gram-negative infection", "Respiratory infection", "Urinary tract infection", "Beta-lactam allergy risk", "C. difficile superinfection risk"]
+    },
+    {
+      name: "Cephalosporins",
+      week: 8,
+      drugs: ["Cefazolin", "Cephalexin", "Ceftriaxone", "Cefepime"],
+      prototype: { name: "Cefazolin", inCourseMaterial: true },
+      mechanism: "Beta-lactam cell-wall synthesis inhibition; generation affects gram-positive versus gram-negative coverage.",
+      considerations: "Check cephalosporin and penicillin allergy history, monitor BUN/creatinine, use the ordered IV diluent, and watch for GI effects, phlebitis, and superinfection.",
+      conditions: ["Bacterial infection", "Gram-positive infection", "Gram-negative infection", "Respiratory infection", "Urinary tract infection", "Skin/bone infection", "Beta-lactam allergy risk", "C. difficile superinfection risk"]
+    },
+    {
+      name: "Carbapenems",
+      week: 8,
+      drugs: ["Imipenem", "Meropenem", "Ertapenem"],
+      prototype: { name: "Ertapenem", inCourseMaterial: true },
+      mechanism: "Broad-spectrum beta-lactam cell-wall synthesis inhibition used for severe or multidrug-resistant bacterial infections.",
+      considerations: "Verify culture/sensitivity data when available, assess renal function and seizure history, monitor mental status, GI effects, superinfection, and hypersensitivity.",
+      conditions: ["Bacterial infection", "Gram-negative infection", "Sepsis", "Intra-abdominal infection", "Hospital-acquired pneumonia", "Beta-lactam allergy risk", "C. difficile superinfection risk", "Seizure risk"]
+    },
+    {
+      name: "Sulfonamides",
+      week: 8,
+      drugs: ["Trimethoprim-sulfamethoxazole (Bactrim)"],
+      prototype: { name: "Trimethoprim-sulfamethoxazole", inCourseMaterial: true },
+      mechanism: "Bacteriostatic inhibition of folic acid production, stopping bacterial multiplication.",
+      considerations: "Assess renal and liver function, allergy history, pregnancy/lactation and age risks, potassium risk, G6PD deficiency, hydration, photosensitivity, rash, and superinfection.",
+      conditions: ["Urinary tract infection", "Bacterial infection", "Pneumocystis jirovecii pneumonia", "Bronchitis", "Otitis media", "Photosensitivity", "Hyperkalemia risk", "Beta-lactam allergy alternative"]
+    },
+    {
+      name: "Glycopeptide antibiotics",
+      week: 8,
+      drugs: ["Vancomycin"],
+      prototype: { name: "Vancomycin", inCourseMaterial: true },
+      mechanism: "Inhibits bacterial cell-wall synthesis and is course-linked to serious gram-positive infections, MRSA, and C. difficile therapy by route.",
+      considerations: "Monitor peak/trough when ordered, BUN/creatinine, tinnitus, vertigo, hearing loss, IV site phlebitis, and infuse over at least 1 hour to reduce vancomycin flushing syndrome.",
+      conditions: ["Gram-positive infection", "MRSA infection", "C. difficile superinfection risk", "Nephrotoxicity risk", "Ototoxicity", "Vancomycin flushing syndrome risk"]
+    },
+    {
+      name: "Nitroimidazoles",
+      week: 8,
+      drugs: ["Metronidazole"],
+      prototype: { name: "Metronidazole", inCourseMaterial: true },
+      mechanism: "Anti-infective therapy listed with vancomycin for infection pharmacology; course slides link it to C. difficile treatment options.",
+      considerations: "Assess GI tolerance, infection response, alcohol use teaching, hepatic considerations, and whether therapy matches the ordered organism/site.",
+      conditions: ["C. difficile superinfection risk", "Bacterial infection", "Anaerobic infection"]
+    },
+    {
+      name: "Antituberculars",
+      week: 8,
+      drugs: ["Isoniazid (INH)", "Rifampin"],
+      prototype: { name: "Isoniazid (INH)", inCourseMaterial: true },
+      mechanism: "Inhibits mycobacterial cell-wall formation and growth of dormant cells; active TB requires combination therapy.",
+      considerations: "Assess liver enzymes, alcohol use, acetaminophen and phenytoin/benzodiazepine interactions, neuropathy symptoms, seizure history, renal function, and empty-stomach administration.",
+      conditions: ["Tuberculosis", "Hepatotoxicity risk", "Peripheral neuropathy risk", "Seizure risk"]
+    },
+    {
+      name: "Antivirals",
+      week: 8,
+      drugs: ["Acyclovir"],
+      prototype: { name: "Acyclovir", inCourseMaterial: true },
+      mechanism: "Inhibits viral DNA polymerase, reducing DNA replication for herpesvirus infections.",
+      considerations: "Monitor renal and liver function, maintain hydration, infuse IV doses over 1 hour, use hand hygiene/gloves for topical therapy, and review nephrotoxic or seizure-risk combinations.",
+      conditions: ["Herpes simplex virus infection", "Varicella-zoster infection", "Nephrotoxicity risk", "Seizure risk"]
+    },
+    {
+      name: "Antifungals",
+      week: 8,
+      drugs: ["Nystatin", "Amphotericin B", "Fluconazole", "Terbinafine"],
+      prototype: { name: "Nystatin / amphotericin B", inCourseMaterial: true },
+      mechanism: "Antifungal therapy targets fungal structures that differ from bacteria; course notes emphasize topical therapy when appropriate and toxicity with systemic agents.",
+      considerations: "Match route to infection depth, monitor toxicity for systemic therapy, teach correct nystatin oral-suspension use, and watch immunocompromised patients closely.",
+      conditions: ["Fungal infection", "Candidiasis", "Tinea infection", "Oral thrush", "Immunocompromised infection risk"]
+    },
+    {
+      name: "Antimalarials",
+      week: 8,
+      drugs: ["Chloroquine phosphate", "Atovaquone-proguanil", "Mefloquine"],
+      prototype: { name: "Chloroquine phosphate", inCourseMaterial: true },
+      mechanism: "Antimalarial therapy is used for strain-sensitive prophylaxis or acute malaria treatment; resistance patterns affect selection.",
+      considerations: "Check travel region resistance, pregnancy/lactation guidance, visual or retinal history, psoriasis, alcohol use disorder, and adherence timing for prophylaxis.",
+      conditions: ["Malaria", "Travel prophylaxis", "Retinal toxicity risk"]
+    },
+    {
+      name: "Salicylates",
+      week: 9,
+      drugs: ["Aspirin"],
+      prototype: { name: "Aspirin", inCourseMaterial: true },
+      mechanism: "Analgesic, antipyretic, anti-inflammatory, and antiplatelet effects through cyclooxygenase inhibition.",
+      considerations: "Assess bleeding risk, GI irritation/ulcer history, allergy/asthma sensitivity, renal function, and whether the intended dose is for pain, fever, inflammation, or antiplatelet therapy.",
+      conditions: ["Pain", "Inflammation", "Fever", "Arterial thrombosis", "Bleeding risk"]
+    },
+    {
+      name: "Non-narcotic analgesic antipyretics",
+      week: 9,
+      drugs: ["Acetaminophen"],
+      prototype: { name: "Acetaminophen", inCourseMaterial: true },
+      mechanism: "Non-opioid analgesic and antipyretic effect without meaningful peripheral anti-inflammatory activity.",
+      considerations: "Assess total daily dose across products, liver disease, alcohol use, and fever or pain response.",
+      conditions: ["Pain", "Fever", "Hepatotoxicity risk"]
+    },
+    {
+      name: "Nonsteroidal anti-inflammatory drugs",
+      week: 9,
+      drugs: ["Ibuprofen"],
+      prototype: { name: "Ibuprofen", inCourseMaterial: true },
+      mechanism: "COX inhibition reduces prostaglandin-mediated pain, fever, and inflammation.",
+      considerations: "Assess renal function, GI bleeding/ulcer risk, anticoagulant use, blood pressure, heart failure/fluid risk, and pregnancy considerations.",
+      conditions: ["Pain", "Inflammation", "Fever", "Renal injury risk", "Bleeding risk"]
+    },
+    {
+      name: "Opioid analgesics",
+      week: 9,
+      drugs: ["Morphine sulfate"],
+      prototype: { name: "Morphine sulfate", inCourseMaterial: true },
+      mechanism: "Mu-opioid receptor agonism changes pain perception and response while depressing CNS and respiratory drive.",
+      considerations: "Assess pain, sedation, respiratory rate, oxygenation, blood pressure, bowel function, fall risk, and availability of naloxone when overdose is suspected.",
+      conditions: ["Pain", "Cancer pain", "CNS depression and fall risk", "Respiratory depression risk", "Constipation"]
+    },
+    {
+      name: "Opioid antagonists",
+      week: 9,
+      drugs: ["Naloxone"],
+      prototype: { name: "Naloxone", inCourseMaterial: true },
+      mechanism: "Competitive opioid receptor antagonism reverses opioid-induced respiratory and CNS depression.",
+      considerations: "Prioritize airway and breathing, repeat doses when needed, monitor for recurrent respiratory depression, and anticipate acute withdrawal in opioid-dependent patients.",
+      conditions: ["Opioid overdose", "Respiratory depression risk", "CNS depression and fall risk"]
+    },
+    {
+      name: "Gamma-aminobutyric acid structural analogs",
+      week: 9,
+      drugs: ["Gabapentin"],
+      prototype: { name: "Gabapentin", inCourseMaterial: true },
+      mechanism: "Modulates neuronal excitability and is course-linked to neurogenic pain and seizure-related therapy.",
+      considerations: "Monitor sedation, dizziness, fall risk, renal dosing, mood changes, and additive CNS depression.",
+      conditions: ["Neurogenic pain", "Seizure disorder", "CNS depression and fall risk"]
+    },
+    {
+      name: "Hydantoins",
+      week: 9,
+      drugs: ["Phenytoin"],
+      prototype: { name: "Phenytoin", inCourseMaterial: true },
+      mechanism: "Antiseizure therapy that stabilizes neuronal firing, classically by limiting sodium-channel mediated repetitive discharge.",
+      considerations: "Monitor seizure control, drug interactions, toxicity symptoms, oral health, rash, liver function, and pregnancy considerations.",
+      conditions: ["Seizure disorder", "Epilepsy", "Drug interaction risk"]
+    },
+    {
+      name: "Benzodiazepines",
+      week: 9,
+      drugs: ["Diazepam", "Alprazolam"],
+      prototype: { name: "Diazepam / alprazolam", inCourseMaterial: true },
+      mechanism: "Enhances GABA activity, reducing neuronal activity and producing anxiolytic, sedative, and antiseizure effects depending on context.",
+      considerations: "Avoid alcohol and other CNS depressants, assess respiratory disease, liver disease, substance-use history, older-adult fall risk, glaucoma, lactation, and activities requiring alertness.",
+      conditions: ["Generalized anxiety disorder", "Panic attack", "Seizure disorder", "CNS depression and fall risk", "Respiratory depression risk"]
+    },
+    {
+      name: "Dopaminergic antiparkinson agents",
+      week: 9,
+      drugs: ["Levodopa-carbidopa"],
+      prototype: { name: "Levodopa-carbidopa", inCourseMaterial: true },
+      mechanism: "Restores dopaminergic signaling in Parkinson disease by providing dopamine precursor therapy with peripheral decarboxylase inhibition.",
+      considerations: "Assess symptom response, orthostatic hypotension, dyskinesias, hallucinations/confusion, medication timing, and wearing-off effects.",
+      conditions: ["Parkinson disease", "Dopamine deficiency"]
+    },
+    {
+      name: "Cholinesterase inhibitors",
+      week: 9,
+      drugs: ["Donepezil"],
+      prototype: { name: "Donepezil", inCourseMaterial: true },
+      mechanism: "Reversible indirect-acting cholinergic effect that increases acetylcholine signaling for Alzheimer-related cognitive symptoms.",
+      considerations: "Monitor bradycardia/syncope risk, GI effects, weight loss, sleep disturbance, and caregiver understanding that therapy supports symptoms rather than curing dementia.",
+      conditions: ["Alzheimer disease", "Dementia", "Bradycardia risk"]
+    },
+    {
+      name: "Selective serotonin reuptake inhibitors",
+      week: 9,
+      drugs: ["Fluoxetine"],
+      prototype: { name: "Fluoxetine", inCourseMaterial: true },
+      mechanism: "Blocks serotonin reuptake in the brain and is course-linked to depression, OCD, premenstrual dysphoric disorder, and anxiety treatment.",
+      considerations: "Teach delayed onset, do not stop abruptly, avoid St. John's wort and MAOI/thioridazine combinations, monitor suicidality in young adults, serotonin syndrome, QT risk, bleeding, GI effects, and sexual dysfunction.",
+      conditions: ["Major depressive disorder", "Generalized anxiety disorder", "Panic attack", "Serotonin syndrome risk", "QT prolongation risk", "Bleeding risk"]
     }
   ],
   conditions: [
@@ -921,6 +1110,349 @@ const medMapData = {
       drugClasses: ["Macrolides"]
     },
     {
+      name: "Gram-positive infection",
+      mechanism: "Week 8 materials distinguish thick peptidoglycan gram-positive bacteria such as Staphylococcus, Streptococcus, Enterococcus, and C. difficile.",
+      sideEffects: ["Site-specific infection findings", "Fever or inflammatory response when systemic"],
+      relevantSystems: ["Gram stain", "Peptidoglycan cell wall", "Culture/sensitivity", "Antibiotic selection"],
+      drugClasses: ["Penicillins", "Cephalosporins", "Glycopeptide antibiotics"]
+    },
+    {
+      name: "Skin/bone infection",
+      mechanism: "Cephalosporin slides list skin and bone infections among course-linked indications when culture/sensitivity supports use.",
+      sideEffects: ["Localized pain", "Redness", "Swelling", "Drainage", "Fever if systemic"],
+      relevantSystems: ["Skin", "Bone", "Culture/sensitivity", "Inflammation"],
+      drugClasses: ["Cephalosporins"]
+    },
+    {
+      name: "Sepsis",
+      mechanism: "Infection slides connect untreated bacterial infection with sepsis and shock; carbapenems are linked to severe infections and multidrug-resistant organisms.",
+      sideEffects: ["Fever or hypothermia", "Tachycardia", "Hypotension", "Altered perfusion", "Organ dysfunction risk"],
+      relevantSystems: ["Systemic inflammation", "Perfusion", "Culture/sensitivity", "Broad-spectrum antibiotics"],
+      drugClasses: ["Carbapenems", "Glycopeptide antibiotics", "Aminoglycosides"]
+    },
+    {
+      name: "Intra-abdominal infection",
+      mechanism: "Course slides list intra-abdominal infection as an indication for aminoglycosides and carbapenems depending on organism and severity.",
+      sideEffects: ["Abdominal pain", "Fever", "GI symptoms", "Sepsis risk"],
+      relevantSystems: ["GI tract", "Gram-negative bacteria", "Anaerobes", "Culture/sensitivity"],
+      drugClasses: ["Aminoglycosides", "Carbapenems", "Nitroimidazoles"]
+    },
+    {
+      name: "Hospital-acquired pneumonia",
+      mechanism: "Carbapenem slides include hospital-acquired pneumonia among severe infection contexts where broad-spectrum therapy may be used.",
+      sideEffects: ["Cough", "Dyspnea", "Fever", "Hypoxemia", "Sepsis risk"],
+      relevantSystems: ["Lungs", "Gram-negative bacteria", "Culture/sensitivity", "Oxygenation"],
+      drugClasses: ["Carbapenems"]
+    },
+    {
+      name: "MRSA infection",
+      mechanism: "Week 8 materials identify methicillin-resistant Staphylococcus aureus as resistant to most beta-lactams and link serious hospital-acquired MRSA infection to IV vancomycin.",
+      sideEffects: ["Skin/soft tissue infection", "Sepsis risk", "Pneumonia or invasive infection depending on site"],
+      relevantSystems: ["Staphylococcus aureus", "Oxacillin sensitivity", "Culture/sensitivity", "Gram-positive coverage"],
+      drugClasses: ["Glycopeptide antibiotics"]
+    },
+    {
+      name: "Beta-lactam allergy risk",
+      mechanism: "Penicillin and cephalosporin slides emphasize checking hypersensitivity history and cross-reactivity before beta-lactam therapy.",
+      sideEffects: ["Rash", "Urticaria", "Dyspnea", "Anaphylaxis risk", "Stevens-Johnson syndrome concern"],
+      relevantSystems: ["Immune response", "Medication allergy", "Penicillin class", "Cephalosporin class"],
+      drugClasses: ["Penicillins", "Cephalosporins", "Carbapenems"]
+    },
+    {
+      name: "Beta-lactam allergy alternative",
+      mechanism: "The infection guide includes sulfonamides and macrolides in the broader anti-infective set, useful when beta-lactam allergy limits choices for selected infections.",
+      sideEffects: ["Allergy history still requires clarification before alternative antibiotic use."],
+      relevantSystems: ["Antibiotic selection", "Hypersensitivity", "Culture/sensitivity"],
+      drugClasses: ["Sulfonamides", "Macrolides"]
+    },
+    {
+      name: "Pneumocystis jirovecii pneumonia",
+      mechanism: "Sulfonamide slides list P. jirovecii pneumonitis as an indication for trimethoprim-sulfamethoxazole.",
+      sideEffects: ["Dyspnea", "Fever", "Cough", "Hypoxemia risk"],
+      relevantSystems: ["Lungs", "Opportunistic infection", "Immune status"],
+      drugClasses: ["Sulfonamides"]
+    },
+    {
+      name: "Bronchitis",
+      mechanism: "Sulfonamide slides list bronchitis among indications, with antibiotic selection depending on organism and patient factors.",
+      sideEffects: ["Cough", "Sputum", "Fever or malaise when infectious"],
+      relevantSystems: ["Bronchi", "Respiratory tract", "Antibiotic selection"],
+      drugClasses: ["Sulfonamides"]
+    },
+    {
+      name: "Otitis media",
+      mechanism: "Sulfonamide slides list otitis media as an indication in selected patients.",
+      sideEffects: ["Ear pain", "Fever", "Hearing fullness", "Irritability in pediatric contexts"],
+      relevantSystems: ["Middle ear", "Bacterial infection", "Antibiotic selection"],
+      drugClasses: ["Sulfonamides"]
+    },
+    {
+      name: "Hyperkalemia risk",
+      mechanism: "Sulfonamide slides flag conditions or medications that can cause hyperkalemia as a caution before trimethoprim-sulfamethoxazole.",
+      sideEffects: ["Muscle weakness", "Cardiac conduction changes", "Dysrhythmia risk"],
+      relevantSystems: ["Potassium", "Kidneys", "Cardiac conduction"],
+      drugClasses: ["Sulfonamides", "ACE inhibitors", "Aldosterone antagonists"]
+    },
+    {
+      name: "Vancomycin flushing syndrome risk",
+      mechanism: "Vancomycin slides state IV administration must occur over at least 1 hour to reduce infusion reaction risk.",
+      sideEffects: ["Flushing", "Pruritus", "Rash", "Hypotension if severe"],
+      relevantSystems: ["IV infusion", "Histamine-mediated reaction", "Skin", "Blood pressure"],
+      drugClasses: ["Glycopeptide antibiotics"]
+    },
+    {
+      name: "Anaerobic infection",
+      mechanism: "Infection slides distinguish aerobic and anaerobic bacteria; metronidazole is included in the infection study guide and C. difficile treatment discussion.",
+      sideEffects: ["Site-specific infection findings", "Abscess or foul drainage in some anaerobic infections"],
+      relevantSystems: ["Anaerobic bacteria", "GI tract", "Culture/sensitivity"],
+      drugClasses: ["Nitroimidazoles"]
+    },
+    {
+      name: "Tuberculosis",
+      mechanism: "Week 8 slides describe airborne Mycobacterium tuberculosis pathogenesis, granuloma formation, latent versus active infection, and combination therapy.",
+      sideEffects: ["Low-grade fever", "Night sweats", "Cough", "Hemoptysis as a late sign", "Weight loss", "Fatigue"],
+      relevantSystems: ["Lungs", "Macrophages", "Granulomas", "Airborne transmission"],
+      drugClasses: ["Antituberculars"]
+    },
+    {
+      name: "Hepatotoxicity risk",
+      mechanism: "Isoniazid teaching emphasizes baseline liver enzymes and hepatitis symptoms such as jaundice, nausea/vomiting, abdominal pain, anorexia, and clay-colored stools.",
+      sideEffects: ["Jaundice", "Nausea/vomiting", "Abdominal pain", "Anorexia", "Clay-colored stools"],
+      relevantSystems: ["Liver", "Medication metabolism", "Alcohol", "Acetaminophen"],
+      drugClasses: ["Antituberculars", "Non-narcotic analgesic antipyretics"]
+    },
+    {
+      name: "Peripheral neuropathy risk",
+      mechanism: "Isoniazid slides list peripheral neuropathy as an adverse effect, with numbness and tingling cues.",
+      sideEffects: ["Numbness", "Tingling", "Peripheral sensory changes"],
+      relevantSystems: ["Peripheral nerves", "Vitamin B6 concept", "Medication toxicity"],
+      drugClasses: ["Antituberculars"]
+    },
+    {
+      name: "Seizure risk",
+      mechanism: "Course materials flag seizure risk with carbapenems, isoniazid cautions, and acyclovir interactions with hydantoins or valproic acid.",
+      sideEffects: ["Seizure activity", "Altered mental status", "Medication toxicity warning"],
+      relevantSystems: ["Brain", "Neuronal excitability", "Medication interactions"],
+      drugClasses: ["Carbapenems", "Antituberculars", "Antivirals"]
+    },
+    {
+      name: "Herpes simplex virus infection",
+      mechanism: "Acyclovir slides list herpes simplex virus cutaneous, mucosal, and genital infection as indications.",
+      sideEffects: ["Painful lesions", "Mucosal or genital sores", "Recurrence risk"],
+      relevantSystems: ["Virus", "DNA replication", "Skin/mucosa"],
+      drugClasses: ["Antivirals"]
+    },
+    {
+      name: "Varicella-zoster infection",
+      mechanism: "Acyclovir slides list varicella-zoster virus infections including chickenpox and shingles.",
+      sideEffects: ["Vesicular rash", "Pain or burning", "Possible neuralgia with shingles"],
+      relevantSystems: ["Virus", "Skin", "Peripheral nerves", "DNA replication"],
+      drugClasses: ["Antivirals"]
+    },
+    {
+      name: "Fungal infection",
+      mechanism: "Week 8 slides describe mycoses as infections requiring antifungal agents because fungal cell structures differ from bacteria.",
+      sideEffects: ["Rash or lesions", "Itching/burning", "White patches or discharge", "Systemic risk when immunocompromised"],
+      relevantSystems: ["Fungal cell wall/membrane", "Skin/mucosa", "Immune status"],
+      drugClasses: ["Antifungals"]
+    },
+    {
+      name: "Candidiasis",
+      mechanism: "Candida is described as a frequently opportunistic fungal/yeast infection preferring warm, dark, moist environments.",
+      sideEffects: ["White patches", "Discharge", "Pain", "Redness", "Itching or burning"],
+      relevantSystems: ["Yeast", "Mucosa", "Skin folds", "Immune status"],
+      drugClasses: ["Antifungals"]
+    },
+    {
+      name: "Tinea infection",
+      mechanism: "Tinea slides describe fungal skin infections with raised scaly borders, itching, burning, nail discoloration, or cracking between toes.",
+      sideEffects: ["Ring-shaped or scaly rash", "Itching", "Burning", "Nail discoloration", "Toe-web cracking"],
+      relevantSystems: ["Skin", "Nails", "Fungal growth"],
+      drugClasses: ["Antifungals"]
+    },
+    {
+      name: "Oral thrush",
+      mechanism: "Course antifungal slides and questions connect nystatin oral suspension with oral candidiasis teaching.",
+      sideEffects: ["White oral patches", "Mouth pain", "Burning", "Swallowing discomfort"],
+      relevantSystems: ["Oral mucosa", "Candida", "Immune status"],
+      drugClasses: ["Antifungals"]
+    },
+    {
+      name: "Immunocompromised infection risk",
+      mechanism: "Fungal and superinfection slides emphasize that compromised immune status increases opportunistic infection risk.",
+      sideEffects: ["Opportunistic infection", "Atypical or severe infection patterns", "Delayed recovery"],
+      relevantSystems: ["Immune system", "Normal flora", "Opportunistic pathogens"],
+      drugClasses: ["Antifungals", "Glucocorticoids / corticosteroids", "T and B cell suppressors"]
+    },
+    {
+      name: "Malaria",
+      mechanism: "Malaria slides describe Plasmodium transmission by female Anopheles mosquitoes and cyclic fever/chills/diaphoresis after incubation.",
+      sideEffects: ["Cyclic fever", "Chills", "Copious diaphoresis", "Headache", "Vomiting", "Anemia risk"],
+      relevantSystems: ["Protozoa", "Mosquito transmission", "Red blood cells", "Travel medicine"],
+      drugClasses: ["Antimalarials"]
+    },
+    {
+      name: "Travel prophylaxis",
+      mechanism: "Malaria prevention slides list medication prophylaxis options and mosquito avoidance for travel to endemic regions.",
+      sideEffects: ["No infection symptoms when prophylaxis is successful; adverse effects depend on agent."],
+      relevantSystems: ["Travel history", "Resistance patterns", "Medication adherence"],
+      drugClasses: ["Antimalarials"]
+    },
+    {
+      name: "Retinal toxicity risk",
+      mechanism: "Chloroquine slides flag retinal and visual-field changes and retinal disease caution.",
+      sideEffects: ["Visual field changes", "Retinal injury concern", "Vision changes"],
+      relevantSystems: ["Retina", "Vision", "Antimalarial toxicity"],
+      drugClasses: ["Antimalarials"]
+    },
+    {
+      name: "Pain",
+      mechanism: "The nervous-system guide asks students to distinguish visceral, neurogenic, acute, chronic, somatic, and cancer pain.",
+      sideEffects: ["Distress", "Activity limitation", "Sleep disruption", "Autonomic changes when acute"],
+      relevantSystems: ["Somatosensory system", "Nociceptors", "Peripheral nerves", "Brain"],
+      drugClasses: ["Salicylates", "Non-narcotic analgesic antipyretics", "Nonsteroidal anti-inflammatory drugs", "Opioid analgesics", "Gamma-aminobutyric acid structural analogs"]
+    },
+    {
+      name: "Fever",
+      mechanism: "Pain pharmacology in the nervous-system guide includes antipyretic drugs for fever reduction.",
+      sideEffects: ["Elevated temperature", "Malaise", "Chills depending on phase"],
+      relevantSystems: ["Hypothalamus", "Prostaglandins", "Infection/inflammation"],
+      drugClasses: ["Salicylates", "Non-narcotic analgesic antipyretics", "Nonsteroidal anti-inflammatory drugs"]
+    },
+    {
+      name: "Bleeding risk",
+      mechanism: "Aspirin, NSAIDs, anticoagulants, and SSRIs can increase bleeding concern through platelet, GI, or medication-interaction pathways.",
+      sideEffects: ["Bruising", "GI bleeding", "Hematuria", "Melena", "Bleeding gums"],
+      relevantSystems: ["Platelets", "GI mucosa", "Coagulation", "Medication interactions"],
+      drugClasses: ["Salicylates", "Nonsteroidal anti-inflammatory drugs", "Selective serotonin reuptake inhibitors", "Anticoagulants"]
+    },
+    {
+      name: "Renal injury risk",
+      mechanism: "NSAIDs and several anti-infectives require renal-function attention because kidney perfusion, clearance, or toxicity can worsen.",
+      sideEffects: ["Rising BUN/creatinine", "Decreased urine output", "Fluid retention"],
+      relevantSystems: ["Kidneys", "BUN", "Creatinine", "Medication clearance"],
+      drugClasses: ["Nonsteroidal anti-inflammatory drugs", "Aminoglycosides", "Glycopeptide antibiotics", "Antivirals"]
+    },
+    {
+      name: "Cancer pain",
+      mechanism: "The nervous-system guide lists cancer pain as a pain type; opioid analgesics are commonly linked to severe pain contexts.",
+      sideEffects: ["Persistent pain", "Functional limitation", "Sleep disruption"],
+      relevantSystems: ["Nociception", "Tumor-related tissue injury", "CNS pain pathways"],
+      drugClasses: ["Opioid analgesics"]
+    },
+    {
+      name: "CNS depression and fall risk",
+      mechanism: "Benzodiazepine slides identify alprazolam as a CNS depressant with dizziness, drowsiness, lethargy, confusion, and older-adult Beers-list concern.",
+      sideEffects: ["Dizziness", "Drowsiness", "Lethargy", "Confusion", "Falls"],
+      relevantSystems: ["Brain", "GABA", "Respiratory drive", "Older adult safety"],
+      drugClasses: ["Benzodiazepines", "Opioid analgesics", "Gamma-aminobutyric acid structural analogs"]
+    },
+    {
+      name: "Respiratory depression risk",
+      mechanism: "Opioids and sedative combinations can depress respiratory drive; benzodiazepine teaching emphasizes avoiding alcohol and other CNS depressants.",
+      sideEffects: ["Bradypnea", "Hypoventilation", "Sedation", "Low oxygenation"],
+      relevantSystems: ["Respiratory drive", "CNS", "Opioid receptors", "GABA"],
+      drugClasses: ["Opioid analgesics", "Benzodiazepines", "Opioid antagonists"]
+    },
+    {
+      name: "Neurogenic pain",
+      mechanism: "The nervous-system guide lists neurogenic pain; gabapentin is included as a GABA structural analog also used in seizures.",
+      sideEffects: ["Burning", "Shooting pain", "Tingling", "Allodynia"],
+      relevantSystems: ["Peripheral nerves", "Neuronal excitability", "Pain pathways"],
+      drugClasses: ["Gamma-aminobutyric acid structural analogs"]
+    },
+    {
+      name: "Seizure disorder",
+      mechanism: "The nervous-system guide asks for likely causes of epilepsy and major seizure types; antiseizure medication reduces abnormal neuronal firing.",
+      sideEffects: ["Altered awareness", "Motor activity", "Postictal confusion", "Injury risk"],
+      relevantSystems: ["Brain", "Neurons", "Excitatory/inhibitory balance"],
+      drugClasses: ["Hydantoins", "Benzodiazepines", "Gamma-aminobutyric acid structural analogs"]
+    },
+    {
+      name: "Epilepsy",
+      mechanism: "Epilepsy is recurrent unprovoked seizure tendency from abnormal neuronal activity.",
+      sideEffects: ["Recurrent seizures", "Injury risk", "Driving or safety restrictions"],
+      relevantSystems: ["Cerebral cortex", "Neuronal firing", "Antiseizure therapy"],
+      drugClasses: ["Hydantoins", "Gamma-aminobutyric acid structural analogs"]
+    },
+    {
+      name: "Drug interaction risk",
+      mechanism: "Course slides flag multiple interactions, including isoniazid inhibition of phenytoin/benzodiazepine metabolism and SSRI serotonergic combinations.",
+      sideEffects: ["Toxicity symptoms depend on the interacting drugs", "Sedation", "Bleeding", "Seizure risk", "Serotonin syndrome"],
+      relevantSystems: ["Liver metabolism", "CNS", "Medication reconciliation"],
+      drugClasses: ["Hydantoins", "Antituberculars", "Selective serotonin reuptake inhibitors"]
+    },
+    {
+      name: "Generalized anxiety disorder",
+      mechanism: "Mental health slides connect anxiety with norepinephrine, serotonin, GABA, stress/trauma, and autonomic symptoms; case data include GAD-7 moderate anxiety over 8 months.",
+      sideEffects: ["Excess worry", "Irritability", "Sleep difficulty", "Poor concentration", "Tension", "Restlessness"],
+      relevantSystems: ["CNS", "GABA", "Serotonin", "Norepinephrine", "Autonomic nervous system"],
+      drugClasses: ["Benzodiazepines", "Selective serotonin reuptake inhibitors"]
+    },
+    {
+      name: "Panic attack",
+      mechanism: "The anxiety case describes sudden sweaty smothering chest pressure, fear, shaking, tachypnea, normal EKG, and improvement with breathing focus.",
+      sideEffects: ["Chest pressure", "Sweating", "Fear", "Shaking", "Tachypnea", "Palpitations"],
+      relevantSystems: ["Autonomic nervous system", "CNS", "GABA", "Serotonin"],
+      drugClasses: ["Benzodiazepines", "Selective serotonin reuptake inhibitors"]
+    },
+    {
+      name: "Parkinson disease",
+      mechanism: "The nervous-system guide asks for Parkinson symptoms, likely mechanism, and implicated neurotransmitters; dopaminergic therapy addresses dopamine deficiency.",
+      sideEffects: ["Tremor", "Rigidity", "Bradykinesia", "Postural instability"],
+      relevantSystems: ["Basal ganglia", "Dopamine", "Motor control"],
+      drugClasses: ["Dopaminergic antiparkinson agents"]
+    },
+    {
+      name: "Dopamine deficiency",
+      mechanism: "Parkinson disease medication logic centers on inadequate dopamine signaling in motor pathways.",
+      sideEffects: ["Bradykinesia", "Rigidity", "Tremor", "Movement slowing"],
+      relevantSystems: ["Dopamine", "Basal ganglia", "Motor pathways"],
+      drugClasses: ["Dopaminergic antiparkinson agents"]
+    },
+    {
+      name: "Alzheimer disease",
+      mechanism: "The nervous-system guide asks what brain changes lead to dementia in Alzheimer disease; donepezil supports cholinergic signaling for symptoms.",
+      sideEffects: ["Memory loss", "Functional decline", "Cognitive impairment", "Caregiver burden"],
+      relevantSystems: ["Brain", "Acetylcholine", "Cognition"],
+      drugClasses: ["Cholinesterase inhibitors"]
+    },
+    {
+      name: "Dementia",
+      mechanism: "The guide asks students to distinguish dementia from delirium and identify Alzheimer pathophysiologic changes.",
+      sideEffects: ["Progressive cognitive decline", "Functional impairment", "Memory changes"],
+      relevantSystems: ["Brain", "Cognition", "Acetylcholine"],
+      drugClasses: ["Cholinesterase inhibitors"]
+    },
+    {
+      name: "Bradycardia risk",
+      mechanism: "Cholinesterase inhibitors can increase cholinergic tone and are associated with bradycardia/syncope monitoring concerns.",
+      sideEffects: ["Slow pulse", "Dizziness", "Syncope", "Falls"],
+      relevantSystems: ["Heart rate", "Cholinergic signaling", "Safety"],
+      drugClasses: ["Cholinesterase inhibitors", "Beta adrenergic blockers", "Calcium channel blockers"]
+    },
+    {
+      name: "Major depressive disorder",
+      mechanism: "The nervous-system guide and mental health deck connect depression pathophysiology with neurotransmitter models and SSRI treatment.",
+      sideEffects: ["Depressed mood", "Anhedonia", "Sleep or appetite changes", "Poor concentration", "Suicidality risk"],
+      relevantSystems: ["CNS", "Serotonin", "Norepinephrine", "Mood regulation"],
+      drugClasses: ["Selective serotonin reuptake inhibitors"]
+    },
+    {
+      name: "Serotonin syndrome risk",
+      mechanism: "Fluoxetine slides warn against serotonergic combinations such as St. John's wort and list serotonin syndrome as an adverse effect.",
+      sideEffects: ["Agitation", "Confusion", "Sweating", "Tremor", "Hyperreflexia", "Fever in severe cases"],
+      relevantSystems: ["Serotonin", "CNS", "Autonomic nervous system", "Medication interactions"],
+      drugClasses: ["Selective serotonin reuptake inhibitors"]
+    },
+    {
+      name: "Opioid overdose",
+      mechanism: "Naloxone reverses opioid receptor effects when opioid toxicity causes CNS and respiratory depression.",
+      sideEffects: ["Unresponsiveness", "Slow respirations", "Pinpoint pupils", "Low oxygenation"],
+      relevantSystems: ["Opioid receptors", "Respiratory drive", "CNS"],
+      drugClasses: ["Opioid antagonists"]
+    },
+    {
       name: "Sexual health / hormone therapy",
       mechanism: "The endocrine guide includes sexual health and testosterone adverse effects.",
       sideEffects: ["Adverse effects are specifically flagged for testosterone but not enumerated in extracted guide text."],
@@ -1087,7 +1619,8 @@ const WEEK_TOPICS = new Map([
   [5, "Gastrointestinal Pathopharmacology"],
   [6, "Hematology and Coagulation"],
   [7, "Endocrine Pathopharmacology"],
-  [8, "Infection Pathopharmacology"]
+  [8, "Infection Pathopharmacology"],
+  [9, "Nervous System and Mental Health Pathopharmacology"]
 ]);
 
 const WEEK3_DECKS = {
@@ -1855,7 +2388,136 @@ const authoredMedicationDetails = {
   }
 };
 
+Object.assign(authoredMedicationDetails, {
+  "Penicillins": {
+    description: "Penicillins such as amoxicillin inhibit bacterial cell-wall synthesis and are bactericidal. The Week 8 slides emphasize allergy screening, culture-first logic, renal monitoring, and GI or superinfection effects.",
+    sideEffects: ["Abdominal pain", "Nausea/vomiting/diarrhea", "Rash or hypersensitivity", "Superinfection", "Nephropathy"],
+    considerations: "Assess penicillin and cephalosporin allergy history, draw cultures before antibiotics when ordered, monitor BUN/creatinine and electrolytes, and teach full-course adherence."
+  },
+  "Cephalosporins": {
+    description: "Cephalosporins such as cefazolin bind bacterial cell-wall proteins and inhibit cell-wall synthesis. Course slides distinguish generations by gram-positive and gram-negative coverage.",
+    sideEffects: ["Nausea/vomiting/diarrhea", "Hypersensitivity or SJS", "Superinfection", "Headache or dizziness", "Phlebitis"],
+    considerations: "Assess cephalosporin and penicillin allergy history, monitor renal function, give oral forms with food if directed for GI upset, and watch for anticoagulant effect increase."
+  },
+  "Carbapenems": {
+    description: "Carbapenems are broad-spectrum beta-lactams used for severe infections and multidrug-resistant organisms. They inhibit bacterial cell-wall synthesis and are bactericidal.",
+    sideEffects: ["Hypersensitivity", "Nausea/vomiting/diarrhea", "Superinfection", "Headache or dizziness", "Altered mental status or seizures"],
+    considerations: "Assess culture/sensitivity data, renal function, CNS history, seizure risk, hypersensitivity, and GI or C. difficile symptoms."
+  },
+  "Sulfonamides": {
+    description: "Trimethoprim-sulfamethoxazole inhibits folic-acid production and is bacteriostatic. The case study links it to severe UTI therapy and broad safety screening before administration.",
+    sideEffects: ["GI upset", "Photosensitivity", "Rash or SJS", "Hyperkalemia", "Renal damage or crystalluria", "Blood dyscrasias"],
+    considerations: "Assess renal/liver function, hydration, potassium risk, G6PD deficiency, pregnancy/lactation, age under 2 months, sulfa-related allergy history, rash, and superinfection."
+  },
+  "Glycopeptide antibiotics": {
+    description: "Vancomycin inhibits bacterial cell-wall synthesis and is active against gram-positive bacteria. Course slides link it to MRSA, C. difficile by oral route, and VRE context.",
+    sideEffects: ["Nephrotoxicity", "Ototoxicity", "Tinnitus or hearing loss", "Vertigo", "Phlebitis", "Vancomycin flushing syndrome"],
+    considerations: "Monitor peak/trough when ordered, BUN/creatinine, hearing/vestibular symptoms, IV site, and infuse IV doses over at least 1 hour."
+  },
+  "Nitroimidazoles": {
+    description: "Metronidazole is listed in the infection guide and appears in C. difficile treatment context. It is used for selected anaerobic and protozoal infections depending on the order.",
+    sideEffects: ["GI upset", "Metallic taste", "Headache", "Dizziness", "Peripheral neuropathy with prolonged therapy"],
+    considerations: "Assess hepatic considerations, neurologic symptoms, alcohol use teaching, GI tolerance, and infection response."
+  },
+  "Antituberculars": {
+    description: "Isoniazid is used for latent TB and in combination therapy for active TB. It inhibits mycobacterial cell-wall formation and growth of dormant cells.",
+    sideEffects: ["Hepatotoxicity", "Peripheral neuropathy", "Nausea/vomiting", "Abdominal pain", "Anorexia"],
+    considerations: "Assess baseline liver enzymes, alcohol use, acetaminophen use, seizure disorder, renal impairment, neuropathy symptoms, and teach empty-stomach administration unless directed otherwise."
+  },
+  "Antivirals": {
+    description: "Acyclovir inhibits viral DNA polymerase and DNA replication for herpes simplex and varicella-zoster infections.",
+    sideEffects: ["Renal toxicity risk", "Nausea or diarrhea", "Headache", "Seizure risk with interacting agents", "IV site irritation"],
+    considerations: "Promote hydration, monitor renal/liver function, infuse IV doses over 1 hour, and use hand hygiene/gloves for topical administration."
+  },
+  "Antifungals": {
+    description: "Antifungals treat mycoses by targeting fungal structures that differ from bacteria. Course notes emphasize topical therapy when appropriate and higher toxicity with systemic therapy.",
+    sideEffects: ["Local irritation", "GI upset", "Hepatic toxicity with some systemic agents", "Infusion or renal toxicity concern with amphotericin B"],
+    considerations: "Match route to infection depth, teach nystatin oral-suspension technique, and monitor systemic therapy toxicity closely."
+  },
+  "Antimalarials": {
+    description: "Chloroquine phosphate is used for strain-sensitive malaria prophylaxis or acute infection. Travel region and resistance patterns drive selection.",
+    sideEffects: ["GI upset", "Headache", "Visual or retinal changes", "Pruritus", "Dizziness"],
+    considerations: "Check travel destination resistance, retinal disease, visual changes, psoriasis, alcohol use disorder, pregnancy/lactation, and adherence timing."
+  },
+  "Salicylates": {
+    description: "Aspirin has analgesic, antipyretic, anti-inflammatory, and antiplatelet effects. Course placement in the pain section means the intended use matters for dose and monitoring.",
+    sideEffects: ["GI irritation", "Bleeding", "Tinnitus at toxic levels", "Bronchospasm in sensitive clients"],
+    considerations: "Assess bleeding risk, GI ulcer history, allergy/asthma sensitivity, renal function, and anticoagulant or antiplatelet combinations."
+  },
+  "Non-narcotic analgesic antipyretics": {
+    description: "Acetaminophen reduces pain and fever without meaningful peripheral anti-inflammatory effect.",
+    sideEffects: ["Hepatotoxicity with excess dose", "Nausea", "Rash is uncommon but possible"],
+    considerations: "Count total daily acetaminophen across combination products and assess liver disease or alcohol use."
+  },
+  "Nonsteroidal anti-inflammatory drugs": {
+    description: "Ibuprofen reduces prostaglandin-mediated pain, fever, and inflammation through COX inhibition.",
+    sideEffects: ["GI irritation or bleeding", "Renal function worsening", "Fluid retention", "Increased blood pressure", "Bleeding risk"],
+    considerations: "Assess kidney function, GI bleed risk, anticoagulants, blood pressure, heart failure/fluid status, and pregnancy considerations."
+  },
+  "Opioid analgesics": {
+    description: "Morphine activates opioid receptors to change pain perception and response, but it also depresses CNS and respiratory function.",
+    sideEffects: ["Respiratory depression", "Sedation", "Constipation", "Hypotension", "Nausea/vomiting", "Dependence risk"],
+    considerations: "Assess pain, sedation, respiratory rate, oxygenation, blood pressure, bowel function, fall risk, and overdose response."
+  },
+  "Opioid antagonists": {
+    description: "Naloxone competitively blocks opioid receptors and can reverse opioid-induced respiratory and CNS depression.",
+    sideEffects: ["Acute withdrawal", "Pain return", "Tachycardia", "Nausea/vomiting"],
+    considerations: "Support airway and breathing, repeat doses as needed, and monitor for recurrent respiratory depression after naloxone wears off."
+  },
+  "Gamma-aminobutyric acid structural analogs": {
+    description: "Gabapentin modulates neuronal excitability and is course-linked to neurogenic pain and seizure-related therapy.",
+    sideEffects: ["Dizziness", "Drowsiness", "Ataxia", "Fatigue", "Peripheral edema"],
+    considerations: "Monitor falls, sedation, renal dosing, mood changes, and additive CNS depressants."
+  },
+  "Hydantoins": {
+    description: "Phenytoin stabilizes neuronal firing for seizure control and has important interaction and toxicity monitoring considerations.",
+    sideEffects: ["Nystagmus or ataxia", "Drowsiness", "Gingival hyperplasia", "Rash", "Hepatic effects"],
+    considerations: "Monitor seizure control, levels when ordered, oral hygiene, rash, toxicity symptoms, liver function, pregnancy considerations, and interactions."
+  },
+  "Benzodiazepines": {
+    description: "Diazepam and alprazolam enhance GABA activity, reducing neuronal activity. Alprazolam in the mental health deck is used short-term PRN for panic attacks.",
+    sideEffects: ["Drowsiness", "Dizziness", "Lethargy", "Confusion", "Blurred vision", "Dependence", "Respiratory depression with depressants"],
+    considerations: "Avoid alcohol, opioids, sleep aids, diphenhydramine, and other CNS depressants. Assess respiratory disease, liver disease, substance-use history, older-adult safety, glaucoma, and alertness precautions."
+  },
+  "Dopaminergic antiparkinson agents": {
+    description: "Levodopa-carbidopa supports dopamine signaling for Parkinson disease motor symptoms.",
+    sideEffects: ["Nausea", "Orthostatic hypotension", "Dyskinesias", "Hallucinations or confusion", "Wearing-off fluctuations"],
+    considerations: "Assess motor response, timing with doses, orthostatic blood pressure, dyskinesias, mental status, and swallowing/fall safety."
+  },
+  "Cholinesterase inhibitors": {
+    description: "Donepezil increases acetylcholine signaling to support cognitive symptoms in Alzheimer disease and dementia.",
+    sideEffects: ["Nausea/diarrhea", "Bradycardia", "Syncope", "Insomnia", "Weight loss"],
+    considerations: "Monitor pulse, syncope/falls, GI tolerance, weight, sleep disturbance, and caregiver expectations."
+  },
+  "Selective serotonin reuptake inhibitors": {
+    description: "Fluoxetine blocks serotonin reuptake. The mental health deck frames SSRIs as first-line antidepressants and includes use in depression, OCD, PMDD, and anxiety contexts.",
+    sideEffects: ["GI upset", "Drowsiness or nervousness", "Sexual dysfunction", "Bleeding risk", "QT prolongation", "Serotonin syndrome", "Suicidal thoughts warning"],
+    considerations: "Teach delayed onset, do not stop abruptly, avoid St. John's wort and MAOIs, monitor young adults for suicidality, and review serotonin syndrome, QT, bleeding, and alcohol/CNS depressant risks."
+  }
+});
+
 const medicationAdverseEffectFallbacks = [
+  [/penicillin/i, ["GI upset", "Rash or hypersensitivity", "Superinfection", "Renal monitoring concerns"]],
+  [/cephalosporin/i, ["GI upset", "Hypersensitivity or SJS", "Superinfection", "Phlebitis"]],
+  [/carbapenem/i, ["GI upset", "Hypersensitivity", "Superinfection", "Seizure risk"]],
+  [/sulfonamide/i, ["GI upset", "Photosensitivity", "Rash or SJS", "Hyperkalemia", "Renal damage"]],
+  [/glycopeptide|vancomycin/i, ["Nephrotoxicity", "Ototoxicity", "Phlebitis", "Vancomycin flushing syndrome"]],
+  [/nitroimidazole|metronidazole/i, ["GI upset", "Metallic taste", "Headache", "Peripheral neuropathy with prolonged therapy"]],
+  [/antitubercular|isoniazid/i, ["Hepatotoxicity", "Peripheral neuropathy", "GI upset", "Seizure risk in susceptible clients"]],
+  [/antiviral|acyclovir/i, ["Renal toxicity risk", "GI upset", "Headache", "Seizure risk with interacting agents"]],
+  [/antifungal|nystatin|amphotericin/i, ["Local irritation", "GI upset", "Hepatic or renal toxicity depending on agent", "Infusion reaction with systemic therapy"]],
+  [/antimalarial|chloroquine/i, ["GI upset", "Headache", "Visual or retinal changes", "Pruritus"]],
+  [/salicylate|aspirin/i, ["GI irritation", "Bleeding", "Tinnitus at toxic levels", "Bronchospasm in sensitive clients"]],
+  [/acetaminophen|non-narcotic analgesic/i, ["Hepatotoxicity with excess dose", "Nausea", "Rash is uncommon but possible"]],
+  [/nonsteroidal|NSAID|ibuprofen/i, ["GI irritation or bleeding", "Renal function worsening", "Fluid retention", "Increased blood pressure"]],
+  [/opioid analgesic|morphine/i, ["Respiratory depression", "Sedation", "Constipation", "Hypotension", "Nausea/vomiting"]],
+  [/opioid antagonist|naloxone/i, ["Acute withdrawal", "Pain return", "Tachycardia", "Nausea/vomiting"]],
+  [/gamma-aminobutyric|gabapentin/i, ["Dizziness", "Drowsiness", "Ataxia", "Fatigue", "Peripheral edema"]],
+  [/hydantoin|phenytoin/i, ["Nystagmus or ataxia", "Drowsiness", "Gingival hyperplasia", "Rash"]],
+  [/benzodiazepine|alprazolam|diazepam/i, ["Drowsiness", "Dizziness", "Confusion", "Respiratory depression with depressants", "Dependence"]],
+  [/dopaminergic|levodopa/i, ["Nausea", "Orthostatic hypotension", "Dyskinesias", "Hallucinations or confusion"]],
+  [/cholinesterase|donepezil/i, ["Nausea/diarrhea", "Bradycardia", "Syncope", "Insomnia", "Weight loss"]],
+  [/selective serotonin|SSRI|fluoxetine/i, ["GI upset", "Sexual dysfunction", "Serotonin syndrome", "Bleeding risk", "Suicidal thoughts warning"]],
   [/aminoglycoside/i, ["Nephrotoxicity", "Ototoxicity", "Tinnitus or hearing changes", "Vertigo or dizziness"]],
   [/fluoroquinolone/i, ["QT prolongation", "Tendonitis or tendon rupture", "Photosensitivity", "C. difficile superinfection"]],
   [/tetracycline/i, ["Photosensitivity", "GI upset", "Reduced absorption with calcium/iron/magnesium/aluminum", "Tooth and bone development concerns"]],

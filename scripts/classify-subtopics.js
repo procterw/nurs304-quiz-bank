@@ -32,6 +32,18 @@ const SUBTOPICS = [
   "Endocrine and Adrenal Disorders",
   "Diabetes and Glucose Regulation",
   "Anti-Infective Pharmacology and Antibiotic Safety",
+  "Infection Pathophysiology and Microbes",
+  "Antibacterial Selection, Resistance, and Superinfection",
+  "Beta-Lactam Antibiotics",
+  "Aminoglycosides",
+  "Fluoroquinolones",
+  "Tetracyclines",
+  "Macrolides",
+  "Sulfonamides and Vancomycin",
+  "Antifungals, Antivirals, Antimalarials, and Antituberculars",
+  "Nervous System, Pain, and Seizures",
+  "Parkinson Disease, Dementia, and Neuro Disorders",
+  "Anxiety, Depression, and Mental Health Pharmacology",
 ];
 
 function classify(question) {
@@ -50,7 +62,55 @@ function classify(question) {
     question.category,
   ].filter(Boolean).join(" "));
 
+  if (question.week === 9 || has(contextText, /nervous|mental|anxiety|depression|neuro/)) {
+    if (has(primaryText, /anxiety|depress|\\bgad\\b|\\bmdd\\b|panic|alprazolam|diazepam|benzodiazepine|fluoxetine|\\bssri\\b|serotonin|gaba|norepinephrine|st john|flumazenil|cns depress|beers|suicidal|serotonin syndrome/)) {
+      return "Anxiety, Depression, and Mental Health Pharmacology";
+    }
+
+    if (has(primaryText, /parkinson|levodopa|carbidopa|dopamine|dementia|alzheimer|donepezil|cholinesterase|acetylcholine|delirium/)) {
+      return "Parkinson Disease, Dementia, and Neuro Disorders";
+    }
+
+    return "Nervous System, Pain, and Seizures";
+  }
+
   if (question.week === 8) {
+    if (has(primaryText, /penicillin|amoxicillin|ampicillin|piperacillin|cephalosporin|cefazolin|cephalexin|ceftriaxone|cefepime|carbapenem|ertapenem|imipenem|meropenem|beta[-\\s]?lactam|cell wall synthesis/)) {
+      return "Beta-Lactam Antibiotics";
+    }
+
+    if (has(primaryText, /aminoglycoside|gentamicin|peak|trough|ototoxic|inner ear|tinnitus/)) {
+      return "Aminoglycosides";
+    }
+
+    if (has(primaryText, /fluoroquinolone|ciprofloxacin|tendon|achilles|qt|anthrax|chelat|calcium|magnesium|aluminum|iron/)) {
+      return "Fluoroquinolones";
+    }
+
+    if (has(primaryText, /tetracycline|doxycycline|photosensitivity|tooth|bone development|dairy/)) {
+      return "Tetracyclines";
+    }
+
+    if (has(primaryText, /macrolide|erythromycin|azithromycin|digoxin|warfarin|penicillin allergy/)) {
+      return "Macrolides";
+    }
+
+    if (has(primaryText, /sulfonamide|trimethoprim|sulfamethoxazole|bactrim|vancomycin|c\\. difficile|clostridioides|pseudomembranous|flushing syndrome|mrsa|hyperkalemia|kernicterus/)) {
+      return "Sulfonamides and Vancomycin";
+    }
+
+    if (has(primaryText, /isoniazid|\\binh\\b|rifampin|tuberculosis|\\btb\\b|acyclovir|herpes|varicella|zoster|fungal|fungi|candida|candidiasis|nystatin|amphotericin|fluconazole|terbinafine|tinea|malaria|chloroquine|parasite|protozoa/)) {
+      return "Antifungals, Antivirals, Antimalarials, and Antituberculars";
+    }
+
+    if (has(primaryText, /culture|sensitivity|resistance|superinfection|normal flora|bactericidal|bacteriostatic|antibiogram|broad[-\\s]?spectrum|full course|no antibiotics for viruses/)) {
+      return "Antibacterial Selection, Resistance, and Superinfection";
+    }
+
+    if (has(primaryText, /infection process|microbe|pathogen|virus|bacteria|fungi|parasite|innate|adaptive|opportunistic|communicable|pyrexia|malaise|leukocytosis|endotoxin|exotoxin|capsule|gram[-\\s]?positive|gram[-\\s]?negative|aerobic|anaerobic/)) {
+      return "Infection Pathophysiology and Microbes";
+    }
+
     return "Anti-Infective Pharmacology and Antibiotic Safety";
   }
 

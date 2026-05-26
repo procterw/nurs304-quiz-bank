@@ -310,15 +310,26 @@ function treatmentConditionItems(medClass) {
 function isTreatmentTarget(name) {
   const nonTreatmentTargets = new Set([
     "Bone and tooth development risk",
+    "Beta-lactam allergy risk",
     "C. difficile superinfection risk",
+    "CNS depression and fall risk",
     "Digoxin toxicity risk",
     "Fluid overload risk",
+    "Hepatotoxicity risk",
+    "Hyperkalemia risk",
     "Nephrotoxicity risk",
     "Ototoxicity",
     "Penicillin allergy alternative",
     "Photosensitivity",
+    "Peripheral neuropathy risk",
+    "Renal injury risk",
+    "Respiratory depression risk",
+    "Retinal toxicity risk",
+    "Seizure risk",
+    "Serotonin syndrome risk",
     "QT prolongation risk",
     "Tendon injury risk",
+    "Vancomycin flushing syndrome risk",
     "Warfarin interaction bleeding risk"
   ]);
   return !nonTreatmentTargets.has(name);
