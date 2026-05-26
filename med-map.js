@@ -5,9 +5,9 @@ const medMapData = {
       week: 1,
       drugs: ["Prednisone"],
       prototype: { name: "Prednisone", inCourseMaterial: true },
-      mechanism: "Anti-inflammatory and immunosuppressive therapy; the study guides connect corticosteroids with inflammation, immune effects, cortisol physiology, Addison disease, and Cushing syndrome.",
-      considerations: "Study guides flag immune-system implications, nursing interventions, corticosteroid replacement, and hyperglycemia/cortisol effects. Contraindication details are not fully specified in the study guides.",
-      conditions: ["Autoimmune disease", "Inflammation", "Addison disease", "Cushing disease / syndrome"]
+      mechanism: "Glucocorticoids reduce inflammation and immune activation and can replace deficient cortisol in adrenal insufficiency.",
+      considerations: "Long-term systemic therapy can suppress the HPA axis and should not be stopped abruptly. Monitor glucose, blood pressure, infection risk, bone health, fluid retention, and Cushing-like effects from excess glucocorticoid exposure.",
+      conditions: ["Autoimmune disease", "Inflammation", "Addison disease"]
     },
     {
       name: "T and B cell suppressors",
@@ -873,17 +873,17 @@ const medMapData = {
     },
     {
       name: "Addison disease",
-      mechanism: "The endocrine guide asks for the cause of cortisol deficiency and symptoms of cortisol deficiency.",
-      sideEffects: ["Cortisol deficiency symptoms are emphasized, though details are not listed in extracted guide text."],
+      mechanism: "Addison disease is adrenal insufficiency with too little cortisol and often too little aldosterone.",
+      sideEffects: ["Fatigue", "Weakness", "Hypotension", "Hyperpigmentation", "Hyponatremia", "Hyperkalemia"],
       relevantSystems: ["Adrenal cortex", "Cortisol", "HPA axis", "Glucose regulation"],
       drugClasses: ["Glucocorticoids / corticosteroids"]
     },
     {
       name: "Cushing disease / syndrome",
-      mechanism: "The endocrine guide asks for causes of cortisol excess and symptoms of cortisol excess.",
-      sideEffects: ["Cortisol excess symptoms are emphasized, though details are not listed in extracted guide text."],
+      mechanism: "Cushing syndrome is prolonged cortisol excess from endogenous overproduction or exogenous corticosteroid exposure.",
+      sideEffects: ["Hyperglycemia", "Hypertension", "Central weight gain", "Thin fragile skin", "Infection risk", "Muscle weakness"],
       relevantSystems: ["Adrenal cortex", "Cortisol", "HPA axis", "Glucose regulation"],
-      drugClasses: ["Glucocorticoids / corticosteroids"]
+      drugClasses: []
     },
     {
       name: "Dysmenorrhea",
@@ -1993,7 +1993,7 @@ const authoredConditionDetails = {
 const authoredMedicationDetails = {
   "Glucocorticoids / corticosteroids": {
     description: "Glucocorticoids such as prednisone reduce inflammation and immune activation by altering gene transcription and suppressing inflammatory mediators. They also replace deficient cortisol in adrenal insufficiency, so the same class can be used either for immune control or hormone replacement.",
-    sideEffects: ["Hyperglycemia", "Fluid retention", "Weight gain", "Mood changes", "Infection risk", "Skin thinning with long-term use"],
+    sideEffects: ["Hyperglycemia", "Fluid retention", "Weight gain", "Mood changes", "Infection risk", "Skin thinning with long-term use", "Cushing-like effects with prolonged exposure"],
     considerations: "Do not stop long-term systemic therapy abruptly. Monitor glucose, blood pressure, infection, bone health, adrenal suppression, and need for stress-dose steroids in adrenal insufficiency."
   },
   "T and B cell suppressors": {
