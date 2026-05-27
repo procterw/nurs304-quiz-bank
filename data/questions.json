@@ -22016,5 +22016,1438 @@
     "slideRefs": [
       "week-09-nervous-system-and-mental-health-pathopharmacology-09-w9-required-asynchronous-nurs-304-anxiety-and-mental-healt-s003"
     ]
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 78996; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is planning care for a client who has a bowel obstruction and metabolic alkalosis. Which interventions should the nurse include in the plan of care? Select all that apply.",
+    "options": [
+      "Administer ondansetron.",
+      "Request a prescription for hydrochlorothiazide.",
+      "Maintain nasogastric tube suction settings at high intermittent suction.",
+      "Initiate a continuous IV infusion of 0.9% sodium chloride.",
+      "Obtain a comprehensive metabolic panel."
+    ],
+    "correctAnswers": [
+      "Administer ondansetron.",
+      "Initiate a continuous IV infusion of 0.9% sodium chloride.",
+      "Obtain a comprehensive metabolic panel."
+    ],
+    "rationale": "Vomiting or gastric losses from bowel obstruction can cause chloride-responsive metabolic alkalosis. Antiemetic therapy, isotonic saline, and electrolyte monitoring are appropriate; thiazide diuretics and excessive gastric suction can worsen volume, chloride, and potassium losses.",
+    "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
+    "id": 826
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 43950; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is preparing to administer medications to a client with acute decompensated heart failure and atrial fibrillation. The potassium is 3.4 mEq/L and the INR is 2.6. Which medication should the nurse clarify?",
+    "options": [
+      "Acetaminophen",
+      "Captopril",
+      "Digoxin",
+      "Warfarin"
+    ],
+    "correctAnswers": [
+      "Digoxin"
+    ],
+    "rationale": "Hypokalemia increases the risk for digoxin toxicity and dysrhythmias, so digoxin should be clarified before administration. A therapeutic INR for atrial fibrillation commonly falls around 2.0-3.0, and the other medications are not directly contraindicated by the listed values.",
+    "subtopic": "Cardiac Conduction and Dysrhythmias",
+    "id": 827
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 43447; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is reinforcing teaching to a client with gastroesophageal reflux disease who has been prescribed esomeprazole capsules. Which instruction is the priority?",
+    "options": [
+      "Avoid taking NSAIDs because they can increase the risk for gastric irritation.",
+      "Call the clinic to see the health care provider if you develop diarrhea, abdominal cramps, or fever.",
+      "If it is easier to swallow, you may open the capsules and sprinkle the pellets onto applesauce.",
+      "Prioritize eating foods that are rich in magnesium, such as nuts and whole grains."
+    ],
+    "correctAnswers": [
+      "Call the clinic to see the health care provider if you develop diarrhea, abdominal cramps, or fever."
+    ],
+    "rationale": "Proton pump inhibitors increase the risk for Clostridioides difficile infection, so diarrhea with abdominal cramping or fever requires prompt follow-up. NSAID avoidance and magnesium awareness are useful teaching points, but possible C difficile infection is the priority safety concern.",
+    "subtopic": "Peptic Ulcer Disease and Acid Suppression",
+    "id": 828
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 71006; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is teaching a client with atrial fibrillation who has a new prescription for amiodarone. Which statement by the client requires follow-up?",
+    "options": [
+      "I will schedule routine eye examinations while I am taking this medication.",
+      "I should drink grapefruit juice to increase the absorption of this medication.",
+      "I will notify my health care provider if I develop a cough while taking this medication.",
+      "I should wear long-sleeved clothing when spending time outdoors while taking this medication."
+    ],
+    "correctAnswers": [
+      "I should drink grapefruit juice to increase the absorption of this medication."
+    ],
+    "rationale": "Grapefruit juice can increase amiodarone levels and toxicity risk, so it should be avoided. Eye monitoring, reporting cough or dyspnea, and photosensitivity precautions are appropriate teaching for amiodarone.",
+    "subtopic": "Cardiac Conduction and Dysrhythmias",
+    "id": 829
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes / acid-base",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 53017; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is caring for a client with hypercalcemia. The nurse should recognize that the client is at risk for developing which complication?",
+    "options": [
+      "cardiac dysrhythmias and coma",
+      "facial twitching and carpopedal spasms",
+      "facial flushing and urinary retention",
+      "metabolic alkalosis and bronchial spasms"
+    ],
+    "correctAnswers": [
+      "cardiac dysrhythmias and coma"
+    ],
+    "rationale": "Severe hypercalcemia can depress neuromuscular function and alter cardiac conduction, causing confusion, coma, and dysrhythmias. Facial twitching and carpopedal spasms are more typical of hypocalcemia.",
+    "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
+    "id": 830
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Medication safety / pharmacokinetics",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 66199; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is teaching the parent of a pediatric client how to use an epinephrine autoinjector. Which parent statement requires follow-up?",
+    "options": [
+      "I will administer the injection in my child's upper arm.",
+      "The injection should be administered at a 90-degree angle.",
+      "The injection can be administered through my child's clothing.",
+      "I will take my child to the emergency department after administering an injection."
+    ],
+    "correctAnswers": [
+      "I will administer the injection in my child's upper arm."
+    ],
+    "rationale": "Epinephrine autoinjectors are administered intramuscularly into the anterolateral thigh, not the upper arm. A 90-degree angle, administration through clothing when needed, and emergency evaluation after use are appropriate.",
+    "subtopic": "Autonomic Pharmacology and Vasoactive Medications",
+    "id": 831
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 52869; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is teaching a client who has a new prescription for a dry powder inhaler. Which statement by the client requires follow-up?",
+    "options": [
+      "I will shake the dry powder inhaler before each use.",
+      "I will exhale away from the dry powder inhaler before I use it.",
+      "I should store my dry powder inhaler in a cool, dry place when I am not using it.",
+      "I should hold my breath for 5 to 10 seconds after inhaling from the dry powder inhaler."
+    ],
+    "correctAnswers": [
+      "I will shake the dry powder inhaler before each use."
+    ],
+    "rationale": "Dry powder inhalers should not be shaken because dosing depends on the device design and dry powder flow. Exhaling away from the device, dry storage, and holding the breath after inhalation are appropriate.",
+    "subtopic": "Asthma and Bronchodilator Therapy",
+    "id": 832
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 52760; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is assessing a client who received ramipril 2 hours ago. Which finding indicates an adverse effect?",
+    "options": [
+      "periorbital edema",
+      "bradycardia",
+      "red-orange urine",
+      "ankle pain"
+    ],
+    "correctAnswers": [
+      "periorbital edema"
+    ],
+    "rationale": "ACE inhibitors such as ramipril can cause angioedema, which may begin as facial, lip, tongue, or periorbital swelling and can compromise the airway. Bradycardia and red-orange urine are not expected ACE inhibitor adverse effects.",
+    "subtopic": "Heart Failure, Shock, and Fluid Overload",
+    "id": 833
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 43809; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is caring for a client newly prescribed carvedilol following a myocardial infarction. Which clinical finding is the priority to report?",
+    "options": [
+      "Blood pressure of 108/65 mm Hg",
+      "Dizziness on standing from the bed",
+      "Heart rate of 58/min 1 hour after administration",
+      "Increased dyspnea during activities of daily living"
+    ],
+    "correctAnswers": [
+      "Increased dyspnea during activities of daily living"
+    ],
+    "rationale": "Carvedilol can worsen heart failure symptoms during initiation or dose titration. Increased dyspnea suggests worsening fluid overload or decreased cardiac output and is more concerning than mild bradycardia or expected orthostatic symptoms.",
+    "subtopic": "Heart Failure, Shock, and Fluid Overload",
+    "id": 834
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 55202; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is assessing a client with hypovolemic shock. Which findings should the nurse expect? Select all that apply.",
+    "options": [
+      "blood pressure of 145/85 mm Hg",
+      "respiratory rate of 32/min",
+      "urine output of 10 mL/hr",
+      "heart rate of 118/min",
+      "2+ pedal pulses"
+    ],
+    "correctAnswers": [
+      "respiratory rate of 32/min",
+      "urine output of 10 mL/hr",
+      "heart rate of 118/min"
+    ],
+    "rationale": "Hypovolemic shock causes sympathetic compensation and poor renal perfusion, producing tachycardia, tachypnea, and decreased urine output. Hypertension and normal peripheral pulses are not expected findings as shock progresses.",
+    "subtopic": "Heart Failure, Shock, and Fluid Overload",
+    "id": 835
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Medication safety / pharmacokinetics",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 77808; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is preparing to administer IV albumin to a client. The nurse should recognize the client is most at risk for developing which complication?",
+    "options": [
+      "anaphylaxis",
+      "constipation",
+      "hyperglycemia",
+      "cerebral edema"
+    ],
+    "correctAnswers": [
+      "anaphylaxis"
+    ],
+    "rationale": "Albumin is a plasma-derived colloid, so hypersensitivity and anaphylaxis are key safety risks to monitor during administration. Constipation and hyperglycemia are not expected primary complications.",
+    "subtopic": "Innate Immunity and Hypersensitivity",
+    "id": 836
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 43617; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "A client with heart failure has developed a chronic dry, hacking cough. Which medication should the nurse suspect may be causing the cough?",
+    "options": [
+      "Digoxin",
+      "Enalapril",
+      "Metoprolol",
+      "Spironolactone"
+    ],
+    "correctAnswers": [
+      "Enalapril"
+    ],
+    "rationale": "ACE inhibitors such as enalapril can cause a persistent dry cough due to bradykinin accumulation. Digoxin, beta blockers, and aldosterone antagonists do not classically cause this adverse effect.",
+    "subtopic": "Heart Failure, Shock, and Fluid Overload",
+    "id": 837
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes / acid-base",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 53020; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is reviewing fluid and electrolyte imbalances. Which factors may contribute to an elevated serum sodium level? Select all that apply.",
+    "options": [
+      "diabetes insipidus",
+      "chronic constipation",
+      "administration of mannitol",
+      "administration of lactated Ringer solution",
+      "submersion injury sustained in salt water"
+    ],
+    "correctAnswers": [
+      "diabetes insipidus",
+      "administration of mannitol",
+      "submersion injury sustained in salt water"
+    ],
+    "rationale": "Hypernatremia occurs with free-water loss or sodium gain. Diabetes insipidus and osmotic diuresis from mannitol promote water loss, and salt-water submersion can increase sodium exposure.",
+    "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
+    "id": 838
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes / acid-base",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 53008; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is assessing a client with hyperkalemia. Which finding is consistent with the condition?",
+    "options": [
+      "hypotonic muscle tone",
+      "sticky mucous membranes",
+      "hypoactive deep tendon reflexes",
+      "diminished P waves on ECG monitoring"
+    ],
+    "correctAnswers": [
+      "diminished P waves on ECG monitoring"
+    ],
+    "rationale": "Hyperkalemia alters cardiac conduction and can cause peaked T waves, PR prolongation, QRS widening, and diminished or absent P waves. Sticky mucous membranes are more related to dehydration.",
+    "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
+    "id": 839
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 9,
+    "weekLabel": "Week 9",
+    "topic": "Nervous System and Mental Health Pathopharmacology",
+    "system": "Neurologic / mental health pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 78650; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse should expect to observe bradypnea in which client?",
+    "options": [
+      "a client experiencing opioid intoxication",
+      "a client with metabolic acidosis",
+      "a client experiencing an acute asthma exacerbation",
+      "a client with an elevated body temperature"
+    ],
+    "correctAnswers": [
+      "a client experiencing opioid intoxication"
+    ],
+    "rationale": "Opioid toxicity depresses the respiratory center and can cause slow respirations. Metabolic acidosis, asthma exacerbation, and fever more commonly increase respiratory rate.",
+    "subtopic": "Nervous System, Pain, and Seizures",
+    "id": 840
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 72535; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is preparing to administer newly prescribed dofetilide to a client. Which action should the nurse take?",
+    "options": [
+      "Ask if the client has an allergy to shellfish.",
+      "Check the client's visual acuity using a Snellen chart.",
+      "Assess the client's skin for any blue-gray discoloration.",
+      "Obtain a blood specimen to check the client's serum electrolyte levels."
+    ],
+    "correctAnswers": [
+      "Obtain a blood specimen to check the client's serum electrolyte levels."
+    ],
+    "rationale": "Dofetilide can prolong the QT interval and cause serious dysrhythmias, especially when potassium or magnesium is low. Electrolytes and ECG monitoring are important before and during therapy.",
+    "subtopic": "Cardiac Conduction and Dysrhythmias",
+    "id": 841
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 56585; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse should clarify a prescription for propranolol for the client with which condition?",
+    "options": [
+      "hypertension",
+      "compensated heart failure",
+      "atrial fibrillation",
+      "chronic obstructive pulmonary disease"
+    ],
+    "correctAnswers": [
+      "chronic obstructive pulmonary disease"
+    ],
+    "rationale": "Propranolol is a nonselective beta blocker that can block beta-2 receptors and cause bronchoconstriction. This is risky in clients with COPD or asthma.",
+    "subtopic": "Hypertension and Cardiovascular Pharmacology",
+    "id": 842
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 77871; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse reviews an ECG and notes that the P wave is present and occurs before each QRS complex. What do these findings represent?",
+    "options": [
+      "systole",
+      "presence of artifact",
+      "repolarization of the ventricles",
+      "an electrical impulse originating from the sinoatrial node"
+    ],
+    "correctAnswers": [
+      "an electrical impulse originating from the sinoatrial node"
+    ],
+    "rationale": "A P wave before each QRS complex indicates atrial depolarization initiated by the sinoatrial node. Ventricular repolarization is represented by the T wave.",
+    "subtopic": "Cardiac Conduction and Dysrhythmias",
+    "id": 843
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes / acid-base",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 53071; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is assessing a client who has hyperphosphatemia secondary to hypoparathyroidism. Which finding should the nurse expect?",
+    "options": [
+      "tetany and hyperreflexia",
+      "muscle weakness and polyuria",
+      "bounding pulse and peripheral edema",
+      "abdominal cramping and irregular pulse"
+    ],
+    "correctAnswers": [
+      "tetany and hyperreflexia"
+    ],
+    "rationale": "Hypoparathyroidism can cause hypocalcemia and hyperphosphatemia. Low calcium increases neuromuscular excitability, producing tetany, paresthesias, and hyperreflexia.",
+    "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
+    "id": 844
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 5,
+    "weekLabel": "Week 5",
+    "topic": "Gastrointestinal Pathopharmacology",
+    "system": "GI pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 75741; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is planning staff education about promethazine. Which information should be included?",
+    "options": [
+      "Promethazine is safe to administer to newborns.",
+      "Hyperactivity is a common side effect of promethazine.",
+      "Oral promethazine should be taken daily to prevent nausea.",
+      "Severe tissue injury may occur with IV promethazine administration."
+    ],
+    "correctAnswers": [
+      "Severe tissue injury may occur with IV promethazine administration."
+    ],
+    "rationale": "Promethazine is irritating to tissues and can cause severe injury with IV extravasation or improper administration. It is not safe for very young children and is not generally taken daily unless specifically prescribed.",
+    "subtopic": "Bowel Motility, Nausea, Vomiting, and Elimination",
+    "id": 845
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 43596; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse has finished assessments and is preparing to administer medications. Which prescriptions should the nurse hold and clarify? Select all that apply.",
+    "options": [
+      "Apixaban for a client with petechiae over the waist and torso",
+      "Digoxin for a client who reports yellow rings in the visual field",
+      "Diltiazem for a client with irregular apical pulse of 92/min",
+      "Enoxaparin for a client with bruising where previous doses were injected",
+      "Hydrochlorothiazide for a client with a decreased potassium level"
+    ],
+    "correctAnswers": [
+      "Apixaban for a client with petechiae over the waist and torso",
+      "Digoxin for a client who reports yellow rings in the visual field",
+      "Hydrochlorothiazide for a client with a decreased potassium level"
+    ],
+    "rationale": "Petechiae can indicate bleeding risk with apixaban, visual halos suggest digoxin toxicity, and hydrochlorothiazide can worsen hypokalemia. An irregular controlled apical pulse may be the reason for diltiazem, and localized bruising with enoxaparin is common unless severe.",
+    "subtopic": "Hemostasis, Anticoagulation, and Thrombolytics",
+    "id": 846
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes / acid-base",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 53100; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is reviewing new medication prescriptions for a client with chronic kidney disease. Which prescription should the nurse clarify?",
+    "options": [
+      "potassium chloride",
+      "calcium acetate",
+      "ferrous sulfate",
+      "furosemide"
+    ],
+    "correctAnswers": [
+      "potassium chloride"
+    ],
+    "rationale": "Chronic kidney disease increases the risk for hyperkalemia because renal potassium excretion is impaired. Potassium supplementation should be clarified unless a clear indication and safe potassium level are documented.",
+    "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
+    "id": 847
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 44165; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is caring for an 8-year-old client diagnosed with sickle cell anemia. Which parent statement indicates a need for additional teaching to prevent future sickling crisis?",
+    "options": [
+      "I make sure that my child drinks 2 L of liquids each day and more on very hot days.",
+      "If my child runs a fever greater than 101 F (38.3 C), I will immediately notify the clinic.",
+      "My child and I enjoy taking short hikes together in the mountains when it's warm.",
+      "My child receives the flu vaccine each year, and we avoid crowds during flu season."
+    ],
+    "correctAnswers": [
+      "My child and I enjoy taking short hikes together in the mountains when it's warm."
+    ],
+    "rationale": "High altitude and hypoxia can trigger sickling and vaso-occlusive crisis. Hydration, prompt fever reporting, vaccination, and infection avoidance are protective measures.",
+    "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
+    "id": 848
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 52258; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse has taught an adolescent client with asthma about self-management. Which statement requires follow-up?",
+    "options": [
+      "I need to reduce my exposure to cigarette smoke.",
+      "I should use my fluticasone inhaler before my albuterol inhaler if I am experiencing an exacerbation.",
+      "I will use my albuterol inhaler before participating in physical activity.",
+      "I understand that a peak expiratory flow rate less than 50% of my personal best requires emergency care."
+    ],
+    "correctAnswers": [
+      "I should use my fluticasone inhaler before my albuterol inhaler if I am experiencing an exacerbation."
+    ],
+    "rationale": "Albuterol is the rapid-acting rescue bronchodilator used for acute symptoms. Fluticasone is an inhaled corticosteroid controller and is not the first medication for immediate relief during an exacerbation.",
+    "subtopic": "Asthma and Bronchodilator Therapy",
+    "id": 849
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 1,
+    "weekLabel": "Week 1",
+    "topic": "Introduction to Pharmacotherapeutics, Pathophysiology, Immune System/Cellular Processes, and Pharmacokinetics/Pharmacodynamics",
+    "system": "Medication safety / pharmacokinetics",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 52021; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse has taught a client who has a prescription for an epinephrine autoinjector. Which statements indicate correct understanding? Select all that apply.",
+    "options": [
+      "I understand the autoinjector is single use.",
+      "I will store the autoinjector in the refrigerator.",
+      "I can resume normal activity 1 hour after using the autoinjector.",
+      "I will hold the autoinjector at a 90-degree angle using my dominant hand.",
+      "I should remove any clothing covering my thigh before using the autoinjector."
+    ],
+    "correctAnswers": [
+      "I understand the autoinjector is single use.",
+      "I will hold the autoinjector at a 90-degree angle using my dominant hand."
+    ],
+    "rationale": "Epinephrine autoinjectors are single-use devices held at a 90-degree angle against the outer thigh. They should be stored at room temperature, can be used through clothing if needed, and emergency care is required after use.",
+    "subtopic": "Autonomic Pharmacology and Vasoactive Medications",
+    "id": 850
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes / acid-base",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 77895; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is screening clients for risk of hypophosphatemia. Which client is at highest risk?",
+    "options": [
+      "a client receiving desmopressin for diabetes insipidus",
+      "a client receiving nicotine replacement therapy for chronic tobacco use",
+      "a client receiving docusate sodium for chronic constipation",
+      "a client receiving aluminum hydroxide for gastroesophageal reflux disease"
+    ],
+    "correctAnswers": [
+      "a client receiving aluminum hydroxide for gastroesophageal reflux disease"
+    ],
+    "rationale": "Aluminum hydroxide binds phosphate in the GI tract and can lower serum phosphate. The other medications are not classic causes of hypophosphatemia.",
+    "subtopic": "Renal Function, Kidney Injury, and CKD",
+    "id": 851
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 63819; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is teaching a client with iron deficiency anemia who has a new prescription for ferrous sulfate. Which statement indicates correct understanding?",
+    "options": [
+      "I should avoid consuming grapefruit juice and orange juice.",
+      "I will increase my dietary intake of shellfish and leafy green vegetables.",
+      "I can expect to experience drowsiness while taking this medication.",
+      "I understand that this medication stimulates the production of neutrophils."
+    ],
+    "correctAnswers": [
+      "I will increase my dietary intake of shellfish and leafy green vegetables."
+    ],
+    "rationale": "Shellfish and leafy green vegetables can increase dietary iron intake. Vitamin C can improve iron absorption, while ferrous sulfate does not stimulate neutrophil production.",
+    "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
+    "id": 852
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes / acid-base",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 77898; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is caring for a client with hypophosphatemia. Which action should the nurse take?",
+    "options": [
+      "Administer furosemide to the client.",
+      "Implement seizure precautions for the client.",
+      "Request a prescription for IV insulin for the client.",
+      "Monitor the client's ECG for tall, peaked T waves."
+    ],
+    "correctAnswers": [
+      "Implement seizure precautions for the client."
+    ],
+    "rationale": "Severe hypophosphatemia can impair cellular energy metabolism and cause neurologic instability, including seizures. Tall peaked T waves are associated with hyperkalemia.",
+    "subtopic": "Renal Function, Kidney Injury, and CKD",
+    "id": 853
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 70631; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse has attended education about flecainide. Which statement indicates correct understanding?",
+    "options": [
+      "Flecainide may exacerbate existing dysrhythmias.",
+      "Flecainide increases the risk for seizures and respiratory arrest.",
+      "Tinnitus is a common adverse effect of flecainide.",
+      "Concurrent use of flecainide and digoxin increases the risk for digoxin toxicity."
+    ],
+    "correctAnswers": [
+      "Flecainide may exacerbate existing dysrhythmias."
+    ],
+    "rationale": "Flecainide is a class IC antidysrhythmic with proarrhythmic risk, especially in clients with structural heart disease. New or worsening dysrhythmias require prompt attention.",
+    "subtopic": "Cardiac Conduction and Dysrhythmias",
+    "id": 854
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 65501; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is caring for a client with chronic obstructive pulmonary disease. Which medication should the nurse expect to be prescribed?",
+    "options": [
+      "dopamine",
+      "salmeterol",
+      "epinephrine",
+      "isoproterenol"
+    ],
+    "correctAnswers": [
+      "salmeterol"
+    ],
+    "rationale": "Salmeterol is a long-acting beta-2 agonist used for maintenance bronchodilation in COPD. Dopamine, epinephrine, and isoproterenol are not routine maintenance COPD medications.",
+    "subtopic": "Respiratory Physiology and Gas Exchange",
+    "id": 855
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 52871; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is teaching a client who has a new prescription for a metered dose inhaler. Which information should be included?",
+    "options": [
+      "Shake the MDI for 1 to 2 minutes before use.",
+      "Medication inside the MDI is released as a fine powder.",
+      "Hold your breath for 10 seconds after inhaling from the MDI.",
+      "Administer a second dose from the MDI immediately after the first."
+    ],
+    "correctAnswers": [
+      "Hold your breath for 10 seconds after inhaling from the MDI."
+    ],
+    "rationale": "Holding the breath after inhalation improves lower-airway deposition. MDIs release aerosolized medication rather than dry powder, and a second puff is usually separated by an appropriate wait time.",
+    "subtopic": "Asthma and Bronchodilator Therapy",
+    "id": 856
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 53251; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is teaching a client who had total knee arthroplasty and has a new prescription for dalteparin. Which statement indicates correct understanding?",
+    "options": [
+      "I should avoid consumption of foods that are high in vitamin K.",
+      "I can take ibuprofen for minor pain or discomfort.",
+      "I understand that I need routine monitoring of my INR.",
+      "I will monitor for blood in my stool and urine."
+    ],
+    "correctAnswers": [
+      "I will monitor for blood in my stool and urine."
+    ],
+    "rationale": "Dalteparin is a low-molecular-weight heparin, so bleeding surveillance is essential. INR and vitamin K teaching apply to warfarin, and NSAIDs increase bleeding risk.",
+    "subtopic": "Hemostasis, Anticoagulation, and Thrombolytics",
+    "id": 857
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 76208; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is caring for a client who is receiving IV vasopressors. Which device should be used to monitor blood pressure?",
+    "options": [
+      "peripheral venous access device",
+      "central venous access device",
+      "pulmonary artery catheter",
+      "radial artery catheter"
+    ],
+    "correctAnswers": [
+      "radial artery catheter"
+    ],
+    "rationale": "Continuous arterial blood pressure monitoring is preferred for clients receiving titrated IV vasopressors. A radial arterial catheter directly measures arterial pressure beat to beat.",
+    "subtopic": "Autonomic Pharmacology and Vasoactive Medications",
+    "id": 858
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 53136; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse has attended education about histamine 1 receptor antagonists. Which statement indicates correct understanding?",
+    "options": [
+      "H1RAs may be used to manage motion sickness.",
+      "H1RAs should be avoided for clients with insomnia.",
+      "H1RAs can be taken to prevent or decrease heartburn.",
+      "H1RAs should be taken to shorten the duration of a cold."
+    ],
+    "correctAnswers": [
+      "H1RAs may be used to manage motion sickness."
+    ],
+    "rationale": "Some first-generation H1 receptor antagonists are used for allergic symptoms and motion sickness due to vestibular effects. Heartburn treatment is associated with H2 blockers or acid suppression, not H1 blockers.",
+    "subtopic": "Antihistamines and Allergy Pharmacology",
+    "id": 859
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 52736; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is teaching a client with hypertension who has a new prescription for losartan. Which statements indicate correct understanding? Select all that apply.",
+    "options": [
+      "I can take ibuprofen if I have a headache.",
+      "I should use salt substitutes instead of salt when cooking.",
+      "I will notify my health care provider if I plan to become pregnant.",
+      "I can expect to develop a dry cough while taking the medication.",
+      "I should move slowly when standing up from a seated or a lying position."
+    ],
+    "correctAnswers": [
+      "I will notify my health care provider if I plan to become pregnant.",
+      "I should move slowly when standing up from a seated or a lying position."
+    ],
+    "rationale": "Losartan is an angiotensin receptor blocker that can cause orthostatic hypotension and is unsafe in pregnancy. Salt substitutes may contain potassium, NSAIDs can reduce renal perfusion and antihypertensive effect, and dry cough is more associated with ACE inhibitors.",
+    "subtopic": "Hypertension and Cardiovascular Pharmacology",
+    "id": 860
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes / acid-base",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 43120; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "A client with chronic kidney disease is recovering from abdominal surgery. Which prescriptions should the nurse question as unsafe? Select all that apply.",
+    "options": [
+      "Acetaminophen 650 mg PO q8h PRN for fever",
+      "Ketorolac 30 mg IV push q6h PRN for postoperative pain",
+      "Normal saline with potassium chloride 40 mEq/L IV at 150 mL/hr continuous",
+      "Ondansetron 4 mg IV q6h PRN for nausea and vomiting",
+      "Sodium-restricted diet"
+    ],
+    "correctAnswers": [
+      "Ketorolac 30 mg IV push q6h PRN for postoperative pain",
+      "Normal saline with potassium chloride 40 mEq/L IV at 150 mL/hr continuous"
+    ],
+    "rationale": "NSAIDs such as ketorolac can worsen renal function and increase bleeding risk. Potassium-containing IV fluids at a high rate are unsafe in CKD because of hyperkalemia and fluid overload risk.",
+    "subtopic": "Fluid, Electrolyte, and Acid-Base Balance",
+    "id": 861
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology and Electrolytes",
+    "system": "Renal / electrolytes / acid-base",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 53101; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is teaching a client with newly diagnosed chronic kidney disease. Which statement indicates correct understanding?",
+    "options": [
+      "I should use salt substitutes to season my food.",
+      "I will weigh myself at the same time each morning.",
+      "I will require a kidney transplant to manage my condition.",
+      "I should avoid taking calcium acetate unless I am feeling ill."
+    ],
+    "correctAnswers": [
+      "I will weigh myself at the same time each morning."
+    ],
+    "rationale": "Daily weights help detect fluid retention early in chronic kidney disease. Salt substitutes often contain potassium, kidney transplant is not required for every client, and phosphate binders such as calcium acetate are taken as prescribed with meals.",
+    "subtopic": "Renal Function, Kidney Injury, and CKD",
+    "id": 862
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 43631; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "A pregnant client stopped taking recommended iron supplements due to nausea and constipation. Which suggestions are appropriate to reduce these symptoms? Select all that apply.",
+    "options": [
+      "Eat foods rich in fiber, such as whole grains.",
+      "Increase daily fluid intake to at least 2 liters per day.",
+      "Increase physical activity by walking every day.",
+      "Take an antacid with the iron to help with nausea.",
+      "Use docusate as needed to help with constipation."
+    ],
+    "correctAnswers": [
+      "Eat foods rich in fiber, such as whole grains.",
+      "Increase daily fluid intake to at least 2 liters per day.",
+      "Increase physical activity by walking every day.",
+      "Use docusate as needed to help with constipation."
+    ],
+    "rationale": "Iron commonly causes GI upset and constipation. Fiber, fluids, activity, and stool softeners can help; antacids can reduce iron absorption and should not be used as the primary strategy with iron dosing.",
+    "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
+    "id": 863
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 54365; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is preparing to administer digoxin to a client with heart failure. Which finding requires follow-up before administration?",
+    "options": [
+      "tachycardia",
+      "elevated BNP",
+      "fine crackles in the lung bases",
+      "decreased serum potassium level"
+    ],
+    "correctAnswers": [
+      "decreased serum potassium level"
+    ],
+    "rationale": "Low potassium increases myocardial sensitivity to digoxin and raises toxicity risk. BNP and crackles can reflect heart failure, and tachycardia may be part of the indication for digoxin depending on rhythm.",
+    "subtopic": "Cardiac Conduction and Dysrhythmias",
+    "id": 864
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 43822; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "A client becomes dyspneic and tachycardic with coarse crackles four hours after receiving packed red blood cells. Which actions should the nurse perform? Select all that apply.",
+    "options": [
+      "Administer oxygen via nasal cannula.",
+      "Administer prescribed furosemide via IV push.",
+      "Document the assessment.",
+      "Notify the health care provider and the blood bank.",
+      "Raise the head of the bed."
+    ],
+    "correctAnswers": [
+      "Administer oxygen via nasal cannula.",
+      "Administer prescribed furosemide via IV push.",
+      "Notify the health care provider and the blood bank.",
+      "Raise the head of the bed."
+    ],
+    "rationale": "Dyspnea, tachycardia, and crackles after transfusion suggest circulatory overload or transfusion reaction. Immediate care includes oxygen, upright positioning, prescribed diuresis, and notification; documentation follows stabilization and required reporting.",
+    "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
+    "id": 865
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 44149; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "A client with hypertension reports a severe head cold and says, \"My heart feels like it is beating really fast.\" What question is most important for the nurse to ask?",
+    "options": [
+      "Do you notice any discolored mucus when you cough or sneeze?",
+      "Have you checked your temperature recently?",
+      "How much fluid have you had to drink today?",
+      "What over-the-counter medications have you taken recently?"
+    ],
+    "correctAnswers": [
+      "What over-the-counter medications have you taken recently?"
+    ],
+    "rationale": "Clients with hypertension should avoid many sympathomimetic decongestants because they can increase blood pressure and heart rate. Asking about OTC cold medications directly addresses the likely medication-related risk.",
+    "subtopic": "Hypertension and Cardiovascular Pharmacology",
+    "id": 866
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 9,
+    "weekLabel": "Week 9",
+    "topic": "Nervous System and Mental Health Pathopharmacology",
+    "system": "Neurologic / mental health pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 52504; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is caring for clients receiving opioid analgesics. Which client is at highest risk for respiratory depression?",
+    "options": [
+      "38-year-old client who had an appendectomy 1 day ago and has diverticulitis",
+      "43-year-old client who had a small bowel resection 1 hour ago and has osteoporosis",
+      "67-year-old client who had a vaginal hysterectomy 2 hours ago and takes a benzodiazepine",
+      "72-year-old client who had a laparoscopic cholecystectomy 18 hours ago and takes a beta blocker"
+    ],
+    "correctAnswers": [
+      "67-year-old client who had a vaginal hysterectomy 2 hours ago and takes a benzodiazepine"
+    ],
+    "rationale": "Older age, recent anesthesia, opioids, and benzodiazepines all increase risk for CNS and respiratory depression. Concurrent benzodiazepine use is a major additive risk factor.",
+    "subtopic": "Nervous System, Pain, and Seizures",
+    "id": 867
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 52625; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is assessing a client with cardiogenic shock. Which findings should the nurse expect? Select all that apply.",
+    "options": [
+      "pallor",
+      "anxiety",
+      "dyspnea",
+      "hot, dry skin",
+      "jugular vein distension"
+    ],
+    "correctAnswers": [
+      "pallor",
+      "anxiety",
+      "dyspnea",
+      "jugular vein distension"
+    ],
+    "rationale": "Cardiogenic shock causes low cardiac output, poor tissue perfusion, pulmonary congestion, and venous backup. Pallor, anxiety, dyspnea, and jugular venous distension fit this pattern; hot dry skin is not typical.",
+    "subtopic": "Heart Failure, Shock, and Fluid Overload",
+    "id": 868
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 64619; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is assessing a client with suspected intermittent claudication. Which finding supports this diagnosis?",
+    "options": [
+      "cramping sensation in the legs that resolves with rest",
+      "discoloration of the fingers when exposed to cold weather",
+      "ulcer on the left foot with surrounding numbness and tingling",
+      "edema of the right arm with surrounding warmth and tenderness"
+    ],
+    "correctAnswers": [
+      "cramping sensation in the legs that resolves with rest"
+    ],
+    "rationale": "Intermittent claudication is ischemic muscle pain caused by peripheral arterial disease during activity and relieved by rest. Finger discoloration suggests Raynaud phenomenon, and warmth with edema suggests venous or inflammatory disease.",
+    "subtopic": "Coronary Artery Disease, Angina, and Myocardial Infarction",
+    "id": 869
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 43463; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is teaching a client with asthma how to use a combination fluticasone/salmeterol inhaler. Which statement indicates a need for further instruction?",
+    "options": [
+      "I can keep track of when to refill this medication by looking at the dose counter.",
+      "I should rinse my mouth and throat out with water after using this inhaler.",
+      "I will keep this inhaler in my pocket so that I can use it when I have trouble breathing.",
+      "If my breathing gets worse, my health care provider may increase the inhaler dosage."
+    ],
+    "correctAnswers": [
+      "I will keep this inhaler in my pocket so that I can use it when I have trouble breathing."
+    ],
+    "rationale": "Fluticasone/salmeterol is a maintenance controller inhaler, not a rescue medication for acute bronchospasm. Rinsing the mouth after inhaled corticosteroids and tracking doses are appropriate.",
+    "subtopic": "Asthma and Bronchodilator Therapy",
+    "id": 870
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 9,
+    "weekLabel": "Week 9",
+    "topic": "Nervous System and Mental Health Pathopharmacology",
+    "system": "Neurologic / mental health pharmacology",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 77811; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is caring for a client who had a hemorrhagic stroke and is experiencing cerebral edema. Which prescription would be contraindicated?",
+    "options": [
+      "20% mannitol",
+      "fresh frozen plasma",
+      "0.45% sodium chloride",
+      "lactated Ringer solution"
+    ],
+    "correctAnswers": [
+      "0.45% sodium chloride"
+    ],
+    "rationale": "Hypotonic fluids such as 0.45% sodium chloride can shift water into brain tissue and worsen cerebral edema. Mannitol is used to reduce intracranial pressure, and isotonic products are less likely to worsen cerebral swelling.",
+    "subtopic": "Nervous System, Pain, and Seizures",
+    "id": 871
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular pathophysiology / pharmacology",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 61358; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is preparing to administer carvedilol to a client with heart failure. Which actions should the nurse take before administration? Select all that apply.",
+    "options": [
+      "Assess the client for peripheral edema.",
+      "Auscultate the client's breath sounds.",
+      "Monitor the client for Chvostek sign.",
+      "Check the client's most recent INR.",
+      "Obtain the client's blood pressure."
+    ],
+    "correctAnswers": [
+      "Assess the client for peripheral edema.",
+      "Auscultate the client's breath sounds.",
+      "Obtain the client's blood pressure."
+    ],
+    "rationale": "Before carvedilol, the nurse should assess blood pressure and signs of worsening heart failure such as edema and pulmonary crackles. Chvostek sign and INR are unrelated to carvedilol administration.",
+    "subtopic": "Heart Failure, Shock, and Fluid Overload",
+    "id": 872
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology and Coagulation",
+    "system": "Heme / coagulation",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 72240; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is caring for a client with sickle cell disease who is at 6 weeks gestation. Which prescription should the nurse expect?",
+    "options": [
+      "folic acid",
+      "ferrous sulfate",
+      "cyanocobalamin",
+      "magnesium sulfate"
+    ],
+    "correctAnswers": [
+      "folic acid"
+    ],
+    "rationale": "Sickle cell disease causes chronic hemolysis, increasing folate needs for red blood cell production; pregnancy also increases folate requirements. Iron is not given unless iron deficiency is confirmed.",
+    "subtopic": "Hematopoiesis, Anemia, and Erythropoietin",
+    "id": 873
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory pathophysiology / pharmacology",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 78647; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is assessing a client who is experiencing Cheyne-Stokes respirations. Which finding should the nurse expect?",
+    "options": [
+      "continuous deep and rapid respirations",
+      "regular respirations with a rate less than 12/min",
+      "alternating periods of apnea and deep respirations",
+      "labored respirations with a rate greater than 20/min"
+    ],
+    "correctAnswers": [
+      "alternating periods of apnea and deep respirations"
+    ],
+    "rationale": "Cheyne-Stokes respirations are cyclic, with crescendo-decrescendo breathing followed by apnea. Continuous deep rapid breathing is more consistent with Kussmaul respirations.",
+    "subtopic": "Respiratory Physiology and Gas Exchange",
+    "id": 874
+  },
+  {
+    "difficulty": "Course-level",
+    "sourceType": "Course",
+    "sourceConfidence": "captured-practice-answer-audited",
+    "auditNote": "2026-05-26-uworld-practice-exam-import",
+    "source": "Saved UWorld Nursing practice exam capture: 2026-05-26 Practice Exam 2 (Untutored, Timed)",
+    "slideRefs": [],
+    "week": 9,
+    "weekLabel": "Week 9",
+    "topic": "Nervous System and Mental Health Pathopharmacology",
+    "system": "Neurologic / mental health pharmacology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "sourceDetail": "UWorld Nursing Practice Exam 2 QId 52529; imported from local study capture after discarding off-course or incompatible items.",
+    "stem": "The nurse is teaching about naloxone administration to the spouse of a client who has a new prescription for hydrocodone. Which statement requires follow-up?",
+    "options": [
+      "I should avoid administering more than 1 dose of naloxone to my spouse.",
+      "I can expect my spouse to experience the effects of naloxone quickly after administration.",
+      "My spouse should receive medical care after administration of naloxone.",
+      "Naloxone should be administered if I cannot wake my spouse from sleep after taking hydrocodone."
+    ],
+    "correctAnswers": [
+      "I should avoid administering more than 1 dose of naloxone to my spouse."
+    ],
+    "rationale": "Naloxone may need to be repeated if opioid overdose symptoms persist or recur before emergency help arrives. Rapid effect, emergency evaluation, and use for unresponsiveness after opioid use are appropriate teaching points.",
+    "subtopic": "Nervous System, Pain, and Seizures",
+    "id": 875
   }
 ]
