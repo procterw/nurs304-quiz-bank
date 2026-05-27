@@ -1,11 +1,12 @@
 const state = {
   questions: [],
   questionById: new Map(),
-  slidesById: new Map(),
+  videos: [],
   filtered: [],
   currentId: null,
   previousIds: [],
   renderedQuestionId: null,
+  renderedVideoKey: null,
   studySupportVisible: false,
   answers: new Map(),
   answered: {},
@@ -18,7 +19,11 @@ const SHOW_ALL_QUESTIONS = QUERY_PARAMS.has("all_questions");
 const SHOW_NEW_QUESTIONS = QUERY_PARAMS.has("new_questions");
 const SHOW_LATEST_QUESTIONS = QUERY_PARAMS.has("latest_questions") || QUERY_PARAMS.has("latest_question");
 const SHOW_SOURCE_FILTER = SHOW_ALL_QUESTIONS && !SHOW_NEW_QUESTIONS && !SHOW_LATEST_QUESTIONS;
+const SHOW_RELATED_VIDEOS = false;
+const SHOW_GENERATED_MEDICATION_AUDIT_ONLY = false;
+const GENERATED_MEDICATION_AUDIT_NOTE = "2026-05-26 medication-mechanism-safety-expansion";
 const LATEST_QUESTIONS_AUDIT_NOTE = "2026-05-25 infection-neuro-mental-content-expansion";
+const QUESTION_FEEDBACK_ENDPOINT = "https://script.google.com/macros/s/AKfycbwUbwwuTcXlu9B3xUFSJ_BPKVVXHxCCLUGmYoUQM1Tx3q74cQ9x5osCDhg46AlYbixA/exec";
 
 const medicalTerms = {
   "ace inhibitor": "A drug class that blocks conversion of angiotensin I to angiotensin II, lowering vasoconstriction and aldosterone effects.",
@@ -180,7 +185,7 @@ Object.assign(medicalTerms, {
   cefazolin: "A first-generation cephalosporin prototype in the course. It inhibits bacterial cell-wall synthesis and requires allergy screening and renal-function awareness.",
   cephalexin: "An oral cephalosporin antibiotic used for selected skin and other bacterial infections. Teaching includes finishing the course, watching for allergy or severe diarrhea, and taking as directed.",
   chloroquine: "An antimalarial used for strain-sensitive malaria treatment or prophylaxis. Course cautions include retinal or visual-field changes and resistance patterns by travel region.",
-  "culture and sensitivity": "A lab process that identifies the pathogen and which anti-infectives are likely to kill it. Course slides emphasize drawing cultures before antibiotics when ordered.",
+  "culture and sensitivity": "A lab process that identifies the pathogen and which anti-infectives are likely to kill it. When cultures are ordered, they are typically collected before antibiotics so results are not distorted by early treatment.",
   "c. difficile": "Clostridioides difficile, a bacterium that can overgrow after antibiotics disrupt normal flora and cause watery diarrhea and colitis. Course materials link treatment to enteric precautions, fluids/electrolytes, and vancomycin or metronidazole.",
   diazepam: "A benzodiazepine used for anxiety, seizures, muscle spasm, and sedation contexts. It enhances GABA activity and can cause CNS and respiratory depression, especially with other depressants.",
   donepezil: "A cholinesterase inhibitor used for Alzheimer disease symptoms. It increases acetylcholine signaling and can cause GI effects, bradycardia, syncope, and sleep disturbance.",
@@ -195,7 +200,7 @@ Object.assign(medicalTerms, {
   "levodopa-carbidopa": "A dopaminergic Parkinson disease medication. Levodopa supports dopamine signaling, while carbidopa limits peripheral conversion; monitor orthostatic hypotension, dyskinesias, hallucinations, and wearing-off effects.",
   malaria: "A protozoal infection transmitted by Anopheles mosquitoes. Course manifestations include cyclic fever, chills, diaphoresis, headache, vomiting, anemia risk, and severe illness if untreated.",
   metronidazole: "An anti-infective used for selected anaerobic or protozoal infections and discussed with C. difficile treatment options. Teaching commonly includes GI effects and avoiding alcohol when prescribed.",
-  mrsa: "Methicillin-resistant Staphylococcus aureus, resistant to most beta-lactam antibiotics. Course slides link serious hospital-acquired MRSA infection to IV vancomycin.",
+  mrsa: "Methicillin-resistant Staphylococcus aureus, resistant to most beta-lactam antibiotics. Serious hospital-acquired MRSA infections are commonly treated with IV vancomycin when susceptible and clinically appropriate.",
   naloxone: "An opioid antagonist that reverses opioid-induced respiratory and CNS depression. Airway and breathing remain the priority, and repeated monitoring is needed because opioid effects can return.",
   nystatin: "An antifungal used for candidiasis, including oral thrush. Oral suspension teaching usually includes swishing around the mouth before swallowing or as prescribed.",
   parkinson: "Parkinson disease involves impaired dopaminergic motor signaling, causing symptoms such as tremor, rigidity, bradykinesia, and postural instability.",
@@ -205,7 +210,7 @@ Object.assign(medicalTerms, {
   "serotonin syndrome": "A potentially serious serotonergic toxicity pattern with mental status changes, autonomic instability, tremor or hyperreflexia, sweating, diarrhea, and fever in severe cases.",
   "trimethoprim-sulfamethoxazole": "A sulfonamide combination also called Bactrim. Course safety themes include renal/liver function, hydration, hyperkalemia, photosensitivity, rash/SJS, blood dyscrasias, and superinfection.",
   vancomycin: "A glycopeptide antibiotic active against gram-positive organisms and used for serious MRSA infections and C. difficile by oral route. Monitor renal function, hearing/vestibular symptoms, levels when ordered, and infusion reaction risk.",
-  "vancomycin flushing syndrome": "A vancomycin infusion reaction associated with flushing, itching, rash, and sometimes hypotension. Course slides emphasize infusing IV vancomycin over at least 1 hour.",
+  "vancomycin flushing syndrome": "A vancomycin infusion reaction associated with flushing, itching, rash, and sometimes hypotension. Slow IV infusion, commonly over at least 1 hour depending on dose and policy, reduces risk.",
 });
 
 Object.assign(medicalTerms, {
@@ -229,6 +234,7 @@ Object.assign(medicalTerms, {
   "blood urea nitrogen": "A nitrogenous waste marker of kidney function and protein metabolism, commonly abbreviated BUN. A typical adult range is about 7-20 mg/dL; it can rise with reduced renal perfusion, kidney injury, dehydration, or increased protein breakdown.",
   bun: "Blood urea nitrogen, a kidney function marker that rises when renal clearance falls or protein breakdown increases. A typical adult range is about 7-20 mg/dL, but interpretation depends on hydration, renal perfusion, and clinical context.",
   calcium: "An electrolyte important for bones, neuromuscular signaling, clotting, and cardiac function. Normal total serum calcium is roughly 8.5-10.5 mg/dL; low calcium can cause tetany, while high calcium can cause weakness, lethargy, constipation, and dysrhythmias.",
+  "calcium acetate": "A phosphate binder used in chronic kidney disease to bind dietary phosphate in the GI tract and reduce serum phosphate absorption. It is taken with meals as prescribed rather than only when feeling ill.",
   "calcium carbonate": "An antacid and calcium supplement that neutralizes gastric acid. In GI pharmacology questions, it can be associated with acid rebound and constipation, and it may affect calcium balance.",
   "cardiac output": "The amount of blood the heart pumps per minute, calculated as heart rate multiplied by stroke volume. Normal resting adult cardiac output is roughly 4-8 L/min, and it falls when filling, contractility, rhythm, or afterload are impaired.",
   "chronic kidney disease": "Progressive, long-term reduction in kidney function, often related to diabetes or hypertension. CKD can impair waste excretion, fluid and electrolyte balance, acid-base control, blood pressure regulation, vitamin D activation, and erythropoietin production.",
@@ -500,12 +506,150 @@ Object.assign(medicalTerms, {
   "vitamin b12": "A vitamin needed for DNA synthesis and neurologic function. Deficiency can cause macrocytic anemia and neurologic findings such as numbness, tingling, and impaired position or vibration sense.",
 });
 
+Object.assign(medicalTerms, {
+  adalimumab: "A monoclonal antibody that blocks tumor necrosis factor alpha to reduce inflammatory immune signaling. It can increase infection risk, so screening and infection teaching matter.",
+  aclidinium: "A long-acting muscarinic antagonist inhaler used for COPD maintenance bronchodilation. It can cause anticholinergic effects such as dry mouth and can worsen narrow-angle glaucoma or urinary retention.",
+  "aluminum hydroxide": "An antacid that neutralizes gastric acid. It can cause constipation and can reduce absorption of some medications if taken too close together.",
+  ampicillin: "A penicillin antibiotic that inhibits bacterial cell-wall synthesis. Allergy screening, renal-function awareness, GI effects, and superinfection monitoring are important.",
+  "angiotensin ii receptor blockers": "A cardiovascular drug class, often called ARBs, that blocks angiotensin II receptor effects to lower vasoconstriction and aldosterone activity. Monitor blood pressure, potassium, and renal function.",
+  "atovaquone-proguanil": "An antimalarial combination used for malaria prevention or treatment depending on the regimen. Travel region, adherence timing, GI effects, and pregnancy considerations guide safe use.",
+  "cefepime": "A fourth-generation cephalosporin antibiotic that inhibits bacterial cell-wall synthesis. Monitor allergy history, renal function, neurotoxicity risk in renal impairment, and superinfection.",
+  "ceftriaxone": "A third-generation cephalosporin antibiotic that inhibits bacterial cell-wall synthesis. Nursing priorities include allergy screening, infection response, GI effects, and superinfection monitoring.",
+  cetirizine: "A second-generation H1 antihistamine used for allergic rhinitis and urticaria. It usually causes less sedation than first-generation antihistamines but can still cause drowsiness in some clients.",
+  "chloroquine phosphate": "An antimalarial used for chloroquine-sensitive malaria treatment or prophylaxis. Retinal or visual changes, resistance patterns, and adherence timing are key safety concerns.",
+  epo: "Epoetin, an erythropoietin-stimulating medication that increases red blood cell production. Blood pressure, hemoglobin response, and thrombotic risk are important monitoring points.",
+  estradiol: "An estrogen hormone used in contraception or hormone therapy contexts. It can increase thrombotic risk and requires screening for pregnancy, clot history, migraine with aura, smoking risk, and liver disease when relevant.",
+  ezetimibe: "A cholesterol-lowering medication that reduces intestinal cholesterol absorption. It lowers LDL and may be combined with statins; monitor for GI effects and liver concerns when combined therapy is used.",
+  fluconazole: "A systemic azole antifungal used for selected Candida and other fungal infections. Monitor liver function concerns, drug interactions, rash, and infection response.",
+  hctz: "Hydrochlorothiazide, a thiazide diuretic used for hypertension and mild edema. Monitor blood pressure, potassium, sodium, glucose, uric acid, renal function, and fall risk.",
+  imipenem: "A carbapenem antibiotic used for severe or resistant bacterial infections. It inhibits cell-wall synthesis and requires allergy screening, renal dosing awareness, and seizure-risk monitoring.",
+  "intermediate acting": "An insulin duration category, commonly represented by NPH insulin. It has a defined peak, so hypoglycemia timing and meal consistency matter.",
+  "long acting": "An insulin duration category used for basal background coverage. Long-acting insulins such as glargine or detemir are not used for rapid meal correction.",
+  mefloquine: "An antimalarial used for malaria prophylaxis in selected travel settings. Neuropsychiatric history, seizure history, resistance region, and adherence timing are important safety checks.",
+  "magnesium hydroxide": "An antacid and osmotic laxative component that neutralizes acid and can promote bowel movement. It can cause diarrhea and should be used carefully in renal impairment.",
+  "magnesium sulfate": "An IV magnesium replacement and high-risk medication used in selected obstetric, cardiac, or electrolyte contexts. Monitor reflexes, respiratory status, blood pressure, urine output, and serum magnesium when ordered.",
+  meropenem: "A carbapenem antibiotic used for severe or resistant bacterial infections. Monitor allergy history, renal function, seizure risk, GI effects, and superinfection.",
+  "morphine sulfate": "An opioid analgesic used for moderate to severe pain. Monitor respiratory rate, sedation, blood pressure, constipation, nausea, fall risk, and response to naloxone if overdose occurs.",
+  penicillin: "A beta-lactam antibiotic class that inhibits bacterial cell-wall synthesis. Allergy history, cross-reactivity, renal function, GI effects, and superinfection are key nursing concerns.",
+  "penicillin g": "A penicillin antibiotic used for susceptible bacterial infections. It inhibits cell-wall synthesis and requires allergy screening and monitoring for GI effects or hypersensitivity.",
+  "penicillin vk": "An oral penicillin antibiotic used for susceptible infections. Teaching includes taking it as prescribed, finishing therapy, and reporting rash, breathing difficulty, or severe diarrhea.",
+  "piperacillin-tazobactam": "A broad-spectrum penicillin plus beta-lactamase inhibitor combination used for serious infections. Monitor allergy history, renal function, sodium load when relevant, GI effects, and superinfection.",
+  premixed: "An insulin mixture that combines different insulin durations in one product. It requires consistent meal timing because it contains both basal and prandial insulin activity.",
+  progestin: "A progesterone-like hormone used in contraception and other reproductive therapy. It changes cervical mucus and endometrial effects and may cause bleeding-pattern changes.",
+  "rapid acting": "An insulin duration category used for mealtime glucose control. Rapid-acting insulins such as lispro or aspart start quickly, so timing with meals is important.",
+  rifampin: "An antitubercular antibiotic used as part of combination TB therapy. It can cause orange body fluids, hepatotoxicity, and many drug interactions due to enzyme induction.",
+  "short acting": "An insulin duration category represented by regular insulin. Regular insulin has a slower onset than rapid-acting analogs and can be given IV in selected acute protocols.",
+  terbinafine: "An antifungal used for dermatophyte infections such as tinea or onychomycosis. Liver considerations, rash, taste changes, and treatment duration are important teaching points.",
+  testosterone: "An androgen hormone used for selected endocrine or sexual-health indications. Monitor hematocrit, lipid/cardiovascular risk, liver concerns depending on formulation, acne, mood changes, and pregnancy exposure risk.",
+  "thrombin/fibrin": "Topical or local hemostatic products that support clot formation at a bleeding site. They are used differently from systemic anticoagulants or thrombolytics.",
+  "ultra-long acting": "An insulin duration category that provides very prolonged basal insulin coverage. It is not used for rapid correction of high blood glucose.",
+  umeclidinium: "A long-acting muscarinic antagonist inhaler used for COPD maintenance bronchodilation. Watch for dry mouth, urinary retention, and narrow-angle glaucoma precautions.",
+
+  "acute coronary syndrome": "A sudden reduction in coronary blood flow, including unstable angina and myocardial infarction. It can cause chest pressure, dyspnea, diaphoresis, nausea, and requires rapid evaluation.",
+  "acute ischemic stroke": "A stroke caused by blocked cerebral blood flow. Time of symptom onset, bleeding risk, glucose, blood pressure, and thrombolytic eligibility are key assessment points.",
+  "alzheimer disease": "A progressive neurocognitive disorder with memory loss and functional decline. Cholinesterase inhibitors such as donepezil may support symptoms but do not cure the disease.",
+  "anaerobic infection": "An infection caused by bacteria that grow without oxygen. Nitroimidazoles such as metronidazole are commonly associated with anaerobic coverage.",
+  angina: "Chest discomfort caused by myocardial oxygen demand exceeding oxygen supply. Nitrates, beta blockers, calcium channel blockers, and antiplatelet therapy may be relevant depending on the scenario.",
+  "arterial thrombosis": "A clot that blocks arterial blood flow and can cause tissue ischemia. Antiplatelet, anticoagulant, or thrombolytic therapy depends on the specific condition and bleeding risk.",
+  atherosclerosis: "Plaque buildup in arteries that narrows blood flow and can rupture, causing thrombosis. It is a major mechanism behind coronary artery disease and ischemic stroke.",
+  "atrial fibrillation / flutter": "Atrial rhythm disturbances that reduce organized atrial contraction and increase embolic stroke risk. Rate control and anticoagulation decisions depend on patient risk.",
+  "autoimmune disease": "A condition where the immune system attacks self tissue. Immunosuppressive medications can reduce inflammation but increase infection risk.",
+  "bacterial infection": "Illness caused by pathogenic bacteria invading tissue or body fluids. Antibiotic choice depends on likely organism, infection site, cultures, allergies, pregnancy status, and renal function.",
+  "beta-lactam allergy alternative": "A non-beta-lactam antibiotic option considered when beta-lactam allergy risk makes penicillins, cephalosporins, or carbapenems inappropriate.",
+  "beta-lactam allergy risk": "The risk of hypersensitivity to beta-lactam antibiotics such as penicillins, cephalosporins, and carbapenems. Reaction type and severity guide medication selection.",
+  bleeding: "Loss of blood externally or internally. It is a major safety concern with anticoagulants, antiplatelets, thrombolytics, and some analgesics.",
+  "bleeding risk": "The likelihood that a medication or condition could cause clinically important bleeding. Monitor bruising, bleeding gums, melena, hematuria, low platelets, INR/aPTT when relevant, and hemodynamic changes.",
+  "bone and tooth development risk": "The risk that a medication interferes with developing teeth or bones. Tetracyclines are generally avoided in pregnancy and young children for this reason.",
+  "bradycardia risk": "The risk of an abnormally slow heart rate. Beta blockers, digoxin, diltiazem, and donepezil are course-relevant medications where pulse and symptoms matter.",
+  bronchitis: "Inflammation of the bronchi that can cause cough and sputum production. Antibiotic use depends on whether bacterial infection is likely and on patient-specific risks.",
+  budesonide: "An inhaled corticosteroid used for long-term asthma control by reducing airway inflammation. It is not a rescue medication, and clients should rinse the mouth after use to reduce thrush risk.",
+  candidiasis: "A Candida fungal infection that can affect the mouth, skin folds, vagina, or bloodstream in severe cases. Antibiotics and immunosuppression increase risk.",
+  "c. difficile superinfection risk": "The risk that antibiotics disrupt normal gut flora and allow Clostridioides difficile overgrowth, causing watery diarrhea and colitis.",
+  "cancer pain": "Pain caused by tumor effects, treatment, or related complications. Opioids may be used when appropriate, with close monitoring for sedation, respiratory depression, and constipation.",
+  "cns depression and fall risk": "Reduced alertness, slowed reaction time, and impaired coordination that increase fall or injury risk. Opioids, benzodiazepines, antihistamines, and gabapentin can contribute.",
+  "copd / emphysema": "Chronic obstructive pulmonary disease with persistent airflow limitation; emphysema involves alveolar wall damage and air trapping. Bronchodilator maintenance therapy is common.",
+  contraception: "Prevention of pregnancy through hormonal, barrier, device, or procedural methods. Hormonal methods require attention to adherence, pregnancy status, and thrombotic risk.",
+  "cushing disease / syndrome": "Cortisol excess from pituitary ACTH overproduction, adrenal causes, or exogenous steroids. Findings include hyperglycemia, hypertension, thin skin, infection risk, and fat redistribution.",
+  dementia: "A decline in cognition that interferes with daily function. Alzheimer disease is a common cause, and medications such as donepezil may target symptoms.",
+  "digoxin toxicity risk": "The risk of toxic digoxin effects such as nausea, visual changes, confusion, bradycardia, or dysrhythmias. Hypokalemia and renal impairment increase risk.",
+  "dopamine deficiency": "Too little dopamine signaling in key brain pathways. In Parkinson disease, dopamine deficiency contributes to tremor, rigidity, bradykinesia, and postural instability.",
+  "drug interaction risk": "The chance that one medication, food, supplement, or disease state changes another drug's effect or toxicity. Medication reconciliation and teaching are key prevention steps.",
+  dka: "Diabetic ketoacidosis, a dangerous insulin-deficient state with hyperglycemia, ketones, metabolic acidosis, dehydration, and electrolyte shifts.",
+  dysmenorrhea: "Painful menstruation, often caused by prostaglandin-mediated uterine contractions. NSAIDs can help by reducing prostaglandin synthesis when appropriate.",
+  dysrhythmia: "An abnormal heart rhythm that can reduce cardiac output, cause symptoms, or increase clot risk depending on rhythm and severity.",
+  "electrolyte imbalance": "An abnormal sodium, potassium, calcium, magnesium, or related electrolyte level. Imbalances can affect fluid status, neuromuscular function, and cardiac rhythm.",
+  epilepsy: "A disorder of recurrent unprovoked seizures. Antiseizure medications require adherence, toxicity monitoring, interaction checks, and safety teaching.",
+  "excess anticoagulation": "Too much anticoagulant effect, increasing bleeding risk. Management may involve holding the medication, checking labs, notifying the provider, and using a reversal agent when ordered.",
+  fever: "An elevated body temperature, often from infection or inflammation. Antipyretics such as acetaminophen lower fever but do not treat the underlying cause.",
+  "fluid overload risk": "The risk of excess circulating or interstitial fluid causing edema, hypertension, pulmonary congestion, or heart strain. Daily weight, lung sounds, edema, and urine output are useful cues.",
+  "fungal infection": "Infection caused by fungi rather than bacteria. Treatment targets fungal cell structures and can be topical or systemic depending on infection depth.",
+  gerd: "Gastroesophageal reflux disease, where gastric contents reflux into the esophagus and cause heartburn, regurgitation, esophagitis, or chronic irritation.",
+  "graft-versus-host disease": "A transplant complication where donor immune cells attack host tissues. It often involves skin, GI tract, or liver and is treated with immunosuppression.",
+  "heart failure": "A condition where the heart cannot fill or pump effectively enough to meet body needs. It can cause dyspnea, edema, fatigue, pulmonary congestion, and fluid overload.",
+  "gram-negative infection": "Infection caused by gram-negative bacteria, which have an outer membrane that affects antibiotic coverage. Aminoglycosides, fluoroquinolones, cephalosporins, and carbapenems may be considered depending on organism and site.",
+  "gram-positive infection": "Infection caused by gram-positive bacteria. Vancomycin is a key option for serious susceptible gram-positive infections such as MRSA.",
+  "hepatotoxicity risk": "The risk of liver injury from a medication or disease process. Monitor liver enzymes when ordered and teach clients to report jaundice, dark urine, severe fatigue, or right-upper-quadrant pain.",
+  "herpes simplex virus infection": "A viral infection causing oral, genital, mucosal, or skin lesions. Acyclovir and related antivirals inhibit viral DNA replication.",
+  "hospital-acquired pneumonia": "Pneumonia that develops in a healthcare setting and may involve more resistant organisms. Therapy depends on severity, risk factors, cultures, and local susceptibility patterns.",
+  "hyperkalemia risk": "The risk of elevated potassium, which can cause dangerous cardiac conduction changes. ACE inhibitors, ARBs, potassium-sparing diuretics, trimethoprim-sulfamethoxazole, and kidney disease can contribute.",
+  "hyperthyroidism / graves disease": "Excess thyroid hormone activity, often from Graves disease. Findings include heat intolerance, weight loss, tremor, anxiety, tachycardia, and goiter.",
+  hypervolemia: "Excess fluid volume in the vascular or interstitial space. Findings can include edema, weight gain, hypertension, crackles, dyspnea, and jugular venous distention.",
+  "hypersensitivity reactions": "Immune-mediated reactions ranging from rash and itching to anaphylaxis. Medication allergy history and reaction severity are essential before giving high-risk drugs.",
+  "hypotension / poor perfusion": "Low blood pressure or inadequate tissue blood flow. It can cause dizziness, cool skin, altered mental status, weak pulses, low urine output, or shock.",
+  "immunocompromised infection risk": "Increased infection risk caused by immune suppression, malignancy, transplant therapy, corticosteroids, or biologic medications. Early fever or subtle symptoms can be clinically important.",
+  "intra-abdominal infection": "Infection within the abdominal cavity, often involving mixed organisms. Broad antibiotic coverage may be needed depending on source, severity, and cultures.",
+  "leukemia and lymphoma": "Blood and lymphatic cancers that disrupt normal immune and marrow function. They can cause infection risk, anemia, bleeding, lymph node changes, or systemic symptoms.",
+  "major depressive disorder": "A mood disorder with persistent depressed mood or loss of interest plus symptoms such as sleep, appetite, energy, concentration, guilt, or suicidal thoughts. SSRIs such as fluoxetine may be used.",
+  "mrsa infection": "Infection caused by methicillin-resistant Staphylococcus aureus. Serious MRSA infections often require agents active against resistant gram-positive organisms, such as vancomycin when appropriate.",
+  "nausea and vomiting": "GI or neurologic symptoms that can cause dehydration, aspiration risk, electrolyte imbalance, and medication nonadherence. Antiemetics are selected by likely mechanism and safety risks.",
+  nephrotoxicity: "Kidney injury caused by a medication or toxin. Aminoglycosides, vancomycin, NSAIDs, and some antivirals require renal-function attention.",
+  "nephrotoxicity risk": "The chance that a medication may injure the kidneys. Monitor creatinine, BUN, urine output, hydration status, and concurrent nephrotoxic drugs.",
+  "neurogenic pain": "Pain caused by nerve injury or abnormal nerve signaling. Gabapentin is a course-relevant medication used for neuropathic or neurogenic pain.",
+  "oral thrush": "Oral candidiasis, often appearing as white patches, soreness, or altered taste. Inhaled corticosteroids increase risk if the mouth is not rinsed after use.",
+  "opioid overdose": "Excess opioid effect causing dangerous CNS and respiratory depression. Airway support, breathing assessment, naloxone, and ongoing monitoring are priorities.",
+  "otitis media": "Middle-ear infection or inflammation. Antibiotic selection depends on age, severity, likely organism, allergy history, and local guidance.",
+  ototoxicity: "Medication-related injury to hearing or balance structures. Tinnitus, hearing loss, dizziness, or vertigo are warning signs with drugs such as aminoglycosides and vancomycin.",
+  "pain": "An unpleasant sensory and emotional experience associated with actual or potential tissue injury. Analgesic choice depends on cause, severity, contraindications, and safety risks.",
+  "parkinson disease": "A movement disorder caused largely by dopamine deficiency in basal ganglia pathways. Findings include tremor, rigidity, bradykinesia, and postural instability.",
+  "pathologic clotting": "Clot formation that is excessive or in the wrong location. It can lead to DVT, PE, stroke, myocardial infarction, or organ ischemia.",
+  "penicillin allergy alternative": "An antibiotic chosen when penicillin allergy history makes penicillin therapy unsafe or undesirable. The best alternative depends on reaction severity, infection site, and organism.",
+  "peripheral neuropathy risk": "The chance of nerve injury causing numbness, tingling, burning, or weakness. Isoniazid is a course-relevant medication associated with this risk.",
+  "peptic ulcer disease": "Erosion in the stomach or duodenal lining, commonly linked to H. pylori or NSAID use. Acid suppression and cause-specific treatment reduce irritation and bleeding risk.",
+  "pneumocystis jirovecii pneumonia": "An opportunistic pneumonia seen in immunocompromised clients. Trimethoprim-sulfamethoxazole is a key treatment or prophylaxis option when appropriate.",
+  "pulmonary embolism risk": "The risk that a venous clot travels to the lungs and blocks pulmonary blood flow. Sudden dyspnea, chest pain, tachycardia, hypoxemia, or syncope are concerning cues.",
+  "qt prolongation risk": "The risk that a medication lengthens ventricular repolarization and increases dysrhythmia risk. Macrolides, fluoroquinolones, some antiemetics, and some psych medications can contribute.",
+  "renal injury risk": "The risk of impaired kidney function from disease, dehydration, poor perfusion, or medication toxicity. Monitor creatinine, BUN, urine output, and fluid status.",
+  "respiratory depression risk": "The risk of slowed or inadequate breathing, especially with opioids, benzodiazepines, alcohol, sleep aids, or other CNS depressants.",
+  "respiratory infection": "An infection involving the airways or lungs, such as bronchitis or pneumonia. Treatment depends on severity, likely organism, oxygenation, and comorbid risk.",
+  "retinal toxicity risk": "The risk of medication-related retinal injury or visual-field changes. Chloroquine is a course-relevant drug where visual symptoms need prompt reporting.",
+  "seizure disorder": "A condition involving recurrent seizures. Medication adherence, serum levels when ordered, safety precautions, and interaction checks are key nursing concerns.",
+  "seizure risk": "The chance that a medication or condition may lower the seizure threshold. Carbapenems, drug interactions, electrolyte disturbances, and CNS disease can contribute.",
+  sepsis: "Life-threatening organ dysfunction from a dysregulated response to infection. Early recognition, cultures when ordered, antibiotics, fluids, and perfusion monitoring are priorities.",
+  "serotonin syndrome risk": "The chance of excess serotonin activity, especially with serotonergic combinations. Watch for agitation, confusion, sweating, diarrhea, fever, tremor, hyperreflexia, or autonomic instability.",
+  "sexual health / hormone therapy": "Therapy that changes androgen, estrogen, or progestin signaling for reproductive or endocrine indications. Pregnancy status, thrombotic risk, liver disease, and labs may matter.",
+  shock: "A state of inadequate tissue perfusion that can lead to cellular injury and organ failure. Blood pressure, mental status, urine output, lactate, pulses, and skin signs help assess severity.",
+  "skin/bone infection": "An infection involving skin, soft tissue, or bone. Antibiotic selection depends on likely organism, severity, culture results, and penetration into affected tissue.",
+  "status asthmaticus": "A severe asthma exacerbation that does not respond adequately to usual rescue therapy. It can progress to respiratory failure and requires urgent management.",
+  "tendon injury risk": "The risk of tendonitis or tendon rupture, especially with fluoroquinolones. New tendon pain or swelling should be reported and strenuous activity may need to stop.",
+  "tinea infection": "A dermatophyte fungal infection of skin, feet, groin, scalp, or nails. Topical or systemic antifungals are selected by site and severity.",
+  thrombosis: "Formation of a clot inside a blood vessel. It can obstruct blood flow locally or embolize to another organ.",
+  "travel prophylaxis": "Preventive treatment before or during travel to reduce infection risk, such as malaria prophylaxis for endemic regions. Destination, timing, pregnancy status, and contraindications guide selection.",
+  "tuberculosis": "A Mycobacterium tuberculosis infection that can be latent or active. Active TB requires combination therapy and airborne precautions in infectious pulmonary disease.",
+  "type 1 diabetes mellitus": "An autoimmune diabetes form with beta-cell destruction and absolute insulin deficiency. Insulin therapy is required and DKA risk is high if insulin is missed.",
+  "type 2 diabetes mellitus": "A diabetes form involving insulin resistance and progressive beta-cell dysfunction. Treatment may include lifestyle changes and medications such as metformin, SGLT2 inhibitors, GLP-1 agonists, or insulin.",
+  "urinary tract infection": "An infection in the urinary system that can cause dysuria, frequency, urgency, suprapubic pain, fever, or flank pain if upper tract involvement occurs.",
+  "vancomycin flushing syndrome risk": "The risk of flushing, itching, rash, and hypotension from rapid vancomycin infusion. Slower infusion and monitoring reduce risk.",
+  "varicella-zoster infection": "A viral infection causing chickenpox or shingles. Acyclovir and related antivirals inhibit viral DNA replication.",
+  "warfarin interaction bleeding risk": "The risk that interacting drugs or foods increase warfarin effect and bleeding. INR monitoring, medication reconciliation, and bleeding assessment are key.",
+});
+
 const termLabels = {
   "5-ht3 receptor antagonist": "5-HT3 Receptor Antagonist",
   acth: "ACTH",
   "b cell": "B Cell",
   "b-cell": "B Cell",
   aptt: "aPTT",
+  arbs: "ARBs",
   bun: "BUN",
   cll: "CLL",
   copd: "COPD",
@@ -516,11 +660,13 @@ const termLabels = {
   dka: "DKA",
   dvt: "DVT",
   ecg: "ECG",
+  epo: "EPO",
   gaba: "GABA",
   gad: "GAD",
   gfr: "GFR",
   "h pylori": "H. pylori",
   "h2 receptor antagonist": "H2 Receptor Antagonist",
+  hctz: "HCTZ",
   "hmg-coa reductase": "HMG-CoA Reductase",
   hhns: "HHNS",
   "hpa axis": "HPA Axis",
@@ -568,7 +714,6 @@ const glossaryEntries = Object.entries(medicalTerms)
 
 const el = {
   week: document.getElementById("weekFilter"),
-  type: document.getElementById("typeFilter"),
   source: document.getElementById("sourceFilter"),
   sourceField: document.getElementById("sourceFilterField"),
   emptyState: document.getElementById("emptyState"),
@@ -576,13 +721,16 @@ const el = {
   emptyMessage: document.getElementById("emptyMessage"),
   questionCard: document.getElementById("questionCard"),
   questionStem: document.getElementById("questionStem"),
-  copyQuestionId: document.getElementById("copyQuestionIdButton"),
+  reportQuestion: document.getElementById("reportQuestionButton"),
+  reportQuestionStatus: document.getElementById("reportQuestionStatus"),
   answerForm: document.getElementById("answerForm"),
   feedback: document.getElementById("feedback"),
   studySupportStatus: document.getElementById("studySupportStatus"),
   definitionList: document.getElementById("definitionList"),
-  slideList: document.getElementById("slideList"),
   define: document.getElementById("defineButton"),
+  videoPanel: document.getElementById("videoPanel"),
+  videoEmbed: document.getElementById("videoEmbed"),
+  videoSourceLink: document.getElementById("videoSourceLink"),
   filtersContent: document.getElementById("filtersContent"),
   previous: document.getElementById("previousButton"),
   next: document.getElementById("nextButton"),
@@ -591,16 +739,16 @@ const el = {
   questionsLeftCount: document.getElementById("questionsLeftCount"),
 };
 
-const filters = SHOW_SOURCE_FILTER ? [el.week, el.type, el.source] : [el.week, el.type];
+const filters = SHOW_SOURCE_FILTER ? [el.week, el.source] : [el.week];
 
 async function init() {
   try {
-    const [questions, slides] = await Promise.all([
+    const [questions, videos] = await Promise.all([
       fetchJson("data/questions.json"),
-      fetchJson("data/slides.json").catch(() => []),
+      fetchJson("data/videos.json").catch(() => ({})),
     ]);
+    state.videos = flattenVideoData(videos);
     state.questions = prepareQuestions(getVisibleQuestions(questions));
-    state.slidesById = new Map(slides.map((slide) => [slide.id, slide]));
     state.questionById = new Map(state.questions.map((question) => [question.id, question]));
     shuffleInPlace(state.questions);
     state.answered = loadAnsweredResults();
@@ -626,17 +774,102 @@ function prepareQuestions(questions) {
   return questions.map((question) => ({
     ...question,
     _filterWeek: String(question.week ?? ""),
-    _filterType: question.type ?? "",
     _filterSource: question.sourceType ?? "",
     _definitions: findMedicalTerms(question),
+    _video: SHOW_RELATED_VIDEOS ? findBestVideo(question) : null,
   }));
 }
 
+function flattenVideoData(videoData) {
+  return Object.entries(videoData ?? {}).flatMap(([topic, entries]) => (
+    (entries ?? [])
+      .filter((entry) => entry.source === "RegisteredNurseRN" && entry.embedId)
+      .map((entry) => ({
+        ...entry,
+        topic,
+        terms: [
+          entry.title,
+          ...(entry.terms ?? []),
+        ].filter(Boolean),
+      }))
+  ));
+}
+
+function normalizeSearchText(value) {
+  return String(value ?? "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function findBestVideo(question) {
+  if (!state.videos.length) return null;
+  const text = normalizeSearchText([
+    question.stem,
+    question.topic,
+    question.subtopic,
+    question.system,
+    question.drug,
+    ...(question.options ?? []),
+  ].filter(Boolean).join(" "));
+
+  const scored = state.videos
+    .map((video) => ({ video, score: scoreVideoForQuestion(video, text) }))
+    .filter((entry) => entry.score >= 4)
+    .sort((a, b) => b.score - a.score || a.video.title.localeCompare(b.video.title));
+
+  return scored[0]?.video ?? null;
+}
+
+function scoreVideoForQuestion(video, text) {
+  return (video.terms ?? []).reduce((score, term) => {
+    const normalized = normalizeSearchText(term);
+    if (!normalized || normalized.length < 3) return score;
+    if (text.includes(normalized)) return score + Math.min(8, Math.max(2, normalized.split(" ").length + 1));
+    return score;
+  }, 0);
+}
+
+function renderQuestionVideo(question) {
+  const video = question?._video ?? null;
+  if (!el.videoPanel || !el.videoEmbed || !el.videoSourceLink) return;
+
+  if (!SHOW_RELATED_VIDEOS || !video) {
+    el.videoPanel.classList.add("hidden");
+    if (state.renderedVideoKey) {
+      el.videoEmbed.src = "";
+      el.videoEmbed.title = "";
+      el.videoSourceLink.textContent = "";
+      el.videoSourceLink.removeAttribute("href");
+      state.renderedVideoKey = null;
+    }
+    return;
+  }
+
+  const key = `${video.embedId}:${video.title}`;
+  el.videoPanel.classList.remove("hidden");
+  if (key !== state.renderedVideoKey) {
+    el.videoEmbed.src = `https://www.youtube.com/embed/${encodeURIComponent(video.embedId)}`;
+    el.videoEmbed.title = video.title;
+    el.videoSourceLink.href = video.url;
+    el.videoSourceLink.textContent = video.title;
+    state.renderedVideoKey = key;
+  }
+}
+
 function getVisibleQuestions(questions) {
+  if (SHOW_GENERATED_MEDICATION_AUDIT_ONLY) return questions.filter(isGeneratedMedicationAuditQuestion);
   if (SHOW_LATEST_QUESTIONS) return questions.filter(isLatestQuestion);
   if (SHOW_NEW_QUESTIONS) return questions.filter(isNewQuestion);
   if (SHOW_ALL_QUESTIONS) return questions;
   return questions.filter((question) => question.sourceType !== "Course");
+}
+
+function isGeneratedMedicationAuditQuestion(question) {
+  return question.auditNote === GENERATED_MEDICATION_AUDIT_NOTE
+    && question.sourceType === "Generated"
+    && question.category === "Medication";
 }
 
 function isLatestQuestion(question) {
@@ -653,14 +886,13 @@ function bindEvents() {
   el.define.addEventListener("click", showStudySupport);
   el.previous.addEventListener("click", selectPrevious);
   el.next.addEventListener("click", selectNext);
-  el.copyQuestionId.addEventListener("click", copyCurrentQuestionId);
+  el.reportQuestion.addEventListener("click", reportCurrentQuestion);
   el.submit.addEventListener("click", submitCurrentQuestion);
   el.resetAnswered.addEventListener("click", resetAnsweredQuestions);
 }
 
 function buildFilters() {
   fillWeekSelect(el.week, "All weeks", state.questions);
-  fillSelect(el.type, "All question types", state.questions.map((q) => q.type));
   if (SHOW_SOURCE_FILTER) {
     fillSelect(el.source, "All sources", state.questions.map((q) => q.sourceType));
   } else {
@@ -730,8 +962,10 @@ function renderCurrentQuestion() {
       ? "Reset answered questions to practice this set again."
       : "Adjust the filters to continue practicing.";
     state.renderedQuestionId = null;
+    state.renderedVideoKey = null;
     state.studySupportVisible = false;
     renderStudySupport(null);
+    renderQuestionVideo(null);
     return;
   }
 
@@ -744,8 +978,9 @@ function renderCurrentQuestion() {
   el.questionCard.classList.remove("hidden");
   el.previous.disabled = state.previousIds.length === 0;
   el.questionStem.textContent = question.stem;
-  renderQuestionIdButton(question.id);
+  renderReportQuestionStatus("");
   renderStudySupport(question);
+  renderQuestionVideo(question);
 
   el.answerForm.innerHTML = "";
 
@@ -944,45 +1179,58 @@ function selectPrevious() {
   render();
 }
 
-async function copyCurrentQuestionId() {
+async function reportCurrentQuestion() {
   const question = getCurrentQuestion();
   if (!question) return;
 
-  const id = String(question.id);
+  if (!QUESTION_FEEDBACK_ENDPOINT) {
+    renderReportQuestionStatus("Feedback is not connected yet.");
+    return;
+  }
+
+  el.reportQuestion.disabled = true;
+  renderReportQuestionStatus("Reporting...");
+
   try {
-    if (navigator.clipboard?.writeText) {
-      await navigator.clipboard.writeText(id);
-    } else {
-      copyTextFallback(id);
-    }
-    renderQuestionIdButton(question.id, true);
+    await fetch(QUESTION_FEEDBACK_ENDPOINT, {
+      method: "POST",
+      mode: "no-cors",
+      headers: {
+        "Content-Type": "text/plain;charset=utf-8",
+      },
+      body: JSON.stringify(buildQuestionFeedbackPayload(question)),
+    });
+    renderReportQuestionStatus("Reported.");
   } catch {
-    copyTextFallback(id);
-    renderQuestionIdButton(question.id, true);
+    renderReportQuestionStatus("Report failed. Try again.");
+  } finally {
+    el.reportQuestion.disabled = false;
   }
 }
 
-function renderQuestionIdButton(questionId, copied = false) {
-  el.copyQuestionId.setAttribute("aria-label", `Copy question ID ${questionId}`);
-  el.copyQuestionId.innerHTML = `
-    <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
-      <rect x="9" y="9" width="10" height="10" rx="2"></rect>
-      <path d="M5 15V7a2 2 0 0 1 2-2h8"></path>
-    </svg>
-    <span>${copied ? "Question ID copied" : `Question ID ${escapeHtml(String(questionId))}`}</span>
-  `;
+function buildQuestionFeedbackPayload(question) {
+  const selected = [...(state.answers.get(question.id) ?? [])];
+  return {
+    questionId: question.id,
+    stem: question.stem,
+    type: question.type,
+    week: question.week ?? "",
+    topic: question.topic ?? "",
+    category: question.category ?? "",
+    subtopic: question.subtopic ?? "",
+    sourceType: question.sourceType ?? "",
+    selectedAnswers: selected,
+    correctAnswers: question.correctAnswers ?? [],
+    options: question.options ?? [],
+    rationale: question.rationale ?? "",
+    pageUrl: window.location.href,
+    userAgent: navigator.userAgent,
+    reportedAt: new Date().toISOString(),
+  };
 }
 
-function copyTextFallback(text) {
-  const input = document.createElement("textarea");
-  input.value = text;
-  input.setAttribute("readonly", "");
-  input.style.position = "fixed";
-  input.style.opacity = "0";
-  document.body.append(input);
-  input.select();
-  document.execCommand("copy");
-  input.remove();
+function renderReportQuestionStatus(message) {
+  el.reportQuestionStatus.textContent = message;
 }
 
 function getCurrentQuestion() {
@@ -997,14 +1245,12 @@ function getMatchingQuestions() {
 function getSelectedFilters() {
   return {
     week: el.week.value,
-    type: el.type.value,
     source: SHOW_SOURCE_FILTER ? el.source.value : "",
   };
 }
 
 function matchesSelectedFilters(question, selected) {
   if (selected.week && question._filterWeek !== selected.week) return false;
-  if (selected.type && question._filterType !== selected.type) return false;
   if (selected.source && question._filterSource !== selected.source) return false;
   return true;
 }
@@ -1101,46 +1347,35 @@ function showStudySupport() {
 
 function renderStudySupport(question) {
   el.definitionList.innerHTML = "";
-  el.slideList.innerHTML = "";
 
   if (!question) {
-    el.studySupportStatus.textContent = "0 slides · 0 terms";
+    el.studySupportStatus.textContent = "0 definitions";
     el.define.disabled = true;
     el.define.parentElement.classList.add("hidden");
     el.definitionList.classList.add("hidden");
-    el.slideList.classList.add("hidden");
     return;
   }
 
   const terms = question._definitions ?? findMedicalTerms(question);
-  const slides = getQuestionSlides(question);
-  el.studySupportStatus.textContent = [
-    `${slides.length} ${slides.length === 1 ? "slide" : "slides"}`,
-    `${terms.length} ${terms.length === 1 ? "term" : "terms"}`,
-  ].join(" · ");
-  el.define.disabled = slides.length === 0 && terms.length === 0;
+  el.studySupportStatus.textContent = `${terms.length} ${terms.length === 1 ? "definition" : "definitions"}`;
+  el.define.disabled = terms.length === 0;
 
-  if (slides.length === 0 && terms.length === 0) {
+  if (terms.length === 0) {
     el.define.parentElement.classList.add("hidden");
-    el.slideList.classList.remove("hidden");
     el.definitionList.classList.remove("hidden");
-    el.slideList.innerHTML = `<p class="slide-empty">No high-confidence slide matches for this question.</p>`;
-    el.definitionList.innerHTML = `<p class="definition-empty">No glossary terms detected in this question.</p>`;
+    el.definitionList.innerHTML = `<p class="definition-empty">No glossary definitions detected in this question.</p>`;
     return;
   }
 
   if (!state.studySupportVisible) {
     el.define.parentElement.classList.remove("hidden");
-    el.slideList.classList.add("hidden");
     el.definitionList.classList.add("hidden");
     return;
   }
 
   el.define.parentElement.classList.add("hidden");
-  el.slideList.classList.remove("hidden");
   el.definitionList.classList.remove("hidden");
 
-  renderSlides(slides);
   renderDefinitions(terms);
 }
 
@@ -1192,39 +1427,15 @@ function googleIconSvg() {
   `;
 }
 
-function getQuestionSlides(question) {
-  return (question.slideRefs ?? [])
-    .map((slideId) => state.slidesById.get(slideId))
-    .filter(Boolean);
-}
-
-function renderSlides(slides) {
-  if (slides.length === 0) {
-    el.slideList.innerHTML = `<p class="slide-empty">No high-confidence slide matches for this question.</p>`;
-    return;
-  }
-
-  const fragment = document.createDocumentFragment();
-  slides.forEach((slide) => {
-    const item = document.createElement("figure");
-    item.className = "slide-preview";
-    item.innerHTML = `
-      <img src="${escapeHtml(slide.image)}" alt="${escapeHtml(slide.title)}" loading="lazy">
-    `;
-    fragment.append(item);
-  });
-  el.slideList.append(fragment);
-}
-
 function findMedicalTerms(question) {
   const text = [
     question.stem,
-    question.topic,
-    question.system,
-    question.drug,
     ...question.options,
     ...(question.prompts ?? []).flatMap((prompt) => [prompt.prompt, prompt.answer]),
     ...(question.blanks ?? []).flatMap((blank) => [blank.label, ...blank.answers]),
+    question.drug,
+    question.topic,
+    question.system,
   ]
     .filter(Boolean)
     .join(" ")
@@ -1232,14 +1443,24 @@ function findMedicalTerms(question) {
   const searchableText = normalizeMedicalTermText(text);
 
   const seen = new Set();
-  return glossaryEntries
-    .filter(({ regex }) => regex.test(searchableText))
+  const matchedTerms = glossaryEntries
+    .map((entry) => ({
+      ...entry,
+      matchIndex: searchableText.search(entry.regex),
+    }))
+    .filter(({ matchIndex }) => matchIndex !== -1)
     .filter(({ dedupeKey }) => {
       const key = dedupeKey;
       if (seen.has(key)) return false;
       seen.add(key);
       return true;
     })
+    .sort((a, b) => a.matchIndex - b.matchIndex || b.term.length - a.term.length || a.term.localeCompare(b.term));
+
+  const matchedTermNames = new Set(matchedTerms.map(({ term }) => term));
+
+  return matchedTerms
+    .filter(({ term }) => !(term === "calcium" && matchedTermNames.has("calcium acetate")))
     .map(({ term, definition }) => [term, definition]);
 }
 

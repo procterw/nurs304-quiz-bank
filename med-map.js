@@ -1623,57 +1623,6 @@ const WEEK_TOPICS = new Map([
   [9, "Nervous System and Mental Health Pathopharmacology"]
 ]);
 
-const WEEK3_DECKS = {
-  antihistamine: "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-hypersensitivity-and-antihistamine-student",
-  treatment: "week-03-pulmonary-pathopharmacology-03-w3-in-class-friday-w3-nurs-304-respiratory-diseases-treatment-student",
-  patho: "week-03-pulmonary-pathopharmacology-03-w3-in-class-tuesday-w3-respiratory-patho-student",
-  ards: "week-03-pulmonary-pathopharmacology-03-w3-required-asynchronous-ards-asynch-student-w-recording",
-  caseStudy: "week-03-pulmonary-pathopharmacology-03-w3-required-asynchronous-nurs-304-respiratory-case-study-asynchronous-2025-studen"
-};
-
-const graphSlideRanges = {
-  diphenhydramine: [
-    { deckId: WEEK3_DECKS.antihistamine, start: 15, end: 24 },
-    { deckId: WEEK3_DECKS.caseStudy, start: 27, end: 31 }
-  ],
-  cetirizine: [{ deckId: WEEK3_DECKS.antihistamine, start: 15, end: 29 }],
-  fexofenadine: [{ deckId: WEEK3_DECKS.antihistamine, start: 15, end: 29 }],
-  albuterol: [
-    { deckId: WEEK3_DECKS.treatment, start: 5, end: 24 },
-    { deckId: WEEK3_DECKS.caseStudy, start: 5, end: 20 }
-  ],
-  formoterol: [{ deckId: WEEK3_DECKS.treatment, start: 5, end: 24 }],
-  ipratropium: [
-    { deckId: WEEK3_DECKS.treatment, start: 34, end: 51 },
-    { deckId: WEEK3_DECKS.caseStudy, start: 15, end: 16 }
-  ],
-  tiotropium: [{ deckId: WEEK3_DECKS.treatment, start: 34, end: 51 }],
-  budesonide: [
-    { deckId: WEEK3_DECKS.treatment, start: 26, end: 33 },
-    { deckId: WEEK3_DECKS.caseStudy, start: 22, end: 25 }
-  ],
-  zafirlukast: [{ deckId: WEEK3_DECKS.treatment, start: 52, end: 62 }],
-  hypersensitivity: [{ deckId: WEEK3_DECKS.antihistamine, start: 4, end: 29 }],
-  asthma: [
-    { deckId: WEEK3_DECKS.patho, start: 47, end: 51 },
-    { deckId: WEEK3_DECKS.treatment, start: 5, end: 33 },
-    { deckId: WEEK3_DECKS.treatment, start: 52, end: 62 },
-    { deckId: WEEK3_DECKS.caseStudy, start: 5, end: 25 }
-  ],
-  status: [
-    { deckId: WEEK3_DECKS.patho, start: 47, end: 51 },
-    { deckId: WEEK3_DECKS.treatment, start: 5, end: 24 },
-    { deckId: WEEK3_DECKS.caseStudy, start: 5, end: 20 }
-  ],
-  copd: [
-    { deckId: WEEK3_DECKS.patho, start: 53, end: 66 },
-    { deckId: WEEK3_DECKS.treatment, start: 5, end: 5 },
-    { deckId: WEEK3_DECKS.treatment, start: 12, end: 17 },
-    { deckId: WEEK3_DECKS.treatment, start: 27, end: 32 },
-    { deckId: WEEK3_DECKS.treatment, start: 34, end: 49 }
-  ]
-};
-
 function buildWeekGraphs() {
   const graphs = new Map();
   const conditionByName = new Map(medMapData.conditions.map((condition) => [condition.name, condition]));
@@ -2544,7 +2493,7 @@ function getConditionDetails(name, source) {
   const systems = source?.relevantSystems?.slice(0, 4).join(", ");
   const drugClasses = source?.drugClasses?.slice(0, 3).join(", ");
   return {
-    description: cleanDisplayText(source?.mechanism, `${name} involves ${systems || "the affected body system"}. Medication links focus on ${drugClasses || "treating the cause, reducing symptoms, and preventing complications"}.`),
+    description: cleanDisplayText(source?.mechanism, `${name} involves ${systems || "the affected body system"}.`),
     sideEffects: cleanList(source?.sideEffects, defaultConditionSymptoms(name)),
     considerations: systems
       ? `Assess the patient presentation, trend relevant labs and vital signs, and connect medication choice to ${systems}.`
@@ -2584,7 +2533,7 @@ function defaultConditionSymptoms(name) {
 }
 
 function cleanList(items, fallback) {
-  const sourceReferencePattern = /guide|deck|slides?|extracted|not listed|not specified|not fully specified|not enumerated|\bcourse\b|quiz|materials?|asks|requested|flagged|emphasized/i;
+  const sourceReferencePattern = /guide|deck|slides?|extracted|not listed|not specified|not fully specified|not enumerated|\bcourse\b|quiz|materials?|asks|requested|flagged|emphasized|depend on|vary by|tied to/i;
   const cleaned = (items ?? [])
     .map((item) => cleanDisplayText(item, ""))
     .filter((item) => item && !sourceReferencePattern.test(item));
@@ -2625,8 +2574,6 @@ function cleanDisplayText(text, fallback) {
 }
 
 let graphResizeObserver;
-let graphSlides = [];
-const MAX_RELATED_SLIDES = 4;
 const weekGraphs = buildWeekGraphs();
 let activeWeek = 1;
 let activeGraph = weekGraphs.get(activeWeek);
@@ -2644,24 +2591,6 @@ window.NURS304MedMap = {
 if (document.getElementById("medGraph") && document.getElementById("graphDetails")) {
   renderWeekSelect();
   renderMedGraph(activeGraph);
-  loadGraphSlides();
-}
-
-async function loadGraphSlides() {
-  try {
-    const response = await fetch("data/slides.json");
-    const slides = await response.json();
-    graphSlides = slides
-      .sort((a, b) => (a.week - b.week) || a.deckId.localeCompare(b.deckId) || a.slideNumber - b.slideNumber);
-    const container = document.getElementById("medGraph");
-    const details = document.getElementById("graphDetails");
-    const nodeById = new Map(activeGraph.nodes.map((node) => [node.id, node]));
-    if (container && details) {
-      selectNode(selectedGraphNodeId, activeGraph, nodeById, container, details);
-    }
-  } catch {
-    graphSlides = [];
-  }
 }
 
 function renderWeekSelect() {
@@ -2844,8 +2773,7 @@ function selectNode(nodeId, graph, nodeById, container, details) {
     anchor.classList.toggle("selected", anchor.dataset.nodeId === nodeId);
   });
 
-  const relatedSlides = getRelatedSlides(nodeId, node);
-  const detailsContent = getDisplayNodeDetails(nodeId, node);
+  const detailsContent = getDisplayNodeDetails(nodeId, node, graph, nodeById, linkedIds);
   const symptomHeading = node.type === "condition" ? "Symptoms" : "Side effects";
   details.innerHTML = `
     <span class="graph-details-kicker">${escapeHtml(node.type)}</span>
@@ -2855,16 +2783,15 @@ function selectNode(nodeId, graph, nodeById, container, details) {
         <a class="google-it-link" href="${googleSearchUrl(node.label)}" target="_blank" rel="noopener noreferrer" aria-label="Google ${escapeHtml(node.label)}" title="Google ${escapeHtml(node.label)}">${googleIconSvg()}</a>
       </h3>
     </div>
-    <p>${escapeHtml(detailsContent.description)}</p>
+    <p>${renderEmphasizedText(detailsContent.description, detailsContent.vocabularyTerms)}</p>
     <div class="graph-chip-row">
       ${node.tags.map((tag) => `<span class="graph-chip">${escapeHtml(tag)}</span>`).join("")}
     </div>
-    ${renderDetailSection(symptomHeading, detailsContent.sideEffects)}
+    ${renderDetailSection(symptomHeading, detailsContent.sideEffects, detailsContent.vocabularyTerms)}
     <section class="graph-detail-section">
       <h4>Considerations / contraindications</h4>
-      <p>${escapeHtml(detailsContent.considerations)}</p>
+      <p>${renderEmphasizedText(detailsContent.considerations, detailsContent.vocabularyTerms)}</p>
     </section>
-    ${renderRelatedSlides(relatedSlides)}
   `;
 }
 
@@ -2883,144 +2810,189 @@ function googleIconSvg() {
   `;
 }
 
-function getDisplayNodeDetails(nodeId, node) {
+function getDisplayNodeDetails(nodeId, node, graph, nodeById, linkedIds = new Set()) {
   const rawDetails = graphNodeDetails[nodeId] ?? node.details ?? {
     description: node.cue,
     sideEffects: [],
     considerations: "Review the linked course slides and medication class notes for specific nursing considerations."
   };
+  const sideEffects = cleanList(rawDetails.sideEffects, node.type === "condition" ? defaultConditionSymptoms(node.label) : medicationAdverseEffects(node.label));
+  const considerations = cleanDisplayText(rawDetails.considerations, "Check indication, baseline assessment findings, contraindications, major interactions, and patient teaching points.");
+  const linkedLabels = getLinkedNodeLabels(node, graph, nodeById, linkedIds);
+  const description = buildFullDetailDescription({
+    node,
+    baseDescription: cleanDisplayText(rawDetails.description, node.cue),
+    sideEffects,
+    considerations,
+    linkedLabels
+  });
+  const vocabularyTerms = getDetailVocabularyTerms(node, linkedLabels, description, sideEffects, considerations);
   return {
-    description: cleanDisplayText(rawDetails.description, node.cue),
-    sideEffects: cleanList(rawDetails.sideEffects, node.type === "condition" ? defaultConditionSymptoms(node.label) : medicationAdverseEffects(node.label)),
-    considerations: cleanDisplayText(rawDetails.considerations, "Check indication, baseline assessment findings, contraindications, major interactions, and patient teaching points.")
+    description,
+    sideEffects,
+    considerations,
+    vocabularyTerms
   };
 }
 
-function renderDetailSection(title, items) {
+function getLinkedNodeLabels(node, graph, nodeById, linkedIds) {
+  const fromActiveConnectors = [...linkedIds]
+    .map((id) => nodeById.get(id)?.label)
+    .filter(Boolean);
+  if (fromActiveConnectors.length) return dedupeText(fromActiveConnectors);
+
+  const ids = node.type === "drug"
+    ? graph.edges.filter(([from]) => from === node.id).map(([, to]) => to)
+    : graph.edges.filter(([, to]) => to === node.id).map(([from]) => from);
+  return dedupeText(ids.map((id) => nodeById.get(id)?.label).filter(Boolean));
+}
+
+function buildFullDetailDescription({ node, baseDescription, sideEffects, considerations, linkedLabels }) {
+  const base = ensureTerminalPunctuation(baseDescription || node.cue || `${node.label} is part of this medication-condition map.`);
+  const linked = listToReadable(linkedLabels.slice(0, node.type === "drug" ? 5 : 6));
+  const effects = listToReadable(sideEffects.slice(0, 5));
+  const nursing = sentenceCase(ensureTerminalPunctuation(considerations));
+
+  if (node.type === "drug") {
+    const mapSentence = linked
+      ? `In this map, connect it with ${linked}, so the clinical focus is how the drug changes physiology, which patient findings should improve, and when therapy creates avoidable risk.`
+      : "In this map, connect the drug to its indication, expected physiologic effect, and the patient findings that should improve when therapy is working.";
+    const effectsSentence = effects
+      ? `Key side effects or warning signs include ${effects}, so assessment should look for both therapeutic response and early toxicity.`
+      : "Key side effects and warning signs should be checked against the medication class, dose, route, and patient-specific risk factors.";
+    return normalizeParagraph(`${base} ${mapSentence} ${effectsSentence} Nursing priorities include ${lowercaseFirst(nursing)}`);
+  }
+
+  const mapSentence = linked
+    ? `The medication links shown here are ${linked}, which are used to treat the cause, reduce symptoms, prevent complications, or flag major therapy risks.`
+    : "The medication links should be interpreted by asking whether treatment is aimed at the cause, symptom relief, complication prevention, or medication safety risk.";
+  const effectsSentence = effects
+    ? `Expected symptoms or clinical cues include ${effects}, and changes in those findings help determine severity and response to treatment.`
+    : "Expected symptoms and clinical cues depend on severity, affected organ system, and whether complications are developing.";
+  return normalizeParagraph(`${base} ${mapSentence} ${effectsSentence} Nursing priorities include ${lowercaseFirst(nursing)}`);
+}
+
+function normalizeParagraph(value) {
+  return String(value ?? "")
+    .replace(/\s+/g, " ")
+    .replace(/\s+([,.;:])/g, "$1")
+    .trim();
+}
+
+function ensureTerminalPunctuation(value) {
+  const text = String(value ?? "").trim();
+  if (!text) return "";
+  return /[.!?]$/.test(text) ? text : `${text}.`;
+}
+
+function sentenceCase(value) {
+  const text = String(value ?? "").trim();
+  return text ? text[0].toUpperCase() + text.slice(1) : text;
+}
+
+function lowercaseFirst(value) {
+  const text = String(value ?? "").trim();
+  return text ? text[0].toLowerCase() + text.slice(1) : text;
+}
+
+function listToReadable(items) {
+  const values = dedupeText(items)
+    .filter(Boolean)
+    .map((item) => String(item).trim().replace(/[.!?]+$/, ""));
+  if (!values.length) return "";
+  if (values.length === 1) return values[0];
+  if (values.length === 2) return `${values[0]} and ${values[1]}`;
+  return `${values.slice(0, -1).join(", ")}, and ${values.at(-1)}`;
+}
+
+function dedupeText(items) {
+  const seen = new Set();
+  return items.filter((item) => {
+    const key = String(item ?? "").toLowerCase().trim();
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+const detailVocabularyTerms = [
+  "acetylcholine", "acute coronary syndrome", "acute kidney injury", "Addison disease", "adrenergic", "adrenal insufficiency",
+  "afterload", "albumin", "allergy", "alveoli", "anaphylaxis", "angina", "anticholinergic", "anticoagulant",
+  "antiplatelet", "asthma", "atherosclerosis", "atrial fibrillation", "atrial flutter", "beta-1", "beta-2",
+  "blood pressure", "bradycardia", "bronchoconstriction", "bronchodilator", "cardiac output", "central nervous system",
+  "chronic kidney disease", "clotting factor", "COPD", "coronary artery disease", "cortisol", "Cushing syndrome",
+  "diabetes", "diabetic ketoacidosis", "diuresis", "dysrhythmia", "electrolyte", "emphysema", "first-pass metabolism",
+  "fluid overload", "GABA", "GERD", "glomerular filtration", "heart failure", "hepatic", "histamine", "hypercalcemia",
+  "hyperglycemia", "hyperkalemia", "hyperthyroidism", "hypocalcemia", "hypoglycemia", "hypokalemia", "hypotension",
+  "hypothyroidism", "immune response", "inflammation", "insulin", "liver", "leukotriene", "metabolic acidosis",
+  "metabolic alkalosis", "myocardial infarction", "nephrotoxicity", "ototoxicity", "oxygenation", "Parkinson disease",
+  "perfusion", "pharmacokinetics", "platelets", "potassium", "preload", "QT prolongation", "renal function",
+  "respiratory depression", "seizure", "serotonin", "serotonin syndrome", "shock", "status asthmaticus",
+  "thromboembolism", "thrombosis", "thyroid", "toxicity", "vasoconstriction", "vasodilation", "ventilation",
+  "warfarin", "vitamin K"
+];
+
+function getDetailVocabularyTerms(node, linkedLabels, description, sideEffects, considerations) {
+  const text = `${description} ${sideEffects.join(" ")} ${considerations}`.toLowerCase();
+  const sourceTerms = [
+    node.label,
+    ...(node.tags ?? []),
+    ...linkedLabels,
+    ...detailVocabularyTerms.filter((term) => text.includes(term.toLowerCase()))
+  ];
+  return dedupeText(sourceTerms)
+    .filter((term) => String(term).trim().length >= 3)
+    .sort((a, b) => b.length - a.length);
+}
+
+function renderEmphasizedText(text, terms = []) {
+  const value = String(text ?? "");
+  const safeTerms = terms
+    .map((term) => String(term ?? "").trim())
+    .filter((term) => term.length >= 3)
+    .sort((a, b) => b.length - a.length);
+  if (!safeTerms.length) return escapeHtml(value);
+
+  const matches = [];
+  safeTerms.forEach((term) => {
+    const pattern = new RegExp(`(^|[^A-Za-z0-9])(${escapeRegExp(term)})(?=$|[^A-Za-z0-9])`, "gi");
+    let match;
+    while ((match = pattern.exec(value)) !== null) {
+      const start = match.index + match[1].length;
+      const end = start + match[2].length;
+      if (!matches.some((existing) => start < existing.end && end > existing.start)) {
+        matches.push({ start, end });
+      }
+    }
+  });
+
+  if (!matches.length) return escapeHtml(value);
+  matches.sort((a, b) => a.start - b.start);
+  let cursor = 0;
+  let output = "";
+  matches.forEach(({ start, end }) => {
+    output += escapeHtml(value.slice(cursor, start));
+    output += `<strong>${escapeHtml(value.slice(start, end))}</strong>`;
+    cursor = end;
+  });
+  output += escapeHtml(value.slice(cursor));
+  return output;
+}
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function renderDetailSection(title, items, terms = []) {
   if (!items.length) return "";
   return `
     <section class="graph-detail-section">
       <h4>${escapeHtml(title)}</h4>
       <ul>
-        ${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+        ${items.map((item) => `<li>${renderEmphasizedText(item, terms)}</li>`).join("")}
       </ul>
     </section>
   `;
-}
-
-function getRelatedSlides(nodeId, node) {
-  const terms = getSlideTerms(nodeId, node);
-  if (!terms.length || !graphSlides.length) return [];
-
-  const weekSlides = graphSlides.filter((slide) => slide.week === node.week);
-  const curatedSlideIds = new Set(getCuratedRangeSlides(nodeId).map((slide) => slide.id));
-  const ranked = weekSlides
-    .filter((slide) => isUsefulSlide(slide))
-    .map((slide) => ({
-      slide,
-      score: scoreSlideForTerms(slide, terms) + (curatedSlideIds.has(slide.id) ? 2 : 0)
-    }))
-    .filter((entry) => entry.score > 0)
-    .sort((a, b) => b.score - a.score || a.slide.slideNumber - b.slide.slideNumber);
-
-  const seen = new Set();
-  return ranked
-    .map((entry) => entry.slide)
-    .filter((slide) => {
-      const signature = `${slide.deckId}:${slide.slideNumber}:${normalizeSearch(slide.text).slice(0, 180)}`;
-      if (seen.has(signature)) return false;
-      seen.add(signature);
-      return true;
-    })
-    .slice(0, MAX_RELATED_SLIDES);
-}
-
-function getCuratedRangeSlides(nodeId) {
-  const ranges = graphSlideRanges[nodeId] ?? [];
-  if (!ranges.length) return [];
-  return graphSlides.filter((slide) => ranges.some((range) => (
-    slide.deckId === range.deckId
-    && slide.slideNumber >= range.start
-    && slide.slideNumber <= range.end
-  )));
-}
-
-function getSlideTerms(nodeId, node) {
-  const termMap = {
-    diphenhydramine: ["diphenhydramine", "first-generation h 1", "first-generation h1", "benadryl"],
-    cetirizine: ["cetirizine", "second-generation h 1", "second-generation h1", "zyrtec"],
-    fexofenadine: ["fexofenadine", "third-generation h 1", "third-generation h1", "allegra"],
-    albuterol: ["albuterol", "saba", "short-acting", "beta 2 agonist", "rescue inhaler"],
-    formoterol: ["formoterol", "laba", "long acting", "long-acting"],
-    ipratropium: ["ipratropium", "sama", "short-acting muscarinic", "m3 antagonist"],
-    tiotropium: ["tiotropium", "lama", "long-acting muscarinic", "m3 antagonist"],
-    budesonide: ["budesonide", "inhaled corticosteroids", "ics", "airway inflammation"],
-    zafirlukast: ["zafirlukast", "leukotriene receptor antagonist", "ltra", "leukotrienes"],
-    hypersensitivity: ["hypersensitivity", "allergic reaction", "ige", "histamine", "h 1 receptor"],
-    asthma: ["asthma", "bronchoconstriction", "bronchospasm", "airway inflammation"],
-    status: ["status asthmaticus", "status asthma", "severe exacerbation", "acute asthma", "airway emergency", "albuterol inhal"],
-    copd: ["copd", "emphysema", "chronic bronchitis", "airflow limitation"]
-  };
-  return termMap[nodeId] ?? [node.label, ...(node.tags ?? [])];
-}
-
-function scoreSlideForTerms(slide, terms) {
-  const title = normalizeSearch(slide.title);
-  const text = normalizeSearch(slide.text);
-  const deck = normalizeSearch(slide.deckTitle);
-  return terms.reduce((score, term) => {
-    const normalizedTerm = normalizeSearch(term);
-    if (!normalizedTerm) return score;
-    const termWeight = Math.max(1, normalizedTerm.split(" ").length);
-    let nextScore = score;
-    if (title.includes(normalizedTerm)) nextScore += termWeight + 3;
-    if (text.includes(normalizedTerm)) nextScore += termWeight;
-    if (deck.includes(normalizedTerm)) nextScore += 1;
-    return nextScore;
-  }, 0);
-}
-
-function renderRelatedSlides(slides) {
-  if (!slides.length) {
-    return `
-      <section class="graph-slide-section">
-        <h4>Related slides</h4>
-        <p class="graph-slide-empty">No focused slide matches found for this selection.</p>
-      </section>
-    `;
-  }
-
-  return `
-    <section class="graph-slide-section">
-      <h4>Related slides</h4>
-      <div class="graph-slide-grid">
-        ${slides.map((slide) => `
-          <a class="graph-slide" href="${escapeHtml(slide.image)}" target="_blank" rel="noreferrer">
-            <img src="${escapeHtml(slide.image)}" alt="${escapeHtml(slide.title)}" loading="lazy">
-          </a>
-        `).join("")}
-      </div>
-    </section>
-  `;
-}
-
-function isUsefulSlide(slide) {
-  const text = normalizeSearch(slide.text);
-  const title = normalizeSearch(slide.title);
-  if (slide.textLength < 70) return false;
-  if (title.length < 18 && text.length < 120) return false;
-  if (/^image:/.test(title) && text.length < 180) return false;
-  if (/the slido app must be installed/.test(text)) return false;
-  return true;
-}
-
-function normalizeSearch(value) {
-  return String(value ?? "")
-    .toLowerCase()
-    .replace(/[β]/g, "beta")
-    .replace(/[^a-z0-9]+/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
 }
 
 function createSvg(tagName, attributes, text) {

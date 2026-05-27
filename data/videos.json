@@ -1,13 +1,13 @@
 {
   "Medication Administration, Safety, and Pharmacokinetics": [
     {
-      "title": "Pharmacokinetics: Absorption, Distribution, Metabolism, Excretion",
-      "source": "RegisteredNurseRN",
+      "title": "Autonomic Pharmacology: Adrenergic Antagonists",
+      "source": "Ninja Nerd",
       "url": "https://www.youtube.com/watch?v=6EmzU3x3_ps"
     },
     {
-      "title": "Pharmacodynamics: Agonist, Antagonist, Partial Agonist, Inverse Agonist",
-      "source": "RegisteredNurseRN",
+      "title": "Autonomic Pharmacology: Adrenergic Agonists",
+      "source": "Ninja Nerd",
       "url": "https://www.youtube.com/watch?v=cL5KSzAvB64"
     }
   ],
@@ -15,7 +15,19 @@
     {
       "title": "Beta Blockers NCLEX Pharmacology Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/beta-blockers-nclex-pharmacology-review/"
+      "url": "https://www.registerednursern.com/beta-blockers-nclex-pharmacology-review/",
+      "embedId": "r8pHr0YepaA",
+      "terms": [
+        "beta blocker",
+        "beta blockers",
+        "metoprolol",
+        "carvedilol",
+        "bisoprolol",
+        "beta-1",
+        "beta-2",
+        "bradycardia",
+        "hypotension"
+      ]
     },
     {
       "title": "Autonomic Nervous System Effects on the Heart",
@@ -44,7 +56,17 @@
     {
       "title": "Anaphylactic Shock NCLEX Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/anaphylactic-shock-nclex-review/"
+      "url": "https://www.registerednursern.com/anaphylactic-shock-nclex-review/",
+      "embedId": "WXnFW7GHfLk",
+      "terms": [
+        "anaphylaxis",
+        "anaphylactic shock",
+        "hypersensitivity",
+        "epinephrine",
+        "airway swelling",
+        "wheezing",
+        "hypotension"
+      ]
     }
   ],
   "Adaptive Immunity and Immunosuppression": [
@@ -73,7 +95,17 @@
     {
       "title": "Heart Failure NCLEX Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/heart-failure-nclex-review/"
+      "url": "https://www.registerednursern.com/heart-failure-nclex-review/",
+      "embedId": "HoN2EmBJXBk",
+      "terms": [
+        "heart failure",
+        "fluid overload",
+        "pulmonary edema",
+        "preload",
+        "afterload",
+        "dyspnea",
+        "edema"
+      ]
     }
   ],
   "Hypertension and Cardiovascular Pharmacology": [
@@ -85,19 +117,51 @@
     {
       "title": "ACE Inhibitors NCLEX Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/ace-inhibitors-angiotensin-converting-enzyme-nclex-review/"
+      "url": "https://www.registerednursern.com/ace-inhibitors-angiotensin-converting-enzyme-nclex-review/",
+      "embedId": "SgnlnYwP5tI",
+      "terms": [
+        "ace inhibitor",
+        "ace inhibitors",
+        "lisinopril",
+        "angiotensin converting enzyme",
+        "angiotensin ii",
+        "aldosterone",
+        "hyperkalemia",
+        "angioedema",
+        "dry cough"
+      ]
     },
     {
       "title": "Calcium Channel Blockers Nursing Pharmacology NCLEX Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/calcium-channel-blockers-nursing-pharmacology-nclex-review/"
+      "url": "https://www.registerednursern.com/calcium-channel-blockers-nursing-pharmacology-nclex-review/",
+      "embedId": "PV0OoZ-kS-w",
+      "terms": [
+        "calcium channel blocker",
+        "calcium channel blockers",
+        "amlodipine",
+        "diltiazem",
+        "vasodilation",
+        "bradycardia",
+        "peripheral edema"
+      ]
     }
   ],
   "Heart Failure, Shock, and Fluid Overload": [
     {
       "title": "Heart Failure NCLEX Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/heart-failure-nclex-review/"
+      "url": "https://www.registerednursern.com/heart-failure-nclex-review/",
+      "embedId": "HoN2EmBJXBk",
+      "terms": [
+        "heart failure",
+        "fluid overload",
+        "pulmonary edema",
+        "preload",
+        "afterload",
+        "dyspnea",
+        "edema"
+      ]
     },
     {
       "title": "What Is Afterload?",
@@ -109,24 +173,61 @@
     {
       "title": "Atrial Flutter ECG/EKG Nursing Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/atrial-flutter-ecg-ekg-nursing/"
+      "url": "https://www.registerednursern.com/atrial-flutter-ecg-ekg-nursing/",
+      "embedId": "rRmSqrR-DXY",
+      "terms": [
+        "atrial flutter",
+        "dysrhythmia",
+        "ecg",
+        "sawtooth",
+        "anticoagulation"
+      ]
     },
     {
       "title": "Atrial Fibrillation ECG Quiz Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/atrial-fibrillation-a-fib-quiz/"
+      "url": "https://www.registerednursern.com/atrial-fibrillation-a-fib-quiz/",
+      "embedId": "69-GmO4GmEY",
+      "terms": [
+        "atrial fibrillation",
+        "a fib",
+        "dysrhythmia",
+        "irregular rhythm",
+        "stroke risk",
+        "anticoagulation"
+      ]
     }
   ],
   "Coronary Artery Disease, Angina, and Myocardial Infarction": [
     {
       "title": "Myocardial Infarction NCLEX Review Part 1",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/myocardial-infarction-nclex-review-part-1/"
+      "url": "https://www.registerednursern.com/myocardial-infarction-nclex-review-part-1/",
+      "embedId": "phu_x9FS7WY",
+      "terms": [
+        "myocardial infarction",
+        "mi",
+        "acute coronary syndrome",
+        "ischemia",
+        "chest pain",
+        "nitroglycerin",
+        "aspirin"
+      ]
     },
     {
       "title": "Myocardial Infarction NCLEX Review Part 2",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/myocardial-infarction-mi-nclex-review-part-2/"
+      "url": "https://www.registerednursern.com/myocardial-infarction-mi-nclex-review-part-2/",
+      "embedId": "29sJDWdLnNM",
+      "terms": [
+        "myocardial infarction",
+        "mi",
+        "acute coronary syndrome",
+        "ischemia",
+        "chest pain",
+        "nitroglycerin",
+        "aspirin"
+      ]
     }
   ],
   "Respiratory Physiology and Gas Exchange": [
@@ -145,41 +246,106 @@
     {
       "title": "Asthma NCLEX Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/asthma-nclex-review/"
+      "url": "https://www.registerednursern.com/asthma-nclex-review/",
+      "embedId": "GVTXJwv8ndY",
+      "terms": [
+        "asthma",
+        "bronchoconstriction",
+        "bronchospasm",
+        "wheezing",
+        "albuterol",
+        "inhaled corticosteroid",
+        "status asthmaticus"
+      ]
     },
     {
       "title": "Bronchodilators and Corticosteroids NCLEX Question",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/pharmacology-nclex-question-bronchodilators-corticosteroids/"
+      "url": "https://www.registerednursern.com/pharmacology-nclex-question-bronchodilators-corticosteroids/",
+      "embedId": "6cmYh_bbxI4",
+      "terms": [
+        "bronchodilator",
+        "bronchodilators",
+        "corticosteroid",
+        "corticosteroids",
+        "albuterol",
+        "fluticasone",
+        "budesonide",
+        "saba",
+        "ics",
+        "asthma"
+      ]
     }
   ],
   "COPD and Chronic Respiratory Disease": [
     {
       "title": "COPD NCLEX Review Notes",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/copd-nclex-review-notes/"
+      "url": "https://www.registerednursern.com/copd-nclex-review-notes/",
+      "embedId": "n6sPCc69WM8",
+      "terms": [
+        "copd",
+        "chronic obstructive pulmonary disease",
+        "chronic bronchitis",
+        "emphysema",
+        "tiotropium",
+        "ipratropium",
+        "airflow limitation"
+      ]
     },
     {
       "title": "Chronic Bronchitis vs. Emphysema Quiz Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/chronic-bronchitis-vs-emphysema-quiz/"
+      "url": "https://www.registerednursern.com/chronic-bronchitis-vs-emphysema-quiz/",
+      "embedId": "k3XdcPQ19Z8",
+      "terms": [
+        "chronic bronchitis",
+        "emphysema",
+        "copd",
+        "productive cough",
+        "air trapping"
+      ]
     }
   ],
   "Pneumonia, Atelectasis, ARDS, and Pneumothorax": [
     {
       "title": "Pneumonia NCLEX Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/pneumonia-nclex-review/"
+      "url": "https://www.registerednursern.com/pneumonia-nclex-review/",
+      "embedId": "q9dKz8UwEcY",
+      "terms": [
+        "pneumonia",
+        "infection",
+        "crackles",
+        "sputum",
+        "antibiotics"
+      ]
     },
     {
       "title": "ARDS NCLEX Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/ards-nclex-review/"
+      "url": "https://www.registerednursern.com/ards-nclex-review/",
+      "embedId": "3DNVxQYzYB0",
+      "terms": [
+        "ards",
+        "acute respiratory distress syndrome",
+        "hypoxemia",
+        "alveoli",
+        "oxygenation"
+      ]
     },
     {
       "title": "Pneumothorax NCLEX Review Notes",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/pneumothorax-nclex-review-notes/"
+      "url": "https://www.registerednursern.com/pneumothorax-nclex-review-notes/",
+      "embedId": "0AlGjHNPTzk",
+      "terms": [
+        "pneumothorax",
+        "collapsed lung",
+        "chest tube",
+        "dyspnea",
+        "tracheal deviation"
+      ]
     }
   ],
   "Antihistamines and Allergy Pharmacology": [
@@ -198,36 +364,111 @@
     {
       "title": "Acute Kidney Injury NCLEX Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/acute-kidney-injury-renal-failure-nclex-review/"
+      "url": "https://www.registerednursern.com/acute-kidney-injury-renal-failure-nclex-review/",
+      "embedId": "GHshZSCbtOk",
+      "terms": [
+        "acute kidney injury",
+        "aki",
+        "acute renal failure",
+        "bun",
+        "creatinine",
+        "low urine output",
+        "renal function"
+      ]
     },
     {
       "title": "Chronic Kidney Disease NCLEX Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/chronic-kidney-disease-nclex-review/"
+      "url": "https://www.registerednursern.com/chronic-kidney-disease-nclex-review/",
+      "embedId": "Hwl8WubnO-M",
+      "terms": [
+        "chronic kidney disease",
+        "ckd",
+        "renal failure",
+        "epoetin",
+        "erythropoietin",
+        "creatinine",
+        "bun"
+      ]
     }
   ],
   "Fluid, Electrolyte, and Acid-Base Balance": [
     {
       "title": "Fluid and Electrolytes Nursing Review: Comprehensive",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/fluid-and-electrolytes-nursing-review-comprehensive/"
+      "url": "https://www.registerednursern.com/fluid-and-electrolytes-nursing-review-comprehensive/",
+      "embedId": "-6b8svtDWys",
+      "terms": [
+        "fluid and electrolytes",
+        "hyperkalemia",
+        "hypokalemia",
+        "hyponatremia",
+        "calcium",
+        "magnesium",
+        "potassium",
+        "sodium"
+      ]
     },
     {
       "title": "ABG Interpretation Nursing Explained",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/arterial-blood-gas-interpretation-for-nurses-and-nursing-students/"
+      "url": "https://www.registerednursern.com/arterial-blood-gas-interpretation-for-nurses-and-nursing-students/",
+      "embedId": "mmgOyIr5oek",
+      "terms": [
+        "abg",
+        "arterial blood gas",
+        "ph",
+        "paco2",
+        "hco3",
+        "respiratory acidosis",
+        "metabolic acidosis",
+        "alkalosis"
+      ]
     }
   ],
   "Diuretics and Renal Medications": [
     {
       "title": "Loop Diuretics NCLEX Pharmacology Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/loop-diuretics-nclex-pharmacology-review/"
+      "url": "https://www.registerednursern.com/loop-diuretics-nclex-pharmacology-review/",
+      "embedId": "FdBIwinibig",
+      "terms": [
+        "loop diuretic",
+        "loop diuretics",
+        "furosemide",
+        "diuresis",
+        "hypokalemia",
+        "ototoxicity",
+        "pulmonary edema"
+      ]
     },
     {
       "title": "Potassium-Sparing Diuretics Pharmacology NCLEX Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/potassium-sparing-diuretics-pharmacology-nclex-review/"
+      "url": "https://www.registerednursern.com/potassium-sparing-diuretics-pharmacology-nclex-review/",
+      "embedId": "xk81HqQQBqs",
+      "terms": [
+        "potassium-sparing diuretic",
+        "potassium sparing diuretic",
+        "spironolactone",
+        "aldosterone antagonist",
+        "hyperkalemia"
+      ]
+    },
+    {
+      "title": "Thiazide Diuretics Pharmacology Nursing NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/thiazide-diuretics-pharmacology-nclex-review/",
+      "embedId": "xCjcuWEACws",
+      "terms": [
+        "thiazide diuretic",
+        "thiazide diuretics",
+        "hydrochlorothiazide",
+        "hctz",
+        "hypokalemia",
+        "hyponatremia",
+        "hyperglycemia"
+      ]
     }
   ],
   "GI Anatomy, Digestion, and Absorption": [
@@ -246,12 +487,34 @@
     {
       "title": "Peptic Ulcer Disease NCLEX Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/peptic-ulcer-disease-nclex-review/"
+      "url": "https://www.registerednursern.com/peptic-ulcer-disease-nclex-review/",
+      "embedId": "u94FEb_69G4",
+      "terms": [
+        "peptic ulcer disease",
+        "pud",
+        "gastric ulcer",
+        "duodenal ulcer",
+        "h pylori",
+        "nsaid",
+        "omeprazole",
+        "famotidine"
+      ]
     },
     {
       "title": "Peptic Ulcer Disease NCLEX Practice Quiz",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/peptic-ulcer-disease-nclex-practice-quiz/"
+      "url": "https://www.registerednursern.com/peptic-ulcer-disease-nclex-practice-quiz/",
+      "embedId": "u94FEb_69G4",
+      "terms": [
+        "peptic ulcer disease",
+        "pud",
+        "gastric ulcer",
+        "duodenal ulcer",
+        "h pylori",
+        "nsaid",
+        "omeprazole",
+        "famotidine"
+      ]
     }
   ],
   "Bowel Motility, Nausea, Vomiting, and Elimination": [
@@ -275,12 +538,30 @@
     {
       "title": "Iron-Deficiency Anemia NCLEX Questions",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/iron-deficiency-anemia-nclex-questions/"
+      "url": "https://www.registerednursern.com/iron-deficiency-anemia-nclex-questions/",
+      "embedId": "Q3b-Vsh5NEo",
+      "terms": [
+        "iron-deficiency anemia",
+        "iron deficiency anemia",
+        "microcytic anemia",
+        "ferrous sulfate",
+        "hemoglobin",
+        "hematocrit",
+        "fatigue"
+      ]
     },
     {
       "title": "Pernicious Anemia NCLEX Review Notes",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/pernicious-anemia-nclex-review-notes/"
+      "url": "https://www.registerednursern.com/pernicious-anemia-nclex-review-notes/",
+      "embedId": "1PG2VJzVTrs",
+      "terms": [
+        "pernicious anemia",
+        "vitamin b12",
+        "macrocytic anemia",
+        "numbness",
+        "tingling"
+      ]
     }
   ],
   "Leukocytes, Leukemia, and Lymphoma": [
@@ -299,41 +580,132 @@
     {
       "title": "Anticoagulants Pharmacology Nursing NCLEX Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/anticoagulants-pharmacology-nursing-nclex-review/"
+      "url": "https://www.registerednursern.com/anticoagulants-pharmacology-nursing-nclex-review/",
+      "embedId": "Cnx2_uQFOEg",
+      "terms": [
+        "anticoagulant",
+        "anticoagulants",
+        "warfarin",
+        "heparin",
+        "enoxaparin",
+        "rivaroxaban",
+        "bleeding",
+        "inr",
+        "aptt"
+      ]
     },
     {
       "title": "Heparin Nursing Pharmacology NCLEX Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/heparin-nursing-pharmacology-nclex-review-anticoagulant/"
+      "url": "https://www.registerednursern.com/heparin-nursing-pharmacology-nclex-review-anticoagulant/",
+      "embedId": "L_9OPbqxbmU",
+      "terms": [
+        "heparin",
+        "unfractionated heparin",
+        "aptt",
+        "protamine",
+        "bleeding",
+        "anticoagulant"
+      ]
     },
     {
       "title": "Heparin vs. Warfarin Nursing NCLEX Review",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/heparin-vs-warfarin-nursing-nclex-review/"
+      "url": "https://www.registerednursern.com/heparin-vs-warfarin-nursing-nclex-review/",
+      "embedId": "SUXQnCyTIsU",
+      "terms": [
+        "heparin",
+        "warfarin",
+        "inr",
+        "aptt",
+        "vitamin k",
+        "protamine",
+        "anticoagulant"
+      ]
     }
   ],
   "Endocrine and Adrenal Disorders": [
     {
       "title": "Addison's Disease vs. Cushing's Review Notes for NCLEX",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/addisons-disease-vs-cushings-review-notes-for-nclex/"
+      "url": "https://www.registerednursern.com/addisons-disease-vs-cushings-review-notes-for-nclex/",
+      "embedId": "w_I-8aKaq68",
+      "terms": [
+        "addison disease",
+        "cushing syndrome",
+        "adrenal insufficiency",
+        "cortisol",
+        "prednisone",
+        "hydrocortisone"
+      ]
     },
     {
       "title": "Cushing's Disease/Syndrome NCLEX Questions",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/cushings-disease-syndrome-nclex-questions/"
+      "url": "https://www.registerednursern.com/cushings-disease-syndrome-nclex-questions/",
+      "embedId": "PFkzzkpzCqU",
+      "terms": [
+        "cushing disease",
+        "cushing syndrome",
+        "cortisol",
+        "prednisone",
+        "hyperglycemia",
+        "moon face"
+      ]
     }
   ],
   "Diabetes and Glucose Regulation": [
     {
       "title": "Diabetes Mellitus NCLEX Review Notes, Medications, and Nursing Management",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/diabetes-mellitus-nclex-review-notes-medications-nursing-management/"
+      "url": "https://www.registerednursern.com/diabetes-mellitus-nclex-review-notes-medications-nursing-management/",
+      "embedId": "bK82X1KrCgg",
+      "terms": [
+        "diabetes mellitus",
+        "type 1 diabetes",
+        "type 2 diabetes",
+        "insulin",
+        "metformin",
+        "hyperglycemia",
+        "hypoglycemia",
+        "dka",
+        "hhns"
+      ]
     },
     {
       "title": "Diabetes Mellitus Pharmacology and Nursing Management NCLEX Quiz",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/diabetes-mellitus-pharmacology-nursing-management-nclex-quiz/"
+      "url": "https://www.registerednursern.com/diabetes-mellitus-pharmacology-nursing-management-nclex-quiz/",
+      "embedId": "bK82X1KrCgg",
+      "terms": [
+        "diabetes mellitus",
+        "diabetes pharmacology",
+        "insulin",
+        "metformin",
+        "sglt2 inhibitor",
+        "glp-1 receptor agonist",
+        "hyperglycemia",
+        "hypoglycemia"
+      ]
+    },
+    {
+      "title": "Insulin Types Pharmacology Nursing NCLEX Mnemonics",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.youtube.com/watch?v=l2zqZl9T-74",
+      "embedId": "l2zqZl9T-74",
+      "terms": [
+        "insulin types",
+        "rapid-acting insulin",
+        "short-acting insulin",
+        "intermediate-acting insulin",
+        "long-acting insulin",
+        "regular insulin",
+        "nph insulin",
+        "insulin lispro",
+        "insulin aspart",
+        "insulin glargine",
+        "insulin detemir"
+      ]
     }
   ],
   "Anti-Infective Pharmacology and Antibiotic Safety": [
@@ -345,7 +717,206 @@
     {
       "title": "Antibiotics Nursing Pharmacology Questions",
       "source": "RegisteredNurseRN",
-      "url": "https://www.registerednursern.com/antibiotics-nursing-pharmacology-questions/"
+      "url": "https://www.registerednursern.com/antibiotics-nursing-pharmacology-questions/",
+      "embedId": "k3d1e8C2pPY",
+      "terms": [
+        "antibiotic",
+        "antibiotics",
+        "anti-infective",
+        "bacterial infection",
+        "culture and sensitivity",
+        "superinfection"
+      ]
+    },
+    {
+      "title": "Penicillin Pharmacology Nursing Antibiotics Review NCLEX",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/penicillin-antibiotics-nclex/",
+      "embedId": "DDKVHGjybCM",
+      "terms": [
+        "penicillin",
+        "penicillins",
+        "amoxicillin",
+        "beta-lactam",
+        "cell-wall synthesis",
+        "hypersensitivity"
+      ]
+    },
+    {
+      "title": "Cephalosporins Pharmacology Nursing Antibiotics NCLEX",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/cephalosporin-antibiotics-nclex/",
+      "embedId": "JcO3YU8lXE0",
+      "terms": [
+        "cephalosporin",
+        "cephalosporins",
+        "cefazolin",
+        "cephalexin",
+        "beta-lactam",
+        "cell-wall synthesis",
+        "hypersensitivity"
+      ]
+    },
+    {
+      "title": "Aminoglycosides Pharmacology Nursing Antibiotics",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/aminoglycosides-antibiotics-nursing/",
+      "embedId": "-emTgMCxq8g",
+      "terms": [
+        "aminoglycoside",
+        "aminoglycosides",
+        "gentamicin",
+        "protein synthesis",
+        "nephrotoxicity",
+        "ototoxicity"
+      ]
+    },
+    {
+      "title": "Fluoroquinolones Pharmacology Nursing Mnemonic",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/fluoroquinolones-quinolones/",
+      "embedId": "QzYhR_bMIi8",
+      "terms": [
+        "fluoroquinolone",
+        "fluoroquinolones",
+        "ciprofloxacin",
+        "dna gyrase",
+        "tendonitis",
+        "tendon rupture",
+        "qt prolongation"
+      ]
+    },
+    {
+      "title": "Tetracycline Pharmacology Nursing Antibiotics NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/tetracyclines-antibiotics-nclex/",
+      "embedId": "wecQPB0eXGc",
+      "terms": [
+        "tetracycline",
+        "tetracyclines",
+        "doxycycline",
+        "protein synthesis",
+        "photosensitivity",
+        "calcium",
+        "iron",
+        "magnesium",
+        "dairy"
+      ]
+    },
+    {
+      "title": "Macrolides Pharmacology Antibiotics Nursing",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/macrolides-antibiotics-nclex/",
+      "embedId": "0J6NM-X7m44",
+      "terms": [
+        "macrolide",
+        "macrolides",
+        "erythromycin",
+        "azithromycin",
+        "protein synthesis",
+        "qt prolongation",
+        "digoxin",
+        "warfarin"
+      ]
+    },
+    {
+      "title": "Glycopeptide Antibiotics Pharmacology Nursing NCLEX",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/glycopeptide-antibiotics-nclex/",
+      "embedId": "r73Fx7EX2Mw",
+      "terms": [
+        "glycopeptide",
+        "glycopeptide antibiotics",
+        "vancomycin",
+        "mrsa",
+        "c difficile",
+        "nephrotoxicity",
+        "ototoxicity",
+        "vancomycin flushing syndrome"
+      ]
+    },
+    {
+      "title": "Carbapenems Pharmacology Antibiotics Nursing NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/carbapenem-antibiotics-nclex-nursing/",
+      "embedId": "emns6a9gXjk",
+      "terms": [
+        "carbapenem",
+        "carbapenems",
+        "ertapenem",
+        "imipenem",
+        "meropenem",
+        "beta-lactam",
+        "seizure risk",
+        "multidrug-resistant"
+      ]
+    },
+    {
+      "title": "Sulfonamides Pharmacology Nursing Antibiotics NCLEX Review",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/sulfonamdies-antibiotics-nclex/",
+      "embedId": "OYmb9FTxikg",
+      "terms": [
+        "sulfonamide",
+        "sulfonamides",
+        "trimethoprim-sulfamethoxazole",
+        "bactrim",
+        "folic acid",
+        "hyperkalemia",
+        "photosensitivity",
+        "sjs"
+      ]
+    }
+  ],
+  "Nervous System and Mental Health Pharmacology": [
+    {
+      "title": "SSRI Antidepressants: Selective Serotonin Reuptake Inhibitors",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.youtube.com/watch?v=iRs9tbUAHAc",
+      "embedId": "iRs9tbUAHAc",
+      "terms": [
+        "ssri",
+        "selective serotonin reuptake inhibitor",
+        "fluoxetine",
+        "serotonin",
+        "serotonin syndrome",
+        "depression",
+        "anxiety",
+        "ocd",
+        "pmdd"
+      ]
+    },
+    {
+      "title": "Benzodiazepines Pharmacology: Anxiety Medication Sedative Nursing NCLEX",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.youtube.com/watch?v=mLmfLhs0ehk",
+      "embedId": "mLmfLhs0ehk",
+      "terms": [
+        "benzodiazepine",
+        "benzodiazepines",
+        "alprazolam",
+        "diazepam",
+        "gaba",
+        "anxiety",
+        "panic attack",
+        "sedation",
+        "respiratory depression"
+      ]
+    },
+    {
+      "title": "Parkinson Disease Symptoms, Treatment, Nursing Care, Pathophysiology",
+      "source": "RegisteredNurseRN",
+      "url": "https://www.registerednursern.com/parkinsons-disease-nclex-review/",
+      "embedId": "pmCpvb32pWo",
+      "terms": [
+        "parkinson disease",
+        "parkinson",
+        "levodopa-carbidopa",
+        "dopamine",
+        "tremor",
+        "rigidity",
+        "bradykinesia"
+      ]
     }
   ]
 }
