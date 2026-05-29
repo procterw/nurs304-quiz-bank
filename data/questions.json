@@ -27462,5 +27462,706 @@
       "Teach delayed onset and monitor suicidality, serotonin syndrome, bleeding risk, QT risk, and abrupt stopping."
     ],
     "rationale": "For Fluoxetine, teach delayed onset and monitor suicidality, serotonin syndrome, bleeding risk, QT risk, and abrupt stopping. These checks target GI upset, drowsiness or nervousness, and sexual dysfunction. The other options describe teaching or monitoring for different drug classes: Salicylates, Non-narcotic analgesic antipyretics, and Nonsteroidal anti-inflammatory drugs."
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "Which client should not start a glucocorticoid therapy as ordered at 8 a.m.?",
+    "options": [
+      "The client with asthma",
+      "The client with sepsis",
+      "The client with chronic obstructive pulmonary disease (COPD)",
+      "The client with a neuromuscular disease"
+    ],
+    "correctAnswers": [
+      "The client with sepsis"
+    ],
+    "rationale": "Glucocorticoids suppress immune and inflammatory responses and require caution when infection is present. Asthma and COPD are common indications for corticosteroid therapy, and some neuromuscular conditions may use glucocorticoids depending on the diagnosis and order.",
+    "id": 1115,
+    "subtopic": "Adrenal Hormones and Corticosteroids"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "A patient with Clostridioides difficile colitis is prescribed vancomycin. Which route of administration should the nurse expect?",
+    "options": [
+      "Intravenous (IV)",
+      "Oral (PO)",
+      "Intramuscular (IM)",
+      "Subcutaneous (SQ)"
+    ],
+    "correctAnswers": [
+      "Oral (PO)"
+    ],
+    "rationale": "Vancomycin for C. difficile colitis is given orally so the medication reaches the intestinal lumen. IV vancomycin is used for systemic infections but does not treat C. difficile colitis effectively in the bowel lumen.",
+    "id": 1117,
+    "subtopic": "Antibiotics and Superinfection"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory",
+    "category": "A&P",
+    "type": "Multiple Answer",
+    "stem": "An adult client with newly diagnosed asthma presents for client education regarding situations that could precipitate an asthma attack. In this teaching, which precipitants would the nurse state may trigger an attack? Select all that apply.",
+    "options": [
+      "Warm weather",
+      "Allergens",
+      "Cigarette smoke",
+      "Mold",
+      "Exercise"
+    ],
+    "correctAnswers": [
+      "Allergens",
+      "Cigarette smoke",
+      "Mold",
+      "Exercise"
+    ],
+    "rationale": "Asthma attacks may be triggered by allergens, smoke or irritants, mold, and exercise. Warm weather alone is not a classic trigger compared with cold air, allergens, infection, irritants, or exertion.",
+    "id": 1118,
+    "subtopic": "Asthma and Bronchodilator Therapy"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "The healthcare provider adjusts the gentamicin dose. The nurse reviews new lab orders for serum creatinine every 48 hours. Why is this monitoring necessary?",
+    "options": [
+      "To evaluate kidney function and drug clearance",
+      "To monitor liver function",
+      "To confirm antibiotic effectiveness",
+      "To prevent dehydration"
+    ],
+    "correctAnswers": [
+      "To evaluate kidney function and drug clearance"
+    ],
+    "rationale": "Gentamicin is nephrotoxic and is cleared by the kidneys, so serum creatinine helps monitor renal function and drug clearance. Creatinine does not directly confirm antibiotic effectiveness or liver function.",
+    "id": 1119,
+    "subtopic": "Aminoglycosides and Drug Monitoring"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "The nurse prepares to draw the peak level for gentamicin. When should this blood sample be obtained?",
+    "options": [
+      "30-60 minutes after completing the IV infusion",
+      "Two hours before the next scheduled dose",
+      "Once the infusion starts",
+      "Immediately before administering the next dose"
+    ],
+    "correctAnswers": [
+      "30-60 minutes after completing the IV infusion"
+    ],
+    "rationale": "Gentamicin peak levels are commonly drawn shortly after the infusion is complete to evaluate the highest serum concentration. Trough levels are drawn immediately before the next dose.",
+    "id": 1120,
+    "subtopic": "Aminoglycosides and Drug Monitoring"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "A nurse is reinforcing teaching for a client newly prescribed metformin for type 2 diabetes mellitus. The nurse should instruct the client to immediately report which potential adverse effect associated with this medication?",
+    "options": [
+      "Signs of thyroid C-cell tumor such as neck swelling or hoarseness",
+      "Symptoms of lactic acidosis such as muscle pain, fatigue, and rapid breathing",
+      "Episodes of hypoglycemia such as shakiness and sweating",
+      "Burning sensation with urination and cloudy urine"
+    ],
+    "correctAnswers": [
+      "Symptoms of lactic acidosis such as muscle pain, fatigue, and rapid breathing"
+    ],
+    "rationale": "Metformin has a rare but serious risk for lactic acidosis, which may cause malaise, muscle pain, fatigue, abdominal discomfort, and rapid breathing. Thyroid C-cell tumor warnings are associated with some GLP-1 receptor agonists, and urinary/genital infection risks are more associated with SGLT2 inhibitors.",
+    "id": 1121,
+    "subtopic": "Diabetes and Antidiabetic Medications"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "The nurse explains the purpose of peak and trough monitoring to the client. Which statement shows correct understanding?",
+    "options": [
+      "The trough level shows the lowest drug amount in my blood before the next dose.",
+      "The trough level checks if I’m allergic to the medication.",
+      "The peak level tells how much drug is left before my next infusion.",
+      "The peak level checks how much kidney function I have."
+    ],
+    "correctAnswers": [
+      "The trough level shows the lowest drug amount in my blood before the next dose."
+    ],
+    "rationale": "The trough is the lowest serum drug level and is drawn just before the next dose. The peak is the highest level after administration and does not measure kidney function or allergy.",
+    "id": 1122,
+    "subtopic": "Aminoglycosides and Drug Monitoring"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 2,
+    "weekLabel": "Week 2",
+    "topic": "Cardiovascular Pathopharmacology",
+    "system": "Cardiovascular",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "The nurse knows that which class of drugs prevents epinephrine and norepinephrine from occupying receptor sites on the cell membranes?",
+    "options": [
+      "Beta-blocking agonist",
+      "Beta-adrenergic drugs",
+      "Beta-adrenergic blocking drugs",
+      "Beta-helping drugs"
+    ],
+    "correctAnswers": [
+      "Beta-adrenergic blocking drugs"
+    ],
+    "rationale": "Beta-adrenergic blocking drugs block beta receptor sites so epinephrine and norepinephrine cannot produce their usual beta-mediated effects. Beta-adrenergic drugs or agonists stimulate rather than block receptors.",
+    "id": 1123,
+    "subtopic": "Beta Blockers and Adrenergic Pharmacology"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "What serious adverse effect is most associated with amphotericin B?",
+    "options": [
+      "Hypovolemia",
+      "Cardiogenic shock",
+      "Septic shock",
+      "Nephrotoxicity"
+    ],
+    "correctAnswers": [
+      "Nephrotoxicity"
+    ],
+    "rationale": "Amphotericin B is strongly associated with nephrotoxicity, so renal function and electrolytes require close monitoring. Shock and hypovolemia are not the classic primary adverse effect tested for this medication.",
+    "id": 1124,
+    "subtopic": "Antifungals and Antivirals"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "A nurse is reviewing the health record of a client for whom antimalarial therapy is being proposed. The nurse should identify what aspect of the client’s history as contraindicating the use of antimalarials?",
+    "options": [
+      "Liver disease",
+      "Sensorineural hearing loss",
+      "Atherosclerosis",
+      "Type 2 diabetes"
+    ],
+    "correctAnswers": [
+      "Liver disease"
+    ],
+    "rationale": "Many antimalarials require caution or avoidance with significant liver disease because hepatic metabolism and hepatotoxicity risk may be clinically important. Hearing loss, atherosclerosis, and type 2 diabetes are not the broad contraindication emphasized here.",
+    "id": 1126,
+    "subtopic": "Antimalarials and Antiparasitics"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "Before administering the next scheduled dose of IV gentamicin, the nurse reviews the client’s lab results:\n\nBUN: 38 mg/dL (normal is 6 to 20 mg/dL)\n\nCreatinine: 2.2 mg/dL (normal is 0.6 to 1.3 mg/dL)\n\nTrough gentamicin level: 3 mcg/mL (normal: <2 mcg/mL)\n\nWhich action should the nurse take?",
+    "options": [
+      "Administer the medication at a slower infusion rate",
+      "Hold the dose and notify the healthcare provider of the elevated trough level",
+      "Encourage the client to increase oral fluids and continue therapy",
+      "Administer the scheduled dose and monitor renal function"
+    ],
+    "correctAnswers": [
+      "Hold the dose and notify the healthcare provider of the elevated trough level"
+    ],
+    "rationale": "The elevated trough level plus elevated BUN and creatinine suggest gentamicin accumulation and renal impairment. The nurse should hold the dose and notify the provider rather than giving the scheduled dose.",
+    "id": 1127,
+    "subtopic": "Aminoglycosides and Drug Monitoring"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "A client has been on an antibiotic for two weeks for treatment of an infection. The client asks the nurse why a superinfection has been caused by this medication. What is the nurse's best response?",
+    "options": [
+      "The antibiotics are only effective in killing off some of the bacteria in the body.",
+      "Antibiotics can disrupt the normal bacteria in your body, but should not cause an infection.",
+      "Antibiotics can disrupt the normal bacteria in your body, causing another infection to occur.",
+      "The antibiotics are only effective against some types of bacteria."
+    ],
+    "correctAnswers": [
+      "Antibiotics can disrupt the normal bacteria in your body, causing another infection to occur."
+    ],
+    "rationale": "Antibiotics can disrupt normal flora, allowing opportunistic organisms to overgrow and cause a superinfection. This is different from the medication simply being ineffective against some organisms.",
+    "id": 1128,
+    "subtopic": "Antibiotics and Superinfection"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "A nurse is reviewing potential adverse effects of GLP-1 receptor agonists with a client. Which finding requires immediate notification of the healthcare provider?",
+    "options": [
+      "Constipation",
+      "Severe, persistent epigastric pain",
+      "Nausea and decreased appetite",
+      "Diarrhea"
+    ],
+    "correctAnswers": [
+      "Severe, persistent epigastric pain"
+    ],
+    "rationale": "Severe, persistent epigastric pain may indicate pancreatitis, a serious adverse effect that requires prompt provider notification. Nausea, decreased appetite, constipation, and diarrhea are common GI effects but are less urgent unless severe or persistent.",
+    "id": 1129,
+    "subtopic": "Diabetes and Antidiabetic Medications"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-partially-inferred; answer choices not visible in pasted text",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology / Electrolytes",
+    "system": "Renal",
+    "category": "Medication",
+    "type": "Fill in the Blank",
+    "stem": "The nurse is caring for an older adult client on a medical floor with a bowel obstruction who is taking nothing by mouth (NPO). The client has a medical history of hypertension and myocardial infarction. The nurse is preparing to administer a loop diuretic, furosemide 40 mg IV push with a rate of 20 mg/min. The nurse should first ____ and then ____.",
+    "blanks": [
+      {
+        "label": "First action",
+        "answers": [
+          "assess blood pressure",
+          "check blood pressure",
+          "assess the blood pressure",
+          "check the client’s blood pressure"
+        ]
+      },
+      {
+        "label": "Then",
+        "answers": [
+          "administer furosemide over 2 minutes",
+          "administer the furosemide over 2 minutes",
+          "administer furosemide at 20 mg/min",
+          "give furosemide at 20 mg/min"
+        ]
+      }
+    ],
+    "correctAnswers": [
+      "assess blood pressure",
+      "administer furosemide over 2 minutes"
+    ],
+    "rationale": "Before IV furosemide, the nurse should assess for safety concerns such as blood pressure because loop diuretics can lower volume and blood pressure. A 40 mg IV push dose at 20 mg/min is administered over about 2 minutes. The original pasted item did not include the dropdown choices, so accepted answers were inferred from the visible stem.",
+    "id": 1130,
+    "subtopic": "Diuretics and Fluid Balance"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "stem": "When the use of antihistamines result in dryness of the mouth, the nurse should recommend which to relieve the dryness? Select all that apply.",
+    "options": [
+      "Offer ice chips.",
+      "Suck on sugarless hard candy.",
+      "Administer intravenous fluid bolus.",
+      "Take frequent sips of water.",
+      "Use a dehumidifier in the home."
+    ],
+    "correctAnswers": [
+      "Offer ice chips.",
+      "Suck on sugarless hard candy.",
+      "Take frequent sips of water."
+    ],
+    "rationale": "Dry mouth from antihistamines can be relieved with ice chips, sugarless hard candy, and frequent sips of water. IV fluid bolus is not appropriate for routine medication-related dry mouth, and a dehumidifier would worsen dryness.",
+    "id": 1131,
+    "subtopic": "Antihistamines and Allergy Pharmacology"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "A nurse is providing discharge education to a client prescribed a SGLT-2i. Which client statement indicates a need for further teaching?",
+    "options": [
+      "I should monitor my feet regularly for any sores or cuts.",
+      "This medication may help reduce my risk of heart failure hospitalization.",
+      "It’s safe to keep taking this medication if I develop diabetic ketoacidosis.",
+      "I need to drink enough fluids to prevent dehydration."
+    ],
+    "correctAnswers": [
+      "It’s safe to keep taking this medication if I develop diabetic ketoacidosis."
+    ],
+    "rationale": "SGLT2 inhibitors should not be continued as if routine therapy is safe during diabetic ketoacidosis; DKA requires urgent evaluation and treatment. Hydration, foot monitoring, and heart-failure benefits may be appropriate teaching points depending on the client.",
+    "id": 1132,
+    "subtopic": "Diabetes and Antidiabetic Medications"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "During morning rounds, the client reports ringing in the ears and mild dizziness. Which action should the nurse take?",
+    "options": [
+      "Administer an antiemetic for dizziness",
+      "Reassure the client this is temporary",
+      "Hold the medication and notify the healthcare provider",
+      "Document findings as expected"
+    ],
+    "correctAnswers": [
+      "Hold the medication and notify the healthcare provider"
+    ],
+    "rationale": "Ringing in the ears and dizziness can indicate ototoxicity, a serious concern with drugs such as aminoglycosides. The nurse should hold the medication and notify the provider rather than dismissing or treating the symptom alone.",
+    "id": 1134,
+    "subtopic": "Aminoglycosides and Drug Monitoring"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "A client with type 1 diabetes has been prescribed insulin glargine for the first time. What will the nurse teach the client about this medication?",
+    "options": [
+      "If successful, this will eliminate your need to take other forms of insulin.",
+      "It’s important to eat at least every 2 hours while taking insulin glargine.",
+      "It will be important to time administration carefully around your meal schedule.",
+      "This insulin will provide a steady amount of insulin over 24 hours."
+    ],
+    "correctAnswers": [
+      "This insulin will provide a steady amount of insulin over 24 hours."
+    ],
+    "rationale": "Insulin glargine is a long-acting basal insulin that provides relatively steady coverage over about 24 hours. It does not replace all mealtime insulin needs in type 1 diabetes and is not timed around meals like rapid-acting insulin.",
+    "id": 1135,
+    "subtopic": "Diabetes and Antidiabetic Medications"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "A nurse is reviewing a client’s medication list and notes a prescription for acyclovir. The nurse recognizes that this medication is primarily used to treat which condition?",
+    "options": [
+      "Influenza A virus infection",
+      "Fungal skin infection",
+      "Herpes simplex virus infection",
+      "Bacterial pneumonia"
+    ],
+    "correctAnswers": [
+      "Herpes simplex virus infection"
+    ],
+    "rationale": "Acyclovir is an antiviral used for herpesvirus infections such as herpes simplex and varicella-zoster. It does not treat fungal infections or bacterial pneumonia, and influenza is treated with different antivirals when indicated.",
+    "id": 1136,
+    "subtopic": "Antifungals and Antivirals"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "stem": "A client newly diagnosed with type 1 diabetes asks the nurse why the client cannot just take a pill. The nurse would incorporate what knowledge when responding to this client?",
+    "options": [
+      "The insulin is more effective in establishing control of blood glucose levels initially.",
+      "More insulin is needed than that which the client can produce naturally.",
+      "Insulin is needed because the beta cells of the pancreas are no longer functioning.",
+      "The client most likely does not exercise enough to control their glucose levels."
+    ],
+    "correctAnswers": [
+      "Insulin is needed because the beta cells of the pancreas are no longer functioning."
+    ],
+    "rationale": "Type 1 diabetes involves autoimmune destruction of pancreatic beta cells, causing absolute insulin deficiency. Oral medications cannot replace the insulin that the body is no longer producing.",
+    "id": 1137,
+    "subtopic": "Diabetes and Antidiabetic Medications"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 4,
+    "weekLabel": "Week 4",
+    "topic": "Renal Pathopharmacology / Electrolytes",
+    "system": "Renal",
+    "category": "A&P",
+    "type": "Multiple Choice",
+    "stem": "A patient receiving isotonic fluids (0.9% NaCl) suddenly develops shortness of breath and crackles. What should the nurse suspect?",
+    "options": [
+      "Dehydration",
+      "Hyponatremia",
+      "Fluid overload",
+      "Hypovolemia"
+    ],
+    "correctAnswers": [
+      "Fluid overload"
+    ],
+    "rationale": "Shortness of breath and crackles during IV fluid administration suggest fluid overload with pulmonary congestion. Dehydration and hypovolemia would be less consistent with new crackles after fluids.",
+    "id": 1138,
+    "subtopic": "Fluid Balance and IV Fluids"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 3,
+    "weekLabel": "Week 3",
+    "topic": "Pulmonary Pathopharmacology",
+    "system": "Respiratory",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "Which drug is primarily indicated for emergency treatment of anaphylaxis and is available in autoinjectors such as the EpiPen or Auvi-Q?",
+    "options": [
+      "Epinephrine",
+      "Norepinephrine",
+      "Dobutamine",
+      "Ephedrine"
+    ],
+    "correctAnswers": [
+      "Epinephrine"
+    ],
+    "rationale": "Epinephrine is the first-line emergency medication for anaphylaxis and is available in autoinjectors. Norepinephrine and dobutamine are used for selected hemodynamic support, and ephedrine is not the standard autoinjector treatment for anaphylaxis.",
+    "id": 1139,
+    "subtopic": "Hypersensitivity and Anaphylaxis"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 8,
+    "weekLabel": "Week 8",
+    "topic": "Infection Pathopharmacology",
+    "system": "Infection",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "A client prescribed azithromycin has not demonstrated expected improvement. What question will the nurse ask to best determine the possible cause for this lack of therapeutic progress?",
+    "options": [
+      "Where are you storing your medication bottle?",
+      "Have you been taking the medication as prescribed?",
+      "Have you experienced any nausea since beginning the drug therapy?",
+      "Have you had good results when taking azithromycin in the past?"
+    ],
+    "correctAnswers": [
+      "Have you been taking the medication as prescribed?"
+    ],
+    "rationale": "When expected improvement is not occurring, adherence is a priority assessment because missed or incorrectly timed doses can lead to subtherapeutic exposure. Storage, nausea, and past experience may matter but do not best assess the immediate cause of lack of progress.",
+    "id": 1140,
+    "subtopic": "Antibiotics and Superinfection"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 7,
+    "weekLabel": "Week 7",
+    "topic": "Endocrine Pathopharmacology",
+    "system": "Endocrine",
+    "category": "Medication",
+    "type": "Multiple Answer",
+    "stem": "A nurse educating a client and their family about levothyroxine (Synthroid) for the treatment of hypothyroidism should advise the client to contact the health care provider if which occur? (Select all that apply.)",
+    "options": [
+      "Constipation",
+      "Palpitation",
+      "Chest pain",
+      "Significant weight changes",
+      "Excessive diaphoresis (sweating)"
+    ],
+    "correctAnswers": [
+      "Palpitation",
+      "Chest pain",
+      "Significant weight changes",
+      "Excessive diaphoresis (sweating)"
+    ],
+    "rationale": "Palpitations, chest pain, excessive sweating, and significant weight changes can indicate excessive thyroid replacement or cardiac stress and should be reported. Constipation is more consistent with undertreated hypothyroidism rather than excess levothyroxine effect.",
+    "id": 1142,
+    "subtopic": "Thyroid Disorders and Thyroid Replacement"
+  },
+  {
+    "difficulty": "Course-level",
+    "source": "Pasted course quiz questions: 2026-05-28",
+    "sourceType": "Course",
+    "sourceConfidence": "pasted-course-quiz-answer-key-inferred",
+    "sourceDetail": "Question text and answer choices were pasted by the user; answer keys were inferred from NURS 304 course content because no Canvas feedback key was provided.",
+    "auditNote": "2026-05-28 pasted-course-quiz-entry; answers inferred from provided quiz options and course materials",
+    "week": 6,
+    "weekLabel": "Week 6",
+    "topic": "Hematology Pathopharmacology",
+    "system": "Hematology",
+    "category": "Medication",
+    "type": "Multiple Choice",
+    "stem": "A 79-year-old client who takes several medications for a variety of chronic health problems has been prescribed an oral antiplatelet aggregator that is to be taken once daily. The nurse has encouraged the client to take the pill at the same time of day that they take some of their other medications. What is the most likely rationale for the nurse's advice?",
+    "options": [
+      "Rapid drug clearance fostered when a client is able to minimize the number of drug administration times.",
+      "Integrating the new drug into the client's existing schedule promotes adherence.",
+      "Taking several drugs at one time maximizes recovery time for the liver and kidneys",
+      "Combining a new drug with one or more existing drugs mitigates the risk of adverse effects."
+    ],
+    "correctAnswers": [
+      "Integrating the new drug into the client's existing schedule promotes adherence."
+    ],
+    "rationale": "Linking a once-daily medication with an existing routine can improve adherence, especially for an older adult taking several medications. Taking medications together does not necessarily improve clearance, protect the liver or kidneys, or reduce adverse effects.",
+    "id": 1143,
+    "subtopic": "Antiplatelets and Medication Safety"
   }
 ]
