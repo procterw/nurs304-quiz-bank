@@ -54,6 +54,7 @@
 
             <section id="feedback" class="feedback hidden" aria-live="polite"></section>
             <div class="question-id-row" aria-label="Question actions">
+              <button id="flagQuestionButton" type="button" aria-pressed="false">Flag for review</button>
               <button id="reportQuestionButton" type="button">Report weird / bad question</button>
               <span id="reportQuestionStatus" class="question-report-status" aria-live="polite"></span>
             </div>
@@ -90,6 +91,14 @@
               <label id="sourceFilterField" class="field">
                 <span>Source</span>
                 <select id="sourceFilter"></select>
+              </label>
+
+              <label class="field">
+                <span>Review</span>
+                <select id="reviewFilter">
+                  <option value="">Unanswered / incorrect</option>
+                  <option value="flagged">Flagged questions</option>
+                </select>
               </label>
 
               <button id="resetAnsweredButton" type="button">Reset answered questions</button>

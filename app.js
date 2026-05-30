@@ -10,10 +10,12 @@ const state = {
   studySupportVisible: false,
   answers: new Map(),
   answered: {},
+  flagged: {},
   optionOrders: new Map(),
 };
 
 const ANSWERED_STORAGE_KEY = "nurs304-answered-results-v4";
+const FLAGGED_STORAGE_KEY = "nurs304-flagged-questions-v1";
 const QUERY_PARAMS = new URLSearchParams(window.location.search);
 const SHOW_ALL_QUESTIONS = QUERY_PARAMS.has("all_questions");
 const SHOW_NEW_QUESTIONS = QUERY_PARAMS.has("new_questions");
@@ -715,12 +717,14 @@ const glossaryEntries = Object.entries(medicalTerms)
 const el = {
   week: document.getElementById("weekFilter"),
   source: document.getElementById("sourceFilter"),
+  review: document.getElementById("reviewFilter"),
   sourceField: document.getElementById("sourceFilterField"),
   emptyState: document.getElementById("emptyState"),
   emptyTitle: document.getElementById("emptyTitle"),
   emptyMessage: document.getElementById("emptyMessage"),
   questionCard: document.getElementById("questionCard"),
   questionStem: document.getElementById("questionStem"),
+  flagQuestion: document.getElementById("flagQuestionButton"),
   reportQuestion: document.getElementById("reportQuestionButton"),
   reportQuestionStatus: document.getElementById("reportQuestionStatus"),
   answerForm: document.getElementById("answerForm"),
@@ -739,7 +743,7 @@ const el = {
   questionsLeftCount: document.getElementById("questionsLeftCount"),
 };
 
-const filters = SHOW_SOURCE_FILTER ? [el.week, el.source] : [el.week];
+const filters = SHOW_SOURCE_FILTER ? [el.week, el.source, el.review] : [el.week, el.review];
 
 async function init() {
   try {
@@ -752,6 +756,7 @@ async function init() {
     state.questionById = new Map(state.questions.map((question) => [question.id, question]));
     shuffleInPlace(state.questions);
     state.answered = loadAnsweredResults();
+    state.flagged = loadFlaggedQuestions();
     buildFilters();
     bindEvents();
     applyFilters();
@@ -886,6 +891,7 @@ function bindEvents() {
   el.define.addEventListener("click", showStudySupport);
   el.previous.addEventListener("click", selectPrevious);
   el.next.addEventListener("click", selectNext);
+  el.flagQuestion.addEventListener("click", toggleCurrentQuestionFlag);
   el.reportQuestion.addEventListener("click", reportCurrentQuestion);
   el.submit.addEventListener("click", submitCurrentQuestion);
   el.resetAnswered.addEventListener("click", resetAnsweredQuestions);
@@ -927,7 +933,7 @@ function applyFilters() {
   const currentIdBeforeFiltering = state.currentId;
 
   state.filtered = state.questions.filter((question) => {
-    return matchesSelectedFilters(question, selected) && !isQuestionCompleted(question.id);
+    return matchesSelectedFilters(question, selected) && shouldIncludeQuestionByReviewState(question, selected.review);
   });
   shuffleInPlace(state.filtered);
 
@@ -978,6 +984,7 @@ function renderCurrentQuestion() {
   el.questionCard.classList.remove("hidden");
   el.previous.disabled = state.previousIds.length === 0;
   el.questionStem.textContent = question.stem;
+  renderFlagQuestionButton(question);
   renderReportQuestionStatus("");
   renderStudySupport(question);
   renderQuestionVideo(question);
@@ -1156,20 +1163,44 @@ function showFillAnswer(question) {
 
 function selectNext() {
   if (state.filtered.length === 0) {
-    state.currentId = null;
-    state.previousIds = [];
-    render();
+    startNextQuestionPass();
     return;
   }
 
-  shuffleCurrentQuestionBack();
-  const nextQuestion = state.filtered.find((question) => question.id !== state.currentId) ?? state.filtered[0];
-  const nextId = nextQuestion?.id ?? null;
-  if (state.currentId && nextId && nextId !== state.currentId) {
-    state.previousIds.push(state.currentId);
+  const previousId = state.currentId;
+  clearCurrentFlaggedReviewAnswer();
+  removeCurrentQuestionFromPass();
+
+  if (state.filtered.length === 0) {
+    startNextQuestionPass();
+  } else {
+    state.currentId = state.filtered[0]?.id ?? null;
   }
-  state.currentId = nextId;
+
+  if (previousId && state.currentId && state.currentId !== previousId) {
+    state.previousIds.push(previousId);
+  }
+
   render();
+}
+
+function removeCurrentQuestionFromPass() {
+  if (!state.currentId) return;
+  state.filtered = state.filtered.filter((question) => question.id !== state.currentId);
+}
+
+function startNextQuestionPass() {
+  const selected = getSelectedFilters();
+  state.filtered = state.questions.filter((question) => (
+    matchesSelectedFilters(question, selected) && shouldIncludeQuestionByReviewState(question, selected.review)
+  ));
+  shuffleInPlace(state.filtered);
+  state.currentId = state.filtered[0]?.id ?? null;
+}
+
+function clearCurrentFlaggedReviewAnswer() {
+  if (el.review.value !== "flagged" || !state.currentId) return;
+  state.answers.delete(state.currentId);
 }
 
 function selectPrevious() {
@@ -1246,18 +1277,26 @@ function getSelectedFilters() {
   return {
     week: el.week.value,
     source: SHOW_SOURCE_FILTER ? el.source.value : "",
+    review: el.review.value,
   };
 }
 
 function matchesSelectedFilters(question, selected) {
   if (selected.week && question._filterWeek !== selected.week) return false;
   if (selected.source && question._filterSource !== selected.source) return false;
+  if (selected.review === "flagged" && !isQuestionFlagged(question.id)) return false;
   return true;
+}
+
+function shouldIncludeQuestionByReviewState(question, reviewFilter) {
+  if (reviewFilter === "flagged") return isQuestionFlagged(question.id);
+  return !isQuestionCompleted(question.id);
 }
 
 function renderProgress() {
   const matchingQuestions = getMatchingQuestions();
-  const questionsLeft = matchingQuestions.filter((question) => !isQuestionCompleted(question.id)).length;
+  const selected = getSelectedFilters();
+  const questionsLeft = matchingQuestions.filter((question) => shouldIncludeQuestionByReviewState(question, selected.review)).length;
 
   el.questionsLeftCount.textContent = questionsLeft;
   el.resetAnswered.textContent = `Reset answered questions (${getAnsweredCount()})`;
@@ -1266,11 +1305,12 @@ function renderProgress() {
 function updateQuestionResult(questionId, isCorrect) {
   if (isCorrect) {
     state.answered[String(questionId)] = "correct";
-    state.filtered = state.filtered.filter((item) => item.id !== questionId);
+    if (el.review.value !== "flagged") {
+      state.filtered = state.filtered.filter((item) => item.id !== questionId);
+    }
   } else {
     delete state.answered[String(questionId)];
     state.answers.delete(questionId);
-    shuffleQuestionBack(questionId);
   }
   localStorage.setItem(ANSWERED_STORAGE_KEY, JSON.stringify(state.answered));
 }
@@ -1283,6 +1323,37 @@ function getAnsweredCount() {
   return Object.values(state.answered).filter((result) => result === "correct").length;
 }
 
+function toggleCurrentQuestionFlag() {
+  const question = getCurrentQuestion();
+  if (!question) return;
+
+  if (isQuestionFlagged(question.id)) {
+    delete state.flagged[String(question.id)];
+  } else {
+    state.flagged[String(question.id)] = true;
+  }
+
+  saveFlaggedQuestions();
+  renderFlagQuestionButton(question);
+
+  if (el.review.value === "flagged" && !isQuestionFlagged(question.id)) {
+    applyFilters();
+  } else {
+    renderProgress();
+  }
+}
+
+function renderFlagQuestionButton(question) {
+  const isFlagged = isQuestionFlagged(question.id);
+  el.flagQuestion.classList.toggle("active", isFlagged);
+  el.flagQuestion.setAttribute("aria-pressed", String(isFlagged));
+  el.flagQuestion.textContent = isFlagged ? "Flagged for review" : "Flag for review";
+}
+
+function isQuestionFlagged(questionId) {
+  return state.flagged[String(questionId)] === true;
+}
+
 function loadAnsweredResults() {
   try {
     const raw = localStorage.getItem(ANSWERED_STORAGE_KEY);
@@ -1291,6 +1362,20 @@ function loadAnsweredResults() {
   } catch {
     return {};
   }
+}
+
+function loadFlaggedQuestions() {
+  try {
+    const raw = localStorage.getItem(FLAGGED_STORAGE_KEY);
+    const parsed = raw ? JSON.parse(raw) : {};
+    return parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+function saveFlaggedQuestions() {
+  localStorage.setItem(FLAGGED_STORAGE_KEY, JSON.stringify(state.flagged));
 }
 
 function resetAnsweredQuestions() {
@@ -1314,20 +1399,6 @@ function getOptionOrder(question) {
     state.optionOrders.set(question.id, shuffleInPlace([...question.options]));
   }
   return state.optionOrders.get(question.id);
-}
-
-function shuffleCurrentQuestionBack() {
-  if (!state.currentId || isQuestionCompleted(state.currentId)) return;
-  shuffleQuestionBack(state.currentId);
-}
-
-function shuffleQuestionBack(questionId) {
-  const currentIndex = state.filtered.findIndex((question) => question.id === questionId);
-  if (currentIndex === -1) return;
-
-  const [question] = state.filtered.splice(currentIndex, 1);
-  const insertIndex = state.filtered.length === 0 ? 0 : getRandomIndex(state.filtered.length + 1);
-  state.filtered.splice(insertIndex, 0, question);
 }
 
 function getRandomIndex(length) {

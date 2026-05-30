@@ -1152,6 +1152,12 @@ p.med-flashcard-answer {
   font-size: 0.78rem;
 }
 
+.question-id-row button.active {
+  border-color: rgba(155, 100, 24, 0.55);
+  color: #6f470e;
+  background: #fff8ec;
+}
+
 .question-report-status {
   color: var(--muted);
   font-size: 0.78rem;
