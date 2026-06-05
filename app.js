@@ -1499,11 +1499,15 @@ function googleIconSvg() {
 }
 
 function findMedicalTerms(question) {
+  const options = Array.isArray(question.options) ? question.options : [];
+  const prompts = Array.isArray(question.prompts) ? question.prompts : [];
+  const blanks = Array.isArray(question.blanks) ? question.blanks : [];
+
   const text = [
     question.stem,
-    ...question.options,
-    ...(question.prompts ?? []).flatMap((prompt) => [prompt.prompt, prompt.answer]),
-    ...(question.blanks ?? []).flatMap((blank) => [blank.label, ...blank.answers]),
+    ...options,
+    ...prompts.flatMap((prompt) => [prompt.prompt, prompt.answer]),
+    ...blanks.flatMap((blank) => [blank.label, ...(blank.answers ?? [])]),
     question.drug,
     question.topic,
     question.system,
